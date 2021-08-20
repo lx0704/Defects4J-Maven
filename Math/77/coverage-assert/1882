@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.summary.SumSqTest.testCopyConsistency(org.apache.commons.math.stat.descriptive.summary.SumSqTest) true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testCopyConsistency:()V:193:assertTrue true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testCopyConsistency:()V:194:assertTrue true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testCopyConsistency:()V:201:assertTrue true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testCopyConsistency:()V:202:assertTrue true

@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.rank.PercentileTest.test5(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:test5:()V:99:assertEquals true

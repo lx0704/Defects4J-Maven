@@ -1,0 +1,11 @@
+org.apache.commons.math.util.MathUtilsTest.testMulAndCheckLong(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:670:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:671:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:672:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:673:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:674:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:675:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:676:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:677:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:678:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheckLong:()V:679:assertEquals true

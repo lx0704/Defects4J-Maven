@@ -1,0 +1,4 @@
+org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolatorTest.serialization(org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolatorTest) true
+org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolatorTest:serialization:()V:79:assertTrue true
+org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolatorTest:serialization:()V:80:assertTrue true
+org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolatorTest:serialization:()V:102:assertTrue true

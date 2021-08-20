@@ -1,0 +1,4 @@
+org.apache.commons.math.complex.ComplexTest.testGetArgumentNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testGetArgumentNaN:()V:946:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testGetArgumentNaN:()V:947:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testGetArgumentNaN:()V:948:assertEquals true

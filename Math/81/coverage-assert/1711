@@ -1,0 +1,6 @@
+org.apache.commons.math.stat.descriptive.moment.KurtosisTest.testNaN(org.apache.commons.math.stat.descriptive.moment.KurtosisTest) true
+org.apache.commons.math.stat.descriptive.moment.KurtosisTest:testNaN:()V:62:assertTrue true
+org.apache.commons.math.stat.descriptive.moment.KurtosisTest:testNaN:()V:64:assertTrue true
+org.apache.commons.math.stat.descriptive.moment.KurtosisTest:testNaN:()V:66:assertTrue true
+org.apache.commons.math.stat.descriptive.moment.KurtosisTest:testNaN:()V:68:assertTrue true
+org.apache.commons.math.stat.descriptive.moment.KurtosisTest:testNaN:()V:70:assertFalse true

@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.TDistributionTest.testInverseCumulativeProbabilityExtremes(org.apache.commons.math.distribution.TDistributionTest) true
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:159:assertEquals false

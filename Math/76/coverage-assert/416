@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.NormalDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math.distribution.NormalDistributionTest) true
+org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:159:assertEquals true

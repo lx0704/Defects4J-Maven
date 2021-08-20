@@ -1,0 +1,9 @@
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest.testQuadraticFunction(org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:75:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:78:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:81:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:83:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:86:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:87:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:88:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testQuadraticFunction:()V:89:assertEquals true

@@ -1,0 +1,9 @@
+org.apache.commons.math.stat.inference.TTestTest.testTwoSampleTHeterscedastic(org.apache.commons.math.stat.inference.TTestTest) true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:174:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:176:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:178:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:180:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:182:assertTrue true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:184:assertTrue true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:186:assertTrue true
+org.apache.commons.math.stat.inference.TTestTest:testTwoSampleTHeterscedastic:()V:188:assertTrue true

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testutil.OfflineCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:51:54" hostname="set" time="0.134">
+  <properties/>
+  <testcase name="knows when is offline" classname="testutil.OfflineCheckerTest" time="0.134"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

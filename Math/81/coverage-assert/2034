@@ -1,0 +1,5 @@
+org.apache.commons.math.util.MathUtilsTest.testSignDouble(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testSignDouble:()V:1054:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignDouble:()V:1055:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignDouble:()V:1056:assertEquals true
+org.apache.commons.math.TestUtils:assertSame:(DD)V:72:assertEquals false

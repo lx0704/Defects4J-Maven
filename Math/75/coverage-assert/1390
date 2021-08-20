@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testRedundantEquations(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testRedundantEquations:()V:309:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testRedundantEquations:()V:310:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testRedundantEquations:()V:311:assertEquals true

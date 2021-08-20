@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest.testHermiteDifferentials(org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest:checkNullPolynomial:(Lorg/apache/commons/math/analysis/polynomials/PolynomialFunction;)V:212:assertEquals true

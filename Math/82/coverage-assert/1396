@@ -1,0 +1,6 @@
+org.apache.commons.math.optimization.univariate.BrentMinimizerTest.testQuinticMin(org.apache.commons.math.optimization.univariate.BrentMinimizerTest) true
+org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testQuinticMin:()V:75:assertEquals true
+org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testQuinticMin:()V:76:assertEquals true
+org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testQuinticMin:()V:77:assertTrue true
+org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testQuinticMin:()V:80:assertEquals true
+org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testQuinticMin:()V:81:assertTrue true

@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.RealMatrixImplTest.testCopyFunctions(org.apache.commons.math.linear.RealMatrixImplTest) true
+org.apache.commons.math.linear.RealMatrixImplTest:testCopyFunctions:()V:113:assertEquals true
+org.apache.commons.math.linear.RealMatrixImplTest:testCopyFunctions:()V:116:assertEquals true

@@ -1,0 +1,4 @@
+org.apache.commons.math.fraction.BigFractionFormatTest.testParseProper(org.apache.commons.math.fraction.BigFractionFormatTest) true
+org.apache.commons.math.fraction.BigFractionFormatTest:testParseProper:()V:202:assertNotNull true
+org.apache.commons.math.fraction.BigFractionFormatTest:testParseProper:()V:203:assertEquals true
+org.apache.commons.math.fraction.BigFractionFormatTest:testParseProper:()V:204:assertEquals true

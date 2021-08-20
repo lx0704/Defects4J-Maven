@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testConsistency(org.apache.commons.math.stat.correlation.PearsonsCorrelationTest) true
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest:testConsistency:()V:249:assertEquals true

@@ -1,0 +1,12 @@
+Pure functions:
+  Foo
+  noSideEffects
+
+Window Side effects: [extern, global] Calls: []
+Function Side effects: [extern, global] Calls: []
+Function.call Side effects: [extern, global] Calls: []
+Array Side effects: [extern, global] Calls: []
+Foo.handle Side effects: [complex] Calls: [<null def list>]
+Array.slice Side effects: [extern, global] Calls: []
+Foo Side effects: [pure] Calls: []
+noSideEffects Side effects: [extern, pure] Calls: []

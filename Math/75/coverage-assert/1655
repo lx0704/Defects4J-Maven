@@ -1,0 +1,7 @@
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testN0andN1Conditions:()V:218:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testN0andN1Conditions:()V:219:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testN0andN1Conditions:()V:223:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testN0andN1Conditions:()V:224:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testN0andN1Conditions:()V:225:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testN0andN1Conditions:()V:229:assertTrue true

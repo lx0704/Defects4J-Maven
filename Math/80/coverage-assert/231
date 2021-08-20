@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexTest.testEqualsSame(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testEqualsSame:()V:304:assertTrue true

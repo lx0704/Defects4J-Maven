@@ -1,0 +1,5 @@
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest.testNoError(org.apache.commons.math.optimization.fitting.HarmonicFitterTest) true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testNoError:()V:43:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testNoError:()V:44:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testNoError:()V:45:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testNoError:()V:48:assertTrue true

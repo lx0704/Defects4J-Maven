@@ -1,0 +1,4 @@
+org.apache.commons.math.util.ResizableDoubleArrayTest.testMutators(org.apache.commons.math.util.ResizableDoubleArrayTest) true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testMutators:()V:397:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testMutators:()V:399:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testMutators:()V:408:assertEquals true

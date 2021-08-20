@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.FrenchComplexFormatTest.testParseNegativeReal(org.apache.commons.math.complex.FrenchComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testParseNegativeReal:()V:179:assertEquals true

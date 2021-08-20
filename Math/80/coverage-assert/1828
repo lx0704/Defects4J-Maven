@@ -1,0 +1,6 @@
+org.apache.commons.math.stat.descriptive.rank.PercentileTest.testSpecialValues(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testSpecialValues:()V:128:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testSpecialValues:()V:131:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testSpecialValues:()V:134:assertTrue true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testSpecialValues:()V:137:assertTrue true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testSpecialValues:()V:141:assertTrue true

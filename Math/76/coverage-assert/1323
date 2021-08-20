@@ -1,0 +1,4 @@
+org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolatorTest.serialization(org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolatorTest) true
+org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolatorTest:serialization:()V:67:assertTrue true
+org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolatorTest:serialization:()V:68:assertTrue true
+org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolatorTest:serialization:()V:90:assertTrue true

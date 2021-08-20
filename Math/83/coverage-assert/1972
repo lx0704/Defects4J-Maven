@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testL2DistanceInt(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testL2DistanceInt:()V:1198:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexTest.testConjugateNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testConjugateNaN:()V:130:assertTrue true

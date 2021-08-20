@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveObsFromSingle(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveObsFromSingle:()V:346:assertEquals true

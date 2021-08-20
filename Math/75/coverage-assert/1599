@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest.testArrayIsReference(org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest) true
+org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest:testArrayIsReference:()V:34:assertTrue true

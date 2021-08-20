@@ -1,0 +1,2 @@
+org.apache.commons.math.util.ContinuedFractionTest.testGoldenRatio(org.apache.commons.math.util.ContinuedFractionTest) true
+org.apache.commons.math.util.ContinuedFractionTest:testGoldenRatio:()V:51:assertEquals true

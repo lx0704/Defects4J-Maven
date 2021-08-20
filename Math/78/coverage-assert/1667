@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testToString(org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testToString:()V:92:assertEquals true

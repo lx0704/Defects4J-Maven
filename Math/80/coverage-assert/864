@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.BlockRealMatrixTest.testSerial(org.apache.commons.math.linear.BlockRealMatrixTest) true
+org.apache.commons.math.linear.BlockRealMatrixTest:testSerial:()V:1154:assertEquals true

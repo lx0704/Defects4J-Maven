@@ -1,0 +1,8 @@
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testBoundParameters(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:467:assertTrue true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:474:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:475:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:476:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:477:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:480:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testBoundParameters:()V:481:assertEquals true

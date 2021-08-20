@@ -1,0 +1,4 @@
+org.apache.commons.math.linear.BiDiagonalTransformerTest.testUpperOrLower(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testUpperOrLower:()V:155:assertTrue true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testUpperOrLower:()V:156:assertTrue true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testUpperOrLower:()V:157:assertFalse true

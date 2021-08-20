@@ -1,0 +1,3 @@
+org.apache.commons.math.random.ValueServerTest.testProperties(org.apache.commons.math.random.ValueServerTest) true
+org.apache.commons.math.random.ValueServerTest:testProperties:()V:204:assertEquals true
+org.apache.commons.math.random.ValueServerTest:testProperties:()V:207:assertEquals true

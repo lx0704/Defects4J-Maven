@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveSingle(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveSingle:()V:306:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveSingle:()V:308:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveSingle:()V:310:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveSingle:()V:312:assertEquals true

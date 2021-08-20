@@ -1,0 +1,7 @@
+org.apache.commons.math.stat.StatUtilsTest.testSumSq(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testSumSq:()V:135:assertEquals false
+org.apache.commons.math.stat.StatUtilsTest:testSumSq:()V:136:assertEquals false
+org.apache.commons.math.stat.StatUtilsTest:testSumSq:()V:140:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testSumSq:()V:141:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testSumSq:()V:145:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testSumSq:()V:146:assertEquals true

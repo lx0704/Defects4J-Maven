@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testRemoval(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest) true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:checkremoval:(Lorg/apache/commons/math/stat/descriptive/DescriptiveStatistics;IDDD)V:215:assertTrue true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:checkremoval:(Lorg/apache/commons/math/stat/descriptive/DescriptiveStatistics;IDDD)V:217:assertTrue true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:checkremoval:(Lorg/apache/commons/math/stat/descriptive/DescriptiveStatistics;IDDD)V:219:assertTrue true

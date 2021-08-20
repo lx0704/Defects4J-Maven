@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.descriptive.moment.VarianceTest.testNaN(org.apache.commons.math.stat.descriptive.moment.VarianceTest) true
+org.apache.commons.math.stat.descriptive.moment.VarianceTest:testNaN:()V:69:assertTrue true
+org.apache.commons.math.stat.descriptive.moment.VarianceTest:testNaN:()V:71:assertEquals true

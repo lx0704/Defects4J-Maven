@@ -1,0 +1,4 @@
+org.apache.commons.math.complex.ComplexTest.testPowZero(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.TestUtils:assertSame:(DD)V:72:assertEquals false
+org.apache.commons.math.TestUtils:assertEquals:(Lorg/apache/commons/math/complex/Complex;Lorg/apache/commons/math/complex/Complex;D)V:89:assertEquals true
+org.apache.commons.math.TestUtils:assertEquals:(Lorg/apache/commons/math/complex/Complex;Lorg/apache/commons/math/complex/Complex;D)V:90:assertEquals true

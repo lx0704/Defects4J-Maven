@@ -1,0 +1,10 @@
+org.apache.commons.math.complex.ComplexTest.testNthRoot_normal_fourthRoot(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:775:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:777:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:778:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:780:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:781:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:783:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:784:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:786:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_fourthRoot:()V:787:assertEquals true

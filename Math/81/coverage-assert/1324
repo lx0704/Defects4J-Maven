@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest.test1PercentError(org.apache.commons.math.optimization.fitting.HarmonicFitterTest) true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:test1PercentError:()V:66:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:test1PercentError:()V:67:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:test1PercentError:()V:68:assertEquals true

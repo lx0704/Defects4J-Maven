@@ -1,0 +1,7 @@
+org.apache.commons.math.util.OpenIntToFieldTest.testRemove(org.apache.commons.math.util.OpenIntToFieldTest) true
+org.apache.commons.math.util.OpenIntToFieldTest:testRemove:()V:150:assertEquals true
+org.apache.commons.math.util.OpenIntToFieldTest:testRemove:()V:153:assertEquals true
+org.apache.commons.math.util.OpenIntToFieldTest:testRemove:()V:154:assertTrue true
+org.apache.commons.math.util.OpenIntToFieldTest:assertPutAndGet:(Lorg/apache/commons/math/util/OpenIntToFieldHashMap;ILjava/util/Set;)V:103:assertEquals true
+org.apache.commons.math.util.OpenIntToFieldTest:assertPutAndGet:(Lorg/apache/commons/math/util/OpenIntToFieldHashMap;ILjava/util/Set;)V:108:assertEquals true
+org.apache.commons.math.util.OpenIntToFieldTest:assertPutAndGet:(Lorg/apache/commons/math/util/OpenIntToFieldHashMap;ILjava/util/Set;)V:109:assertEquals true

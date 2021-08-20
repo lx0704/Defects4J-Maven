@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.rank.PercentileTest.testPercentile(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testPercentile:()V:65:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testPercentile:()V:67:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testPercentile:()V:69:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testPercentile:()V:71:assertEquals true

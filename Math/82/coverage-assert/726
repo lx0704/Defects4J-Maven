@@ -1,0 +1,15 @@
+org.apache.commons.math.linear.ArrayRealVectorTest.testBasicFunctions(org.apache.commons.math.linear.ArrayRealVectorTest) true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:985:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:988:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:991:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:995:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:999:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1003:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1006:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1010:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1013:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:assertClose:(Ljava/lang/String;[D[DD)V:1182:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1054:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1058:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1061:assertEquals true
+org.apache.commons.math.linear.ArrayRealVectorTest:testBasicFunctions:()V:1064:assertEquals true

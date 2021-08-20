@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testMoreEstimatedParametersSimple(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testMoreEstimatedParametersSimple:()V:273:assertEquals true

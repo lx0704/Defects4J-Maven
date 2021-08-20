@@ -1,0 +1,5 @@
+org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructor(org.apache.commons.math.FunctionEvaluationExceptionTest) true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructor:()V:31:assertNull true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructor:()V:32:assertNotNull true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructor:()V:33:assertTrue true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructor:()V:34:assertEquals true

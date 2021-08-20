@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.002">
+  <properties/>
+  <testcase name="shouldPrintInvocationsWhenStubbingNotUsed" classname="org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest" time="0.002"/>
+  <system-out><![CDATA[********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithAsking(PrintingInvocationsWhenEverythingOkTest.java:34)
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.performStubbing(PrintingInvocationsWhenEverythingOkTest.java:30)
+mockTwo.doSomething("foo");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithTelling(PrintingInvocationsWhenEverythingOkTest.java:39)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

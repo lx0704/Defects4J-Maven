@@ -1,0 +1,2 @@
+org.apache.commons.math.fraction.FractionFieldTest.testSerial(org.apache.commons.math.fraction.FractionFieldTest) true
+org.apache.commons.math.fraction.FractionFieldTest:testSerial:()V:41:assertTrue true

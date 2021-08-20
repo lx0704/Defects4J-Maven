@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.FrenchRealVectorFormatTest.testParseNegativeInfinity(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testParseNegativeInfinity:()V:325:assertEquals true

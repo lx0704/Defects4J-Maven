@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.descriptive.summary.SumLogTest.testSpecialValues(org.apache.commons.math.stat.descriptive.summary.SumLogTest) true
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:59:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:63:assertFalse true
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:67:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:71:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:75:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:79:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.SumLogTest:testSpecialValues:()V:83:assertTrue true

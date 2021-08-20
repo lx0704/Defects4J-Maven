@@ -1,0 +1,2 @@
+org.apache.commons.math.special.BetaTest.testRegularizedBetaPositiveNanPositive(org.apache.commons.math.special.BetaTest) true
+org.apache.commons.math.special.BetaTest:testRegularizedBeta:(DDDD)V:41:assertEquals false

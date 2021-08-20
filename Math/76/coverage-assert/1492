@@ -1,0 +1,5 @@
+org.apache.commons.math.random.MersenneTwisterTest.testNextIntN(org.apache.commons.math.random.MersenneTwisterTest) true
+org.apache.commons.math.random.MersenneTwisterTest:testNextIntN:()V:77:assertTrue true
+org.apache.commons.math.random.MersenneTwisterTest:testNextIntN:()V:78:assertTrue true
+org.apache.commons.math.random.MersenneTwisterTest:testNextIntN:()V:81:assertTrue true
+org.apache.commons.math.random.MersenneTwisterTest:testNextIntN:()V:82:assertTrue true

@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.FrenchComplexFormatTest.testParseSimpleNoDecimals(org.apache.commons.math.complex.FrenchComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testParseSimpleNoDecimals:()V:146:assertEquals true

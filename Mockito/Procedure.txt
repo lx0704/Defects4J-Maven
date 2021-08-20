@@ -1,0 +1,62 @@
+1. defects4j compile    defects4j test
+2. gradle install
+3. add following:
+
+apply plugin: 'maven'
+apply plugin: 'java'
+
+sourceCompatibility = 7
+targetCompatibility = 7
+
+dependencies {
+	compile 'org.hamcrest:hamcrest-core:1.1'
+	testCompile 'org.hamcrest:hamcrest-all:1.3'
+	testCompile 'org.mockito:mockito-core:1.9.5'
+    compile 'net.bytebuddy:byte-buddy:0.6.8'
+    compile 'com.google.guava:guava:13.0.1'
+	compile 'org.objenesis:objenesis:2.1'
+	compile 'org.easytesting:fest-assert:1.4'
+	testCompile 'org.powermock:powermock-api-easymock:1.6.2'
+    testCompile 'org.ow2.asm:asm:5.0.4'
+	compile 'junit:junit:4.10'
+}
+
+task writeNewPom << {
+    pom {
+        project {
+            groupId 'org.example'
+            artifactId 'test'
+            version '1.0.0'
+
+            inceptionYear '2008'
+            licenses {
+                license {
+                    name 'The Apache Software License, Version 2.0'
+                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    distribution 'repo'
+                }
+            }
+        }
+    }.writeTo("pom.xml")
+}
+
+to build.gradle to generate pom.xml (gradle writeNewPom)
+
+4. add 
+
+<build>
+    <sourceDirectory>src</sourceDirectory>
+<testSourceDirectory>test</testSourceDirectory>
+  </build>
+
+to pom.xml
+
+5. copy mockmaker src and test to src and test
+   cp -r ~/XiaLi/Project1/SubjectPrograms/MockitoBug/20/mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/ /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/20/src/org/mockito/internal/creation/
+   
+   cp -r ~/XiaLi/Project1/SubjectPrograms/MockitoBug/19/mockmaker/bytebuddy/test/java/org/mockito/internal/creation/bytebuddy/ /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/20/test/org/mockito/internal/creation/
+  
+
+
+
+   

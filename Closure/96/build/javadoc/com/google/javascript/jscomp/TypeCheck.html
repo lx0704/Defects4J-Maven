@@ -1,0 +1,457 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>TypeCheck (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../96" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="TypeCheck (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/TypeCheckFunctionCheckTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/TypeCheck.html" target="_top">Frames</a></li>
+<li><a href="TypeCheck.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class TypeCheck" class="title">Class TypeCheck</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.TypeCheck</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd><a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>, <a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html" title="interface in com.google.javascript.jscomp">NodeTraversal.Callback</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">TypeCheck</span>
+extends <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
+implements <a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html" title="interface in com.google.javascript.jscomp">NodeTraversal.Callback</a>, <a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a></pre>
+<div class="block"><p>Checks the types of JS expressions against any declared type
+ information.</p></div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected static <a href="../../../../com/google/javascript/jscomp/DiagnosticType.html" title="class in com.google.javascript.jscomp">DiagnosticType</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#NOT_A_CONSTRUCTOR">NOT_A_CONSTRUCTOR</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected static <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#OVERRIDING_PROTOTYPE_WITH_NON_OBJECT">OVERRIDING_PROTOTYPE_WITH_NON_OBJECT</a></strong></code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#TypeCheck(com.google.javascript.jscomp.AbstractCompiler,%20com.google.javascript.jscomp.ReverseAbstractInterpreter,%20com.google.javascript.rhino.jstype.JSTypeRegistry,%20com.google.javascript.jscomp.CheckLevel,%20com.google.javascript.jscomp.CheckLevel)">TypeCheck</a></strong>(<a href="../../../../com/google/javascript/jscomp/AbstractCompiler.html" title="class in com.google.javascript.jscomp">AbstractCompiler</a>&nbsp;compiler,
+         com.google.javascript.jscomp.ReverseAbstractInterpreter&nbsp;reverseInterpreter,
+         com.google.javascript.rhino.jstype.JSTypeRegistry&nbsp;typeRegistry,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportMissingOverride,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportUnknownTypes)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#TypeCheck(com.google.javascript.jscomp.AbstractCompiler,%20com.google.javascript.jscomp.ReverseAbstractInterpreter,%20com.google.javascript.rhino.jstype.JSTypeRegistry,%20com.google.javascript.jscomp.Scope,%20com.google.javascript.jscomp.ScopeCreator,%20com.google.javascript.jscomp.CheckLevel,%20com.google.javascript.jscomp.CheckLevel)">TypeCheck</a></strong>(<a href="../../../../com/google/javascript/jscomp/AbstractCompiler.html" title="class in com.google.javascript.jscomp">AbstractCompiler</a>&nbsp;compiler,
+         com.google.javascript.jscomp.ReverseAbstractInterpreter&nbsp;reverseInterpreter,
+         com.google.javascript.rhino.jstype.JSTypeRegistry&nbsp;typeRegistry,
+         <a href="../../../../com/google/javascript/jscomp/Scope.html" title="class in com.google.javascript.jscomp">Scope</a>&nbsp;topScope,
+         com.google.javascript.jscomp.ScopeCreator&nbsp;scopeCreator,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportMissingOverride,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportUnknownTypes)</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#check(com.google.javascript.rhino.Node,%20boolean)">check</a></strong>(com.google.javascript.rhino.Node&nbsp;node,
+     boolean&nbsp;externs)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#process(com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">process</a></strong>(com.google.javascript.rhino.Node&nbsp;externsRoot,
+       com.google.javascript.rhino.Node&nbsp;jsRoot)</code>
+<div class="block">Main entry point for this phase of processing.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Scope.html" title="class in com.google.javascript.jscomp">Scope</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#processForTesting(com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">processForTesting</a></strong>(com.google.javascript.rhino.Node&nbsp;externsRoot,
+                 com.google.javascript.rhino.Node&nbsp;jsRoot)</code>
+<div class="block">Main entry point of this phase for testing code.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#shouldTraverse(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">shouldTraverse</a></strong>(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;t,
+              com.google.javascript.rhino.Node&nbsp;n,
+              com.google.javascript.rhino.Node&nbsp;parent)</code>
+<div class="block">Visits a node in pre order (before visiting its children) and decides
+ whether this node's children should be traversed.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TypeCheck.html#visit(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">visit</a></strong>(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;t,
+     com.google.javascript.rhino.Node&nbsp;n,
+     com.google.javascript.rhino.Node&nbsp;parent)</code>
+<div class="block">This is the meat of the type checking.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang">toString</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="OVERRIDING_PROTOTYPE_WITH_NON_OBJECT">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>OVERRIDING_PROTOTYPE_WITH_NON_OBJECT</h4>
+<pre>protected static final&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> OVERRIDING_PROTOTYPE_WITH_NON_OBJECT</pre>
+<dl><dt><span class="strong">See Also:</span></dt><dd><a href="../../../../constant-values.html#com.google.javascript.jscomp.TypeCheck.OVERRIDING_PROTOTYPE_WITH_NON_OBJECT">Constant Field Values</a></dd></dl>
+</li>
+</ul>
+<a name="NOT_A_CONSTRUCTOR">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>NOT_A_CONSTRUCTOR</h4>
+<pre>protected static final&nbsp;<a href="../../../../com/google/javascript/jscomp/DiagnosticType.html" title="class in com.google.javascript.jscomp">DiagnosticType</a> NOT_A_CONSTRUCTOR</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="TypeCheck(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.jscomp.ReverseAbstractInterpreter, com.google.javascript.rhino.jstype.JSTypeRegistry, com.google.javascript.jscomp.Scope, com.google.javascript.jscomp.ScopeCreator, com.google.javascript.jscomp.CheckLevel, com.google.javascript.jscomp.CheckLevel)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>TypeCheck</h4>
+<pre>public&nbsp;TypeCheck(<a href="../../../../com/google/javascript/jscomp/AbstractCompiler.html" title="class in com.google.javascript.jscomp">AbstractCompiler</a>&nbsp;compiler,
+         com.google.javascript.jscomp.ReverseAbstractInterpreter&nbsp;reverseInterpreter,
+         com.google.javascript.rhino.jstype.JSTypeRegistry&nbsp;typeRegistry,
+         <a href="../../../../com/google/javascript/jscomp/Scope.html" title="class in com.google.javascript.jscomp">Scope</a>&nbsp;topScope,
+         com.google.javascript.jscomp.ScopeCreator&nbsp;scopeCreator,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportMissingOverride,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportUnknownTypes)</pre>
+</li>
+</ul>
+<a name="TypeCheck(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.jscomp.ReverseAbstractInterpreter, com.google.javascript.rhino.jstype.JSTypeRegistry, com.google.javascript.jscomp.CheckLevel, com.google.javascript.jscomp.CheckLevel)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>TypeCheck</h4>
+<pre>public&nbsp;TypeCheck(<a href="../../../../com/google/javascript/jscomp/AbstractCompiler.html" title="class in com.google.javascript.jscomp">AbstractCompiler</a>&nbsp;compiler,
+         com.google.javascript.jscomp.ReverseAbstractInterpreter&nbsp;reverseInterpreter,
+         com.google.javascript.rhino.jstype.JSTypeRegistry&nbsp;typeRegistry,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportMissingOverride,
+         <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;reportUnknownTypes)</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="process(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>process</h4>
+<pre>public&nbsp;void&nbsp;process(com.google.javascript.rhino.Node&nbsp;externsRoot,
+           com.google.javascript.rhino.Node&nbsp;jsRoot)</pre>
+<div class="block">Main entry point for this phase of processing. This follows the pattern for
+ JSCompiler phases.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerPass.html#process(com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">process</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>externsRoot</code> - The root of the externs parse tree.</dd><dd><code>jsRoot</code> - The root of the input parse tree to be checked.</dd></dl>
+</li>
+</ul>
+<a name="processForTesting(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>processForTesting</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Scope.html" title="class in com.google.javascript.jscomp">Scope</a>&nbsp;processForTesting(com.google.javascript.rhino.Node&nbsp;externsRoot,
+                      com.google.javascript.rhino.Node&nbsp;jsRoot)</pre>
+<div class="block">Main entry point of this phase for testing code.</div>
+</li>
+</ul>
+<a name="check(com.google.javascript.rhino.Node, boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>check</h4>
+<pre>public&nbsp;void&nbsp;check(com.google.javascript.rhino.Node&nbsp;node,
+         boolean&nbsp;externs)</pre>
+</li>
+</ul>
+<a name="shouldTraverse(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>shouldTraverse</h4>
+<pre>public&nbsp;boolean&nbsp;shouldTraverse(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;t,
+                     com.google.javascript.rhino.Node&nbsp;n,
+                     com.google.javascript.rhino.Node&nbsp;parent)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#shouldTraverse(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">NodeTraversal.Callback</a></code></strong></div>
+<div class="block"><p>Visits a node in pre order (before visiting its children) and decides
+ whether this node's children should be traversed. If children are
+ traversed, they will be visited by
+ <a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#visit(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)"><code>NodeTraversal.Callback.visit(NodeTraversal, Node, Node)</code></a> in post order.</p>
+ <p>Implementations can have side effects (e.g. modifying the parse
+ tree).</p></div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#shouldTraverse(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">shouldTraverse</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html" title="interface in com.google.javascript.jscomp">NodeTraversal.Callback</a></code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>whether the children of this node should be visited</dd></dl>
+</li>
+</ul>
+<a name="visit(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>visit</h4>
+<pre>public&nbsp;void&nbsp;visit(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;t,
+         com.google.javascript.rhino.Node&nbsp;n,
+         com.google.javascript.rhino.Node&nbsp;parent)</pre>
+<div class="block">This is the meat of the type checking.  It is basically one big switch,
+ with each case representing one type of parse tree node.  The individual
+ cases are usually pretty straightforward.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#visit(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">visit</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html" title="interface in com.google.javascript.jscomp">NodeTraversal.Callback</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>t</code> - The node traversal object that supplies context, such as the
+ scope chain to use in name lookups as well as error reporting.</dd><dd><code>n</code> - The node being visited.</dd><dd><code>parent</code> - The parent of the node n.</dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/TypeCheckFunctionCheckTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/TypeCheck.html" target="_top">Frames</a></li>
+<li><a href="TypeCheck.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

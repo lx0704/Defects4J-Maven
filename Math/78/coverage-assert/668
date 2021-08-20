@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.Vector3DFormatTest.testParseNonDefaultSetting(org.apache.commons.math.geometry.Vector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseNonDefaultSetting:()V:289:assertEquals true

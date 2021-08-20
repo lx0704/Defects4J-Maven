@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationInOrderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.005">
+  <properties/>
+  <testcase name="shouldVerifySingleMockInOrderAndNotInOrder" classname="org.mockitousage.verification.VerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldMessagesPointToProperMethod" classname="org.mockitousage.verification.VerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderWhenTwoChunksAreEqual" classname="org.mockitousage.verification.VerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderUsingMatcher" classname="org.mockitousage.verification.VerificationInOrderTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

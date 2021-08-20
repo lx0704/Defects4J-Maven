@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.FrenchRealVectorFormatTest.testNegativeX(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testNegativeX:()V:83:assertEquals true

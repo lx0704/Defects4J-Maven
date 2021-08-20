@@ -1,0 +1,5 @@
+org.apache.commons.math.genetics.ChromosomeTest.testCompareTo(org.apache.commons.math.genetics.ChromosomeTest) true
+org.apache.commons.math.genetics.ChromosomeTest:testCompareTo:()V:46:assertTrue true
+org.apache.commons.math.genetics.ChromosomeTest:testCompareTo:()V:47:assertTrue true
+org.apache.commons.math.genetics.ChromosomeTest:testCompareTo:()V:48:assertEquals true
+org.apache.commons.math.genetics.ChromosomeTest:testCompareTo:()V:49:assertEquals true

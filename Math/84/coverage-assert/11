@@ -1,0 +1,10 @@
+org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArgumentsCause(org.apache.commons.math.FunctionEvaluationExceptionTest) true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:103:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:104:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:105:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:107:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:109:assertFalse true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:110:assertFalse true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:111:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:112:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArrayPatternArgumentsCause:()V:113:assertEquals true

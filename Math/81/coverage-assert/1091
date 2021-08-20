@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.RealVectorFormatTest.testPositiveInfinity(org.apache.commons.math.linear.RealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testPositiveInfinity:()V:144:assertEquals true

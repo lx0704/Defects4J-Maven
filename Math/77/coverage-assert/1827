@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.rank.MaxTest.testSerial(org.apache.commons.math.stat.descriptive.rank.MaxTest) true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testSerial:()V:208:assertEquals true

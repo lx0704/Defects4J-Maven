@@ -1,0 +1,7 @@
+org.apache.commons.math.linear.BiDiagonalTransformerTest.testDimensions(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:checkdimensions:(Lorg/apache/commons/math/linear/RealMatrix;)V:56:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:checkdimensions:(Lorg/apache/commons/math/linear/RealMatrix;)V:57:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:checkdimensions:(Lorg/apache/commons/math/linear/RealMatrix;)V:58:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:checkdimensions:(Lorg/apache/commons/math/linear/RealMatrix;)V:59:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:checkdimensions:(Lorg/apache/commons/math/linear/RealMatrix;)V:60:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:checkdimensions:(Lorg/apache/commons/math/linear/RealMatrix;)V:61:assertEquals true

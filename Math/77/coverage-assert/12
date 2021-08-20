@@ -1,0 +1,7 @@
+org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArguments(org.apache.commons.math.FunctionEvaluationExceptionTest) true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorPatternArguments:()V:52:assertNull true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorPatternArguments:()V:53:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorPatternArguments:()V:54:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorPatternArguments:()V:56:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorPatternArguments:()V:58:assertFalse true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorPatternArguments:()V:59:assertFalse true

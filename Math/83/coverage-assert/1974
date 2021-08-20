@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testLInfDistanceInt(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testLInfDistanceInt:()V:1210:assertEquals true

@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest.testTestNegative(org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest) true
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest:testTestNegative:()V:53:assertFalse true
+org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest:testTestNegative:()V:54:assertFalse true

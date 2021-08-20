@@ -1,0 +1,12 @@
+org.apache.commons.math.fraction.FractionTest.testDivide(org.apache.commons.math.fraction.FractionTest) true
+org.apache.commons.math.fraction.FractionTest:assertFraction:(IILorg/apache/commons/math/fraction/Fraction;)V:30:assertEquals true
+org.apache.commons.math.fraction.FractionTest:assertFraction:(IILorg/apache/commons/math/fraction/Fraction;)V:31:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:399:assertSame true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:404:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:405:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:409:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:410:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:415:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:416:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:436:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testDivide:()V:437:assertEquals true

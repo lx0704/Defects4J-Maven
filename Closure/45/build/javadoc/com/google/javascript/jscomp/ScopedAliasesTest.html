@@ -1,0 +1,919 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>ScopedAliasesTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../dev_javadoc.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="ScopedAliasesTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/Scope.Var.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/SemanticReverseAbstractInterpreterTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/ScopedAliasesTest.html" target="_top">Frames</a></li>
+<li><a href="ScopedAliasesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class ScopedAliasesTest" class="title">Class ScopedAliasesTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">com.google.javascript.jscomp.CompilerTestCase</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.ScopedAliasesTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">ScopedAliasesTest</span>
+extends <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></pre>
+<div class="block">Tests for <code>ScopedAliases</code></div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseTypeInfo">parseTypeInfo</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#ScopedAliasesTest()">ScopedAliasesTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected com.google.javascript.jscomp.ScopedAliases</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></strong>(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</code>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testAliasNonRedefinition()">testAliasNonRedefinition</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testAliasOfSymbolInGoogScope()">testAliasOfSymbolInGoogScope</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testAliasRedefinition()">testAliasRedefinition</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testArrayJsDoc()">testArrayJsDoc</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testBadParameters()">testBadParameters</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testForwardJsDoc()">testForwardJsDoc</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testFourLevel()">testFourLevel</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testFunctionJsDoc()">testFunctionJsDoc</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocEnum()">testJsDocEnum</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocExtends()">testJsDocExtends</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocImplements()">testJsDocImplements</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocParameter()">testJsDocParameter</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocReturn()">testJsDocReturn</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocSubType()">testJsDocSubType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocThis()">testJsDocThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocThrows()">testJsDocThrows</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocType()">testJsDocType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testJsDocTypedef()">testJsDocTypedef</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testMultipleTransitive()">testMultipleTransitive</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testNoGoogScope()">testNoGoogScope</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testNonAliasLocal()">testNonAliasLocal</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testNullType()">testNullType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testObjectJsDoc()">testObjectJsDoc</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testOneLevel()">testOneLevel</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testOverridden()">testOverridden</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testPropertiesNotChanged()">testPropertiesNotChanged</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testRecordAliasFromMultipleGoogScope()">testRecordAliasFromMultipleGoogScope</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testRecordMultipleAliases()">testRecordMultipleAliases</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testRecordOneAlias()">testRecordOneAlias</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testScopedFunctionAssignsToVar()">testScopedFunctionAssignsToVar</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testScopedFunctionReturnThis()">testScopedFunctionReturnThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testScopedFunctionThrows()">testScopedFunctionThrows</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testScopedReturn()">testScopedReturn</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testScopedThis()">testScopedThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testScopedThrow()">testScopedThrow</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testShadowedVar()">testShadowedVar</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testTestTypes()">testTestTypes</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testTransitive()">testTransitive</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testTransitiveInSameVar()">testTransitiveInSameVar</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testTwoLevel()">testTwoLevel</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testTwoScopes()">testTwoScopes</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testTwoSymbolsInTwoScopes()">testTwoSymbolsInTwoScopes</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testUnionJsDoc()">testUnionJsDoc</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testUsedImproperly()">testUsedImproperly</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ScopedAliasesTest.html#testWorksInClosures()">testWorksInClosures</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#allowExternsChanges(boolean)">allowExternsChanges</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#disableNormalize()">disableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableAstValidation(boolean)">enableAstValidation</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableEcmaScript5(boolean)">enableEcmaScript5</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableLineNumberCheck(boolean)">enableLineNumberCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize()">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize(boolean)">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableTypeCheck(com.google.javascript.jscomp.CheckLevel)">enableTypeCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#findQualifiedNameNode(java.lang.String,%20com.google.javascript.rhino.Node)">findQualifiedNameNode</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getCodingConvention()">getCodingConvention</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">getNumRepetitions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions()">getOptions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions(com.google.javascript.jscomp.CompilerOptions)">getOptions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseExpectedJs(java.lang.String)">parseExpectedJs</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseExpectedJs(java.lang.String[])">parseExpectedJs</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#setExpectedSymbolTableError(com.google.javascript.jscomp.DiagnosticType)">setExpectedSymbolTableError</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.Compiler,%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSSourceFile[],%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">testSame</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, setUp, tearDown, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="ScopedAliasesTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>ScopedAliasesTest</h4>
+<pre>public&nbsp;ScopedAliasesTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="testOneLevel()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testOneLevel</h4>
+<pre>public&nbsp;void&nbsp;testOneLevel()</pre>
+</li>
+</ul>
+<a name="testTwoLevel()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTwoLevel</h4>
+<pre>public&nbsp;void&nbsp;testTwoLevel()</pre>
+</li>
+</ul>
+<a name="testTransitive()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTransitive</h4>
+<pre>public&nbsp;void&nbsp;testTransitive()</pre>
+</li>
+</ul>
+<a name="testTransitiveInSameVar()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTransitiveInSameVar</h4>
+<pre>public&nbsp;void&nbsp;testTransitiveInSameVar()</pre>
+</li>
+</ul>
+<a name="testMultipleTransitive()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMultipleTransitive</h4>
+<pre>public&nbsp;void&nbsp;testMultipleTransitive()</pre>
+</li>
+</ul>
+<a name="testFourLevel()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFourLevel</h4>
+<pre>public&nbsp;void&nbsp;testFourLevel()</pre>
+</li>
+</ul>
+<a name="testWorksInClosures()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testWorksInClosures</h4>
+<pre>public&nbsp;void&nbsp;testWorksInClosures()</pre>
+</li>
+</ul>
+<a name="testOverridden()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testOverridden</h4>
+<pre>public&nbsp;void&nbsp;testOverridden()</pre>
+</li>
+</ul>
+<a name="testTwoScopes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTwoScopes</h4>
+<pre>public&nbsp;void&nbsp;testTwoScopes()</pre>
+</li>
+</ul>
+<a name="testTwoSymbolsInTwoScopes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTwoSymbolsInTwoScopes</h4>
+<pre>public&nbsp;void&nbsp;testTwoSymbolsInTwoScopes()</pre>
+</li>
+</ul>
+<a name="testAliasOfSymbolInGoogScope()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAliasOfSymbolInGoogScope</h4>
+<pre>public&nbsp;void&nbsp;testAliasOfSymbolInGoogScope()</pre>
+</li>
+</ul>
+<a name="testScopedFunctionReturnThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopedFunctionReturnThis</h4>
+<pre>public&nbsp;void&nbsp;testScopedFunctionReturnThis()</pre>
+</li>
+</ul>
+<a name="testScopedFunctionAssignsToVar()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopedFunctionAssignsToVar</h4>
+<pre>public&nbsp;void&nbsp;testScopedFunctionAssignsToVar()</pre>
+</li>
+</ul>
+<a name="testScopedFunctionThrows()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopedFunctionThrows</h4>
+<pre>public&nbsp;void&nbsp;testScopedFunctionThrows()</pre>
+</li>
+</ul>
+<a name="testPropertiesNotChanged()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPropertiesNotChanged</h4>
+<pre>public&nbsp;void&nbsp;testPropertiesNotChanged()</pre>
+</li>
+</ul>
+<a name="testShadowedVar()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowedVar</h4>
+<pre>public&nbsp;void&nbsp;testShadowedVar()</pre>
+</li>
+</ul>
+<a name="testJsDocType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocType</h4>
+<pre>public&nbsp;void&nbsp;testJsDocType()</pre>
+</li>
+</ul>
+<a name="testJsDocParameter()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocParameter</h4>
+<pre>public&nbsp;void&nbsp;testJsDocParameter()</pre>
+</li>
+</ul>
+<a name="testJsDocExtends()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocExtends</h4>
+<pre>public&nbsp;void&nbsp;testJsDocExtends()</pre>
+</li>
+</ul>
+<a name="testJsDocImplements()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocImplements</h4>
+<pre>public&nbsp;void&nbsp;testJsDocImplements()</pre>
+</li>
+</ul>
+<a name="testJsDocEnum()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocEnum</h4>
+<pre>public&nbsp;void&nbsp;testJsDocEnum()</pre>
+</li>
+</ul>
+<a name="testJsDocReturn()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocReturn</h4>
+<pre>public&nbsp;void&nbsp;testJsDocReturn()</pre>
+</li>
+</ul>
+<a name="testJsDocThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocThis</h4>
+<pre>public&nbsp;void&nbsp;testJsDocThis()</pre>
+</li>
+</ul>
+<a name="testJsDocThrows()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocThrows</h4>
+<pre>public&nbsp;void&nbsp;testJsDocThrows()</pre>
+</li>
+</ul>
+<a name="testJsDocSubType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocSubType</h4>
+<pre>public&nbsp;void&nbsp;testJsDocSubType()</pre>
+</li>
+</ul>
+<a name="testJsDocTypedef()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testJsDocTypedef</h4>
+<pre>public&nbsp;void&nbsp;testJsDocTypedef()</pre>
+</li>
+</ul>
+<a name="testArrayJsDoc()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testArrayJsDoc</h4>
+<pre>public&nbsp;void&nbsp;testArrayJsDoc()</pre>
+</li>
+</ul>
+<a name="testObjectJsDoc()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testObjectJsDoc</h4>
+<pre>public&nbsp;void&nbsp;testObjectJsDoc()</pre>
+</li>
+</ul>
+<a name="testUnionJsDoc()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testUnionJsDoc</h4>
+<pre>public&nbsp;void&nbsp;testUnionJsDoc()</pre>
+</li>
+</ul>
+<a name="testFunctionJsDoc()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionJsDoc</h4>
+<pre>public&nbsp;void&nbsp;testFunctionJsDoc()</pre>
+</li>
+</ul>
+<a name="testForwardJsDoc()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testForwardJsDoc</h4>
+<pre>public&nbsp;void&nbsp;testForwardJsDoc()</pre>
+</li>
+</ul>
+<a name="testTestTypes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTestTypes</h4>
+<pre>public&nbsp;void&nbsp;testTestTypes()</pre>
+</li>
+</ul>
+<a name="testNullType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNullType</h4>
+<pre>public&nbsp;void&nbsp;testNullType()</pre>
+</li>
+</ul>
+<a name="testScopedThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopedThis</h4>
+<pre>public&nbsp;void&nbsp;testScopedThis()</pre>
+</li>
+</ul>
+<a name="testAliasRedefinition()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAliasRedefinition</h4>
+<pre>public&nbsp;void&nbsp;testAliasRedefinition()</pre>
+</li>
+</ul>
+<a name="testAliasNonRedefinition()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAliasNonRedefinition</h4>
+<pre>public&nbsp;void&nbsp;testAliasNonRedefinition()</pre>
+</li>
+</ul>
+<a name="testScopedReturn()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopedReturn</h4>
+<pre>public&nbsp;void&nbsp;testScopedReturn()</pre>
+</li>
+</ul>
+<a name="testScopedThrow()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopedThrow</h4>
+<pre>public&nbsp;void&nbsp;testScopedThrow()</pre>
+</li>
+</ul>
+<a name="testUsedImproperly()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testUsedImproperly</h4>
+<pre>public&nbsp;void&nbsp;testUsedImproperly()</pre>
+</li>
+</ul>
+<a name="testBadParameters()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testBadParameters</h4>
+<pre>public&nbsp;void&nbsp;testBadParameters()</pre>
+</li>
+</ul>
+<a name="testNonAliasLocal()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNonAliasLocal</h4>
+<pre>public&nbsp;void&nbsp;testNonAliasLocal()</pre>
+</li>
+</ul>
+<a name="testNoGoogScope()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoGoogScope</h4>
+<pre>public&nbsp;void&nbsp;testNoGoogScope()</pre>
+</li>
+</ul>
+<a name="testRecordOneAlias()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRecordOneAlias</h4>
+<pre>public&nbsp;void&nbsp;testRecordOneAlias()</pre>
+</li>
+</ul>
+<a name="testRecordMultipleAliases()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRecordMultipleAliases</h4>
+<pre>public&nbsp;void&nbsp;testRecordMultipleAliases()</pre>
+</li>
+</ul>
+<a name="testRecordAliasFromMultipleGoogScope()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRecordAliasFromMultipleGoogScope</h4>
+<pre>public&nbsp;void&nbsp;testRecordAliasFromMultipleGoogScope()</pre>
+</li>
+</ul>
+<a name="getProcessor(com.google.javascript.jscomp.Compiler)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getProcessor</h4>
+<pre>protected&nbsp;com.google.javascript.jscomp.ScopedAliases&nbsp;getProcessor(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">CompilerTestCase</a></code></strong></div>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>compiler</code> - The compiler</dd>
+<dt><span class="strong">Returns:</span></dt><dd>The pass to test</dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/Scope.Var.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/SemanticReverseAbstractInterpreterTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/ScopedAliasesTest.html" target="_top">Frames</a></li>
+<li><a href="ScopedAliasesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

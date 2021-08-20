@@ -1,0 +1,458 @@
+[7824][environment] CWD = /home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10
+[7824][environment] No .inferconfig file found
+[7824][environment] Project root = /home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10
+[7824][environment] INFER_ARGS = '@/tmp/args_.tmp.d173f5'
+[7824][environment]   Contents of '/tmp/args_.tmp.d173f5'
+[7824][environment]   run
+[7824][environment]   /Contents of '/tmp/args_.tmp.d173f5'
+[7824][environment] command line arguments: 'infer' 'run' '--' 'mvn' 'compile'
+[7824][environment] Analyzer: checkers
+[7824][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), quandary (C/C++/ObjC, Java), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC)
+[7824][environment] Infer log identifier is 931496817842
+Infer version v0.13.0-7fc7511
+[7824][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[7824][environment] 
+[7824][   progress] Capturing in maven mode...
+[7824][      debug] Running maven capture:
+[7824][      debug] mvn 'compile' '-P' 'infer-capture'
+
+[7892][environment] CWD = /home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10
+[7892][environment] No .inferconfig file found
+[7892][environment] Project root = /home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10
+[7892][environment] INFER_ARGS = '@/tmp/args_.tmp.48592a'
+[7892][environment]   Contents of '/tmp/args_.tmp.48592a'
+[7892][environment]   @/tmp/args_.tmp.d173f5
+[7892][environment]   @/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler6812531169084885814arguments
+[7892][environment]   /Contents of '/tmp/args_.tmp.48592a'
+[7892][environment] command line arguments: '/home/XiaLi/Xia/Tool/infer/infer/bin/infer' '@/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler6812531169084885814arguments'
+[7892][environment]   Contents of '/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler6812531169084885814arguments'
+[7892][environment]   "-d"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/target/classes"
+[7892][environment]   "-classpath"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/target/classes:"
+[7892][environment]   "-sourcepath"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java:"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/exception/ContextedException.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/StopWatch.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/tuple/Triple.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/DateParser.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/Mutable.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableObject.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/Builder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/CharSequenceUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/CharRange.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/WordUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/TimedSemaphore.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/SystemUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/CharEncoding.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/ClassUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/StrMatcher.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/FormatCache.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/BooleanUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/FormatFactory.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/DatePrinter.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/CharUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/SerializationUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/event/EventUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableShort.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/tuple/MutablePair.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/SerializationException.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/BasicThreadFactory.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/StrLookup.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/ObjectUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/math/Fraction.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/CompositeFormat.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentException.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/CompareToBuilder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/ArrayUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/tuple/Pair.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/BitField.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/JavaVersion.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/exception/DefaultExceptionContext.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/math/NumberUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/tuple/MutableTriple.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/EnumUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableInt.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityEscaper.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/StandardToStringStyle.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/reflect/ConstructorUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentRuntimeException.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableLong.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/CharSet.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/Validate.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/tuple/ImmutablePair.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/AtomicInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/StringUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/mutable/MutableByte.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/LocaleUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/StrBuilder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/RandomStringUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/translate/CodePointTranslator.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/Range.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/StrSubstitutor.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/exception/ExceptionContext.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/FastDateParser.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/FormattableUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/text/StrTokenizer.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/AnnotationUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/builder/IDKey.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/tuple/ImmutableTriple.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/CharSetUtils.java"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/src/main/java/org/apache/commons/lang3/time/DateUtils.java"
+[7892][environment]   "-s"
+[7892][environment]   "/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/target/generated-sources/annotations"
+[7892][environment]   "-g"
+[7892][environment]   "-nowarn"
+[7892][environment]   "-target"
+[7892][environment]   "1.6"
+[7892][environment]   "-source"
+[7892][environment]   "1.6"
+[7892][environment]   "-encoding"
+[7892][environment]   "iso-8859-1"
+[7892][environment]   /Contents of '/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler6812531169084885814arguments'
+[7892][environment] Analyzer: checkers
+[7892][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), quandary (C/C++/ObjC, Java), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC)
+[7892][      debug] Current working directory: '/home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10'
+[7892][      debug] Trying to execute: javac '-J-Duser.language=en' '@/tmp/org.codehaus.plexus.compiler.javac.JavacCompiler6812531169084885814arguments' '@/tmp/args_.tmp.2cdb08' 2>'/tmp/javac_.tmp.c4e5c9.out'
+[7892][      debug] *** Success. Logs:
+[7892][      debug] Translating 106 source files (170 classes)
+[7892][      debug] done capturing all files
+[7892][environment] Infer log identifier is 931496817842
+[7824][   progress] Found 106 source files to analyze in /home/Xia/XiaLi/Project1/SubjectPrograms/LangBugPerfect/10/infer-out
+[7824][   progress] Starting analysis...
+[7824][   progress] 
+[7824][   progress] legend:
+[7824][   progress]   "F" analyzing a file
+[7824][   progress]   "." analyzing a procedure
+[7824][   progress] 
+[7824][   progress] 
+[7824][environment] Per-procedure parallelism jobs: 8
+[7824][   progress] F
+F
+FFFFF
+[7978][   progress] .F
+[7979][   progress] ....
+..[7985][   progress] .[7980][   progress] .[7981][   progress] .
+......
+...
+....[7982][   progress] .[7984][   progress] .[7983][   progress] .......F.......
+..F....[7986][   progress] .F.F
+
+...
+[7989][   progress] .[7988][   progress] .[7987][   progress] .....................................................F...
+[7990][   progress] .........................................................................................................................................................................F.
+....[7991][   progress] ...............F..
+..[7992][   progress] .......F
+[7993][   progress] .............F...
+[7994][   progress] ...............F
+[7995][   progress] .....................F
+.[8007][   progress] .F
+[8008][   progress] ...............F
+[8009][   progress] ..........F..
+..[8010][   progress] .F..
+.[8011][   progress] ..............................F
+[8012][   progress] ..F...
+..[8013][   progress] .................F....
+[8014][   progress] ..........F.
+[8015][   progress] ..............F
+F
+[8016][   progress] .[8017][   progress] ............................F
+..[8018][   progress] ......................F
+[8019][   progress] .........F..
+[8020][   progress] .F
+.[8021][   progress] ....................F..
+...[8022][   progress] .F.
+[8023][   progress] .............F
+[8024][   progress] ......F
+[8025][   progress] ...F
+..[8026][   progress] ..................................................F
+[8027][   progress] .......................F.
+[8028][   progress] ..............F
+[8029][   progress] ...................F
+[8031][   progress] ...........................F
+[8032][   progress] ..F
+[8033][   progress] .........................F.....
+.....[8034][   progress] ..F
+[8035][   progress] ....................................................F.F
+
+[8036][   progress] .[8037][   progress] ...................................................F.F
+[8038][   progress] .
+[8039][   progress] ..F.
+....[8040][   progress] ........................F
+.[8041][   progress] ....F.
+[8044][   progress] ............................................................................................................................F.
+[8073][   progress] .............................F..
+[8074][   progress] ........FF
+
+[8075][   progress] ..[8076][   progress] .....................F
+[8077][   progress] .................................F
+[8078][   progress] ....F
+[8079][   progress] ..........................................F
+[8080][   progress] ..
+[8080][      debug] 
+[8080][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+[8080][      debug] 
+[8080][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+[8080][      debug] 
+[8080][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+[8080][      debug] 
+[8080][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+................[8080][   progress] .......................F.
+.[8081][   progress] ..........F.
+.[8082][   progress] ....................................F
+...[8083][   progress] .....F
+[8084][   progress] ..........F
+[8085][   progress] .......F.
+.[8086][   progress] ........F
+F
+[8088][   progress] ...F
+[8089][   progress] ..........F
+[8090][   progress] ...................F
+[8091][   progress] ...F
+....[8092][   progress] ..F
+[8093][   progress] ......F
+[8094][   progress] ...F
+.[8095][   progress] ...............F...
+.[8096][   progress] .........................................................................................F
+[8119][   progress] ...................FF
+
+[8122][   progress] .[8123][   progress] .........F..
+......................[8129][   progress] ............................................................................................................................................................................F
+[8130][   progress] .........F
+[8131][   progress] .F
+[8132][   progress] ...........................................
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+.[8132][   progress] ...........
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+......F
+[8143][   progress] .................[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+..[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][   progress] ....
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+F
+[8132][   progress] .
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8132][      debug] 
+[8132][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8144][   progress] .[8132][   progress] ..........................F
+[8145][   progress] ..........F
+[8146][   progress] ......
+[8146][      debug] 
+[8146][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+[8146][      debug] 
+[8146][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+.[8146][      debug] 
+[8146][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+[8146][      debug] 
+[8146][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.DataOutputStream
+[8146][   progress] .......................................F
+[8147][   progress] ..F
+[8148][   progress] ........................................................................................................F
+.[8150][   progress] ...................F
+[8151][   progress] ...........................
+[8151][      debug] 
+[8151][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8151][      debug] 
+[8151][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+..[8151][   progress] ..............F
+[8166][   progress] .........F
+.[8181][   progress] ...........F
+[8184][   progress] ........................F
+[8185][   progress] ...............................F
+[8186][   progress] .........................................F
+[8187][   progress] .......................................F
+.[8188][   progress] .........................F
+[8189][   progress] ..............................F
+[8219][   progress] ................F..
+[8220][   progress] ....F
+[8221][   progress] ..........................F
+[8222][   progress] ................F
+..[8223][   progress] ........................F
+[8224][   progress] ....................................................................................................................................................................................................................................................................................................................................................................
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ...
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] .....
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ..
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ..
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ..
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ..
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ..
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][      debug] 
+[8223][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.lang.NegativeArraySizeException
+[8223][   progress] ..

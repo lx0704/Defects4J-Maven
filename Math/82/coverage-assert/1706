@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.SecondMomentTest.testSerial(org.apache.commons.math.stat.descriptive.moment.SecondMomentTest) true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testSerial:()V:208:assertEquals true

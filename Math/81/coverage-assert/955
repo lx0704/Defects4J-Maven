@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.FrenchRealVectorFormatTest.testConstructorSingleFormat(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testConstructorSingleFormat:()V:352:assertNotNull true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testConstructorSingleFormat:()V:353:assertEquals true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.002">
+  <properties/>
+  <testcase name="shouldPrintInvocationsWhenStubbingNotUsed" classname="org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest" time="0.002"/>
+  <system-out><![CDATA[********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithAsking(PrintingInvocationsWhenStubNotUsedTest.java:34)
+mockTwo.doSomething(null);
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithTelling(PrintingInvocationsWhenStubNotUsedTest.java:39)
+********************************
+***       Unused stubs       ***
+********************************
+mock.giveMeSomeString("different arg");
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.performStubbing(PrintingInvocationsWhenStubNotUsedTest.java:30)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

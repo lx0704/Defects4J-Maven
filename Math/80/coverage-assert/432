@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.WeibullDistributionTest.testBeta(org.apache.commons.math.distribution.WeibullDistributionTest) true
+org.apache.commons.math.distribution.WeibullDistributionTest:testBeta:()V:81:assertEquals true

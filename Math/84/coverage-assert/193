@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexTest.testAsinNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testAsinNaN:()V:357:assertTrue true

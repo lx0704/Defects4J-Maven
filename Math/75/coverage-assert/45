@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest.testSinFunction(org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest) true
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest:testSinFunction:()V:51:assertEquals true
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest:testSinFunction:()V:57:assertEquals true

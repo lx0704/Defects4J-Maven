@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testShuffledStatistics(org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest) true
+org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true

@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest.testBracketEndpointRoot(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest) true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest:testBracketEndpointRoot:()V:95:assertEquals true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest:testBracketEndpointRoot:()V:96:assertTrue true

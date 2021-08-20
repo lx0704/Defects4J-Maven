@@ -1,0 +1,4 @@
+org.apache.commons.math.distribution.BinomialDistributionTest.testDegenerate0(org.apache.commons.math.distribution.BinomialDistributionTest) true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyDensities:()V:143:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyCumulativeProbabilities:()V:155:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:168:assertEquals true

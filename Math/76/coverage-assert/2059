@@ -1,0 +1,10 @@
+org.apache.commons.math.util.MathUtilsTest.testNextAfterSpecialCases(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:886:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:887:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:888:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:889:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:890:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:891:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:892:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:893:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testNextAfterSpecialCases:()V:894:assertEquals true

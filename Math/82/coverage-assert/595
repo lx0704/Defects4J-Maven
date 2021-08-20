@@ -1,0 +1,3 @@
+org.apache.commons.math.geometry.FrenchVector3DFormatTest.testConstructorSingleFormat(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testConstructorSingleFormat:()V:328:assertNotNull true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testConstructorSingleFormat:()V:329:assertEquals true

@@ -1,0 +1,6 @@
+org.apache.commons.math.linear.SingularValueSolverTest.testMath320A(org.apache.commons.math.linear.SingularValueSolverTest) true
+org.apache.commons.math.linear.SingularValueSolverTest:testMath320A:()V:181:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testMath320A:()V:183:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testMath320A:()V:188:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testMath320A:()V:193:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testMath320A:()V:204:assertTrue true

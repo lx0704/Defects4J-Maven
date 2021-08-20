@@ -1,0 +1,2 @@
+org.apache.commons.math.special.BetaTest.testLogBetaPositiveNan(org.apache.commons.math.special.BetaTest) true
+org.apache.commons.math.special.BetaTest:testLogBeta:(DDD)V:49:assertEquals false

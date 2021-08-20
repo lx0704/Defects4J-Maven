@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testSignLong(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testSignLong:()V:1027:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignLong:()V:1028:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignLong:()V:1029:assertEquals true

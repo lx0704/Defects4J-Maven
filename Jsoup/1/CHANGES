@@ -1,0 +1,74 @@
+jsoup changelog
+
+*** Release 1.1.2 (pending)
+ * Fix an issue where text order was incorrect when parsing pre-document
+    HTML.
+      <http://github.com/jhy/jsoup/issues/issue/23>
+
+*** Release 1.1.1
+ * Added selector support for :eq, :lt, and :gt
+ 	<http://github.com/jhy/jsoup/issues/issue/16>
+
+ * Added TextNode#text and TextNode#text(String)
+ 	<http://github.com/jhy/jsoup/issues/issue/18>
+
+ * Throw exception if trying to parse non-text content
+ 	<http://github.com/jhy/jsoup/issues/issue/17>
+
+ * Added Node#remove and Node#replaceWith
+ 	<http://github.com/jhy/jsoup/issues/issue/19>
+
+ * Allow _ and - in CSS ID selectors (per CSS spec).
+ 	<http://github.com/jhy/jsoup/issues/issue/10>
+ 
+ * Relative links are resolved to absolute when cleaning, to normalize
+    output and to verify safe protocol. (Were previously discarded.)
+      <http://github.com/jhy/jsoup/issues/issue/12>
+ 
+ * Allow combinators at start of selector query, for query refinements
+ 	  <http://github.com/jhy/jsoup/issues/issue/13>
+
+ * Added Element#val() and #val(String) methods, for form values
+ 	  <http://github.com/jhy/jsoup/issues/issue/14>
+
+ * Changed textarea contents to parse as TextNodes, not DataNodes,
+    so contents visible to text() (and val(), as treated as form input)
+
+ * Fixed support for Java 1.5
+
+*** Release 0.3.1 (2010-Feb-20)
+ * New features: supports Elements#html(), html(String),
+    prepend(String), append(String); bulk methods for corresponding
+    methods in Element.
+
+ * New feature: Jsoup.isValid(html, whitelist) method for user input
+    form validation.
+ 
+ * Improved Elements.attr(String) to find first matching element
+    with attribute.
+
+ * Fixed assertion error when cleaning HTML with empty attribute
+ 	  <http://github.com/jhy/jsoup/issues/issue/7>
+
+*** Release 0.2.2 (2010-Feb-07)
+ * jsoup packages are now available in the Maven central repository.
+ 
+ * New feature: supports Element#addClass, removeClass, toggleClass;
+    also collection class methods on Elements.
+ * New feature: supports Element#wrap(html) and Elements#wrap(html).
+ * New selector syntax: supports E + F adjacent sibling selector
+ * New selector systax: supports E ~ F preceding sibling selector
+ * New: supports Element#elementSiblingIndex()
+
+ * Improved document normalisation.
+ * Improved HTML string output format (pretty-print)
+ 
+ * Fixed absolute URL resolution issue when a base tag has no href.
+
+*** Release 0.1.2 (2010-Feb-02)
+ * Fixed unrecognised tag handler to be more permissive
+    <http://github.com/jhy/jsoup/issues/issue/1>
+
+
+*** Release 0.1.1 (2010-Jan-31)
+ * Initial beta release of jsoup

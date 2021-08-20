@@ -1,0 +1,4 @@
+org.apache.commons.math.geometry.Vector3DTest.testOrthogonal(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testOrthogonal:()V:190:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testOrthogonal:()V:192:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testOrthogonal:()V:194:assertEquals true

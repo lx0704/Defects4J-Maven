@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.ranking.NaturalRankingTest.testNaNsMinimalTiesAverage(org.apache.commons.math.stat.ranking.NaturalRankingTest) true
+org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true

@@ -1,0 +1,5 @@
+org.apache.commons.math.util.ResizableDoubleArrayTest.testSetNumberOfElements(org.apache.commons.math.util.ResizableDoubleArrayTest) true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSetNumberOfElements:()V:253:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSetNumberOfElements:()V:256:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSetNumberOfElements:()V:265:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSetNumberOfElements:()V:266:assertEquals true

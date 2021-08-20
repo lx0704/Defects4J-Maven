@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexTest.testSinhNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testSinhNaN:()V:607:assertTrue true

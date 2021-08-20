@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.FrenchComplexFormatTest.testPositiveInfinity(org.apache.commons.math.complex.FrenchComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testPositiveInfinity:()V:131:assertEquals true

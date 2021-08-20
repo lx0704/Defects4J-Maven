@@ -1,0 +1,5 @@
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testPutKeysWithCollision2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testPutKeysWithCollision2:()V:294:assertEquals true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testPutKeysWithCollision2:()V:295:assertEquals true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testPutKeysWithCollision2:()V:300:assertEquals true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testPutKeysWithCollision2:()V:301:assertEquals true

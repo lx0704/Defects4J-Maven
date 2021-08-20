@@ -1,0 +1,7 @@
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest.testN0andN1Conditions(org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest) true
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testN0andN1Conditions:()V:88:assertTrue true
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testN0andN1Conditions:()V:91:assertTrue true
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testN0andN1Conditions:()V:94:assertTrue true
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testN0andN1Conditions:()V:100:assertTrue true
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testN0andN1Conditions:()V:104:assertTrue true
+org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testN0andN1Conditions:()V:108:assertTrue true

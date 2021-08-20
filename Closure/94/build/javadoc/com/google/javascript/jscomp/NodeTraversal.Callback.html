@@ -1,0 +1,268 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>NodeTraversal.Callback (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../94" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="NodeTraversal.Callback (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/NodeTraversal.AbstractShallowStatementCallback.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/NodeTraversal.ScopedCallback.html" title="interface in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/NodeTraversal.Callback.html" target="_top">Frames</a></li>
+<li><a href="NodeTraversal.Callback.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Interface NodeTraversal.Callback" class="title">Interface NodeTraversal.Callback</h2>
+</div>
+<div class="contentContainer">
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Known Subinterfaces:</dt>
+<dd><a href="../../../../com/google/javascript/jscomp/NodeTraversal.ScopedCallback.html" title="interface in com.google.javascript.jscomp">NodeTraversal.ScopedCallback</a></dd>
+</dl>
+<dl>
+<dt>All Known Implementing Classes:</dt>
+<dd><a href="../../../../com/google/javascript/jscomp/FindExportableNodes.html" title="class in com.google.javascript.jscomp">FindExportableNodes</a>, <a href="../../../../com/google/javascript/jscomp/NodeTraversal.AbstractNodeTypePruningCallback.html" title="class in com.google.javascript.jscomp">NodeTraversal.AbstractNodeTypePruningCallback</a>, <a href="../../../../com/google/javascript/jscomp/NodeTraversal.AbstractPostOrderCallback.html" title="class in com.google.javascript.jscomp">NodeTraversal.AbstractPostOrderCallback</a>, <a href="../../../../com/google/javascript/jscomp/NodeTraversal.AbstractShallowCallback.html" title="class in com.google.javascript.jscomp">NodeTraversal.AbstractShallowCallback</a>, <a href="../../../../com/google/javascript/jscomp/NodeTraversal.AbstractShallowStatementCallback.html" title="class in com.google.javascript.jscomp">NodeTraversal.AbstractShallowStatementCallback</a>, <a href="../../../../com/google/javascript/jscomp/ReplaceStrings.html" title="class in com.google.javascript.jscomp">ReplaceStrings</a>, <a href="../../../../com/google/javascript/jscomp/TypeCheck.html" title="class in com.google.javascript.jscomp">TypeCheck</a></dd>
+</dl>
+<dl>
+<dt>Enclosing class:</dt>
+<dd><a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public static interface <span class="strong">NodeTraversal.Callback</span></pre>
+<div class="block">Callback</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#shouldTraverse(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">shouldTraverse</a></strong>(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;nodeTraversal,
+              com.google.javascript.rhino.Node&nbsp;n,
+              com.google.javascript.rhino.Node&nbsp;parent)</code>
+<div class="block">Visits a node in pre order (before visiting its children) and decides
+ whether this node's children should be traversed.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#visit(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)">visit</a></strong>(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;t,
+     com.google.javascript.rhino.Node&nbsp;n,
+     com.google.javascript.rhino.Node&nbsp;parent)</code>
+<div class="block">Visits a node in post order (after its children have been visited).</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="shouldTraverse(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>shouldTraverse</h4>
+<pre>boolean&nbsp;shouldTraverse(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;nodeTraversal,
+                     com.google.javascript.rhino.Node&nbsp;n,
+                     com.google.javascript.rhino.Node&nbsp;parent)</pre>
+<div class="block"><p>Visits a node in pre order (before visiting its children) and decides
+ whether this node's children should be traversed. If children are
+ traversed, they will be visited by
+ <a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#visit(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)"><code>visit(NodeTraversal, Node, Node)</code></a> in post order.</p>
+ <p>Implementations can have side effects (e.g. modifying the parse
+ tree).</p></div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>whether the children of this node should be visited</dd></dl>
+</li>
+</ul>
+<a name="visit(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>visit</h4>
+<pre>void&nbsp;visit(<a href="../../../../com/google/javascript/jscomp/NodeTraversal.html" title="class in com.google.javascript.jscomp">NodeTraversal</a>&nbsp;t,
+         com.google.javascript.rhino.Node&nbsp;n,
+         com.google.javascript.rhino.Node&nbsp;parent)</pre>
+<div class="block"><p>Visits a node in post order (after its children have been visited).
+ A node is visited only if all its parents should be traversed
+ (<a href="../../../../com/google/javascript/jscomp/NodeTraversal.Callback.html#shouldTraverse(com.google.javascript.jscomp.NodeTraversal,%20com.google.javascript.rhino.Node,%20com.google.javascript.rhino.Node)"><code>shouldTraverse(NodeTraversal, Node, Node)</code></a>).</p>
+ <p>Implementations can have side effects (e.g. modifying the parse
+ tree).</p></div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/NodeTraversal.AbstractShallowStatementCallback.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/NodeTraversal.ScopedCallback.html" title="interface in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/NodeTraversal.Callback.html" target="_top">Frames</a></li>
+<li><a href="NodeTraversal.Callback.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

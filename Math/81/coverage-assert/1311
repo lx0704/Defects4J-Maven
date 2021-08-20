@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testMath283(org.apache.commons.math.optimization.direct.MultiDirectionalTest) true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testMath283:()V:210:assertEquals true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testMath283:()V:214:assertEquals true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testMath283:()V:215:assertEquals true

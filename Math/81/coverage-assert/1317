@@ -1,0 +1,6 @@
+org.apache.commons.math.optimization.direct.NelderMeadTest.testLeastSquares2(org.apache.commons.math.optimization.direct.NelderMeadTest) true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testLeastSquares2:()V:225:assertEquals true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testLeastSquares2:()V:226:assertEquals true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testLeastSquares2:()V:227:assertTrue true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testLeastSquares2:()V:228:assertTrue true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testLeastSquares2:()V:229:assertTrue true

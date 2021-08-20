@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testTrivial(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testTrivial:()V:116:assertEquals true
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testTrivial:()V:117:assertEquals true
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testTrivial:()V:118:assertEquals true

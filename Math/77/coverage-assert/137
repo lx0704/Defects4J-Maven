@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.solvers.LaguerreSolverTest.testLinearFunction(org.apache.commons.math.analysis.solvers.LaguerreSolverTest) true
+org.apache.commons.math.analysis.solvers.LaguerreSolverTest:testLinearFunction:()V:72:assertEquals true

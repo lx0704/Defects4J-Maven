@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.0">
+  <properties/>
+  <testcase name="shouldReturnEmptyString" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest" time="0.0"/>
+  <testcase name="shouldReturnEmptyArray" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

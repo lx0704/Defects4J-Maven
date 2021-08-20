@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.013">
+  <properties/>
+  <testcase name="shouldVerifyAllInvocationsInOrder" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderMockTwoAndThree" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderMockOneAndThree" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldVerifyMockOneInOrder" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldFailVerificationForMockOne" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldFailVerificationForMockOneBecauseOfWrongOrder" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldVerifyMockTwoWhenThreeTimesUsed" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldFailVerificationForMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyMockTwoCompletely" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldThrowNoMoreInvocationsForMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.001"/>
+  <testcase name="shouldThrowTooLittleInvocationsForMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldThrowTooManyInvocationsForMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldAllowThreeTimesOnMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.0"/>
+  <testcase name="shouldAllowTwoTimesOnMockTwo" classname="org.mockitousage.verification.SelectedMocksInOrderVerificationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

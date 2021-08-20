@@ -1,0 +1,3 @@
+org.apache.commons.math.fraction.FractionFormatTest.testDenominatorFormat(org.apache.commons.math.fraction.FractionFormatTest) true
+org.apache.commons.math.fraction.FractionFormatTest:testDenominatorFormat:()V:272:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testDenominatorFormat:()V:279:assertEquals true

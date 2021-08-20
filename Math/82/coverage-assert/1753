@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest.testBasicStats(org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest) true
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testBasicStats:()V:63:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testBasicStats:()V:69:assertEquals true

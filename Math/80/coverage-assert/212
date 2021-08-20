@@ -1,0 +1,4 @@
+org.apache.commons.math.complex.ComplexTest.testConstructorNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testConstructorNaN:()V:63:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testConstructorNaN:()V:66:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testConstructorNaN:()V:69:assertFalse true

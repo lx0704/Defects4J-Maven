@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.012">
+  <properties/>
+  <testcase name="should_return_an_object_that_fails_on_any_method_invocation_for_non_primitives" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.004"/>
+  <testcase name="should_print_the_parameters_on_SmartNullPointerException_message" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_an_object_that_allows_object_methods" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_return_the_usual_default_values_for_primitives" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.006"/>
+  <testcase name="should_print_the_parameters_when_calling_a_method_with_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

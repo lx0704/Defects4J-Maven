@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.configuration.MockInjectionTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.002">
+  <properties/>
+  <testcase name="should_not_fail_if_property_or_field_injection_is_not_possible" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.001"/>
+  <testcase name="should_not_allow_null_on_field" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.0"/>
+  <testcase name="should_not_allow_null_on_fields" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.0"/>
+  <testcase name="should_not_allow_null_on_instance_owning_the_field" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.0"/>
+  <testcase name="should_not_allow_null_on_mocks" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.0"/>
+  <testcase name="can_try_constructor_injection" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.001"/>
+  <testcase name="should_not_fail_if_constructor_injection_is_not_possible" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.0"/>
+  <testcase name="can_try_property_or_setter_injection" classname="org.mockito.internal.configuration.MockInjectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

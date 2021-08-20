@@ -1,0 +1,4 @@
+org.apache.commons.math.random.UncorrelatedRandomVectorGeneratorTest.testMeanAndCorrelation(org.apache.commons.math.random.UncorrelatedRandomVectorGeneratorTest) true
+org.apache.commons.math.random.UncorrelatedRandomVectorGeneratorTest:testMeanAndCorrelation:()V:51:assertEquals true
+org.apache.commons.math.random.UncorrelatedRandomVectorGeneratorTest:testMeanAndCorrelation:()V:57:assertEquals true
+org.apache.commons.math.random.UncorrelatedRandomVectorGeneratorTest:testMeanAndCorrelation:()V:54:assertEquals true

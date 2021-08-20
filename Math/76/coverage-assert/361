@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.CauchyDistributionTest.testMedian(org.apache.commons.math.distribution.CauchyDistributionTest) true
+org.apache.commons.math.distribution.CauchyDistributionTest:testMedian:()V:74:assertEquals true

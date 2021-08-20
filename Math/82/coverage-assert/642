@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.Vector3DFormatTest.testNegativeX(org.apache.commons.math.geometry.Vector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testNegativeX:()V:83:assertEquals true

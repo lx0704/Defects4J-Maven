@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.runners.RunnersValidateFrameworkUsageTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.002">
+  <properties/>
+  <testcase name="shouldValidateWithDefaultRunner" classname="org.mockito.runners.RunnersValidateFrameworkUsageTest" time="0.001"/>
+  <testcase name="shouldValidateWithD44Runner" classname="org.mockito.runners.RunnersValidateFrameworkUsageTest" time="0.0"/>
+  <testcase name="shouldValidateWithVerboseRunner" classname="org.mockito.runners.RunnersValidateFrameworkUsageTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

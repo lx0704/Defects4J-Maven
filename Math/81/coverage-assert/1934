@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest.canEstimateRegressionParameters(org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest) true
+org.apache.commons.math.stat.regression.MultipleLinearRegressionAbstractTest:canEstimateRegressionParameters:()V:44:assertEquals true

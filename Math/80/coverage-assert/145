@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest.testNewSecantSolverValid(org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest) true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest:testNewSecantSolverValid:()V:71:assertNotNull true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest:testNewSecantSolverValid:()V:72:assertTrue true

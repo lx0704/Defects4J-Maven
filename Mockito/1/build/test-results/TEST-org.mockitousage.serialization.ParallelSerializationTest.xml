@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.serialization.ParallelSerializationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:51" hostname="set" time="1.272">
+  <properties/>
+  <testcase name="single_mock_being_serialized_in_different_classloaders_by_multiple_threads" classname="org.mockitousage.serialization.ParallelSerializationTest" time="1.272"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

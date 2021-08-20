@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.solvers.BisectionSolverTest.testSetMaximalIterationCount(org.apache.commons.math.analysis.solvers.BisectionSolverTest) true
+org.apache.commons.math.analysis.solvers.BisectionSolverTest:testSetMaximalIterationCount:()V:149:assertEquals true

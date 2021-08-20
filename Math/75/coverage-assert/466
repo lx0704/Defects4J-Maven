@@ -1,0 +1,5 @@
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testCircleFitting(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testCircleFitting:()V:513:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testCircleFitting:()V:514:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testCircleFitting:()V:515:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testCircleFitting:()V:516:assertEquals true

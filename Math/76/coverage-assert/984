@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.FrenchRealVectorFormatTest.testNan(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testNan:()V:135:assertEquals true

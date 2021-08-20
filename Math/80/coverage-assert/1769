@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.moment.ThirdMomentTest.testSerialization(org.apache.commons.math.stat.descriptive.moment.ThirdMomentTest) true
+org.apache.commons.math.TestUtils:checkSerializedEquality:(Ljava/lang/Object;)V:133:assertEquals true
+org.apache.commons.math.TestUtils:checkSerializedEquality:(Ljava/lang/Object;)V:134:assertEquals true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testSerialization:()V:92:assertEquals true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testSerialization:()V:96:assertTrue true

@@ -1,0 +1,2 @@
+org.apache.commons.math.fraction.BigFractionTest.testSerial(org.apache.commons.math.fraction.BigFractionTest) true
+org.apache.commons.math.fraction.BigFractionTest:testSerial:()V:561:assertEquals true

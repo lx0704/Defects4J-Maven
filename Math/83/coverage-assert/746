@@ -1,0 +1,10 @@
+org.apache.commons.math.linear.BigMatrixImplTest.testEqualsAndHashCode(org.apache.commons.math.linear.BigMatrixImplTest) true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:660:assertTrue true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:661:assertEquals true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:662:assertEquals true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:663:assertEquals true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:664:assertFalse true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:665:assertFalse true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:666:assertFalse true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:670:assertTrue true
+org.apache.commons.math.linear.BigMatrixImplTest:testEqualsAndHashCode:()V:671:assertFalse true

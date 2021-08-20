@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.BlockFieldMatrixTest.testSetColumnVector(org.apache.commons.math.linear.BlockFieldMatrixTest) true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testSetColumnVector:()V:878:assertNotSame true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testSetColumnVector:()V:880:assertEquals true

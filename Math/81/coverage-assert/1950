@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testPerfectNegative(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testPerfectNegative:()V:251:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testPerfectNegative:()V:252:assertTrue true

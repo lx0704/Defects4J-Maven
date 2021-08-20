@@ -1,0 +1,8 @@
+org.apache.commons.math.linear.BlockRealMatrixTest.testExamples(org.apache.commons.math.linear.BlockRealMatrixTest) true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:452:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:453:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:456:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:457:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:464:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:465:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:testExamples:()V:466:assertEquals true

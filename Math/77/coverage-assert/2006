@@ -1,0 +1,5 @@
+org.apache.commons.math.util.BigRealTest.testCompareTo(org.apache.commons.math.util.BigRealTest) true
+org.apache.commons.math.util.BigRealTest:testCompareTo:()V:59:assertEquals true
+org.apache.commons.math.util.BigRealTest:testCompareTo:()V:60:assertEquals true
+org.apache.commons.math.util.BigRealTest:testCompareTo:()V:61:assertEquals true
+org.apache.commons.math.util.BigRealTest:testCompareTo:()V:62:assertEquals true

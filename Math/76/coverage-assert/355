@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.BinomialDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math.distribution.BinomialDistributionTest) true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:168:assertEquals true

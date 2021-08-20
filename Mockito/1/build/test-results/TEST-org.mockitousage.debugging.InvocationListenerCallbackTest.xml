@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.InvocationListenerCallbackTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.007">
+  <properties/>
+  <testcase name="should_call_all_listener_when_mock_return_normally" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.006"/>
+  <testcase name="should_call_all_listener_when_mock_throws_exception" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.001"/>
+  <testcase name="should_call_single_listener_when_mock_return_normally" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.reflection.BeanPropertySetterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.002">
+  <properties/>
+  <testcase name="use_the_setter_on_the_target_when_field_name_begins_by_at_least_2_caps" classname="org.mockito.internal.util.reflection.BeanPropertySetterTest" time="0.0"/>
+  <testcase name="should_not_fail_if_bean_class_declares_only_the_setter_for_the_property" classname="org.mockito.internal.util.reflection.BeanPropertySetterTest" time="0.001"/>
+  <testcase name="return_false_if_no_setter_was_found" classname="org.mockito.internal.util.reflection.BeanPropertySetterTest" time="0.0"/>
+  <testcase name="use_the_correct_setter_on_the_target" classname="org.mockito.internal.util.reflection.BeanPropertySetterTest" time="0.0"/>
+  <testcase name="should_fail_if_matching_setter_cannot_be_found_and_if_report_failure_is_true" classname="org.mockito.internal.util.reflection.BeanPropertySetterTest" time="0.0"/>
+  <testcase name="return_false_if_no_setter_was_found_and_if_reportNoSetterFound_is_false" classname="org.mockito.internal.util.reflection.BeanPropertySetterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

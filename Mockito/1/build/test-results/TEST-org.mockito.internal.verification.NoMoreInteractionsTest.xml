@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.verification.NoMoreInteractionsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.002">
+  <properties/>
+  <testcase name="shouldVerifyInOrder" classname="org.mockito.internal.verification.NoMoreInteractionsTest" time="0.0"/>
+  <testcase name="shouldVerifyInOrderMultipleInvoctions" classname="org.mockito.internal.verification.NoMoreInteractionsTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderMultipleInvoctionsAndThrow" classname="org.mockito.internal.verification.NoMoreInteractionsTest" time="0.0"/>
+  <testcase name="noMoreInteractionsExceptionMessageShouldDescribeMock" classname="org.mockito.internal.verification.NoMoreInteractionsTest" time="0.001"/>
+  <testcase name="noMoreInteractionsInOrderExceptionMessageShouldDescribeMock" classname="org.mockito.internal.verification.NoMoreInteractionsTest" time="0.0"/>
+  <testcase name="shouldVerifyInOrderAndPass" classname="org.mockito.internal.verification.NoMoreInteractionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

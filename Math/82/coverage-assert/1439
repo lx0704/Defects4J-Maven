@@ -1,0 +1,2 @@
+org.apache.commons.math.random.MersenneTwisterTest.testNextInt(org.apache.commons.math.random.MersenneTwisterTest) true
+org.apache.commons.math.random.MersenneTwisterTest:testNextInt:()V:98:assertTrue true

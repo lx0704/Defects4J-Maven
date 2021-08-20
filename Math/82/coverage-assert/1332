@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testControlParameters(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:checkEstimate:(Lorg/apache/commons/math/analysis/DifferentiableMultivariateVectorialFunction;DIDDDZ)V:390:assertTrue true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:checkEstimate:(Lorg/apache/commons/math/analysis/DifferentiableMultivariateVectorialFunction;DIDDDZ)V:392:assertTrue true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:checkEstimate:(Lorg/apache/commons/math/analysis/DifferentiableMultivariateVectorialFunction;DIDDDZ)V:394:assertTrue true

@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testCompareTo(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testCompareTo:()V:304:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testCompareTo:()V:305:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testCompareTo:()V:306:assertTrue true

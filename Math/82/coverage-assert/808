@@ -1,0 +1,5 @@
+org.apache.commons.math.linear.BlockFieldMatrixTest.testSetSubMatrix(org.apache.commons.math.linear.BlockFieldMatrixTest) true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testSetSubMatrix:()V:1077:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testSetSubMatrix:()V:1082:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testSetSubMatrix:()V:1087:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testSetSubMatrix:()V:1106:assertEquals true

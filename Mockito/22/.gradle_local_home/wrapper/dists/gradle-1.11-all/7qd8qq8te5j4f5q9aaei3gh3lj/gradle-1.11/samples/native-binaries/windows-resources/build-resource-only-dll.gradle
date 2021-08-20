@@ -1,0 +1,23 @@
+apply plugin: 'windows-resources'
+
+libraries {
+    helloResources {
+        binaries.all {
+            rcCompiler.args "/v"
+            linker.args "/noentry", "/machine:x86"
+        }
+    }
+}
+
+sources {
+    helloResources {
+        rc {
+            source {
+                srcDirs "src/hello/rc"
+            }
+            exportedHeaders {
+                srcDirs "src/hello/headers"
+            }
+        }
+    }
+}

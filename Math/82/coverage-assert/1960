@@ -1,0 +1,7 @@
+org.apache.commons.math.util.MathUtilsTest.testFactorial(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testFactorial:()V:399:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testFactorial:()V:400:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testFactorial:()V:401:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testFactorial:()V:404:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testFactorial:()V:405:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testFactorial:()V:406:assertEquals true

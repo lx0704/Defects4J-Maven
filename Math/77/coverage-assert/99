@@ -1,0 +1,9 @@
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testLinear(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:72:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:75:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:76:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:77:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:78:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:79:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:81:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testLinear:()V:83:assertEquals true

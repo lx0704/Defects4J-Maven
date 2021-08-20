@@ -1,0 +1,7 @@
+org.apache.commons.math.fraction.BigFractionTest.testNegate(org.apache.commons.math.fraction.BigFractionTest) true
+org.apache.commons.math.fraction.BigFractionTest:testNegate:()V:290:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testNegate:()V:291:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testNegate:()V:295:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testNegate:()V:296:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testNegate:()V:301:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testNegate:()V:302:assertEquals true

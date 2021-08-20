@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.ArrayRealVectorTest.testSerial(org.apache.commons.math.linear.ArrayRealVectorTest) true
+org.apache.commons.math.linear.ArrayRealVectorTest:testSerial:()V:1171:assertEquals true

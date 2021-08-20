@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.FrenchComplexFormatTest.testZeroImaginary(org.apache.commons.math.complex.FrenchComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testZeroImaginary:()V:98:assertEquals true

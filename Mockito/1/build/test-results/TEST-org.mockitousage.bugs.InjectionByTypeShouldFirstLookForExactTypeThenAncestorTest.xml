@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:46" hostname="set" time="0.004">
+  <properties/>
+  <testcase name="just_for_information_fields_are_read_in_declaration_order_see_Service" classname="org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest" time="0.001"/>
+  <testcase name="mock_should_be_injected_once_and_in_the_best_matching_type" classname="org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest" time="0.0"/>
+  <testcase name="should_match_be_consistent_regardless_of_order" classname="org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest" time="0.0"/>
+  <testcase name="should_inject_the_mock_only_once_and_in_the_correct_type" classname="org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

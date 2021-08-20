@@ -1,0 +1,7 @@
+org.apache.commons.math.linear.SparseRealMatrixTest.testDimensions(org.apache.commons.math.linear.SparseRealMatrixTest) true
+org.apache.commons.math.linear.SparseRealMatrixTest:testDimensions:()V:115:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testDimensions:()V:116:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testDimensions:()V:117:assertTrue true
+org.apache.commons.math.linear.SparseRealMatrixTest:testDimensions:()V:118:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testDimensions:()V:119:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testDimensions:()V:120:assertTrue true

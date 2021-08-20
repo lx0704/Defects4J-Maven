@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.SecondMomentTest.testEvaluation(org.apache.commons.math.stat.descriptive.moment.SecondMomentTest) true
+org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testEvaluation:()V:69:assertEquals true

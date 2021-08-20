@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.descriptive.moment.SecondMomentTest.testMomentSmallSamples(org.apache.commons.math.stat.descriptive.moment.SecondMomentTest) true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testMomentSmallSamples:()V:150:assertTrue true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testMomentSmallSamples:()V:152:assertEquals true

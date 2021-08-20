@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest.testInitialGuess(org.apache.commons.math.optimization.fitting.HarmonicFitterTest) true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testInitialGuess:()V:85:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testInitialGuess:()V:86:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testInitialGuess:()V:87:assertEquals true

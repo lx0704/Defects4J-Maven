@@ -1,0 +1,4 @@
+org.apache.commons.math.estimation.WeightedMeasurementTest.testIgnored(org.apache.commons.math.estimation.WeightedMeasurementTest) true
+org.apache.commons.math.estimation.WeightedMeasurementTest:testIgnored:()V:43:assertTrue true
+org.apache.commons.math.estimation.WeightedMeasurementTest:testIgnored:()V:45:assertTrue true
+org.apache.commons.math.estimation.WeightedMeasurementTest:testIgnored:()V:47:assertTrue true

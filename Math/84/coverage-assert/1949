@@ -1,0 +1,9 @@
+org.apache.commons.math.util.MathUtilsTest.testBinomialCoefficient(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:158:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:161:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:166:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:167:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:168:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:176:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:178:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testBinomialCoefficient:()V:180:assertEquals true

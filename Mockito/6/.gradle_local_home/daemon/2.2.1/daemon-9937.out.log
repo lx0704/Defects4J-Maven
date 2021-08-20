@@ -1,0 +1,845 @@
+13:36:12.881 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:36:12.893 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904572893
+13:36:12.902 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface docker0
+13:36:12.903 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+13:36:12.904 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+13:36:12.905 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:42:bcff:fe97:b7e1%docker0
+13:36:12.906 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /172.17.0.1
+13:36:12.907 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface docker0
+13:36:12.907 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface eth0
+13:36:12.908 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+13:36:12.908 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+13:36:12.909 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:3617:ebff:fec6:639c%eth0
+13:36:12.909 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /129.110.93.16
+13:36:12.910 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface eth0
+13:36:12.911 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo
+13:36:12.911 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+13:36:12.912 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+13:36:12.913 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1%lo
+13:36:12.914 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+13:36:12.918 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]].
+13:36:12.921 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Mon Jun 19 13:36:12 PDT 2017, with address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:36:12.922 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:36:12.923 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:36:12.923 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]], context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:36:12.933 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:36:12.938 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:36:12.940 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:36:12.943 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:36:12.945 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:36:12.967 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:36:12.968 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+13:36:12.971 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+13:36:12.972 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(10800000 MILLISECONDS) called on daemon
+13:36:12.973 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 10800000ms
+13:36:12.974 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:36:12 PDT 2017
+13:36:12.996 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:57639 to /0:0:0:0:0:0:0:1:41655.
+13:36:13.076 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Build
+13:36:13.077 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:36:13.077 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}.
+13:36:13.078 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6} with connection: socket connection from /0:0:0:0:0:0:0:1:41655 to /0:0:0:0:0:0:0:1:57639.
+13:36:13.085 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@13c7014e] after 0.0 minutes of idle
+13:36:13.086 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:36:13.086 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:36:13.087 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:36:13.087 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:36:13.091 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:36:13.091 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904573091
+13:36:13.092 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:36:13.092 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}. Dispatching build started information...
+13:36:13.093 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:36:13.096 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, LESSCLOSE=/usr/bin/lesspipe %s %s, TZ=America/Los_Angeles, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.UTF-8, XDG_SESSION_ID=864, DISPLAY=localhost:11.0, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home, MAIL=/var/mail/Xia, experiment_root=/home/SELab/mutation, LOGNAME=Xia, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, SSH_TTY=/dev/pts/9, SSH_CLIENT=10.21.44.248 49188 22, J2SDKDIR=/usr/lib/jvm/java-8-oracle, DROIDSAFE_MEMORY=32, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, USER=Xia, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/wrapper/gradle-wrapper.jar, MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, SSH_CONNECTION=10.21.44.248 49188 129.110.93.16 22, QT_QPA_PLATFORMTHEME=appmenu-qt5, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902517.357450-173093558, XDG_RUNTIME_DIR=/run/user/1015, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, SHLVL=3, HOME=/home/Xia}
+13:36:13.109 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:36:13.110 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=63dcff68-2945-4316-85cd-e27416442e37.2]
+13:36:13.112 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:36:13.113 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9937). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon/2.2.1/daemon-9937.out.log
+13:36:13.115 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:36:13.115 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+13:36:13.118 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:36:13.118 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Parallel execution is an incubating feature.
+Download https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+Download https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+:buildSrc:clean UP-TO-DATE
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovyNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:buildSrc:processResources
+:buildSrc:classes
+:buildSrc:jar
+:buildSrc:assemble
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses
+:buildSrc:test
+:buildSrc:check
+:buildSrc:build
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.0/gradle-bintray-plugin-1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/0.11.2/gradle-0.11.2.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/22.9.2/lint-22.9.2.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/4.11/proguard-gradle-4.11.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-parent/4.11/proguard-parent-4.11.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder/0.11.2/builder-0.11.2.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/22.9.2/lint-checks-22.9.2.pom
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/4.11/proguard-base-4.11.pom
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/22.9.2/ddmlib-22.9.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/0.11.2/builder-model-0.11.2.pom
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/22.9.2/sdk-common-22.9.2.pom
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/0.11.2/builder-test-api-0.11.2.pom
+Download https://jcenter.bintray.com/com/android/tools/sdklib/22.9.2/sdklib-22.9.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/22.9.2/manifest-merger-22.9.2.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.pom
+Download https://jcenter.bintray.com/com/android/tools/common/22.9.2/common-22.9.2.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/22.9.2/lint-api-22.9.2.pom
+Download https://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+Download https://jcenter.bintray.com/com/android/tools/dvlib/22.9.2/dvlib-22.9.2.pom
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/22.9.2/layoutlib-api-22.9.2.pom
+Download https://jcenter.bintray.com/kxml2/kxml2/2.3.0/kxml2-2.3.0.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.pom
+Download https://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.pom
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+POM relocation to an other version number is not fully supported in Gradle : xml-apis#xml-apis;2.0.2 relocated to xml-apis#xml-apis;1.0.b2.
+Please update your dependency to directly use the correct version 'xml-apis#xml-apis;1.0.b2'.
+Resolution will only pick dependencies of the relocated element.  Artifacts and other metadata will be ignored.
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.0/gradle-bintray-plugin-1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/0.11.2/gradle-0.11.2.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/22.9.2/lint-22.9.2.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/4.11/proguard-gradle-4.11.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder/0.11.2/builder-0.11.2.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/22.9.2/lint-checks-22.9.2.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/4.11/proguard-base-4.11.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/22.9.2/ddmlib-22.9.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/0.11.2/builder-model-0.11.2.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/22.9.2/sdk-common-22.9.2.jar
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/0.11.2/builder-test-api-0.11.2.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/22.9.2/sdklib-22.9.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/22.9.2/manifest-merger-22.9.2.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar
+Download https://jcenter.bintray.com/com/android/tools/common/22.9.2/common-22.9.2.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/22.9.2/lint-api-22.9.2.jar
+Download https://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+Download https://jcenter.bintray.com/com/android/tools/dvlib/22.9.2/dvlib-22.9.2.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/22.9.2/layoutlib-api-22.9.2.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar
+Download https://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.jar
+Download https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Download https://jcenter.bintray.com/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.jar
+Version: 2.0.0-beta
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:extTest:processResources UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:processResources UP-TO-DATE
+:classes
+:jarJava HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+
+Buildfile: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build-ant.xml
+
+bndCore:
+      [bnd] # org.mockito.mockito-core (mockito-core-2.0.0-beta.jar.bnd) 736 
+
+osgify.mockito-core:
+      [zip] Updating zip: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build/libs/mockito-core-2.0.0-beta.jar
+
+BUILD SUCCESSFUL
+Total time: 1 second
+:testng:compileJava
+Download https://jcenter.bintray.com/org/testng/testng/6.3.1/testng-6.3.1.pom
+Download https://jcenter.bintray.com/org/testng/testng/6.3.1/testng-6.3.1.jar
+Note: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/src/main/java/org/mockito/testng/MockitoBeforeTestNGMethod.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:testng:classes
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 33.151 secs
+13:38:42.970 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/buildscript).
+13:38:42.971 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/no_buildscript).
+13:38:42.971 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/buildscript).
+13:38:42.972 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/no_buildscript).
+13:38:42.972 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/buildscript).
+13:38:42.972 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/no_buildscript).
+13:38:42.973 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/buildscript).
+13:38:42.973 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/no_buildscript).
+13:38:42.974 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/buildscript).
+13:38:42.974 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/no_buildscript).
+13:38:42.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/buildscript).
+13:38:42.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/no_buildscript).
+13:38:42.976 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/buildscript).
+13:38:42.976 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/no_buildscript).
+13:38:42.976 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/buildscript).
+13:38:42.977 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/no_buildscript).
+13:38:42.977 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/buildscript).
+13:38:42.978 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/no_buildscript).
+13:38:42.978 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/buildscript).
+13:38:42.978 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/no_buildscript).
+13:38:42.979 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/buildscript).
+13:38:42.979 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/no_buildscript).
+13:38:42.980 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:38:42.980 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:38:42.981 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/outputFileStates.bin)
+13:38:42.981 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin)
+13:38:42.982 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileHashes.bin)
+13:38:42.982 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin)
+13:38:42.983 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts).
+13:38:42.983 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/plugin-resolution) was closed 0 times.
+13:38:42.984 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-repository.bin)
+13:38:42.984 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-versions.bin)
+13:38:42.984 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-metadata.bin)
+13:38:42.985 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-artifacts.bin)
+13:38:42.985 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-url.bin)
+13:38:42.986 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2).
+13:38:42.986 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 4, cache instances: 1, modules served from cache: 27, artifacts: 27
+13:38:42.987 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:42.987 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:42.988 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+13:38:42.988 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:38:43.208 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:43.209 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@13c7014e]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@5c2c2336 with state Running
+13:38:43.209 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@13c7014e]
+13:38:43.209 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904723209
+13:38:43.210 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:43.210 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:43.211 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:43.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:43.214 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:43.217 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:38:43.218 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34417<->75.126.118.188:443 closed
+13:38:43.218 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34417<->75.126.118.188:443 closed
+13:38:43.218 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:38:43.219 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:38:43.220 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34419<->75.126.118.188:443 closed
+13:38:43.220 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:47162<->23.204.177.193:443 closed
+13:38:43.220 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34419<->75.126.118.188:443 closed
+13:38:43.220 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:47162<->23.204.177.193:443 closed
+13:38:43.221 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:38:43.221 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:38:43.221 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34418<->75.126.118.188:443 closed
+13:38:43.222 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34418<->75.126.118.188:443 closed
+13:38:43.222 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:38:43.222 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:38:43 PDT 2017
+13:38:43.234 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:38:43.235 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:38:43.236 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:38:43.236 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34410<->75.126.118.188:443 closed
+13:38:43.236 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:47153<->23.204.177.193:443 closed
+13:38:43.236 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:34410<->75.126.118.188:443 closed
+13:38:43.237 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:47153<->23.204.177.193:443 closed
+13:38:43.237 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:38:43.243 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+13:38:43.243 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@29e2d64c
+13:38:43.243 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+13:38:43.244 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:38:43.244 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:38:43.244 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:41798<->108.168.243.150:443 closed
+13:38:43.245 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:41798<->108.168.243.150:443 closed
+13:38:43.245 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:38:43.245 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=63dcff68-2945-4316-85cd-e27416442e37.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:43.246 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:38:43.246 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:38:43.246 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:41796<->108.168.243.150:443 closed
+13:38:43.246 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:43.247 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:41796<->108.168.243.150:443 closed
+13:38:43.247 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:38:43.247 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:44.801 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:57663 to /0:0:0:0:0:0:0:1:41655.
+13:38:44.824 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 51: received class org.gradle.launcher.daemon.protocol.Build
+13:38:44.825 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:44.825 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}.
+13:38:44.825 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6} with connection: socket connection from /0:0:0:0:0:0:0:1:41655 to /0:0:0:0:0:0:0:1:57663.
+13:38:44.826 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@22b1e9e0] after 0.0 minutes of idle
+13:38:44.826 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:44.826 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:44.826 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:44.827 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:44.830 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:44.831 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904724831
+13:38:44.831 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:44.831 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}. Dispatching build started information...
+13:38:44.831 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:38:44.833 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, LESSCLOSE=/usr/bin/lesspipe %s %s, TZ=America/Los_Angeles, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.UTF-8, XDG_SESSION_ID=864, DISPLAY=localhost:11.0, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home, MAIL=/var/mail/Xia, experiment_root=/home/SELab/mutation, LOGNAME=Xia, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, SSH_TTY=/dev/pts/9, SSH_CLIENT=10.21.44.248 49188 22, J2SDKDIR=/usr/lib/jvm/java-8-oracle, DROIDSAFE_MEMORY=32, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, USER=Xia, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/wrapper/gradle-wrapper.jar, MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, SSH_CONNECTION=10.21.44.248 49188 129.110.93.16 22, QT_QPA_PLATFORMTHEME=appmenu-qt5, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902517.357450-173093558, XDG_RUNTIME_DIR=/run/user/1015, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, HOME=/home/Xia, SHLVL=4}
+13:38:44.834 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:38:44.835 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9937). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon/2.2.1/daemon-9937.out.log
+13:38:44.835 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:38:44.836 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 2.0.0-beta
+:dependencies
+
+------------------------------------------------------------
+Root project - Core API and implementation.
+------------------------------------------------------------
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+cobertura
++--- net.sourceforge.cobertura:cobertura:2.0.3
+|    +--- org.ow2.asm:asm:4.1
+|    +--- org.ow2.asm:asm-tree:4.1
+|    |    \--- org.ow2.asm:asm:4.1
+|    +--- org.ow2.asm:asm-commons:4.1
+|    |    \--- org.ow2.asm:asm-tree:4.1 (*)
+|    +--- org.ow2.asm:asm-util:4.1
+|    |    \--- org.ow2.asm:asm-tree:4.1 (*)
+|    +--- org.ow2.asm:asm-analysis:4.1
+|    |    \--- org.ow2.asm:asm-tree:4.1 (*)
+|    +--- oro:oro:2.0.8
+|    +--- jaxen:jaxen:1.1-beta-8
+|    |    +--- dom4j:dom4j:1.6.1
+|    |    |    \--- xml-apis:xml-apis:1.0.b2 -> 2.0.2
+|    |    +--- jdom:jdom:1.0
+|    |    +--- xerces:xmlParserAPIs:2.6.2
+|    |    +--- xerces:xercesImpl:2.6.2
+|    |    \--- xom:xom:1.0b3
+|    |         +--- xerces:xmlParserAPIs:2.6.1 -> 2.6.2
+|    |         +--- xerces:xercesImpl:2.2.1 -> 2.6.2
+|    |         +--- com.ibm.icu:icu4j:2.6.1
+|    |         +--- xalan:xalan:2.6.0
+|    |         |    \--- xml-apis:xml-apis:2.0.2
+|    |         \--- org.ccil.cowan.tagsoup:tagsoup:0.9.7
+|    +--- org.apache.ant:ant:1.8.3
+|    |    \--- org.apache.ant:ant-launcher:1.8.3
+|    +--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+|    +--- org.mortbay.jetty:jetty:6.1.14
+|    |    +--- org.mortbay.jetty:jetty-util:6.1.14
+|    |    \--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+|    +--- org.mortbay.jetty:jetty-util:6.1.14
+|    \--- log4j:log4j:1.2.9
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+compile - Compile classpath for source set 'main'.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+default - Configuration for default artifacts.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+previousPom
+\--- org.mockito:mockito-core:1.10.19
+
+previousSrc
+\--- org.mockito:mockito-core:1.10.19
+
+provided
+\--- junit:junit:4.10
+     \--- org.hamcrest:hamcrest-core:1.1
+
+runtime - Runtime classpath for source set 'main'.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+testCompile - Compile classpath for source set 'test'.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+testRuntime - Runtime classpath for source set 'test'.
++--- org.hamcrest:hamcrest-core:1.1
++--- org.objenesis:objenesis:2.1
++--- junit:junit:4.10
+|    \--- org.hamcrest:hamcrest-core:1.1
+\--- net.sourceforge.cobertura:cobertura:2.0.3
+     +--- org.ow2.asm:asm:4.1
+     +--- org.ow2.asm:asm-tree:4.1
+     |    \--- org.ow2.asm:asm:4.1
+     +--- org.ow2.asm:asm-commons:4.1
+     |    \--- org.ow2.asm:asm-tree:4.1 (*)
+     +--- org.ow2.asm:asm-util:4.1
+     |    \--- org.ow2.asm:asm-tree:4.1 (*)
+     +--- org.ow2.asm:asm-analysis:4.1
+     |    \--- org.ow2.asm:asm-tree:4.1 (*)
+     +--- oro:oro:2.0.8
+     +--- jaxen:jaxen:1.1-beta-8
+     |    +--- dom4j:dom4j:1.6.1
+     |    |    \--- xml-apis:xml-apis:1.0.b2 -> 2.0.2
+     |    +--- jdom:jdom:1.0
+     |    +--- xerces:xmlParserAPIs:2.6.2
+     |    +--- xerces:xercesImpl:2.6.2
+     |    \--- xom:xom:1.0b3
+     |         +--- xerces:xmlParserAPIs:2.6.1 -> 2.6.2
+     |         +--- xerces:xercesImpl:2.2.1 -> 2.6.2
+     |         +--- com.ibm.icu:icu4j:2.6.1
+     |         +--- xalan:xalan:2.6.0
+     |         |    \--- xml-apis:xml-apis:2.0.2
+     |         \--- org.ccil.cowan.tagsoup:tagsoup:0.9.7
+     +--- org.apache.ant:ant:1.8.3
+     |    \--- org.apache.ant:ant-launcher:1.8.3
+     +--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+     +--- org.mortbay.jetty:jetty:6.1.14
+     |    +--- org.mortbay.jetty:jetty-util:6.1.14
+     |    \--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+     +--- org.mortbay.jetty:jetty-util:6.1.14
+     \--- log4j:log4j:1.2.9
+
+testUtil
+No dependencies
+
+BUILD SUCCESSFUL
+
+Total time: 2.264 secs
+13:38:46.438 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/buildscript).
+13:38:46.439 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/no_buildscript).
+13:38:46.439 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/buildscript).
+13:38:46.440 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/no_buildscript).
+13:38:46.440 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/buildscript).
+13:38:46.440 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/no_buildscript).
+13:38:46.441 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/buildscript).
+13:38:46.441 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/no_buildscript).
+13:38:46.441 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/buildscript).
+13:38:46.442 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/no_buildscript).
+13:38:46.442 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/buildscript).
+13:38:46.443 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/no_buildscript).
+13:38:46.443 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/buildscript).
+13:38:46.443 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/no_buildscript).
+13:38:46.444 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/buildscript).
+13:38:46.444 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/no_buildscript).
+13:38:46.445 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/buildscript).
+13:38:46.445 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/no_buildscript).
+13:38:46.446 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/buildscript).
+13:38:46.446 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/no_buildscript).
+13:38:46.446 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/buildscript).
+13:38:46.447 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/no_buildscript).
+13:38:46.447 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:38:46.448 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:38:46.448 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin)
+13:38:46.449 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin)
+13:38:46.449 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts).
+13:38:46.450 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-metadata.bin)
+13:38:46.450 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-artifacts.bin)
+13:38:46.451 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-repository.bin)
+13:38:46.451 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-versions.bin)
+13:38:46.451 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-url.bin)
+13:38:46.452 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2).
+13:38:46.452 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/plugin-resolution) was closed 0 times.
+13:38:46.453 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 11, cache instances: 1, modules served from cache: 60, artifacts: 0
+13:38:46.453 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 10 (avg: 0.0 secs, total: 0.006 secs)
+13:38:46.454 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:46.454 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+13:38:46.455 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:38:46.456 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@22b1e9e0]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@5c2c2336 with state Running
+13:38:46.457 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@22b1e9e0]
+13:38:46.457 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904726457
+13:38:46.458 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:46.458 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:46.458 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:46.459 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:46.461 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:46.461 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:38:46 PDT 2017
+13:38:46.461 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:38:46.462 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:38:46.462 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=c79fc893-94e7-4537-9f90-fed6d7310dcc.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:46.466 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 51: received class org.gradle.launcher.daemon.protocol.Finished
+13:38:46.467 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@63bed31e
+13:38:46.467 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@63bed31e
+13:38:46.467 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:46.469 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 51: received null
+13:38:46.469 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:38:46.470 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:48.046 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:57665 to /0:0:0:0:0:0:0:1:41655.
+13:38:48.064 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 54: received class org.gradle.launcher.daemon.protocol.Build
+13:38:48.064 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:48.065 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}.
+13:38:48.065 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6} with connection: socket connection from /0:0:0:0:0:0:0:1:41655 to /0:0:0:0:0:0:0:1:57665.
+13:38:48.065 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@19389d5e] after 0.0 minutes of idle
+13:38:48.066 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:48.066 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:48.067 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:48.068 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:48.072 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:48.072 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904728072
+13:38:48.072 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:48.072 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}. Dispatching build started information...
+13:38:48.072 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:38:48.073 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, LESSCLOSE=/usr/bin/lesspipe %s %s, TZ=America/Los_Angeles, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.UTF-8, XDG_SESSION_ID=864, DISPLAY=localhost:11.0, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home, MAIL=/var/mail/Xia, experiment_root=/home/SELab/mutation, LOGNAME=Xia, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, SSH_TTY=/dev/pts/9, SSH_CLIENT=10.21.44.248 49188 22, J2SDKDIR=/usr/lib/jvm/java-8-oracle, DROIDSAFE_MEMORY=32, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, USER=Xia, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/wrapper/gradle-wrapper.jar, MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, SSH_CONNECTION=10.21.44.248 49188 129.110.93.16 22, QT_QPA_PLATFORMTHEME=appmenu-qt5, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902517.357450-173093558, XDG_RUNTIME_DIR=/run/user/1015, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, SHLVL=3, HOME=/home/Xia}
+13:38:48.074 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:38:48.074 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9937). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon/2.2.1/daemon-9937.out.log
+13:38:48.075 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:38:48.075 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 2.0.0-beta
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:extTest:processResources
+:testng:processTestResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:processTestResources UP-TO-DATE
+:testClasses
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava
+:extTest:testClasses
+:testng:testClasses
+
+BUILD SUCCESSFUL
+
+Total time: 7.885 secs
+13:38:55.420 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/buildscript).
+13:38:55.420 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/no_buildscript).
+13:38:55.421 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/buildscript).
+13:38:55.421 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/no_buildscript).
+13:38:55.421 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/buildscript).
+13:38:55.422 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/no_buildscript).
+13:38:55.422 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/buildscript).
+13:38:55.422 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/no_buildscript).
+13:38:55.423 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/buildscript).
+13:38:55.423 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/no_buildscript).
+13:38:55.423 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/buildscript).
+13:38:55.424 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/no_buildscript).
+13:38:55.424 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/buildscript).
+13:38:55.424 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/no_buildscript).
+13:38:55.424 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/buildscript).
+13:38:55.425 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/no_buildscript).
+13:38:55.425 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/buildscript).
+13:38:55.425 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/no_buildscript).
+13:38:55.426 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/buildscript).
+13:38:55.426 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/no_buildscript).
+13:38:55.426 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/buildscript).
+13:38:55.427 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/no_buildscript).
+13:38:55.427 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:38:55.427 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:38:55.428 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin)
+13:38:55.428 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/outputFileStates.bin)
+13:38:55.428 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin)
+13:38:55.429 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileHashes.bin)
+13:38:55.429 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts).
+13:38:55.434 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/plugin-resolution) was closed 0 times.
+13:38:55.435 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-url.bin)
+13:38:55.435 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-repository.bin)
+13:38:55.435 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-metadata.bin)
+13:38:55.436 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-artifacts.bin)
+13:38:55.436 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-versions.bin)
+13:38:55.437 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2).
+13:38:55.437 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 7, cache instances: 1, modules served from cache: 15, artifacts: 15
+13:38:55.438 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:55.438 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:55.442 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 6 resolution results binary files in 0.005 secs
+13:38:55.442 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:38:55.444 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:55.444 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@19389d5e]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@5c2c2336 with state Running
+13:38:55.444 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@19389d5e]
+13:38:55.444 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904735444
+13:38:55.444 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:55.445 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:55.445 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:55.445 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:55.446 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:55.447 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:38:55 PDT 2017
+13:38:55.447 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:38:55.447 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:38:55.447 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=ba39d74a-9d49-4339-9702-623acb21972a.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:55.451 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 54: received class org.gradle.launcher.daemon.protocol.Finished
+13:38:55.451 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@5e48b3cc
+13:38:55.451 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@5e48b3cc
+13:38:55.452 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:55.453 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 54: received null
+13:38:55.453 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:38:55.454 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:57.078 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:57667 to /0:0:0:0:0:0:0:1:41655.
+13:38:57.098 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 59: received class org.gradle.launcher.daemon.protocol.Build
+13:38:57.098 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:57.099 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}.
+13:38:57.099 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6} with connection: socket connection from /0:0:0:0:0:0:0:1:41655 to /0:0:0:0:0:0:0:1:57667.
+13:38:57.102 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2f0835ca] after 0.0 minutes of idle
+13:38:57.102 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:57.103 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:57.103 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:57.103 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:57.105 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:57.106 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904737106
+13:38:57.106 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:57.106 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}. Dispatching build started information...
+13:38:57.107 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:38:57.107 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, LESSCLOSE=/usr/bin/lesspipe %s %s, TZ=America/Los_Angeles, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.UTF-8, XDG_SESSION_ID=864, DISPLAY=localhost:11.0, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home, MAIL=/var/mail/Xia, experiment_root=/home/SELab/mutation, LOGNAME=Xia, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, SSH_TTY=/dev/pts/9, SSH_CLIENT=10.21.44.248 49188 22, J2SDKDIR=/usr/lib/jvm/java-8-oracle, DROIDSAFE_MEMORY=32, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, USER=Xia, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/wrapper/gradle-wrapper.jar, MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, SSH_CONNECTION=10.21.44.248 49188 129.110.93.16 22, QT_QPA_PLATFORMTHEME=appmenu-qt5, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902517.357450-173093558, XDG_RUNTIME_DIR=/run/user/1015, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, SHLVL=3, HOME=/home/Xia}
+13:38:57.108 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:38:57.108 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9937). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon/2.2.1/daemon-9937.out.log
+13:38:57.109 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:38:57.109 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 2.0.0-beta
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:testng:processTestResources
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources UP-TO-DATE
+:testng:processTestResources UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava UP-TO-DATE
+:extTest:testClasses UP-TO-DATE
+:extTest:compileTestJava UP-TO-DATE
+:testng:testClasses UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.698 secs
+13:38:58.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/buildscript).
+13:38:58.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/no_buildscript).
+13:38:58.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/buildscript).
+13:38:58.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/no_buildscript).
+13:38:58.213 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/buildscript).
+13:38:58.213 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/no_buildscript).
+13:38:58.213 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/buildscript).
+13:38:58.213 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/no_buildscript).
+13:38:58.213 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/buildscript).
+13:38:58.214 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/no_buildscript).
+13:38:58.214 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/buildscript).
+13:38:58.214 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/no_buildscript).
+13:38:58.215 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/buildscript).
+13:38:58.215 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/no_buildscript).
+13:38:58.215 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/buildscript).
+13:38:58.216 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/no_buildscript).
+13:38:58.216 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/buildscript).
+13:38:58.216 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/no_buildscript).
+13:38:58.217 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/buildscript).
+13:38:58.217 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/no_buildscript).
+13:38:58.217 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/buildscript).
+13:38:58.218 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/no_buildscript).
+13:38:58.218 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:38:58.218 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:38:58.219 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileHashes.bin)
+13:38:58.219 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts).
+13:38:58.220 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-repository.bin)
+13:38:58.220 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-metadata.bin)
+13:38:58.221 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-versions.bin)
+13:38:58.221 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-artifacts.bin)
+13:38:58.221 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2).
+13:38:58.222 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/plugin-resolution) was closed 0 times.
+13:38:58.222 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 7, cache instances: 1, modules served from cache: 15, artifacts: 15
+13:38:58.223 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:58.224 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:38:58.225 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 6 resolution results binary files in 0.002 secs
+13:38:58.225 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:38:58.227 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:58.227 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2f0835ca]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@5c2c2336 with state Running
+13:38:58.227 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2f0835ca]
+13:38:58.227 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904738227
+13:38:58.228 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:58.228 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:58.228 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:58.229 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:58.233 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:58.233 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:38:58 PDT 2017
+13:38:58.234 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:38:58.234 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:38:58.234 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=27a8d33f-741c-4f2d-815c-616e384e6d2d.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:58.254 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 59: received class org.gradle.launcher.daemon.protocol.Finished
+13:38:58.254 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@590c9bd5
+13:38:58.255 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 59: received null
+13:38:58.256 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:38:58.257 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:38:58.257 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:58.262 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:38:59.908 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:57668 to /0:0:0:0:0:0:0:1:41655.
+13:38:59.929 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 64: received class org.gradle.launcher.daemon.protocol.Build
+13:38:59.929 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:38:59.929 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}.
+13:38:59.929 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6} with connection: socket connection from /0:0:0:0:0:0:0:1:41655 to /0:0:0:0:0:0:0:1:57668.
+13:38:59.930 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@231f614a] after 0.0 minutes of idle
+13:38:59.930 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:59.930 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:38:59.930 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:38:59.930 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:38:59.932 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:38:59.932 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904739932
+13:38:59.932 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:38:59.932 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}. Dispatching build started information...
+13:38:59.932 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:38:59.933 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, LESSCLOSE=/usr/bin/lesspipe %s %s, TZ=America/Los_Angeles, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.UTF-8, XDG_SESSION_ID=864, DISPLAY=localhost:11.0, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home, MAIL=/var/mail/Xia, experiment_root=/home/SELab/mutation, LOGNAME=Xia, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, SSH_TTY=/dev/pts/9, SSH_CLIENT=10.21.44.248 49188 22, J2SDKDIR=/usr/lib/jvm/java-8-oracle, DROIDSAFE_MEMORY=32, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6, USER=Xia, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/wrapper/gradle-wrapper.jar, MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, SSH_CONNECTION=10.21.44.248 49188 129.110.93.16 22, QT_QPA_PLATFORMTHEME=appmenu-qt5, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902517.357450-173093558, XDG_RUNTIME_DIR=/run/user/1015, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, SHLVL=3, HOME=/home/Xia}
+13:38:59.933 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:38:59.933 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 9937). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon/2.2.1/daemon-9937.out.log
+13:38:59.933 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:38:59.934 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1fe19490-29d3-46f5-876a-534ae113268b,javaHome=/usr/lib/jvm/java-8-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/daemon,pid=9937,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 2.0.0-beta
+:compileJava
+:extTest:compileJava UP-TO-DATE
+:extTest:processResources UP-TO-DATE
+:testng:processResources
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:testng:processTestResources UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava UP-TO-DATE
+:testng:testClasses UP-TO-DATE
+:extTest:compileTestJava UP-TO-DATE
+:extTest:testClasses UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.628 secs
+13:39:00.961 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/buildscript).
+13:39:00.962 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/settings.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/settings_cqsmmppaqoykxf11p3ey0mi5v/SettingsScript/no_buildscript).
+13:39:00.962 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/buildscript).
+13:39:00.962 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/build.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/build_1dbssuz4bdy3mnlnfxe7snu12/ProjectScript/no_buildscript).
+13:39:00.963 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/buildscript).
+13:39:00.963 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/version.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/version_5n2wyl9qw7v47u0ujjomyckod/DefaultScript/no_buildscript).
+13:39:00.963 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/buildscript).
+13:39:00.964 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/ide.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/ide_cwy8w2bnqj52fpeockkpc0qrs/DefaultScript/no_buildscript).
+13:39:00.964 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/buildscript).
+13:39:00.964 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/coverage.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/coverage_dkfzoehi8eqljyqoabywujppi/DefaultScript/no_buildscript).
+13:39:00.965 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/buildscript).
+13:39:00.965 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/extTest/extTest.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/extTest_evavv4kkw7zxwtfc3pg8zh478/ProjectScript/no_buildscript).
+13:39:00.965 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/buildscript).
+13:39:00.966 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/subprojects/testng/testng.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/testng_ew02s5yulyee9puceuj42igi4/ProjectScript/no_buildscript).
+13:39:00.966 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/buildscript).
+13:39:00.966 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/javadoc.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/javadoc_56oxqqek6ic0sbp7yjsol0ief/DefaultScript/no_buildscript).
+13:39:00.966 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/buildscript).
+13:39:00.966 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/release.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/release_pouue1ijriewdtcb0xrb8j6q/DefaultScript/no_buildscript).
+13:39:00.967 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/buildscript).
+13:39:00.967 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/publish.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/publish_4kn8ms2m7yuaofjej2zq9bzo5/DefaultScript/no_buildscript).
+13:39:00.967 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/buildscript).
+13:39:00.967 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for script '/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/gradle/pom.gradle' (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/scripts/pom_dz08amt0mvjbqm88b0s6mocza/DefaultScript/no_buildscript).
+13:39:00.968 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:39:00.968 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:39:00.969 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts/fileHashes.bin)
+13:39:00.970 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle/2.2.1/taskArtifacts).
+13:39:00.977 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/2.2.1/plugin-resolution) was closed 0 times.
+13:39:00.977 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/artifact-at-repository.bin)
+13:39:00.978 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-artifacts.bin)
+13:39:00.978 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-metadata.bin)
+13:39:00.978 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2/metadata-2.14/module-versions.bin)
+13:39:00.979 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6/.gradle_local_home/caches/modules-2).
+13:39:00.979 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 7, cache instances: 1, modules served from cache: 15, artifacts: 15
+13:39:00.980 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:39:00.980 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:39:00.981 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 6 resolution results binary files in 0.002 secs
+13:39:00.981 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:39:00.983 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@231f614a]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@5c2c2336 with state Running
+13:39:00.983 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@231f614a]
+13:39:00.983 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904740983
+13:39:00.983 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:39:00.984 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:39:00.984 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:39:00.984 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:39:00.986 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:39:00.986 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:39:00.987 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:39:00.987 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:39:00 PDT 2017
+13:39:00.991 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=c037084a-ed50-48cf-a8e0-b7498aa51941.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/6}
+13:39:00.992 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 64: received class org.gradle.launcher.daemon.protocol.Finished
+13:39:00.992 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@3f3a249a
+13:39:00.992 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@3f3a249a
+13:39:00.992 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:39:00.993 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 64: received null
+13:39:00.993 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:39:00.995 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+16:39:00.984 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has been idle for requested period. Stopping now.
+16:39:00.984 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to idle timeout. The daemon is running a build: false
+16:39:00.985 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+16:39:00.985 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+16:39:00.985 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+16:39:00.986 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+16:39:00.987 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:39:00.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:39:00.991 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:39:00.991 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+16:39:00.994 [DEBUGDaemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [23a1d997-bfde-4e21-b22a-3dde7e8e4638 port:41655, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+16:39:00.994 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:39:00.995 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:39:00.995 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

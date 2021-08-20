@@ -1,0 +1,851 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>Instrumentation.Builder (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../105" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Instrumentation.Builder (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/InstrumentationTemplate.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/Instrumentation.Builder.html" target="_top">Frames</a></li>
+<li><a href="Instrumentation.Builder.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class Instrumentation.Builder" class="title">Class Instrumentation.Builder</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.protobuf.AbstractMessageLite.Builder&lt;BuilderType&gt;</li>
+<li>
+<ul class="inheritance">
+<li>com.google.protobuf.AbstractMessage.Builder&lt;BuilderType&gt;</li>
+<li>
+<ul class="inheritance">
+<li>com.google.protobuf.GeneratedMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.Instrumentation.Builder</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>com.google.protobuf.Message.Builder, com.google.protobuf.MessageLite.Builder, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Cloneable.html?is-external=true" title="class or interface in java.lang">Cloneable</a></dd>
+</dl>
+<dl>
+<dt>Enclosing class:</dt>
+<dd><a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public static final class <span class="strong">Instrumentation.Builder</span>
+extends com.google.protobuf.GeneratedMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</pre>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#addAllDeclarationToRemove(java.lang.Iterable)">addAllDeclarationToRemove</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;? extends <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;values)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#addAllInit(java.lang.Iterable)">addAllInit</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;? extends <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;values)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#addDeclarationToRemove(java.lang.String)">addDeclarationToRemove</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#addInit(java.lang.String)">addInit</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#build()">build</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#buildPartial()">buildPartial</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clear()">clear</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clearAppNameSetter()">clearAppNameSetter</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clearDeclarationToRemove()">clearDeclarationToRemove</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clearInit()">clearInit</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clearReportCall()">clearReportCall</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clearReportDefined()">clearReportDefined</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clearReportExit()">clearReportExit</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#clone()">clone</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getAppNameSetter()">getAppNameSetter</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getDeclarationToRemove(int)">getDeclarationToRemove</a></strong>(int&nbsp;index)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getDeclarationToRemoveCount()">getDeclarationToRemoveCount</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getDeclarationToRemoveList()">getDeclarationToRemoveList</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getDefaultInstanceForType()">getDefaultInstanceForType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>com.google.protobuf.Descriptors.Descriptor</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getDescriptorForType()">getDescriptorForType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getInit(int)">getInit</a></strong>(int&nbsp;index)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getInitCount()">getInitCount</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getInitList()">getInitList</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getReportCall()">getReportCall</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getReportDefined()">getReportDefined</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#getReportExit()">getReportExit</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#hasAppNameSetter()">hasAppNameSetter</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#hasReportCall()">hasReportCall</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#hasReportDefined()">hasReportDefined</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#hasReportExit()">hasReportExit</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected <a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#internalGetResult()">internalGetResult</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#isInitialized()">isInitialized</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#mergeFrom(com.google.protobuf.CodedInputStream,%20com.google.protobuf.ExtensionRegistryLite)">mergeFrom</a></strong>(com.google.protobuf.CodedInputStream&nbsp;input,
+         com.google.protobuf.ExtensionRegistryLite&nbsp;extensionRegistry)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#mergeFrom(com.google.javascript.jscomp.Instrumentation)">mergeFrom</a></strong>(<a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a>&nbsp;other)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#mergeFrom(com.google.protobuf.Message)">mergeFrom</a></strong>(com.google.protobuf.Message&nbsp;other)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#setAppNameSetter(java.lang.String)">setAppNameSetter</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#setDeclarationToRemove(int,%20java.lang.String)">setDeclarationToRemove</a></strong>(int&nbsp;index,
+                      <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#setInit(int,%20java.lang.String)">setInit</a></strong>(int&nbsp;index,
+       <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#setReportCall(java.lang.String)">setReportCall</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#setReportDefined(java.lang.String)">setReportDefined</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html#setReportExit(java.lang.String)">setReportExit</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.protobuf.GeneratedMessage.Builder">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.protobuf.GeneratedMessage.Builder</h3>
+<code>addRepeatedField, clearField, getAllFields, getField, getRepeatedField, getRepeatedFieldCount, getUnknownFields, hasField, mergeUnknownFields, newBuilderForField, parseUnknownField, setField, setRepeatedField, setUnknownFields</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.protobuf.AbstractMessage.Builder">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.protobuf.AbstractMessage.Builder</h3>
+<code>mergeDelimitedFrom, mergeDelimitedFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, mergeFrom, newUninitializedMessageException</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.protobuf.AbstractMessageLite.Builder">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.protobuf.AbstractMessageLite.Builder</h3>
+<code>addAll, newUninitializedMessageException</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang">toString</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="internalGetResult()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>internalGetResult</h4>
+<pre>protected&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a>&nbsp;internalGetResult()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>internalGetResult</code>&nbsp;in class&nbsp;<code>com.google.protobuf.GeneratedMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="clear()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clear</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clear()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>clear</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.Message.Builder</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>clear</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.MessageLite.Builder</code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>clear</code>&nbsp;in class&nbsp;<code>com.google.protobuf.AbstractMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="clone()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clone</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clone()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>clone</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.Message.Builder</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>clone</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.MessageLite.Builder</code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>clone</code>&nbsp;in class&nbsp;<code>com.google.protobuf.GeneratedMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="getDescriptorForType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getDescriptorForType</h4>
+<pre>public&nbsp;com.google.protobuf.Descriptors.Descriptor&nbsp;getDescriptorForType()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>getDescriptorForType</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.Message.Builder</code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>getDescriptorForType</code>&nbsp;in class&nbsp;<code>com.google.protobuf.GeneratedMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="getDefaultInstanceForType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getDefaultInstanceForType</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a>&nbsp;getDefaultInstanceForType()</pre>
+</li>
+</ul>
+<a name="isInitialized()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isInitialized</h4>
+<pre>public&nbsp;boolean&nbsp;isInitialized()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>isInitialized</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.MessageLite.Builder</code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>isInitialized</code>&nbsp;in class&nbsp;<code>com.google.protobuf.GeneratedMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="build()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>build</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a>&nbsp;build()</pre>
+</li>
+</ul>
+<a name="buildPartial()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>buildPartial</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a>&nbsp;buildPartial()</pre>
+</li>
+</ul>
+<a name="mergeFrom(com.google.protobuf.Message)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>mergeFrom</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;mergeFrom(com.google.protobuf.Message&nbsp;other)</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>mergeFrom</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.Message.Builder</code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>mergeFrom</code>&nbsp;in class&nbsp;<code>com.google.protobuf.AbstractMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="mergeFrom(com.google.javascript.jscomp.Instrumentation)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>mergeFrom</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;mergeFrom(<a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp">Instrumentation</a>&nbsp;other)</pre>
+</li>
+</ul>
+<a name="mergeFrom(com.google.protobuf.CodedInputStream, com.google.protobuf.ExtensionRegistryLite)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>mergeFrom</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;mergeFrom(com.google.protobuf.CodedInputStream&nbsp;input,
+                                com.google.protobuf.ExtensionRegistryLite&nbsp;extensionRegistry)
+                                  throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>mergeFrom</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.Message.Builder</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>mergeFrom</code>&nbsp;in interface&nbsp;<code>com.google.protobuf.MessageLite.Builder</code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>mergeFrom</code>&nbsp;in class&nbsp;<code>com.google.protobuf.AbstractMessage.Builder&lt;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&gt;</code></dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code><a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+</li>
+</ul>
+<a name="hasReportDefined()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>hasReportDefined</h4>
+<pre>public&nbsp;boolean&nbsp;hasReportDefined()</pre>
+</li>
+</ul>
+<a name="getReportDefined()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReportDefined</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getReportDefined()</pre>
+</li>
+</ul>
+<a name="setReportDefined(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReportDefined</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;setReportDefined(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="clearReportDefined()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clearReportDefined</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clearReportDefined()</pre>
+</li>
+</ul>
+<a name="hasReportCall()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>hasReportCall</h4>
+<pre>public&nbsp;boolean&nbsp;hasReportCall()</pre>
+</li>
+</ul>
+<a name="getReportCall()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReportCall</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getReportCall()</pre>
+</li>
+</ul>
+<a name="setReportCall(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReportCall</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;setReportCall(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="clearReportCall()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clearReportCall</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clearReportCall()</pre>
+</li>
+</ul>
+<a name="hasReportExit()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>hasReportExit</h4>
+<pre>public&nbsp;boolean&nbsp;hasReportExit()</pre>
+</li>
+</ul>
+<a name="getReportExit()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReportExit</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getReportExit()</pre>
+</li>
+</ul>
+<a name="setReportExit(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReportExit</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;setReportExit(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="clearReportExit()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clearReportExit</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clearReportExit()</pre>
+</li>
+</ul>
+<a name="getDeclarationToRemoveList()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getDeclarationToRemoveList</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;getDeclarationToRemoveList()</pre>
+</li>
+</ul>
+<a name="getDeclarationToRemoveCount()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getDeclarationToRemoveCount</h4>
+<pre>public&nbsp;int&nbsp;getDeclarationToRemoveCount()</pre>
+</li>
+</ul>
+<a name="getDeclarationToRemove(int)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getDeclarationToRemove</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getDeclarationToRemove(int&nbsp;index)</pre>
+</li>
+</ul>
+<a name="setDeclarationToRemove(int, java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setDeclarationToRemove</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;setDeclarationToRemove(int&nbsp;index,
+                                             <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="addDeclarationToRemove(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>addDeclarationToRemove</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;addDeclarationToRemove(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="addAllDeclarationToRemove(java.lang.Iterable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>addAllDeclarationToRemove</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;addAllDeclarationToRemove(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;? extends <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;values)</pre>
+</li>
+</ul>
+<a name="clearDeclarationToRemove()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clearDeclarationToRemove</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clearDeclarationToRemove()</pre>
+</li>
+</ul>
+<a name="getInitList()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getInitList</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;getInitList()</pre>
+</li>
+</ul>
+<a name="getInitCount()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getInitCount</h4>
+<pre>public&nbsp;int&nbsp;getInitCount()</pre>
+</li>
+</ul>
+<a name="getInit(int)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getInit</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getInit(int&nbsp;index)</pre>
+</li>
+</ul>
+<a name="setInit(int, java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setInit</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;setInit(int&nbsp;index,
+                              <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="addInit(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>addInit</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;addInit(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="addAllInit(java.lang.Iterable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>addAllInit</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;addAllInit(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;? extends <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;values)</pre>
+</li>
+</ul>
+<a name="clearInit()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clearInit</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clearInit()</pre>
+</li>
+</ul>
+<a name="hasAppNameSetter()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>hasAppNameSetter</h4>
+<pre>public&nbsp;boolean&nbsp;hasAppNameSetter()</pre>
+</li>
+</ul>
+<a name="getAppNameSetter()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getAppNameSetter</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getAppNameSetter()</pre>
+</li>
+</ul>
+<a name="setAppNameSetter(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setAppNameSetter</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;setAppNameSetter(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+</li>
+</ul>
+<a name="clearAppNameSetter()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>clearAppNameSetter</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/Instrumentation.Builder.html" title="class in com.google.javascript.jscomp">Instrumentation.Builder</a>&nbsp;clearAppNameSetter()</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/Instrumentation.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/InstrumentationTemplate.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/Instrumentation.Builder.html" target="_top">Frames</a></li>
+<li><a href="Instrumentation.Builder.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.debugging.WarningsPrinterImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.011">
+  <properties/>
+  <testcase name="shouldPassCorrectWarningFlag" classname="org.mockito.internal.debugging.WarningsPrinterImplTest" time="0.004"/>
+  <testcase name="shouldPrintToString" classname="org.mockito.internal.debugging.WarningsPrinterImplTest" time="0.006"/>
+  <testcase name="shouldUseFinderCorrectly" classname="org.mockito.internal.debugging.WarningsPrinterImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

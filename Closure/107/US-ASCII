@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" ><title>Name Reference Graph Dump</title><style type="text/css">body, td, p {font-family: Arial; font-size: 83%} ul {margin-top:2px; margin-left:0px; padding-left:1em;}li {margin-top:3px; margin-left:24px;padding-left:0px;padding-bottom: 4px}</style></head><body>
+<h1>Name Reference Graph Dump</h1>
+OVERALL STATS
+<ul>
+<li>Total names: 3</ul>
+ALL NAMES
+<UL>
+<LI> <A NAME="window">window
+ (type: unknown) <br>No definitions found<br><LI> <A NAME="{Global Main}">{Global Main}
+ (type: unknown) <br>No definitions found<br><LI> <A NAME="{UNKNOWN}">{UNKNOWN}
+ (type: None) <br>No definitions found<br></ul>
+</body></html>

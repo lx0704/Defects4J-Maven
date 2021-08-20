@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest.testHat(org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest) true
+org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest:testHat:()V:342:assertEquals true
+org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest:testHat:()V:343:assertEquals true
+org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true

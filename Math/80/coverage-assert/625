@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.FrenchVector3DFormatTest.testParseNegativeY(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseNegativeY:()V:229:assertEquals true

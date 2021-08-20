@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.rank.PercentileTest.testSetQuantile(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
+org.apache.commons.math.stat.descriptive.rank.PercentileTest:testSetQuantile:()V:147:assertEquals true

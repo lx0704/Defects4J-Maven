@@ -1,0 +1,8 @@
+org.apache.commons.math.linear.FieldMatrixImplTest.testEqualsAndHashCode(org.apache.commons.math.linear.FieldMatrixImplTest) true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:735:assertTrue true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:736:assertEquals true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:737:assertEquals true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:738:assertEquals true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:739:assertFalse true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:740:assertFalse true
+org.apache.commons.math.linear.FieldMatrixImplTest:testEqualsAndHashCode:()V:741:assertFalse true

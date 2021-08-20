@@ -1,0 +1,10 @@
+org.apache.commons.math.fraction.BigFractionTest.testPow(org.apache.commons.math.fraction.BigFractionTest) true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:543:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:544:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:545:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:546:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:547:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:548:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:549:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:550:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testPow:()V:551:assertEquals true

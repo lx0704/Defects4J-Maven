@@ -1,0 +1,3 @@
+org.apache.commons.math.geometry.Vector3DTest.testNormInf(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testNormInf:()V:67:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testNormInf:()V:68:assertEquals true

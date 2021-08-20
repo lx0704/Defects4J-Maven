@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.SparseFieldMatrixTest.testScalarAdd(org.apache.commons.math.linear.SparseFieldMatrixTest) true
+org.apache.commons.math.linear.SparseFieldMatrixTest:assertClose:(Ljava/lang/String;Lorg/apache/commons/math/linear/FieldMatrix;Lorg/apache/commons/math/linear/FieldMatrix;D)V:658:assertEquals true

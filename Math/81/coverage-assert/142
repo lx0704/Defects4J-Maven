@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest.testNewBisectionSolverValid(org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest) true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest:testNewBisectionSolverValid:()V:53:assertNotNull true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest:testNewBisectionSolverValid:()V:54:assertTrue true

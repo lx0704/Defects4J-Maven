@@ -1,0 +1,4 @@
+org.apache.commons.math.geometry.Vector3DTest.testDistanceInf(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testDistanceInf:()V:99:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testDistanceInf:()V:100:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testDistanceInf:()V:101:assertEquals true

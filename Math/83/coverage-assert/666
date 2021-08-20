@@ -1,0 +1,9 @@
+org.apache.commons.math.geometry.Vector3DTest.testAngular(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:152:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:153:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:154:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:155:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:156:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:157:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:160:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testAngular:()V:161:assertEquals true

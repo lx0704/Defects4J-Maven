@@ -1,0 +1,4 @@
+org.apache.commons.math.complex.ComplexTest.testEqualsNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testEqualsNaN:()V:329:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testEqualsNaN:()V:330:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testEqualsNaN:()V:331:assertTrue true

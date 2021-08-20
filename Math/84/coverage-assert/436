@@ -1,0 +1,11 @@
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testIllConditioned(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:295:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:296:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:297:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:298:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:299:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:317:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:318:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:319:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:320:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testIllConditioned:()V:321:assertEquals true

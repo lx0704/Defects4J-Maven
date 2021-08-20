@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testCircleFittingBadInit(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFittingBadInit:()V:477:assertEquals true
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFittingBadInit:()V:478:assertEquals true
+org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFittingBadInit:()V:479:assertEquals true

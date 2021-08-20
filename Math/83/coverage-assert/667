@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.Vector3DTest.testAngularSeparation(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testAngularSeparation:()V:172:assertTrue true

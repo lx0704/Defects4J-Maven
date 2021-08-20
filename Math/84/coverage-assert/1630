@@ -1,0 +1,17 @@
+org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:273:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:274:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:275:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:277:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:278:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:279:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:287:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:288:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:289:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:297:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:298:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:299:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:304:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:305:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:306:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testEqualsAndHashCode:()V:307:assertEquals true

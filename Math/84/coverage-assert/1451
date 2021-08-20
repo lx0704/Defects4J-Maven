@@ -1,0 +1,2 @@
+org.apache.commons.math.random.RandomAdaptorTest.testNextPoisson(org.apache.commons.math.random.RandomAdaptorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextPoisson:()V:200:assertEquals true

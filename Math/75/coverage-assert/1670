@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest.testProductAndGeometricMean(org.apache.commons.math.stat.descriptive.SummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testProductAndGeometricMean:()V:113:assertEquals true

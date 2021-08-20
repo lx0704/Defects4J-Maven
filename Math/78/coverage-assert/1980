@@ -1,0 +1,2 @@
+org.apache.commons.math.util.BigRealFieldTest.testSerial(org.apache.commons.math.util.BigRealFieldTest) true
+org.apache.commons.math.util.BigRealFieldTest:testSerial:()V:41:assertTrue true

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.003">
+  <properties/>
+  <testcase name="should_get_results_for_methods_stub_only" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.001"/>
+  <testcase name="should_add_throwable_for_void_method" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.0"/>
+  <testcase name="should_validate_throwable_for_void_method" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.0"/>
+  <testcase name="should_validate_throwable" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.001"/>
+  <testcase name="should_finish_stubbing_when_wrong_throwable_is_set" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.0"/>
+  <testcase name="should_finish_stubbing_on_adding_return_value" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.0"/>
+  <testcase name="should_get_results_for_methods" classname="org.mockito.internal.stubbing.InvocationContainerImplStubbingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

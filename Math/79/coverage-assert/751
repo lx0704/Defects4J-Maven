@@ -1,0 +1,7 @@
+org.apache.commons.math.linear.BiDiagonalTransformerTest.testMatricesValues(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testMatricesValues:()V:141:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testMatricesValues:()V:143:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testMatricesValues:()V:145:assertEquals true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testMatricesValues:()V:148:assertTrue true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testMatricesValues:()V:149:assertTrue true
+org.apache.commons.math.linear.BiDiagonalTransformerTest:testMatricesValues:()V:150:assertTrue true

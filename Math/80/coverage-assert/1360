@@ -1,0 +1,7 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testQRColumnsPermutation(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testQRColumnsPermutation:()V:136:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testQRColumnsPermutation:()V:137:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testQRColumnsPermutation:()V:138:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testQRColumnsPermutation:()V:139:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testQRColumnsPermutation:()V:140:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testQRColumnsPermutation:()V:141:assertEquals true

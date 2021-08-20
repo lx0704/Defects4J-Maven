@@ -1,0 +1,9 @@
+org.apache.commons.math.stat.inference.TTestFactoryTest.testOneSampleTTest(org.apache.commons.math.stat.inference.TTestFactoryTest) true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:132:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:134:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:136:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:138:assertEquals true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:140:assertTrue true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:141:assertTrue true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:142:assertTrue true
+org.apache.commons.math.stat.inference.TTestTest:testOneSampleTTest:()V:143:assertTrue true

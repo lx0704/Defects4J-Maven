@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.StatUtilsTest.testGeometricMean(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testGeometricMean:()V:419:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testGeometricMean:()V:421:assertEquals true

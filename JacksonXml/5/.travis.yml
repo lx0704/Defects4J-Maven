@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - openjdk7
+  - openjdk8
+  - oraclejdk9
+
+branches:
+  only:
+    - master
+    - "2.9"

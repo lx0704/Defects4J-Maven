@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.general.MinpackTest.testMinpackPowellSingular(org.apache.commons.math.optimization.general.MinpackTest) true
+org.apache.commons.math.optimization.general.MinpackTest:minpackTest:(Lorg/apache/commons/math/optimization/general/MinpackTest$MinpackFunction;Z)V:503:assertFalse true
+org.apache.commons.math.optimization.general.MinpackTest:minpackTest:(Lorg/apache/commons/math/optimization/general/MinpackTest$MinpackFunction;Z)V:504:assertTrue true
+org.apache.commons.math.optimization.general.MinpackTest:minpackTest:(Lorg/apache/commons/math/optimization/general/MinpackTest$MinpackFunction;Z)V:505:assertTrue true

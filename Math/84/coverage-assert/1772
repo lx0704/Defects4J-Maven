@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.rank.MinTest.testEvaluation(org.apache.commons.math.stat.descriptive.rank.MinTest) true
+org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testEvaluation:()V:69:assertEquals true

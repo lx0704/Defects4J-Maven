@@ -1,0 +1,6 @@
+org.apache.commons.math.stat.descriptive.summary.SumTest.testSpecialValues(org.apache.commons.math.stat.descriptive.summary.SumTest) true
+org.apache.commons.math.stat.descriptive.summary.SumTest:testSpecialValues:()V:58:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumTest:testSpecialValues:()V:60:assertEquals true
+org.apache.commons.math.stat.descriptive.summary.SumTest:testSpecialValues:()V:62:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.SumTest:testSpecialValues:()V:64:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumTest:testSpecialValues:()V:66:assertTrue true

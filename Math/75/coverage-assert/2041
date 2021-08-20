@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testIndicatorByte(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorByte:()V:632:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorByte:()V:633:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorByte:()V:634:assertEquals true

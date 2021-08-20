@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest.testOnDistortedSine(org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnDistortedSine:()V:89:assertTrue true

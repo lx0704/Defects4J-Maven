@@ -1,0 +1,4 @@
+org.apache.commons.math.ode.nonstiff.GillStepInterpolatorTest.serialization(org.apache.commons.math.ode.nonstiff.GillStepInterpolatorTest) true
+org.apache.commons.math.ode.nonstiff.GillStepInterpolatorTest:serialization:()V:68:assertTrue true
+org.apache.commons.math.ode.nonstiff.GillStepInterpolatorTest:serialization:()V:69:assertTrue true
+org.apache.commons.math.ode.nonstiff.GillStepInterpolatorTest:serialization:()V:91:assertTrue true

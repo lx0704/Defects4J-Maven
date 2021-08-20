@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.inference.TestUtilsTest.testSmallSamples(org.apache.commons.math.stat.inference.TestUtilsTest) true
+org.apache.commons.math.stat.inference.TestUtilsTest:testSmallSamples:()V:419:assertEquals true
+org.apache.commons.math.stat.inference.TestUtilsTest:testSmallSamples:()V:421:assertEquals true

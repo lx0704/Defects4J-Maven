@@ -1,0 +1,3 @@
+org.apache.commons.math.util.BigRealTest.testBigDecimalValue(org.apache.commons.math.util.BigRealTest) true
+org.apache.commons.math.util.BigRealTest:testBigDecimalValue:()V:98:assertEquals true
+org.apache.commons.math.util.BigRealTest:testBigDecimalValue:()V:99:assertEquals true

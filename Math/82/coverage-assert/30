@@ -1,0 +1,4 @@
+org.apache.commons.math.analysis.integration.RombergIntegratorTest.testQuinticFunction(org.apache.commons.math.analysis.integration.RombergIntegratorTest) true
+org.apache.commons.math.analysis.integration.RombergIntegratorTest:testQuinticFunction:()V:67:assertEquals true
+org.apache.commons.math.analysis.integration.RombergIntegratorTest:testQuinticFunction:()V:72:assertEquals true
+org.apache.commons.math.analysis.integration.RombergIntegratorTest:testQuinticFunction:()V:77:assertEquals true

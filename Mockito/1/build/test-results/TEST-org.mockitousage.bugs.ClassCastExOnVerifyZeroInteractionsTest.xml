@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:45" hostname="set" time="0.011">
+  <properties/>
+  <testcase name="should_not_throw_ClassCastException_when_mock_verification_fails" classname="org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest" time="0.01"/>
+  <testcase name="should_report_bogus_default_answer" classname="org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

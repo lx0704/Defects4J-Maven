@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.FrenchComplexFormatTest.testZeroReal(org.apache.commons.math.complex.FrenchComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testZeroReal:()V:91:assertEquals true

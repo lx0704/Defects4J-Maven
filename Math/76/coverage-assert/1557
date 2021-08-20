@@ -1,0 +1,2 @@
+org.apache.commons.math.special.ErfTest.testErf0(org.apache.commons.math.special.ErfTest) true
+org.apache.commons.math.special.ErfTest:testErf0:()V:32:assertEquals true

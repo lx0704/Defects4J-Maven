@@ -1,0 +1,4 @@
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testGetFromEmpty(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testGetFromEmpty:()V:132:assertTrue true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testGetFromEmpty:()V:133:assertTrue true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testGetFromEmpty:()V:134:assertTrue true

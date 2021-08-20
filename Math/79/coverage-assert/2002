@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testCosh(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testCosh:()V:312:assertEquals true

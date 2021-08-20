@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.BigMatrixImplTest.testOperate(org.apache.commons.math.linear.BigMatrixImplTest) true
+org.apache.commons.math.linear.BigMatrixImplTest:assertClose:(Ljava/lang/String;[D[DD)V:767:assertEquals true

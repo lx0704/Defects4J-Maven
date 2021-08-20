@@ -1,0 +1,2 @@
+org.apache.commons.math.special.GammaTest.testDigammaSmallArgs(org.apache.commons.math.special.GammaTest) true
+org.apache.commons.math.special.GammaTest:checkRelativeError:(Ljava/lang/String;DDD)V:148:assertEquals true

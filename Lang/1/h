@@ -1,0 +1,13 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Lang 3.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- intelliFL-maven-plugin:1.0-SNAPSHOT:meth-cov (default-cli) @ commons-lang3 ---
+[IntelliFL INFO] Starting method coverage analysis...
+[IntelliFL INFO] jdk.attach.allowAttachSelf: null
+[IntelliFL INFO] file:/usr/lib/jvm/java-7-oracle/lib/tools.jar
+log4j:WARN No appenders could be found for logger (set.intelliFL.maven.DynamicAgentLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

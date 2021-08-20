@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.solvers.BisectionSolverTest.testDeprecated(org.apache.commons.math.analysis.solvers.BisectionSolverTest) true
+org.apache.commons.math.analysis.solvers.BisectionSolverTest:testDeprecated:()V:38:assertEquals true
+org.apache.commons.math.analysis.solvers.BisectionSolverTest:testDeprecated:()V:41:assertEquals true

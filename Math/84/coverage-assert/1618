@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest.testSetterInjection(org.apache.commons.math.stat.descriptive.SummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testSetterInjection:()V:279:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testSetterInjection:()V:280:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testSetterInjection:()V:281:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testSetterInjection:()V:285:assertEquals true

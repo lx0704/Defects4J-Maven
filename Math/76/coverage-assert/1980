@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testPerfect(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testPerfect:()V:239:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testPerfect:()V:240:assertTrue true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testPerfect:()V:241:assertTrue true

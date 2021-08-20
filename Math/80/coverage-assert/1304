@@ -1,0 +1,3 @@
+org.apache.commons.math.ode.sampling.StepNormalizerTest.testBoundaries(org.apache.commons.math.ode.sampling.StepNormalizerTest) true
+org.apache.commons.math.ode.sampling.StepNormalizerTest:checkValue:(DD)V:92:assertTrue true
+org.apache.commons.math.ode.sampling.StepNormalizerTest:testBoundaries:()V:64:assertTrue true

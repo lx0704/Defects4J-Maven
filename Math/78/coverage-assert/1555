@@ -1,0 +1,10 @@
+org.apache.commons.math.stat.FrequencyTest.testEmptyTable(org.apache.commons.math.stat.FrequencyTest) true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:205:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:206:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:207:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:208:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:209:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:210:assertTrue true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:211:assertTrue true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:212:assertTrue true
+org.apache.commons.math.stat.FrequencyTest:testEmptyTable:()V:213:assertTrue true

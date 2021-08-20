@@ -1,0 +1,2934 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>InlineFunctionsTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../98" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="InlineFunctionsTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/InlineCostEstimatorTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/InlineGettersTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/InlineFunctionsTest.html" target="_top">Frames</a></li>
+<li><a href="InlineFunctionsTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class InlineFunctionsTest" class="title">Class InlineFunctionsTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">com.google.javascript.jscomp.CompilerTestCase</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.InlineFunctionsTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">InlineFunctionsTest</span>
+extends <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></pre>
+<div class="block">Inline function tests.</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseTypeInfo">parseTypeInfo</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#InlineFunctionsTest()">InlineFunctionsTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected int</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#getNumRepetitions()">getNumRepetitions</a></strong>()</code>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected <a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></strong>(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</code>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#setUp()">setUp</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testArgumentsWithSideEffectsNeverInlined1()">testArgumentsWithSideEffectsNeverInlined1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testArgumentsWithSideEffectsNeverInlined2()">testArgumentsWithSideEffectsNeverInlined2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexFunctionWithFunctionDefinition1()">testComplexFunctionWithFunctionDefinition1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexFunctionWithFunctionDefinition2()">testComplexFunctionWithFunctionDefinition2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexFunctionWithFunctionDefinition3()">testComplexFunctionWithFunctionDefinition3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline1()">testComplexInline1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline2()">testComplexInline2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline3()">testComplexInline3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline4()">testComplexInline4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline5()">testComplexInline5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline6()">testComplexInline6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline7()">testComplexInline7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInline8()">testComplexInline8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineInExpresssions1()">testComplexInlineInExpresssions1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineInExpresssions2()">testComplexInlineInExpresssions2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineInExpresssions3()">testComplexInlineInExpresssions3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineInExpresssions4()">testComplexInlineInExpresssions4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineInExpresssions5()">testComplexInlineInExpresssions5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineNoResultNoParamCall1()">testComplexInlineNoResultNoParamCall1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineNoResultNoParamCall2()">testComplexInlineNoResultNoParamCall2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineNoResultNoParamCall3()">testComplexInlineNoResultNoParamCall3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineNoResultWithParamCall1()">testComplexInlineNoResultWithParamCall1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineNoResultWithParamCall2()">testComplexInlineNoResultWithParamCall2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineNoResultWithParamCall3()">testComplexInlineNoResultWithParamCall3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars1()">testComplexInlineVars1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars10()">testComplexInlineVars10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars11()">testComplexInlineVars11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars12()">testComplexInlineVars12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars2()">testComplexInlineVars2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars3()">testComplexInlineVars3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars4()">testComplexInlineVars4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars5()">testComplexInlineVars5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars6()">testComplexInlineVars6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars7()">testComplexInlineVars7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars8()">testComplexInlineVars8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexInlineVars9()">testComplexInlineVars9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexNoInline1()">testComplexNoInline1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexNoInline2()">testComplexNoInline2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexNoVarSub()">testComplexNoVarSub</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexSample()">testComplexSample</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testComplexSampleNoInline()">testComplexSampleNoInline</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining1()">testCostBasedInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining10()">testCostBasedInlining10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining11()">testCostBasedInlining11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining12()">testCostBasedInlining12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining2()">testCostBasedInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining3()">testCostBasedInlining3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining4()">testCostBasedInlining4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining5()">testCostBasedInlining5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining6()">testCostBasedInlining6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining7()">testCostBasedInlining7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining8()">testCostBasedInlining8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInlining9()">testCostBasedInlining9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex1()">testCostBasedInliningComplex1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex2()">testCostBasedInliningComplex2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex3()">testCostBasedInliningComplex3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex4()">testCostBasedInliningComplex4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex5()">testCostBasedInliningComplex5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex6()">testCostBasedInliningComplex6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex7()">testCostBasedInliningComplex7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex8()">testCostBasedInliningComplex8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCostBasedInliningComplex9()">testCostBasedInliningComplex9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCrossModuleInlining1()">testCrossModuleInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCrossModuleInlining2()">testCrossModuleInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testCrossModuleInlining3()">testCrossModuleInlining3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testDecomposeFunctionExpressionInCall()">testDecomposeFunctionExpressionInCall</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testDecomposePlusEquals()">testDecomposePlusEquals</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testDoubleInlining1()">testDoubleInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testDoubleInlining2()">testDoubleInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining1()">testFunctionExpressionCallInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining10()">testFunctionExpressionCallInlining10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining11a()">testFunctionExpressionCallInlining11a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining11b()">testFunctionExpressionCallInlining11b</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining11c()">testFunctionExpressionCallInlining11c</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining12()">testFunctionExpressionCallInlining12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining2()">testFunctionExpressionCallInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining3()">testFunctionExpressionCallInlining3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining4()">testFunctionExpressionCallInlining4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining5()">testFunctionExpressionCallInlining5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining6()">testFunctionExpressionCallInlining6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining7()">testFunctionExpressionCallInlining7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining8()">testFunctionExpressionCallInlining8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionCallInlining9()">testFunctionExpressionCallInlining9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionInlining1()">testFunctionExpressionInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionInlining2()">testFunctionExpressionInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionInlining3()">testFunctionExpressionInlining3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionInlining4()">testFunctionExpressionInlining4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionOmega()">testFunctionExpressionOmega</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testFunctionExpressionYCombinator()">testFunctionExpressionYCombinator</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineBlockMutableArgs1()">testInlineBlockMutableArgs1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineBlockMutableArgs2()">testInlineBlockMutableArgs2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineBlockMutableArgs3()">testInlineBlockMutableArgs3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineBlockMutableArgs4()">testInlineBlockMutableArgs4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineCall()">testInlineCall</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineConstructor1()">testInlineConstructor1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineConstructor2()">testInlineConstructor2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineConstructor3()">testInlineConstructor3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineConstructor4()">testInlineConstructor4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineEmptyFunction1()">testInlineEmptyFunction1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineEmptyFunction2()">testInlineEmptyFunction2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineEmptyFunction3()">testInlineEmptyFunction3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineEmptyFunction4()">testInlineEmptyFunction4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineEmptyFunction5()">testInlineEmptyFunction5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions1()">testInlineFunctions1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions10()">testInlineFunctions10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions11()">testInlineFunctions11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions12()">testInlineFunctions12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions13()">testInlineFunctions13</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions14()">testInlineFunctions14</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions15a()">testInlineFunctions15a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions15b()">testInlineFunctions15b</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions15c()">testInlineFunctions15c</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions16()">testInlineFunctions16</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions17()">testInlineFunctions17</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions18()">testInlineFunctions18</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions19()">testInlineFunctions19</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions2()">testInlineFunctions2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions20()">testInlineFunctions20</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions21()">testInlineFunctions21</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions22()">testInlineFunctions22</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions23()">testInlineFunctions23</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions24()">testInlineFunctions24</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions25()">testInlineFunctions25</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions26()">testInlineFunctions26</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions3()">testInlineFunctions3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions4()">testInlineFunctions4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions5()">testInlineFunctions5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions6()">testInlineFunctions6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions7()">testInlineFunctions7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions8()">testInlineFunctions8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctions9()">testInlineFunctions9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctionWithArgsMismatch1()">testInlineFunctionWithArgsMismatch1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctionWithArgsMismatch2()">testInlineFunctionWithArgsMismatch2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctionWithArgsMismatch3()">testInlineFunctionWithArgsMismatch3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineFunctionWithArgsMismatch4()">testInlineFunctionWithArgsMismatch4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineMutableArgsReferencedOnce()">testInlineMutableArgsReferencedOnce</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineNeverMutateConstants()">testInlineNeverMutateConstants</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineNeverOverrideNewValues()">testInlineNeverOverrideNewValues</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineNeverPartialSubtitution1()">testInlineNeverPartialSubtitution1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testInlineNeverPartialSubtitution2()">testInlineNeverPartialSubtitution2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInlining1()">testLocalFunctionInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInlining2()">testLocalFunctionInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInlining3()">testLocalFunctionInlining3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInlining4()">testLocalFunctionInlining4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInlining5()">testLocalFunctionInlining5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInlining6()">testLocalFunctionInlining6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInliningOnly1()">testLocalFunctionInliningOnly1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInliningOnly2()">testLocalFunctionInliningOnly2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInliningOnly3()">testLocalFunctionInliningOnly3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testLocalFunctionInliningOnly4()">testLocalFunctionInliningOnly4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInlining1()">testMixedModeInlining1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInlining2()">testMixedModeInlining2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInlining3()">testMixedModeInlining3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInlining4()">testMixedModeInlining4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInliningCosting1()">testMixedModeInliningCosting1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInliningCosting2()">testMixedModeInliningCosting2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInliningCosting3()">testMixedModeInliningCosting3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testMixedModeInliningCosting4()">testMixedModeInliningCosting4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified1()">testNoInlineIfParametersModified1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified2()">testNoInlineIfParametersModified2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified3()">testNoInlineIfParametersModified3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified4()">testNoInlineIfParametersModified4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified5()">testNoInlineIfParametersModified5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified6()">testNoInlineIfParametersModified6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified7()">testNoInlineIfParametersModified7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified8()">testNoInlineIfParametersModified8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineIfParametersModified9()">testNoInlineIfParametersModified9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineMaskedFunction()">testNoInlineMaskedFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineMutableArgs1()">testNoInlineMutableArgs1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineMutableArgs2()">testNoInlineMutableArgs2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineMutableArgs3()">testNoInlineMutableArgs3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineMutableArgs4()">testNoInlineMutableArgs4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineNonFunction()">testNoInlineNonFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineOfNonGlobalFunction1()">testNoInlineOfNonGlobalFunction1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineOfNonGlobalFunction2()">testNoInlineOfNonGlobalFunction2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineOfNonGlobalFunction3()">testNoInlineOfNonGlobalFunction3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testNoInlineOfNonGlobalFunction4()">testNoInlineOfNonGlobalFunction4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testOneSideEffectCallDoesNotRuinOthers()">testOneSideEffectCallDoesNotRuinOthers</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testRenamePropertyFunction()">testRenamePropertyFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables1()">testShadowVariables1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables10()">testShadowVariables10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables11()">testShadowVariables11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables12()">testShadowVariables12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables13()">testShadowVariables13</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables14()">testShadowVariables14</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables15()">testShadowVariables15</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables16()">testShadowVariables16</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables17()">testShadowVariables17</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables18()">testShadowVariables18</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables2()">testShadowVariables2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables3()">testShadowVariables3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables4()">testShadowVariables4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables5()">testShadowVariables5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables6()">testShadowVariables6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables7()">testShadowVariables7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables8()">testShadowVariables8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/InlineFunctionsTest.html#testShadowVariables9()">testShadowVariables9</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#disableNormalize()">disableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableLineNumberCheck(boolean)">enableLineNumberCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize()">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize(boolean)">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableTypeCheck(com.google.javascript.jscomp.CheckLevel)">enableTypeCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getCodingConvention()">getCodingConvention</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions()">getOptions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#setExpectedSymbolTableError(com.google.javascript.jscomp.DiagnosticType)">setExpectedSymbolTableError</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.Compiler,%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSSourceFile[],%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">testSame</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, tearDown, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="InlineFunctionsTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>InlineFunctionsTest</h4>
+<pre>public&nbsp;InlineFunctionsTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="setUp()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setUp</h4>
+<pre>protected&nbsp;void&nbsp;setUp()
+              throws <a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></pre>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>setUp</code>&nbsp;in class&nbsp;<code>junit.framework.TestCase</code></dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></code></dd></dl>
+</li>
+</ul>
+<a name="getProcessor(com.google.javascript.jscomp.Compiler)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getProcessor</h4>
+<pre>protected&nbsp;<a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>&nbsp;getProcessor(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">CompilerTestCase</a></code></strong></div>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>compiler</code> - The compiler</dd>
+<dt><span class="strong">Returns:</span></dt><dd>The pass to test</dd></dl>
+</li>
+</ul>
+<a name="getNumRepetitions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getNumRepetitions</h4>
+<pre>protected&nbsp;int&nbsp;getNumRepetitions()</pre>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">getNumRepetitions</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="testInlineEmptyFunction1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineEmptyFunction1</h4>
+<pre>public&nbsp;void&nbsp;testInlineEmptyFunction1()</pre>
+</li>
+</ul>
+<a name="testInlineEmptyFunction2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineEmptyFunction2</h4>
+<pre>public&nbsp;void&nbsp;testInlineEmptyFunction2()</pre>
+</li>
+</ul>
+<a name="testInlineEmptyFunction3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineEmptyFunction3</h4>
+<pre>public&nbsp;void&nbsp;testInlineEmptyFunction3()</pre>
+</li>
+</ul>
+<a name="testInlineEmptyFunction4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineEmptyFunction4</h4>
+<pre>public&nbsp;void&nbsp;testInlineEmptyFunction4()</pre>
+</li>
+</ul>
+<a name="testInlineEmptyFunction5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineEmptyFunction5</h4>
+<pre>public&nbsp;void&nbsp;testInlineEmptyFunction5()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions1</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions1()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions2</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions2()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions3</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions3()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions4</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions4()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions5</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions5()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions6</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions6()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions7</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions7()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions8</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions8()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions9</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions9()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions10</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions10()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions11</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions11()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions12</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions12()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions13()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions13</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions13()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions14()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions14</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions14()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions15a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions15a</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions15a()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions15b()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions15b</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions15b()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions15c()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions15c</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions15c()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions16()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions16</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions16()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions17()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions17</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions17()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions18()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions18</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions18()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions19()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions19</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions19()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions20()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions20</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions20()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions21()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions21</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions21()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions22()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions22</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions22()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions23()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions23</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions23()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions24()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions24</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions24()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions25()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions25</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions25()</pre>
+</li>
+</ul>
+<a name="testInlineFunctions26()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctions26</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctions26()</pre>
+</li>
+</ul>
+<a name="testMixedModeInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInlining1</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInlining1()</pre>
+</li>
+</ul>
+<a name="testMixedModeInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInlining2</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInlining2()</pre>
+</li>
+</ul>
+<a name="testMixedModeInlining3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInlining3</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInlining3()</pre>
+</li>
+</ul>
+<a name="testMixedModeInlining4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInlining4</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInlining4()</pre>
+</li>
+</ul>
+<a name="testMixedModeInliningCosting1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInliningCosting1</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInliningCosting1()</pre>
+</li>
+</ul>
+<a name="testMixedModeInliningCosting2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInliningCosting2</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInliningCosting2()</pre>
+</li>
+</ul>
+<a name="testMixedModeInliningCosting3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInliningCosting3</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInliningCosting3()</pre>
+</li>
+</ul>
+<a name="testMixedModeInliningCosting4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedModeInliningCosting4</h4>
+<pre>public&nbsp;void&nbsp;testMixedModeInliningCosting4()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified1</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified1()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified2</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified2()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified3</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified3()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified4</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified4()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified5</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified5()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified6</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified6()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified7</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified7()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified8</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified8()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfParametersModified9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfParametersModified9</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfParametersModified9()</pre>
+</li>
+</ul>
+<a name="testInlineNeverPartialSubtitution1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineNeverPartialSubtitution1</h4>
+<pre>public&nbsp;void&nbsp;testInlineNeverPartialSubtitution1()</pre>
+</li>
+</ul>
+<a name="testInlineNeverPartialSubtitution2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineNeverPartialSubtitution2</h4>
+<pre>public&nbsp;void&nbsp;testInlineNeverPartialSubtitution2()</pre>
+</li>
+</ul>
+<a name="testInlineNeverMutateConstants()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineNeverMutateConstants</h4>
+<pre>public&nbsp;void&nbsp;testInlineNeverMutateConstants()</pre>
+</li>
+</ul>
+<a name="testInlineNeverOverrideNewValues()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineNeverOverrideNewValues</h4>
+<pre>public&nbsp;void&nbsp;testInlineNeverOverrideNewValues()</pre>
+</li>
+</ul>
+<a name="testInlineMutableArgsReferencedOnce()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineMutableArgsReferencedOnce</h4>
+<pre>public&nbsp;void&nbsp;testInlineMutableArgsReferencedOnce()</pre>
+</li>
+</ul>
+<a name="testNoInlineMutableArgs1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineMutableArgs1</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineMutableArgs1()</pre>
+</li>
+</ul>
+<a name="testNoInlineMutableArgs2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineMutableArgs2</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineMutableArgs2()</pre>
+</li>
+</ul>
+<a name="testNoInlineMutableArgs3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineMutableArgs3</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineMutableArgs3()</pre>
+</li>
+</ul>
+<a name="testNoInlineMutableArgs4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineMutableArgs4</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineMutableArgs4()</pre>
+</li>
+</ul>
+<a name="testInlineBlockMutableArgs1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineBlockMutableArgs1</h4>
+<pre>public&nbsp;void&nbsp;testInlineBlockMutableArgs1()</pre>
+</li>
+</ul>
+<a name="testInlineBlockMutableArgs2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineBlockMutableArgs2</h4>
+<pre>public&nbsp;void&nbsp;testInlineBlockMutableArgs2()</pre>
+</li>
+</ul>
+<a name="testInlineBlockMutableArgs3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineBlockMutableArgs3</h4>
+<pre>public&nbsp;void&nbsp;testInlineBlockMutableArgs3()</pre>
+</li>
+</ul>
+<a name="testInlineBlockMutableArgs4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineBlockMutableArgs4</h4>
+<pre>public&nbsp;void&nbsp;testInlineBlockMutableArgs4()</pre>
+</li>
+</ul>
+<a name="testShadowVariables1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables1</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables1()</pre>
+</li>
+</ul>
+<a name="testShadowVariables2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables2</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables2()</pre>
+</li>
+</ul>
+<a name="testShadowVariables3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables3</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables3()</pre>
+</li>
+</ul>
+<a name="testShadowVariables4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables4</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables4()</pre>
+</li>
+</ul>
+<a name="testShadowVariables5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables5</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables5()</pre>
+</li>
+</ul>
+<a name="testShadowVariables6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables6</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables6()</pre>
+</li>
+</ul>
+<a name="testShadowVariables7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables7</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables7()</pre>
+</li>
+</ul>
+<a name="testShadowVariables8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables8</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables8()</pre>
+</li>
+</ul>
+<a name="testShadowVariables9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables9</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables9()</pre>
+</li>
+</ul>
+<a name="testShadowVariables10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables10</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables10()</pre>
+</li>
+</ul>
+<a name="testShadowVariables11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables11</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables11()</pre>
+</li>
+</ul>
+<a name="testShadowVariables12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables12</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables12()</pre>
+</li>
+</ul>
+<a name="testShadowVariables13()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables13</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables13()</pre>
+</li>
+</ul>
+<a name="testShadowVariables14()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables14</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables14()</pre>
+</li>
+</ul>
+<a name="testShadowVariables15()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables15</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables15()</pre>
+</li>
+</ul>
+<a name="testShadowVariables16()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables16</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables16()</pre>
+</li>
+</ul>
+<a name="testShadowVariables17()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables17</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables17()</pre>
+</li>
+</ul>
+<a name="testShadowVariables18()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowVariables18</h4>
+<pre>public&nbsp;void&nbsp;testShadowVariables18()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining1</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining1()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining2</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining2()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining3</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining3()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining4</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining4()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining5</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining5()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining6</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining6()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining7</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining7()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining8</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining8()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining9</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining9()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining10</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining10()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining11</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining11()</pre>
+</li>
+</ul>
+<a name="testCostBasedInlining12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInlining12</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInlining12()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex1</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex1()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex2</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex2()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex3</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex3()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex4</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex4()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex5</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex5()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex6</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex6()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex7</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex7()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex8</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex8()</pre>
+</li>
+</ul>
+<a name="testCostBasedInliningComplex9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCostBasedInliningComplex9</h4>
+<pre>public&nbsp;void&nbsp;testCostBasedInliningComplex9()</pre>
+</li>
+</ul>
+<a name="testDoubleInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoubleInlining1</h4>
+<pre>public&nbsp;void&nbsp;testDoubleInlining1()</pre>
+</li>
+</ul>
+<a name="testDoubleInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoubleInlining2</h4>
+<pre>public&nbsp;void&nbsp;testDoubleInlining2()</pre>
+</li>
+</ul>
+<a name="testNoInlineOfNonGlobalFunction1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineOfNonGlobalFunction1</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineOfNonGlobalFunction1()</pre>
+</li>
+</ul>
+<a name="testNoInlineOfNonGlobalFunction2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineOfNonGlobalFunction2</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineOfNonGlobalFunction2()</pre>
+</li>
+</ul>
+<a name="testNoInlineOfNonGlobalFunction3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineOfNonGlobalFunction3</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineOfNonGlobalFunction3()</pre>
+</li>
+</ul>
+<a name="testNoInlineOfNonGlobalFunction4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineOfNonGlobalFunction4</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineOfNonGlobalFunction4()</pre>
+</li>
+</ul>
+<a name="testNoInlineMaskedFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineMaskedFunction</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineMaskedFunction()</pre>
+</li>
+</ul>
+<a name="testNoInlineNonFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineNonFunction</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineNonFunction()</pre>
+</li>
+</ul>
+<a name="testInlineCall()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineCall</h4>
+<pre>public&nbsp;void&nbsp;testInlineCall()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithArgsMismatch1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithArgsMismatch1</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithArgsMismatch1()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithArgsMismatch2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithArgsMismatch2</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithArgsMismatch2()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithArgsMismatch3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithArgsMismatch3</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithArgsMismatch3()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithArgsMismatch4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithArgsMismatch4</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithArgsMismatch4()</pre>
+</li>
+</ul>
+<a name="testArgumentsWithSideEffectsNeverInlined1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testArgumentsWithSideEffectsNeverInlined1</h4>
+<pre>public&nbsp;void&nbsp;testArgumentsWithSideEffectsNeverInlined1()</pre>
+</li>
+</ul>
+<a name="testArgumentsWithSideEffectsNeverInlined2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testArgumentsWithSideEffectsNeverInlined2</h4>
+<pre>public&nbsp;void&nbsp;testArgumentsWithSideEffectsNeverInlined2()</pre>
+</li>
+</ul>
+<a name="testOneSideEffectCallDoesNotRuinOthers()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testOneSideEffectCallDoesNotRuinOthers</h4>
+<pre>public&nbsp;void&nbsp;testOneSideEffectCallDoesNotRuinOthers()</pre>
+</li>
+</ul>
+<a name="testComplexInlineNoResultNoParamCall1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineNoResultNoParamCall1</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineNoResultNoParamCall1()</pre>
+</li>
+</ul>
+<a name="testComplexInlineNoResultNoParamCall2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineNoResultNoParamCall2</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineNoResultNoParamCall2()</pre>
+</li>
+</ul>
+<a name="testComplexInlineNoResultNoParamCall3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineNoResultNoParamCall3</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineNoResultNoParamCall3()</pre>
+</li>
+</ul>
+<a name="testComplexInlineNoResultWithParamCall1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineNoResultWithParamCall1</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineNoResultWithParamCall1()</pre>
+</li>
+</ul>
+<a name="testComplexInlineNoResultWithParamCall2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineNoResultWithParamCall2</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineNoResultWithParamCall2()</pre>
+</li>
+</ul>
+<a name="testComplexInlineNoResultWithParamCall3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineNoResultWithParamCall3</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineNoResultWithParamCall3()</pre>
+</li>
+</ul>
+<a name="testComplexInline1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline1</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline1()</pre>
+</li>
+</ul>
+<a name="testComplexInline2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline2</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline2()</pre>
+</li>
+</ul>
+<a name="testComplexInline3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline3</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline3()</pre>
+</li>
+</ul>
+<a name="testComplexInline4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline4</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline4()</pre>
+</li>
+</ul>
+<a name="testComplexInline5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline5</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline5()</pre>
+</li>
+</ul>
+<a name="testComplexInline6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline6</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline6()</pre>
+</li>
+</ul>
+<a name="testComplexInline7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline7</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline7()</pre>
+</li>
+</ul>
+<a name="testComplexInline8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInline8</h4>
+<pre>public&nbsp;void&nbsp;testComplexInline8()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars1</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars1()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars2</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars2()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars3</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars3()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars4</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars4()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars5</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars5()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars6</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars6()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars7</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars7()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars8</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars8()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars9</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars9()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars10</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars10()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars11</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars11()</pre>
+</li>
+</ul>
+<a name="testComplexInlineVars12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineVars12</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineVars12()</pre>
+</li>
+</ul>
+<a name="testComplexInlineInExpresssions1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineInExpresssions1</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineInExpresssions1()</pre>
+</li>
+</ul>
+<a name="testComplexInlineInExpresssions2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineInExpresssions2</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineInExpresssions2()</pre>
+</li>
+</ul>
+<a name="testComplexInlineInExpresssions3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineInExpresssions3</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineInExpresssions3()</pre>
+</li>
+</ul>
+<a name="testComplexInlineInExpresssions4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineInExpresssions4</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineInExpresssions4()</pre>
+</li>
+</ul>
+<a name="testComplexInlineInExpresssions5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexInlineInExpresssions5</h4>
+<pre>public&nbsp;void&nbsp;testComplexInlineInExpresssions5()</pre>
+</li>
+</ul>
+<a name="testComplexNoInline1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexNoInline1</h4>
+<pre>public&nbsp;void&nbsp;testComplexNoInline1()</pre>
+</li>
+</ul>
+<a name="testComplexNoInline2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexNoInline2</h4>
+<pre>public&nbsp;void&nbsp;testComplexNoInline2()</pre>
+</li>
+</ul>
+<a name="testComplexSample()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexSample</h4>
+<pre>public&nbsp;void&nbsp;testComplexSample()</pre>
+</li>
+</ul>
+<a name="testComplexSampleNoInline()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexSampleNoInline</h4>
+<pre>public&nbsp;void&nbsp;testComplexSampleNoInline()</pre>
+</li>
+</ul>
+<a name="testComplexNoVarSub()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexNoVarSub</h4>
+<pre>public&nbsp;void&nbsp;testComplexNoVarSub()</pre>
+</li>
+</ul>
+<a name="testComplexFunctionWithFunctionDefinition1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexFunctionWithFunctionDefinition1</h4>
+<pre>public&nbsp;void&nbsp;testComplexFunctionWithFunctionDefinition1()</pre>
+</li>
+</ul>
+<a name="testComplexFunctionWithFunctionDefinition2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexFunctionWithFunctionDefinition2</h4>
+<pre>public&nbsp;void&nbsp;testComplexFunctionWithFunctionDefinition2()</pre>
+</li>
+</ul>
+<a name="testComplexFunctionWithFunctionDefinition3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComplexFunctionWithFunctionDefinition3</h4>
+<pre>public&nbsp;void&nbsp;testComplexFunctionWithFunctionDefinition3()</pre>
+</li>
+</ul>
+<a name="testDecomposePlusEquals()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDecomposePlusEquals</h4>
+<pre>public&nbsp;void&nbsp;testDecomposePlusEquals()</pre>
+</li>
+</ul>
+<a name="testDecomposeFunctionExpressionInCall()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDecomposeFunctionExpressionInCall</h4>
+<pre>public&nbsp;void&nbsp;testDecomposeFunctionExpressionInCall()</pre>
+</li>
+</ul>
+<a name="testInlineConstructor1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineConstructor1</h4>
+<pre>public&nbsp;void&nbsp;testInlineConstructor1()</pre>
+</li>
+</ul>
+<a name="testInlineConstructor2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineConstructor2</h4>
+<pre>public&nbsp;void&nbsp;testInlineConstructor2()</pre>
+</li>
+</ul>
+<a name="testInlineConstructor3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineConstructor3</h4>
+<pre>public&nbsp;void&nbsp;testInlineConstructor3()</pre>
+</li>
+</ul>
+<a name="testInlineConstructor4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineConstructor4</h4>
+<pre>public&nbsp;void&nbsp;testInlineConstructor4()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionInlining1</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionInlining1()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionInlining2</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionInlining2()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionInlining3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionInlining3</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionInlining3()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionInlining4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionInlining4</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionInlining4()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining1</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining1()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining2</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining2()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining3</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining3()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining4</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining4()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining5</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining5()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining6</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining6()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining7</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining7()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining8</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining8()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining9</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining9()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining10</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining10()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining11a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining11a</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining11a()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining11b()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining11b</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining11b()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining11c()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining11c</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining11c()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionCallInlining12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionCallInlining12</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionCallInlining12()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionOmega()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionOmega</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionOmega()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInlining1</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInlining1()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInlining2</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInlining2()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInlining3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInlining3</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInlining3()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInlining4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInlining4</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInlining4()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInlining5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInlining5</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInlining5()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInlining6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInlining6</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInlining6()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInliningOnly1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInliningOnly1</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInliningOnly1()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInliningOnly2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInliningOnly2</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInliningOnly2()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInliningOnly3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInliningOnly3</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInliningOnly3()</pre>
+</li>
+</ul>
+<a name="testLocalFunctionInliningOnly4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testLocalFunctionInliningOnly4</h4>
+<pre>public&nbsp;void&nbsp;testLocalFunctionInliningOnly4()</pre>
+</li>
+</ul>
+<a name="testFunctionExpressionYCombinator()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionExpressionYCombinator</h4>
+<pre>public&nbsp;void&nbsp;testFunctionExpressionYCombinator()</pre>
+</li>
+</ul>
+<a name="testRenamePropertyFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRenamePropertyFunction</h4>
+<pre>public&nbsp;void&nbsp;testRenamePropertyFunction()</pre>
+</li>
+</ul>
+<a name="testCrossModuleInlining1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCrossModuleInlining1</h4>
+<pre>public&nbsp;void&nbsp;testCrossModuleInlining1()</pre>
+</li>
+</ul>
+<a name="testCrossModuleInlining2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCrossModuleInlining2</h4>
+<pre>public&nbsp;void&nbsp;testCrossModuleInlining2()</pre>
+</li>
+</ul>
+<a name="testCrossModuleInlining3()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>testCrossModuleInlining3</h4>
+<pre>public&nbsp;void&nbsp;testCrossModuleInlining3()</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/InlineCostEstimatorTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/InlineGettersTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/InlineFunctionsTest.html" target="_top">Frames</a></li>
+<li><a href="InlineFunctionsTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

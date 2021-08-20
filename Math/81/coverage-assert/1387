@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testNoDependency(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
+org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testNoDependency:()V:156:assertEquals true

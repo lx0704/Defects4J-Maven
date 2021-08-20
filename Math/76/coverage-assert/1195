@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.SparseRealVectorTest.testMapFunctions(org.apache.commons.math.linear.SparseRealVectorTest) true
+org.apache.commons.math.linear.SparseRealVectorTest:assertClose:(Ljava/lang/String;[D[DD)V:1122:assertEquals true

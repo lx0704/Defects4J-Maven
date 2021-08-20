@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveXY(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveXY:()V:287:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveXY:()V:289:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveXY:()V:291:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveXY:()V:293:assertEquals true

@@ -1,0 +1,6 @@
+org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest.testPopulation(org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest) true
+org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest:testPopulation:()V:78:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest:testPopulation:()V:80:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest:testPopulation:()V:82:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest:testPopulation:()V:84:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest:testPopulation:()V:86:assertEquals true

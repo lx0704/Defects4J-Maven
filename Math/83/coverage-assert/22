@@ -1,0 +1,5 @@
+org.apache.commons.math.MathExceptionTest.testPrintStackTrace(org.apache.commons.math.MathExceptionTest) true
+org.apache.commons.math.MathExceptionTest:testPrintStackTrace:()V:91:assertTrue true
+org.apache.commons.math.MathExceptionTest:testPrintStackTrace:()V:92:assertTrue true
+org.apache.commons.math.MathExceptionTest:testPrintStackTrace:()V:97:assertTrue true
+org.apache.commons.math.MathExceptionTest:testPrintStackTrace:()V:98:assertTrue true

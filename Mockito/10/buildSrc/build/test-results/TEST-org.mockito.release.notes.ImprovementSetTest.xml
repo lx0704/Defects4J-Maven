@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.notes.ImprovementSetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:48:29" hostname="set" time="0.169">
+  <properties/>
+  <testcase name="renders improvements" classname="org.mockito.release.notes.ImprovementSetTest" time="0.149"/>
+  <testcase name="filters out improvements by pattern" classname="org.mockito.release.notes.ImprovementSetTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

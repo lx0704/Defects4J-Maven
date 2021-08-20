@@ -1,0 +1,4 @@
+org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testQRColumnsPermutation(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
+org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testQRColumnsPermutation:()V:140:assertEquals true
+org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testQRColumnsPermutation:()V:141:assertEquals true
+org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testQRColumnsPermutation:()V:142:assertEquals true

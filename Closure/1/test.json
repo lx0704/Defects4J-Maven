@@ -1,0 +1,1 @@
+[{"transitive-dependencies":[],"inputs":["[root]"],"dependencies":[],"name":"root"},{"transitive-dependencies":["root"],"inputs":["foo/bar.js"],"dependencies":["root"],"name":"module$foo$bar"}]

@@ -1,0 +1,7 @@
+org.apache.commons.math.analysis.ComposableFunctionTest.testSimpleCombination(org.apache.commons.math.analysis.ComposableFunctionTest) true
+org.apache.commons.math.analysis.ComposableFunctionTest:testSimpleCombination:()V:126:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testSimpleCombination:()V:127:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testSimpleCombination:()V:128:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testSimpleCombination:()V:129:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testSimpleCombination:()V:130:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testSimpleCombination:()V:131:assertEquals true

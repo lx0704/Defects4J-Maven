@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.OnlyVerificationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.005">
+  <properties/>
+  <testcase name="shouldVerifyMethodWasInvokedExclusivelyWhenTwoMocksInUse" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyMethodWasInvokedExclusively" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="shouldVerifyMethodWasInvokedExclusivelyWithMatchersUsage" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <testcase name="shouldFailIfMethodWasNotInvoked" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="shouldFailIfMethodWasInvokedMoreThanOnce" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="shouldFailIfMethodWasInvokedButWithDifferentArguments" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <testcase name="shouldFailIfExtraMethodWithDifferentArgsFound" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

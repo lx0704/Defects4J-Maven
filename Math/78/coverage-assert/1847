@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.summary.SumLogTest.testCopy(org.apache.commons.math.stat.descriptive.summary.SumLogTest) true
+org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:109:assertEquals true

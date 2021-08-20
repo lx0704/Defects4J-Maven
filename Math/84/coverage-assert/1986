@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testSignByte(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testSignByte:()V:999:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignByte:()V:1000:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignByte:()V:1001:assertEquals true

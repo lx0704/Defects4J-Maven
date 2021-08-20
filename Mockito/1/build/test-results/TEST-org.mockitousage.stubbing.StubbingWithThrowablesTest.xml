@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingWithThrowablesTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.017">
+  <properties/>
+  <testcase name="shouldNotAllowSettingInvalidCheckedException" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldNotAllowSettingNullThrowable" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldStubWithThrowable" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldLastStubbingVoidBeImportant" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldFailStubbingThrowableOnTheSameInvocationDueToAcceptableLimitation" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldAllowSettingCheckedException" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.011"/>
+  <testcase name="shouldAllowSettingError" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldInstantiateExceptionClassOnInteraction" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldInstantiateExceptionClassWithOngoingStubbingOnInteraction" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldNotAllowSettingNullThrowableArray" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldMixThrowablesAndReturnsOnDifferentMocks" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.001"/>
+  <testcase name="shouldStubbingWithThrowableBeVerifiable" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <testcase name="shouldStubbingWithThrowableFailVerification" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.001"/>
+  <testcase name="shouldShowDecentMessageWhenExcepionIsNaughty" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.001"/>
+  <testcase name="shouldSetThrowableToVoidMethod" classname="org.mockitousage.stubbing.StubbingWithThrowablesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

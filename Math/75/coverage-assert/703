@@ -1,0 +1,4 @@
+org.apache.commons.math.geometry.Vector3DTest.testDistance1(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testDistance1:()V:74:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testDistance1:()V:75:assertEquals true
+org.apache.commons.math.geometry.Vector3DTest:testDistance1:()V:76:assertEquals true

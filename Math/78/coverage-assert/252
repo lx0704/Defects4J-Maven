@@ -1,0 +1,8 @@
+org.apache.commons.math.complex.ComplexTest.testNthRoot_cornercase_thirdRoot_realPartZero(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:857:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:859:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:860:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:862:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:863:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:865:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testNthRoot_cornercase_thirdRoot_realPartZero:()V:866:assertEquals true

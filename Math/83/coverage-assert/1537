@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.StatUtilsTest.testMean(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testMean:()V:229:assertEquals false
+org.apache.commons.math.stat.StatUtilsTest:testMean:()V:233:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMean:()V:237:assertEquals true

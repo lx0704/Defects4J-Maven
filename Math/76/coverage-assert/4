@@ -1,0 +1,7 @@
+org.apache.commons.math.ConvergenceExceptionTest.testConstructorPatternArgumentsCause(org.apache.commons.math.ConvergenceExceptionTest) true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorPatternArgumentsCause:()V:64:assertEquals true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorPatternArgumentsCause:()V:65:assertEquals true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorPatternArgumentsCause:()V:66:assertEquals true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorPatternArgumentsCause:()V:68:assertEquals true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorPatternArgumentsCause:()V:70:assertFalse true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorPatternArgumentsCause:()V:71:assertFalse true

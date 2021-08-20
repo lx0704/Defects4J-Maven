@@ -1,0 +1,6 @@
+org.apache.commons.math.estimation.EstimatedParameterTest.testConstruction(org.apache.commons.math.estimation.EstimatedParameterTest) true
+org.apache.commons.math.estimation.EstimatedParameterTest:testConstruction:()V:35:assertTrue true
+org.apache.commons.math.estimation.EstimatedParameterTest:checkValue:(DD)V:70:assertTrue true
+org.apache.commons.math.estimation.EstimatedParameterTest:testConstruction:()V:37:assertTrue true
+org.apache.commons.math.estimation.EstimatedParameterTest:testConstruction:()V:40:assertTrue true
+org.apache.commons.math.estimation.EstimatedParameterTest:testConstruction:()V:42:assertTrue true

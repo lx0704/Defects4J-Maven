@@ -1,0 +1,10 @@
+org.apache.commons.math.analysis.solvers.BrentSolverTest.testInitialGuess(org.apache.commons.math.analysis.solvers.BrentSolverTest) true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:344:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:346:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:361:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:362:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:367:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:368:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:373:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:374:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testInitialGuess:()V:375:assertEquals true

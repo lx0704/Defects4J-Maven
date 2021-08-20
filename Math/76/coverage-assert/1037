@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.MatrixUtilsTest.testFractionConverter(org.apache.commons.math.linear.MatrixUtilsTest) true
+org.apache.commons.math.linear.MatrixUtilsTest:testFractionConverter:()V:341:assertEquals true

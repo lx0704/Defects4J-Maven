@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testSkewAndKurtosis(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest) true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSkewAndKurtosis:()V:102:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSkewAndKurtosis:()V:103:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSkewAndKurtosis:()V:104:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSkewAndKurtosis:()V:105:assertEquals true

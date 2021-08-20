@@ -1,0 +1,11 @@
+org.apache.commons.math.stat.CertifiedDataTest.testSummaryStatistics(org.apache.commons.math.stat.CertifiedDataTest) true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:54:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:55:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:58:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:59:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:62:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:63:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:66:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:67:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:70:assertEquals true
+org.apache.commons.math.stat.CertifiedDataTest:testSummaryStatistics:()V:71:assertEquals true

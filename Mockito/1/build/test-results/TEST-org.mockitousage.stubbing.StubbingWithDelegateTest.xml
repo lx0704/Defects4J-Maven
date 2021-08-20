@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingWithDelegateTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.004">
+  <properties/>
+  <testcase name="when_not_stubbed_delegate_should_be_called" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.001"/>
+  <testcase name="when_stubbed_the_delegate_should_not_be_called" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.0"/>
+  <testcase name="delegate_should_not_be_called_when_stubbed2" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.0"/>
+  <testcase name="null_wrapper_dont_throw_exception_from_org_mockito_package" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.001"/>
+  <testcase name="instance_of_different_class_can_be_called" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.0"/>
+  <testcase name="method_with_subtype_return_can_be_called" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.0"/>
+  <testcase name="calling_missing_method_should_throw_exception" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.001"/>
+  <testcase name="calling_method_with_wrong_primitive_return_should_throw_exception" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.0"/>
+  <testcase name="calling_method_with_wrong_reference_return_should_throw_exception" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.0"/>
+  <testcase name="exception_should_be_propagated_from_delegate" classname="org.mockitousage.stubbing.StubbingWithDelegateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

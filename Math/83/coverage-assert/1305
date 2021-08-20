@@ -1,0 +1,5 @@
+org.apache.commons.math.optimization.direct.NelderMeadTest.testPowell(org.apache.commons.math.optimization.direct.NelderMeadTest) true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testPowell:()V:173:assertEquals true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testPowell:()V:174:assertTrue true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testPowell:()V:175:assertTrue true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testPowell:()V:176:assertTrue true

@@ -1,0 +1,2 @@
+org.apache.commons.math.ConvergenceExceptionTest.testConstructorCause(org.apache.commons.math.ConvergenceExceptionTest) true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructorCause:()V:55:assertEquals true

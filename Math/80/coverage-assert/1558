@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.StatUtilsTest.testDifferenceStats(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testDifferenceStats:()V:385:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testDifferenceStats:()V:386:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testDifferenceStats:()V:387:assertEquals true

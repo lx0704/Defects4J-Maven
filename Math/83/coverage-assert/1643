@@ -1,0 +1,10 @@
+org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:79:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:81:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:83:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:88:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:90:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:92:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:94:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:99:assertTrue true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testN0andN1Conditions:()V:101:assertTrue true

@@ -1,0 +1,4 @@
+org.apache.commons.math.complex.ComplexTest.testAddInfinite(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testAddInfinite:()V:114:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testAddInfinite:()V:115:assertEquals false
+org.apache.commons.math.complex.ComplexTest:testAddInfinite:()V:118:assertTrue true

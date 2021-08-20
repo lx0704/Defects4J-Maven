@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.linear.SimplexSolverTest.testMinimization(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testMinimization:()V:118:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testMinimization:()V:119:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testMinimization:()V:120:assertEquals true

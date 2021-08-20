@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexFormatTest.testParseNan(org.apache.commons.math.complex.ComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testParseNan:()V:245:assertEquals true

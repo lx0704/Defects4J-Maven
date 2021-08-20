@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.BinaryFunctionTest.testAdd(org.apache.commons.math.analysis.BinaryFunctionTest) true
+org.apache.commons.math.analysis.BinaryFunctionTest:testAdd:()V:27:assertEquals true
+org.apache.commons.math.analysis.BinaryFunctionTest:testAdd:()V:28:assertEquals true

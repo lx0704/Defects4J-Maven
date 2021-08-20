@@ -1,0 +1,2 @@
+org.apache.commons.math.util.BigRealTest.testDoubleValue(org.apache.commons.math.util.BigRealTest) true
+org.apache.commons.math.util.BigRealTest:testDoubleValue:()V:92:assertEquals true

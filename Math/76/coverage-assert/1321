@@ -1,0 +1,2 @@
+org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest.testStepSize(org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest) true
+org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:211:assertEquals true

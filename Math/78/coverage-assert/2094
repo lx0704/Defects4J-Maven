@@ -1,0 +1,4 @@
+org.apache.commons.math.util.ResizableDoubleArrayTest.testWithInitialCapacity(org.apache.commons.math.util.ResizableDoubleArrayTest) true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacity:()V:273:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacity:()V:282:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacity:()V:286:assertEquals true

@@ -1,0 +1,3 @@
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testTrivial(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTrivial:()V:107:assertEquals true
+org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTrivial:()V:108:assertEquals true

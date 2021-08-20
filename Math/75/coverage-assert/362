@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.CauchyDistributionTest.testScale(org.apache.commons.math.distribution.CauchyDistributionTest) true
+org.apache.commons.math.distribution.CauchyDistributionTest:testScale:()V:81:assertEquals true

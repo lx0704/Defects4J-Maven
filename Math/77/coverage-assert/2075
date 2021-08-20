@@ -1,0 +1,2 @@
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testGetAbsent(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testGetAbsent:()V:127:assertTrue true

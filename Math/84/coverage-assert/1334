@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testInconsistentEquations(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testInconsistentEquations:()V:324:assertTrue true

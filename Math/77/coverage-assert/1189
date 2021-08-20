@@ -1,0 +1,15 @@
+org.apache.commons.math.linear.SparseRealVectorTest.testBasicFunctions(org.apache.commons.math.linear.SparseRealVectorTest) true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:954:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:958:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:962:assertEquals false
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:966:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:970:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:974:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:977:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:981:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:984:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:assertClose:(Ljava/lang/String;[D[DD)V:1122:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:1025:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:1029:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:1032:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testBasicFunctions:()V:1035:assertEquals true

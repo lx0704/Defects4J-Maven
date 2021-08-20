@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.concurrentmockito.ThreadVerifiesContinuoslyInteractingMockTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:44" hostname="set" time="1.117">
+  <properties/>
+  <testcase name="shouldAllowVerifyingInThreads" classname="org.concurrentmockito.ThreadVerifiesContinuoslyInteractingMockTest" time="1.117"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

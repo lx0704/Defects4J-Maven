@@ -1,0 +1,12 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testNorris(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:92:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:93:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:95:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:96:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:98:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:100:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:102:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:104:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:106:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:110:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testNorris:()V:112:assertEquals true

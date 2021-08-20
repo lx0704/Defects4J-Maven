@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.basicapi.MocksSerializationTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.443">
+  <properties/>
+  <testcase name="should_allow_throws_exception_to_be_serializable" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.02"/>
+  <testcase name="should_allow_method_delegation" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.021"/>
+  <testcase name="should_allow_mock_to_be_serializable" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.066"/>
+  <testcase name="should_allow_mock_and_boolean_value_to_serializable" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.007"/>
+  <testcase name="should_allow_mock_and_string_value_to_be_serializable" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.006"/>
+  <testcase name="should_all_mock_and_serializable_value_to_be_serialized" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.006"/>
+  <testcase name="should_serialize_method_call_with_parameters_that_are_serializable" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.005"/>
+  <testcase name="should_serialize_method_calls_using_any_string_matcher" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.01"/>
+  <testcase name="should_verify_called_n_times_for_serialized_mock" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.009"/>
+  <testcase name="should_verify_even_if_some_methods_called_after_serialization" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.005"/>
+  <testcase name="should_serialization_work" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.001"/>
+  <testcase name="should_stub_even_if_some_methods_called_after_serialization" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.007"/>
+  <testcase name="should_verify_call_order_for_serialized_mock" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.009"/>
+  <testcase name="should_remember_interactions_for_serialized_mock" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.009"/>
+  <testcase name="should_serialize_with_stubbing_callback" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.009"/>
+  <testcase name="should_serialize_with_real_object_spy" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.038"/>
+  <testcase name="should_serialize_object_mock" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.008"/>
+  <testcase name="should_serialize_real_partial_mock" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.013"/>
+  <testcase name="should_serialize_already_serializable_class" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.009"/>
+  <testcase name="should_be_serialize_and_have_extra_interfaces" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.078"/>
+  <testcase name="should_fail_when_serializable_used_with_type_that_dont_implements_Serializable_and_dont_declare_a_no_arg_constructor" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.001"/>
+  <testcase name="should_be_able_to_serialize_type_that_implements_Serializable_but_but_dont_declare_a_no_arg_constructor" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.006"/>
+  <testcase name="private_constructor_currently_not_supported_at_the_moment_at_deserialization_time" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.006"/>
+  <testcase name="BUG_ISSUE_399_try_some_mocks_with_current_answers" classname="org.mockitousage.basicapi.MocksSerializationTest" time="0.092"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

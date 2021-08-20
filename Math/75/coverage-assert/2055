@@ -1,0 +1,8 @@
+org.apache.commons.math.util.MathUtilsTest.testLog(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:767:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:768:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:769:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:770:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:771:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:772:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLog:()V:773:assertEquals false

@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.ZipfDistributionTest.testDensities(org.apache.commons.math.distribution.ZipfDistributionTest) true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyDensities:()V:143:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest) true
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest:testExactIntegration:()V:95:assertEquals true

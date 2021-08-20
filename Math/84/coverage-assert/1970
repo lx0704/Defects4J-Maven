@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testL2DistanceDouble(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testL2DistanceDouble:()V:1192:assertEquals true

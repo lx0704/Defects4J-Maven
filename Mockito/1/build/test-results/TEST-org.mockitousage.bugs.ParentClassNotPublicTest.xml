@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.ParentClassNotPublicTest" tests="4" skipped="4" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.001">
+  <properties/>
+  <testcase name="hints_that_parent_not_public_during_stubbing_start" classname="org.mockitousage.bugs.ParentClassNotPublicTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="hints_that_parent_not_public_during_verify" classname="org.mockitousage.bugs.ParentClassNotPublicTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="hints_that_parent_not_public_when_misplaced_matchers_detected" classname="org.mockitousage.bugs.ParentClassNotPublicTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="hints_that_parent_not_public_during_stubbing" classname="org.mockitousage.bugs.ParentClassNotPublicTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.fitting.PolynomialFitterTest.testNoError(org.apache.commons.math.optimization.fitting.PolynomialFitterTest) true
+org.apache.commons.math.optimization.fitting.PolynomialFitterTest:testNoError:()V:51:assertEquals true

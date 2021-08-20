@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest.testOnStraightLine(org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnStraightLine:()V:54:assertEquals true
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnStraightLine:()V:56:assertEquals true

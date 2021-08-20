@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testNormalizeAngle(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testNormalizeAngle:()V:911:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNormalizeAngle:()V:912:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testNormalizeAngle:()V:914:assertEquals true

@@ -1,0 +1,6 @@
+,failing_score,passing_score,#failing,#passing,#TTLfailing,#TTLpassing
+com/google/javascript/jscomp/ProcessCommonJSModules:normalizeSourceName(Ljava/lang/String;)Ljava/lang/String;,0.99509780,0.00124305,1.00000000,9.00000000,1.00000000,7642.00000000
+com/google/javascript/jscomp/ProcessCommonJSModules:<init>(Lcom/google/javascript/jscomp/AbstractCompiler;Ljava/lang/String;Z)V,0.99507341,0.00124223,1.00000000,9.00000000,1.00000000,7642.00000000
+com/google/javascript/jscomp/ProcessCommonJSModules:toModuleName(Ljava/lang/String;)Ljava/lang/String;,0.99509780,0.00124936,1.00000000,9.00000000,1.00000000,7642.00000000
+com/google/javascript/jscomp/ProcessCommonJSModules:<init>(Lcom/google/javascript/jscomp/AbstractCompiler;Ljava/lang/String;)V,0.99507341,0.00055488,1.00000000,4.00000000,1.00000000,7642.00000000
+com/google/javascript/jscomp/ProcessCommonJSModules:guessCJSModuleName(Ljava/lang/String;)Ljava/lang/String;,1.00000000,0.00124480,1.00000000,9.00000000,1.00000000,7642.00000000

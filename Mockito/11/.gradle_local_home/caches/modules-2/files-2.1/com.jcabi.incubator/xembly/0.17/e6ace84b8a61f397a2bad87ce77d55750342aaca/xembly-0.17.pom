@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<!--
+ * Copyright (c) 2013-2014, xembly.org
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met: 1) Redistributions of source code must retain the above
+ * copyright notice, this list of conditions and the following
+ * disclaimer. 2) Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following
+ * disclaimer in the documentation and/or other materials provided
+ * with the distribution. 3) Neither the name of the xembly.org nor
+ * the names of its contributors may be used to endorse or promote
+ * products derived from this software without specific prior written
+ * permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+ * NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ * THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jcabi</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.22</version>
+    </parent>
+    <groupId>com.jcabi.incubator</groupId>
+    <artifactId>xembly</artifactId>
+    <version>0.17</version>
+    <packaging>jar</packaging>
+    <name>xembly</name>
+    <description>Assembly for XML</description>
+    <url>https://github.com/yegor256/xembly</url>
+    <inceptionYear>2013</inceptionYear>
+    <organization>
+        <name>Xembly</name>
+        <url>https://github.com/yegor256/xembly</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>BSD</name>
+            <url>https://www.xembly.org/LICENSE.txt</url>
+            <distribution>site</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>1</id>
+            <name>Yegor Bugayenko</name>
+            <email>yegor@tpc2.com</email>
+            <organization>TPC2</organization>
+            <organizationUrl>http://www.tpc2.com</organizationUrl>
+            <roles>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/yegor256/xembly/issues</url>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:git@github.com:yegor256/xembly.git</connection>
+        <developerConnection>scm:git:git@github.com:yegor256/xembly.git</developerConnection>
+        <url>https://github.com/yegor256/xembly</url>
+    </scm>
+    <ciManagement>
+        <system>rultor</system>
+        <url>http://www.rultor.com/s/xembly</url>
+    </ciManagement>
+    <distributionManagement>
+        <site>
+            <id>github-pages</id>
+            <url>http://www.xembly.org</url>
+        </site>
+    </distributionManagement>
+    <properties>
+        <saxon.version>9.1.0.8</saxon.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jcabi</groupId>
+            <artifactId>jcabi-aspects</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jcabi</groupId>
+            <artifactId>jcabi-log</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jcabi</groupId>
+            <artifactId>jcabi-immutable</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr-runtime</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>xml-apis</groupId>
+            <artifactId>xml-apis</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jcabi</groupId>
+            <artifactId>jcabi-matchers</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jcabi</groupId>
+            <artifactId>jcabi-xml</artifactId>
+            <version>0.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.saxon</groupId>
+            <artifactId>saxon</artifactId>
+            <version>${saxon.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.saxon</groupId>
+            <artifactId>saxon</artifactId>
+            <version>${saxon.version}</version>
+            <classifier>dom</classifier>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <profiles>
+        <profile>
+            <id>prof</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-failsafe-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>prof-tests</id>
+                                <goals>
+                                    <goal>integration-test</goal>
+                                    <goal>verify</goal>
+                                </goals>
+                                <configuration>
+                                    <includes>
+                                        <include>**/*Prof.java</include>
+                                    </includes>
+                                    <argLine>-agentpath:/Users/yegor/apps/YourKit_Java_Profiler_2013_build_13044.app/bin/mac/libyjpagent.jnilib=sampling,monitors,onexit=memory,onexit=snapshot,dir=${project.build.directory}</argLine>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>qulice</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.qulice</groupId>
+                        <artifactId>qulice-maven-plugin</artifactId>
+                        <configuration>
+                            <excludes>
+                                <exclude>findbugs:.*</exclude>
+                                <exclude>xml:/src/it/settings.xml</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

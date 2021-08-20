@@ -1,0 +1,6 @@
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testWindowSize(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest) true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testWindowSize:()V:70:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testWindowSize:()V:71:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testWindowSize:()V:80:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testWindowSize:()V:82:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testWindowSize:()V:84:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.RealVectorFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math.linear.RealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testParseSimpleWithDecimalsTrunc:()V:203:assertEquals true

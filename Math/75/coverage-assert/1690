@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testSetterInjection(org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:53:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:54:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:58:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:59:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:66:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:67:assertEquals true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSetterInjection:()V:68:assertEquals true

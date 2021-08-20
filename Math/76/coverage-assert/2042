@@ -1,0 +1,5 @@
+org.apache.commons.math.util.MathUtilsTest.testIndicatorDouble(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorDouble:()V:639:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorDouble:()V:640:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorDouble:()V:641:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorDouble:()V:642:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.summary.SumTest.testWeightedConsistency(org.apache.commons.math.stat.descriptive.summary.SumTest) true
+org.apache.commons.math.TestUtils:assertRelativelyEquals:(Ljava/lang/String;DDD)V:173:assertEquals true

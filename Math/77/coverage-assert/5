@@ -1,0 +1,6 @@
+org.apache.commons.math.DuplicateSampleAbscissaExceptionTest.testConstructor(org.apache.commons.math.DuplicateSampleAbscissaExceptionTest) true
+org.apache.commons.math.DuplicateSampleAbscissaExceptionTest:testConstructor:()V:31:assertNull true
+org.apache.commons.math.DuplicateSampleAbscissaExceptionTest:testConstructor:()V:32:assertNotNull true
+org.apache.commons.math.DuplicateSampleAbscissaExceptionTest:testConstructor:()V:33:assertTrue true
+org.apache.commons.math.DuplicateSampleAbscissaExceptionTest:testConstructor:()V:34:assertEquals true
+org.apache.commons.math.DuplicateSampleAbscissaExceptionTest:testConstructor:()V:35:assertFalse true

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.001">
+  <properties/>
+  <testcase name="should_return_zero_if_mock_is_compared_to_itself" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_non_zero_for_compareTo_method" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.001"/>
+  <testcase name="should_return_empty_collections_or_null_for_non_collections" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_primitive" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_iterable" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

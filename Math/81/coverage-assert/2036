@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testSignInt(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testSignInt:()V:1069:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignInt:()V:1070:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testSignInt:()V:1071:assertEquals true

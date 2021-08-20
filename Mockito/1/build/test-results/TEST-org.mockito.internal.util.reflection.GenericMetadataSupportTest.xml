@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.reflection.GenericMetadataSupportTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.02">
+  <properties/>
+  <testcase name="typeVariable_of_self_type" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.001"/>
+  <testcase name="can_get_raw_type_from_Class" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.001"/>
+  <testcase name="can_get_raw_type_from_ParameterizedType" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="can_get_type_variables_from_Class" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.008"/>
+  <testcase name="can_get_type_variables_from_ParameterizedType" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.004"/>
+  <testcase name="typeVariable_return_type_of____iterator____resolved_to_Iterator_and_type_argument_to_String" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.001"/>
+  <testcase name="typeVariable_return_type_of____get____resolved_to_Set_and_type_argument_to_Number" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="bounded_typeVariable_return_type_of____returningK____resolved_to_Comparable_and_with_BoundedType" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="fixed_ParamType_return_type_of____remove____resolved_to_Set_and_type_argument_to_Number" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="paramType_return_type_of____values____resolved_to_Collection_and_type_argument_to_Parameterized_Set" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="paramType_with_type_parameters_return_type_of____paramType_with_type_params____resolved_to_Collection_and_type_argument_to_Parameterized_Set" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="typeVariable_with_type_parameters_return_type_of____typeVar_with_type_params____resolved_K_hence_to_Comparable_and_with_BoundedType" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="class_return_type_of____append____resolved_to_StringBuilder_and_type_arguments" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.001"/>
+  <testcase name="paramType_with_wildcard_return_type_of____returning_wildcard_with_class_lower_bound____resolved_to_List_and_type_argument_to_Integer" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.002"/>
+  <testcase name="paramType_with_wildcard_return_type_of____returning_wildcard_with_typeVar_lower_bound____resolved_to_List_and_type_argument_to_Integer" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.0"/>
+  <testcase name="paramType_with_wildcard_return_type_of____returning_wildcard_with_typeVar_upper_bound____resolved_to_List_and_type_argument_to_Integer" classname="org.mockito.internal.util.reflection.GenericMetadataSupportTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

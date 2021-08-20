@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest.testFirstChebyshevPolynomials(org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest:checkPolynomial:(Lorg/apache/commons/math/analysis/polynomials/PolynomialFunction;Ljava/lang/String;)V:207:assertEquals true

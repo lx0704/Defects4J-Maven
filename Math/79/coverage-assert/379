@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.GammaDistributionTest.testProbabilities(org.apache.commons.math.distribution.GammaDistributionTest) true
+org.apache.commons.math.distribution.GammaDistributionTest:testProbability:(DDDD)V:109:assertEquals true

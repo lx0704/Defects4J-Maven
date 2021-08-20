@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.exceptions.ReporterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.004">
+  <properties/>
+  <testcase name="can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_delegate_method_has_wrong_return_type" classname="org.mockito.exceptions.ReporterTest" time="0.001"/>
+  <testcase name="can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_injection_failure" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="should_throw_correct_exception_for_null_invocation_listener" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="can_use_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_no_more_interaction_wanted" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_no_more_interaction_wanted_in_order" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_invalid_argument_position" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_wrong_argument_to_return" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_delegate_method_dont_exists" classname="org.mockito.exceptions.ReporterTest" time="0.0"/>
+  <testcase name="should_let_passing_null_last_actual_stack_trace" classname="org.mockito.exceptions.ReporterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

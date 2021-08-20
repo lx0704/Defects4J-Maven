@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.RealVectorFormatTest.testForgottenSeparator(org.apache.commons.math.linear.RealVectorFormatTest) true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenSeparator:()V:377:assertNull true
+org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenSeparator:()V:378:assertEquals true

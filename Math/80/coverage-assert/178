@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math.complex.ComplexFormatTest) true
+org.apache.commons.math.complex.ComplexFormatAbstractTest:testParseSimpleWithDecimalsTrunc:()V:168:assertEquals true
