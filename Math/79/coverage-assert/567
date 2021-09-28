@@ -1,8 +1,0 @@
-org.apache.commons.math.fraction.FractionTest.testCompareTo(org.apache.commons.math.fraction.FractionTest) true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:169:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:170:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:171:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:172:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:179:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:180:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testCompareTo:()V:181:assertEquals true

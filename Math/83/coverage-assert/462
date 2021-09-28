@@ -1,8 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testTwoSets(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:238:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:239:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:240:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:241:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:242:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:243:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testTwoSets:()V:244:assertEquals true

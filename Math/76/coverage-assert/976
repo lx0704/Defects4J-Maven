@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.FieldMatrixImplTest.testTrace(org.apache.commons.math.linear.FieldMatrixImplTest) true
-org.apache.commons.math.linear.FieldMatrixImplTest:testTrace:()V:194:assertEquals true

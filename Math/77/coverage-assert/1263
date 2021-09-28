@@ -1,2 +1,0 @@
-org.apache.commons.math.ode.nonstiff.EulerIntegratorTest.testStepSize(org.apache.commons.math.ode.nonstiff.EulerIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.EulerIntegratorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:160:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.BinomialDistributionTest.testDensities(org.apache.commons.math.distribution.BinomialDistributionTest) true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyDensities:()V:143:assertEquals true

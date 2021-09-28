@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testColumnsPermutation(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testColumnsPermutation:()V:134:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testColumnsPermutation:()V:135:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testColumnsPermutation:()V:136:assertEquals true

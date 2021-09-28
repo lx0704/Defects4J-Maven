@@ -1,0 +1,9 @@
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testNaNContracts(org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:235:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:236:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:237:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:238:assertTrue true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:241:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:242:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:243:assertFalse true
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testNaNContracts:()V:244:assertFalse true

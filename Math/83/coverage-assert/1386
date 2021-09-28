@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testSolutionWithNegativeDecisionVariable(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSolutionWithNegativeDecisionVariable:()V:132:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSolutionWithNegativeDecisionVariable:()V:133:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSolutionWithNegativeDecisionVariable:()V:134:assertEquals true

@@ -1,5 +1,0 @@
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest.testBackward(org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testBackward:()V:115:assertTrue true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testBackward:()V:116:assertTrue true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testBackward:()V:117:assertEquals true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testBackward:()V:118:assertEquals true

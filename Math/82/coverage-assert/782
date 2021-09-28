@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.BlockFieldMatrixTest.testGetSetColumnLarge(org.apache.commons.math.linear.BlockFieldMatrixTest) true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testGetSetColumnLarge:()V:1029:assertEquals true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testGetSetColumnLarge:()V:1031:assertEquals true
-org.apache.commons.math.linear.BlockFieldMatrixTest:checkArrays:([Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;)V:1048:assertEquals true
-org.apache.commons.math.linear.BlockFieldMatrixTest:checkArrays:([Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;)V:1050:assertEquals true

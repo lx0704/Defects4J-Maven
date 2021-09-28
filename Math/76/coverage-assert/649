@@ -1,2 +1,0 @@
-org.apache.commons.math.geometry.FrenchVector3DFormatTest.testParseZeroX(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseZeroX:()V:274:assertEquals true

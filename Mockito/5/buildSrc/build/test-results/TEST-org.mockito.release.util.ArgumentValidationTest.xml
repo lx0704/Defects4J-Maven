@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.release.util.ArgumentValidationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:31:39" hostname="set" time="0.006">
-  <properties/>
-  <testcase name="validates arguments" classname="org.mockito.release.util.ArgumentValidationTest" time="0.003"/>
-  <testcase name="throws exception when null found" classname="org.mockito.release.util.ArgumentValidationTest" time="0.001"/>
-  <testcase name="warns when incorrect input supplied" classname="org.mockito.release.util.ArgumentValidationTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,2 +1,0 @@
-org.apache.commons.math.genetics.RandomKeyTest.testRandomPermutation(org.apache.commons.math.genetics.RandomKeyTest) true
-org.apache.commons.math.genetics.RandomKeyTest:testRandomPermutation:()V:70:assertNotNull true

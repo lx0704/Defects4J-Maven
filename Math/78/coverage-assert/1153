@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testMath209(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:testMath209:()V:264:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testMath209:()V:265:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testMath209:()V:266:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testMath209:()V:267:assertEquals true

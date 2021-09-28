@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testNonInversible(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testNonInversible:()V:216:assertTrue true

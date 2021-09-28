@@ -1,0 +1,8 @@
+org.apache.commons.math.fraction.BigFractionTest.testCompareTo(org.apache.commons.math.fraction.BigFractionTest) true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:173:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:174:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:175:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:176:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:183:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:184:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testCompareTo:()V:185:assertEquals true

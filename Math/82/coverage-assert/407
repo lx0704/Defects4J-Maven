@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.PoissonDistributionTest.testNormalApproximateProbability(org.apache.commons.math.distribution.PoissonDistributionTest) true
-org.apache.commons.math.distribution.PoissonDistributionTest:testNormalApproximateProbability:()V:117:assertEquals true
-org.apache.commons.math.distribution.PoissonDistributionTest:testNormalApproximateProbability:()V:121:assertEquals true

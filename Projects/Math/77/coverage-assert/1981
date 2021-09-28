@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveMultiplePastEmpty(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveMultiplePastEmpty:()V:362:assertEquals true

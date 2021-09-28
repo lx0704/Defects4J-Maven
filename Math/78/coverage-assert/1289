@@ -1,4 +1,0 @@
-org.apache.commons.math.ode.nonstiff.MidpointStepInterpolatorTest.serialization(org.apache.commons.math.ode.nonstiff.MidpointStepInterpolatorTest) true
-org.apache.commons.math.ode.nonstiff.MidpointStepInterpolatorTest:serialization:()V:68:assertTrue true
-org.apache.commons.math.ode.nonstiff.MidpointStepInterpolatorTest:serialization:()V:69:assertTrue true
-org.apache.commons.math.ode.nonstiff.MidpointStepInterpolatorTest:serialization:()V:91:assertTrue true

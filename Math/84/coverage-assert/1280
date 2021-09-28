@@ -1,2 +1,0 @@
-org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest.testImpossibleSerialization(org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest) true
-org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest:testImpossibleSerialization:()V:123:assertEquals true

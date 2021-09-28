@@ -1,0 +1,5 @@
+org.apache.commons.math.fraction.BigFractionTest.testGetReducedFraction(org.apache.commons.math.fraction.BigFractionTest) true
+org.apache.commons.math.fraction.BigFractionTest:testGetReducedFraction:()V:530:assertTrue true
+org.apache.commons.math.fraction.BigFractionTest:testGetReducedFraction:()V:531:assertTrue true
+org.apache.commons.math.fraction.BigFractionTest:testGetReducedFraction:()V:538:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testGetReducedFraction:()V:539:assertEquals true

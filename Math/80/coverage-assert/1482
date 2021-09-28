@@ -1,2 +1,0 @@
-org.apache.commons.math.random.RandomAdaptorTest.testNextUniform(org.apache.commons.math.random.RandomAdaptorTest) true
-org.apache.commons.math.random.RandomDataTest:testNextUniform:()V:518:assertTrue true

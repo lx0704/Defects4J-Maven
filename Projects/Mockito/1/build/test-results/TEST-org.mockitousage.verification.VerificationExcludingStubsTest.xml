@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationExcludingStubsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.003">
+  <properties/>
+  <testcase name="shouldAllowToExcludeStubsForVerification" classname="org.mockitousage.verification.VerificationExcludingStubsTest" time="0.001"/>
+  <testcase name="shouldIgnoringStubsDetectNulls" classname="org.mockitousage.verification.VerificationExcludingStubsTest" time="0.001"/>
+  <testcase name="shouldIgnoringStubsDetectNonMocks" classname="org.mockitousage.verification.VerificationExcludingStubsTest" time="0.0"/>
+  <testcase name="shouldExcludeFromVerificationInOrder" classname="org.mockitousage.verification.VerificationExcludingStubsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

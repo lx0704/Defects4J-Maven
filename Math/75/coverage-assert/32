@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.BinaryFunctionTest.testPow(org.apache.commons.math.analysis.BinaryFunctionTest) true
-org.apache.commons.math.analysis.BinaryFunctionTest:testPow:()V:51:assertEquals true
-org.apache.commons.math.analysis.BinaryFunctionTest:testPow:()V:52:assertEquals true

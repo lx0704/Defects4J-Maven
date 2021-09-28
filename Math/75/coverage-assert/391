@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.GammaDistributionTest.testDensity(org.apache.commons.math.distribution.GammaDistributionTest) true
-org.apache.commons.math.distribution.GammaDistributionTest:checkDensity:(DD[D[D)V:141:assertEquals true

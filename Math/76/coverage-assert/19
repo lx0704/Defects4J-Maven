@@ -1,2 +1,0 @@
-org.apache.commons.math.MathExceptionTest.testConstructorCause(org.apache.commons.math.MathExceptionTest) true
-org.apache.commons.math.MathExceptionTest:testConstructorCause:()V:57:assertEquals true

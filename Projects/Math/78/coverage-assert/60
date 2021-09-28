@@ -1,0 +1,4 @@
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest.testOnTwoPoints(org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnTwoPoints:()V:43:assertEquals true
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnTwoPoints:()V:44:assertEquals true
+org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnTwoPoints:()V:45:assertEquals true

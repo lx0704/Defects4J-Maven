@@ -1,0 +1,5 @@
+org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest.testValues(org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testValues:()V:103:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testValues:()V:105:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testValues:()V:111:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testValues:()V:113:assertEquals true

@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testIsSingular(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testIsSingular:()V:298:assertTrue true
-org.apache.commons.math.linear.BigMatrixImplTest:testIsSingular:()V:300:assertTrue true
-org.apache.commons.math.linear.BigMatrixImplTest:testIsSingular:()V:302:assertTrue true
-org.apache.commons.math.linear.BigMatrixImplTest:testIsSingular:()V:304:assertTrue true

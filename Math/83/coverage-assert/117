@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.solvers.MullerSolverTest.testExpm1Function2(org.apache.commons.math.analysis.solvers.MullerSolverTest) true
-org.apache.commons.math.analysis.solvers.MullerSolverTest:testExpm1Function2:()V:233:assertEquals true
-org.apache.commons.math.analysis.solvers.MullerSolverTest:testExpm1Function2:()V:239:assertEquals true
-org.apache.commons.math.analysis.solvers.MullerSolverTest:testExpm1Function2:()V:245:assertEquals true

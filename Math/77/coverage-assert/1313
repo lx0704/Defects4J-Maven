@@ -1,4 +1,0 @@
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest.testBigStep(org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBigStep:()V:128:assertTrue true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBigStep:()V:129:assertTrue true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBigStep:()V:130:assertEquals true

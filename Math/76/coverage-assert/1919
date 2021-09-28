@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.inference.ChiSquareTestTest.testChiSquareZeroCount(org.apache.commons.math.stat.inference.ChiSquareTestTest) true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquareZeroCount:()V:182:assertEquals true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquareZeroCount:()V:184:assertEquals true

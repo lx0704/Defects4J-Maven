@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.HypergeometricDistributionTest.testDensities(org.apache.commons.math.distribution.HypergeometricDistributionTest) true
-org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyDensities:()V:143:assertEquals true

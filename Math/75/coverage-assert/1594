@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.StatUtilsTest.testProduct(org.apache.commons.math.stat.StatUtilsTest) true
-org.apache.commons.math.stat.StatUtilsTest:testProduct:()V:169:assertEquals false
-org.apache.commons.math.stat.StatUtilsTest:testProduct:()V:170:assertEquals false
-org.apache.commons.math.stat.StatUtilsTest:testProduct:()V:174:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testProduct:()V:175:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testProduct:()V:179:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testProduct:()V:180:assertEquals true

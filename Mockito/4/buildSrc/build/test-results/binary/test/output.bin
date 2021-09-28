@@ -1,23 +1,0 @@
-÷13:29:03.549 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit4808787157463726896/junit6344131281764545331/zip-1.zip with /tmp/junit4808787157463726896/junit6344131281764545331/zip-2.zip
-W13:29:03.554 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
-÷13:29:03.554 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit4808787157463726896/junit6344131281764545331/zip-2.zip with /tmp/junit4808787157463726896/junit6344131281764545331/zip-1.zip
-W13:29:03.555 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
-÷13:29:03.557 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit4808787157463726896/junit6344131281764545331/zip-1.zip with /tmp/junit4808787157463726896/junit6344131281764545331/zip-3.zip
-^13:29:03.557 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt does not match
-W13:29:03.557 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
-]13:29:03.557 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
-÷13:29:03.558 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit4808787157463726896/junit6344131281764545331/zip-1.zip with /tmp/junit4808787157463726896/junit6344131281764545331/zip-4.zip
-ù13:29:03.558 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit4808787157463726896/junit6344131281764545331/zip-4.zip
-W13:29:03.558 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
-]13:29:03.558 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
-÷13:29:03.558 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit4808787157463726896/junit6344131281764545331/zip-1.zip with /tmp/junit4808787157463726896/junit6344131281764545331/zip-5.zip
-ô13:29:03.558 [Test worker] INFO  o.m.release.comparison.ZipCompare - x.txt not found in /tmp/junit4808787157463726896/junit6344131281764545331/zip-1.zip
-W13:29:03.559 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
-]13:29:03.559 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
-[13:29:03.639 [Test worker] INFO  o.m.r.exec.DefaultProcessRunner - Executing command: [ls]
-+*h13:29:03.741 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
-+*v13:29:03.741 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
-+,h13:29:03.757 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
-+,v13:29:03.757 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
-+-h13:29:03.759 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
-+-v13:29:03.759 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD

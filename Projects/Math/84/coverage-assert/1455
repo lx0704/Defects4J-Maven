@@ -1,0 +1,3 @@
+org.apache.commons.math.random.RandomAdaptorTest.testNextSecureInt(org.apache.commons.math.random.RandomAdaptorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextSecureInt:()V:158:assertTrue true
+org.apache.commons.math.random.RandomDataTest:testNextSecureInt:()V:170:assertTrue true

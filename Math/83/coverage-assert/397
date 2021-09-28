@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.PascalDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math.distribution.PascalDistributionTest) true
-org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:168:assertEquals true

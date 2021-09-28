@@ -1,6 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.VarianceTest.testPopulation(org.apache.commons.math.stat.descriptive.moment.VarianceTest) true
-org.apache.commons.math.stat.descriptive.moment.VarianceTest:testPopulation:()V:77:assertEquals true
-org.apache.commons.math.stat.descriptive.moment.VarianceTest:testPopulation:()V:79:assertEquals true
-org.apache.commons.math.stat.descriptive.moment.VarianceTest:testPopulation:()V:81:assertEquals true
-org.apache.commons.math.stat.descriptive.moment.VarianceTest:testPopulation:()V:83:assertEquals true
-org.apache.commons.math.stat.descriptive.moment.VarianceTest:testPopulation:()V:85:assertEquals true

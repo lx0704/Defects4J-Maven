@@ -1,4 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testRedundantEquations(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testRedundantEquations:()V:431:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testRedundantEquations:()V:432:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testRedundantEquations:()V:433:assertEquals true

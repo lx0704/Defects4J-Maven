@@ -1,5 +1,0 @@
-org.apache.commons.math.fraction.BigFractionTest.testBigDecimalValue(org.apache.commons.math.fraction.BigFractionTest) true
-org.apache.commons.math.fraction.BigFractionTest:testBigDecimalValue:()V:508:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testBigDecimalValue:()V:509:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testBigDecimalValue:()V:510:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testBigDecimalValue:()V:511:assertEquals true

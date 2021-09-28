@@ -1,2 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testInconsistentEquations(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testInconsistentEquations:()V:339:assertTrue true

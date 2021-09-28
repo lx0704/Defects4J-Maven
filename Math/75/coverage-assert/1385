@@ -1,6 +1,0 @@
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testMoreEstimatedParametersUnsorted:()V:290:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testMoreEstimatedParametersUnsorted:()V:291:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testMoreEstimatedParametersUnsorted:()V:292:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testMoreEstimatedParametersUnsorted:()V:293:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testMoreEstimatedParametersUnsorted:()V:294:assertEquals true

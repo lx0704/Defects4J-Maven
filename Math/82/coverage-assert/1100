@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.SparseFieldMatrixTest.testGetColumnVector(org.apache.commons.math.linear.SparseFieldMatrixTest) true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testGetColumnVector:()V:525:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testGetColumnVector:()V:526:assertEquals true

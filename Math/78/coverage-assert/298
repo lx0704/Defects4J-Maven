@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testFormatNumber(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testFormatNumber:()V:342:assertEquals true

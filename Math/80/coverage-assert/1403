@@ -1,9 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testMath293(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:132:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:133:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:134:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:135:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:136:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:137:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:138:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath293:()V:153:assertEquals true

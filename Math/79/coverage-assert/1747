@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.SkewnessTest.testNaN(org.apache.commons.math.stat.descriptive.moment.SkewnessTest) true
-org.apache.commons.math.stat.descriptive.moment.SkewnessTest:testNaN:()V:63:assertTrue true
-org.apache.commons.math.stat.descriptive.moment.SkewnessTest:testNaN:()V:65:assertTrue true
-org.apache.commons.math.stat.descriptive.moment.SkewnessTest:testNaN:()V:67:assertTrue true
-org.apache.commons.math.stat.descriptive.moment.SkewnessTest:testNaN:()V:69:assertFalse true

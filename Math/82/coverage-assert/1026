@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testGetSubMatrix(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/RealMatrix;[[DIIIIZ)V:395:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/RealMatrix;[[D[I[IZ)V:411:assertEquals true

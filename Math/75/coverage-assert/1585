@@ -1,6 +1,0 @@
-org.apache.commons.math.stat.FrequencyTest.testToString(org.apache.commons.math.stat.FrequencyTest) true
-org.apache.commons.math.stat.FrequencyTest:testToString:()V:235:assertNotNull true
-org.apache.commons.math.stat.FrequencyTest:testToString:()V:239:assertNotNull true
-org.apache.commons.math.stat.FrequencyTest:testToString:()V:242:assertNotNull true
-org.apache.commons.math.stat.FrequencyTest:testToString:()V:245:assertNotNull true
-org.apache.commons.math.stat.FrequencyTest:testToString:()V:248:assertNull true

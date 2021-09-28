@@ -1,6 +1,0 @@
-org.apache.commons.math.genetics.RandomKeyTest.testDecode(org.apache.commons.math.genetics.RandomKeyTest) true
-org.apache.commons.math.genetics.RandomKeyTest:testDecode:()V:58:assertEquals true
-org.apache.commons.math.genetics.RandomKeyTest:testDecode:()V:59:assertEquals true
-org.apache.commons.math.genetics.RandomKeyTest:testDecode:()V:60:assertEquals true
-org.apache.commons.math.genetics.RandomKeyTest:testDecode:()V:61:assertEquals true
-org.apache.commons.math.genetics.RandomKeyTest:testDecode:()V:62:assertEquals true

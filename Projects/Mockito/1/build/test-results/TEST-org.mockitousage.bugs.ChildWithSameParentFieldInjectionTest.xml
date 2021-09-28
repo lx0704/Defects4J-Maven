@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.ChildWithSameParentFieldInjectionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.001">
+  <properties/>
+  <testcase name="parent_field_is_not_null" classname="org.mockitousage.bugs.ChildWithSameParentFieldInjectionTest" time="0.0"/>
+  <testcase name="child_field_is_not_null" classname="org.mockitousage.bugs.ChildWithSameParentFieldInjectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

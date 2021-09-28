@@ -1,7 +1,0 @@
-org.apache.commons.math.fraction.BigFractionFormatTest.testParseInteger(org.apache.commons.math.fraction.BigFractionFormatTest) true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseInteger:()V:118:assertNotNull true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseInteger:()V:119:assertEquals true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseInteger:()V:120:assertEquals true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseInteger:()V:126:assertNotNull true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseInteger:()V:127:assertEquals true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseInteger:()V:128:assertEquals true

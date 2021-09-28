@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testTrace(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:testTrace:()V:226:assertEquals true

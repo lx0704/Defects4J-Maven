@@ -1,0 +1,8 @@
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testfirstDerivativeComparison(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:151:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:152:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:153:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:154:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:155:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:158:assertEquals true
+org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testfirstDerivativeComparison:()V:159:assertEquals true

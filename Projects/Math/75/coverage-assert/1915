@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.inference.ChiSquareTestTest.testChiSquareDataSetsComparisonEqualCounts(org.apache.commons.math.stat.inference.ChiSquareTestTest) true
+org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquareDataSetsComparisonEqualCounts:()V:193:assertEquals true
+org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquareDataSetsComparisonEqualCounts:()V:196:assertEquals true
+org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquareDataSetsComparisonEqualCounts:()V:199:assertFalse true

@@ -1,8 +1,0 @@
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testTwoSets(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:230:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:231:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:232:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:233:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:234:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:235:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testTwoSets:()V:236:assertEquals true

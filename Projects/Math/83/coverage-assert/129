@@ -1,0 +1,4 @@
+org.apache.commons.math.analysis.solvers.RiddersSolverTest.testQuinticFunction(org.apache.commons.math.analysis.solvers.RiddersSolverTest) true
+org.apache.commons.math.analysis.solvers.RiddersSolverTest:testQuinticFunction:()V:95:assertEquals true
+org.apache.commons.math.analysis.solvers.RiddersSolverTest:testQuinticFunction:()V:101:assertEquals true
+org.apache.commons.math.analysis.solvers.RiddersSolverTest:testQuinticFunction:()V:107:assertEquals true

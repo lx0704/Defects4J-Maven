@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.TDistributionTest.testDfAccessors(org.apache.commons.math.distribution.TDistributionTest) true
-org.apache.commons.math.distribution.TDistributionTest:testDfAccessors:()V:99:assertEquals true
-org.apache.commons.math.distribution.TDistributionTest:testDfAccessors:()V:101:assertEquals true

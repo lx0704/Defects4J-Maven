@@ -1,5 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testOneSet(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testOneSet:()V:192:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testOneSet:()V:193:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testOneSet:()V:194:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testOneSet:()V:195:assertEquals true

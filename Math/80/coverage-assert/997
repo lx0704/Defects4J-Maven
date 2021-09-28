@@ -1,4 +1,0 @@
-org.apache.commons.math.linear.LUSolverTest.testSingular(org.apache.commons.math.linear.LUSolverTest) true
-org.apache.commons.math.linear.LUSolverTest:testSingular:()V:74:assertTrue true
-org.apache.commons.math.linear.LUSolverTest:testSingular:()V:76:assertFalse true
-org.apache.commons.math.linear.LUSolverTest:testSingular:()V:78:assertFalse true

@@ -1,0 +1,5 @@
+org.apache.commons.math.linear.BigMatrixImplTest.testDeterminant(org.apache.commons.math.linear.BigMatrixImplTest) true
+org.apache.commons.math.linear.BigMatrixImplTest:testDeterminant:()V:378:assertEquals true
+org.apache.commons.math.linear.BigMatrixImplTest:testDeterminant:()V:380:assertEquals true
+org.apache.commons.math.linear.BigMatrixImplTest:testDeterminant:()V:384:assertEquals true
+org.apache.commons.math.linear.BigMatrixImplTest:testDeterminant:()V:386:assertEquals true

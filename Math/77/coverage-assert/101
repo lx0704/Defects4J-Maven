@@ -1,7 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testQuadratic(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuadratic:()V:98:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuadratic:()V:101:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuadratic:()V:102:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuadratic:()V:103:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuadratic:()V:104:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuadratic:()V:105:assertEquals true

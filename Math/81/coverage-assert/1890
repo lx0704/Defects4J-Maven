@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.inference.OneWayAnovaTest.testAnovaPValue(org.apache.commons.math.stat.inference.OneWayAnovaTest) true
-org.apache.commons.math.stat.inference.OneWayAnovaTest:testAnovaPValue:()V:94:assertEquals true
-org.apache.commons.math.stat.inference.OneWayAnovaTest:testAnovaPValue:()V:101:assertEquals true

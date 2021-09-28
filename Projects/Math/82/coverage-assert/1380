@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.linear.SimplexSolverTest.testMath286(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath286:()V:58:assertEquals true

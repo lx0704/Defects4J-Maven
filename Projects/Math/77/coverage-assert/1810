@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.descriptive.moment.VarianceTest.testWeightedVariance(org.apache.commons.math.stat.descriptive.moment.VarianceTest) true
+org.apache.commons.math.stat.descriptive.moment.VarianceTest:testWeightedVariance:()V:108:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VarianceTest:testWeightedVariance:()V:112:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VarianceTest:testWeightedVariance:()V:117:assertEquals true

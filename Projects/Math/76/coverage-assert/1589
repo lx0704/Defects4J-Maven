@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.StatUtilsTest.testMax(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:279:assertEquals false
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:283:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:287:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:291:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:295:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:299:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMax:()V:303:assertEquals false

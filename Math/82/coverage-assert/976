@@ -1,4 +1,0 @@
-org.apache.commons.math.linear.LUDecompositionImplTest.testSingular(org.apache.commons.math.linear.LUDecompositionImplTest) true
-org.apache.commons.math.linear.LUDecompositionImplTest:testSingular:()V:210:assertTrue true
-org.apache.commons.math.linear.LUDecompositionImplTest:testSingular:()V:212:assertFalse true
-org.apache.commons.math.linear.LUDecompositionImplTest:testSingular:()V:214:assertFalse true

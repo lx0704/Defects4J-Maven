@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.interpolation.NevilleInterpolatorTest.testExpm1Function(org.apache.commons.math.analysis.interpolation.NevilleInterpolatorTest) true
-org.apache.commons.math.analysis.interpolation.NevilleInterpolatorTest:testExpm1Function:()V:97:assertEquals true
-org.apache.commons.math.analysis.interpolation.NevilleInterpolatorTest:testExpm1Function:()V:101:assertEquals true
-org.apache.commons.math.analysis.interpolation.NevilleInterpolatorTest:testExpm1Function:()V:105:assertEquals true

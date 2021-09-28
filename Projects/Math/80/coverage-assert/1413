@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.linear.SimplexTableauTest.testInitialization(org.apache.commons.math.optimization.linear.SimplexTableauTest) true
+org.apache.commons.math.optimization.linear.SimplexTableauTest:assertMatrixEquals:([[D[[D)V:102:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexTableauTest:assertMatrixEquals:([[D[[D)V:104:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexTableauTest:assertMatrixEquals:([[D[[D)V:106:assertEquals true

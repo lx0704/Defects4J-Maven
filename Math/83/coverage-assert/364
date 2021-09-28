@@ -1,5 +1,0 @@
-org.apache.commons.math.distribution.GammaDistributionTest.testParameterAccessors(org.apache.commons.math.distribution.GammaDistributionTest) true
-org.apache.commons.math.distribution.GammaDistributionTest:testParameterAccessors:()V:71:assertEquals true
-org.apache.commons.math.distribution.GammaDistributionTest:testParameterAccessors:()V:73:assertEquals true
-org.apache.commons.math.distribution.GammaDistributionTest:testParameterAccessors:()V:74:assertEquals true
-org.apache.commons.math.distribution.GammaDistributionTest:testParameterAccessors:()V:76:assertEquals true

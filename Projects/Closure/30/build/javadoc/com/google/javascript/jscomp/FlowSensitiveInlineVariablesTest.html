@@ -1,0 +1,1205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>FlowSensitiveInlineVariablesTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../dev_javadoc.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="FlowSensitiveInlineVariablesTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/FixedPointGraphTraversalTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/FunctionArgumentInjectorTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html" target="_top">Frames</a></li>
+<li><a href="FlowSensitiveInlineVariablesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class FlowSensitiveInlineVariablesTest" class="title">Class FlowSensitiveInlineVariablesTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">com.google.javascript.jscomp.CompilerTestCase</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">FlowSensitiveInlineVariablesTest</span>
+extends <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></pre>
+<div class="block">Unit tests for <code>FlowSensitiveInlineVariables</code>.</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#EXTERN_FUNCTIONS">EXTERN_FUNCTIONS</a></strong></code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseTypeInfo">parseTypeInfo</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#FlowSensitiveInlineVariablesTest()">FlowSensitiveInlineVariablesTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#getNumRepetitions()">getNumRepetitions</a></strong>()</code>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected <a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></strong>(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</code>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testAssignmentBeforeDefinition()">testAssignmentBeforeDefinition</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testCanInlineAcrossNoSideEffect()">testCanInlineAcrossNoSideEffect</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testCatch()">testCatch</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDefinitionAfterUse()">testDefinitionAfterUse</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDependOnOuterScopeVariables()">testDependOnOuterScopeVariables</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDoNotExitLoop()">testDoNotExitLoop</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDoNotInlineAssignmentOp()">testDoNotInlineAssignmentOp</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDoNotInlineIncrement()">testDoNotInlineIncrement</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDoNotInlineIntoLhsOfAssign()">testDoNotInlineIntoLhsOfAssign</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testDoNotInlineWithinLoop()">testDoNotInlineWithinLoop</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testExported()">testExported</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineAcrossSideEffect1()">testInlineAcrossSideEffect1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineAcrossSideEffect2()">testInlineAcrossSideEffect2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineAcrossSideEffect3()">testInlineAcrossSideEffect3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineAcrossSideEffect4()">testInlineAcrossSideEffect4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineArguments()">testInlineArguments</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineConstructorCallsIntoLoop()">testInlineConstructorCallsIntoLoop</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpression10()">testInlineExpression10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpression7()">testInlineExpression7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpression8()">testInlineExpression8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpression9()">testInlineExpression9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions1()">testInlineExpressions1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions11()">testInlineExpressions11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions12()">testInlineExpressions12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions13()">testInlineExpressions13</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions2()">testInlineExpressions2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions3()">testInlineExpressions3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions4()">testInlineExpressions4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions5()">testInlineExpressions5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineExpressions6()">testInlineExpressions6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineIfNameIsLeftSideOfAssign()">testInlineIfNameIsLeftSideOfAssign</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineInDifferentPaths()">testInlineInDifferentPaths</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineIntoExpressions()">testInlineIntoExpressions</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInlineSameVariableInStraightLine()">testInlineSameVariableInStraightLine</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInvalidInlineArguments1()">testInvalidInlineArguments1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testInvalidInlineArguments2()">testInvalidInlineArguments2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testIssue698()">testIssue698</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testMultiDefinitionsBeforeUse()">testMultiDefinitionsBeforeUse</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testMultiDefinitionsInSameCfgNode()">testMultiDefinitionsInSameCfgNode</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testMultiUse()">testMultiUse</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testMultiUseInSameCfgNode()">testMultiUseInSameCfgNode</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testMultiUseInTwoDifferentPath()">testMultiUseInTwoDifferentPath</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineArrayLits()">testNoInlineArrayLits</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineConstructors()">testNoInlineConstructors</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineEscapedToInnerFunction()">testNoInlineEscapedToInnerFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineGetEle()">testNoInlineGetEle</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineGetProp()">testNoInlineGetProp</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineGetProp2()">testNoInlineGetProp2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineGetProp3()">testNoInlineGetProp3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineIfDefinitionMayNotReach()">testNoInlineIfDefinitionMayNotReach</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineInMergedPath()">testNoInlineInMergedPath</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineLoopCarriedDefinition()">testNoInlineLoopCarriedDefinition</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineLValue()">testNoInlineLValue</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineObjectLits()">testNoInlineObjectLits</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNoInlineRegExpLits()">testNoInlineRegExpLits</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNotOkToSkipCheckPathBetweenNodes()">testNotOkToSkipCheckPathBetweenNodes</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testNotReachingDefinitions()">testNotReachingDefinitions</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testRemoveWithLabels()">testRemoveWithLabels</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testShadowedVariableInnerFunction()">testShadowedVariableInnerFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testSimpleAssign()">testSimpleAssign</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testSimpleVar()">testSimpleVar</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testSwitchCase()">testSwitchCase</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html#testVarInConditionPath()">testVarInConditionPath</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#allowExternsChanges(boolean)">allowExternsChanges</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#disableNormalize()">disableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableAstValidation(boolean)">enableAstValidation</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableEcmaScript5(boolean)">enableEcmaScript5</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableLineNumberCheck(boolean)">enableLineNumberCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize()">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize(boolean)">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableTypeCheck(com.google.javascript.jscomp.CheckLevel)">enableTypeCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#findQualifiedNameNode(java.lang.String,%20com.google.javascript.rhino.Node)">findQualifiedNameNode</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getCodingConvention()">getCodingConvention</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions()">getOptions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions(com.google.javascript.jscomp.CompilerOptions)">getOptions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseExpectedJs(java.lang.String)">parseExpectedJs</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseExpectedJs(java.lang.String[])">parseExpectedJs</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#setExpectedSymbolTableError(com.google.javascript.jscomp.DiagnosticType)">setExpectedSymbolTableError</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#setFilename(java.lang.String)">setFilename</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.Compiler,%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.util.List,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">testSame</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, setUp, tearDown, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="EXTERN_FUNCTIONS">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>EXTERN_FUNCTIONS</h4>
+<pre>public static final&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> EXTERN_FUNCTIONS</pre>
+<dl><dt><span class="strong">See Also:</span></dt><dd><a href="../../../../constant-values.html#com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest.EXTERN_FUNCTIONS">Constant Field Values</a></dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="FlowSensitiveInlineVariablesTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>FlowSensitiveInlineVariablesTest</h4>
+<pre>public&nbsp;FlowSensitiveInlineVariablesTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getNumRepetitions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getNumRepetitions</h4>
+<pre>public&nbsp;int&nbsp;getNumRepetitions()</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">CompilerTestCase</a></code></strong></div>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">getNumRepetitions</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getProcessor(com.google.javascript.jscomp.Compiler)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getProcessor</h4>
+<pre>protected&nbsp;<a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>&nbsp;getProcessor(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">CompilerTestCase</a></code></strong></div>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>compiler</code> - The compiler</dd>
+<dt><span class="strong">Returns:</span></dt><dd>The pass to test</dd></dl>
+</li>
+</ul>
+<a name="testSimpleAssign()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSimpleAssign</h4>
+<pre>public&nbsp;void&nbsp;testSimpleAssign()</pre>
+</li>
+</ul>
+<a name="testSimpleVar()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSimpleVar</h4>
+<pre>public&nbsp;void&nbsp;testSimpleVar()</pre>
+</li>
+</ul>
+<a name="testExported()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExported</h4>
+<pre>public&nbsp;void&nbsp;testExported()</pre>
+</li>
+</ul>
+<a name="testDoNotInlineIncrement()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoNotInlineIncrement</h4>
+<pre>public&nbsp;void&nbsp;testDoNotInlineIncrement()</pre>
+</li>
+</ul>
+<a name="testDoNotInlineAssignmentOp()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoNotInlineAssignmentOp</h4>
+<pre>public&nbsp;void&nbsp;testDoNotInlineAssignmentOp()</pre>
+</li>
+</ul>
+<a name="testDoNotInlineIntoLhsOfAssign()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoNotInlineIntoLhsOfAssign</h4>
+<pre>public&nbsp;void&nbsp;testDoNotInlineIntoLhsOfAssign()</pre>
+</li>
+</ul>
+<a name="testMultiUse()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMultiUse</h4>
+<pre>public&nbsp;void&nbsp;testMultiUse()</pre>
+</li>
+</ul>
+<a name="testMultiUseInSameCfgNode()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMultiUseInSameCfgNode</h4>
+<pre>public&nbsp;void&nbsp;testMultiUseInSameCfgNode()</pre>
+</li>
+</ul>
+<a name="testMultiUseInTwoDifferentPath()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMultiUseInTwoDifferentPath</h4>
+<pre>public&nbsp;void&nbsp;testMultiUseInTwoDifferentPath()</pre>
+</li>
+</ul>
+<a name="testAssignmentBeforeDefinition()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAssignmentBeforeDefinition</h4>
+<pre>public&nbsp;void&nbsp;testAssignmentBeforeDefinition()</pre>
+</li>
+</ul>
+<a name="testVarInConditionPath()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testVarInConditionPath</h4>
+<pre>public&nbsp;void&nbsp;testVarInConditionPath()</pre>
+</li>
+</ul>
+<a name="testMultiDefinitionsBeforeUse()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMultiDefinitionsBeforeUse</h4>
+<pre>public&nbsp;void&nbsp;testMultiDefinitionsBeforeUse()</pre>
+</li>
+</ul>
+<a name="testMultiDefinitionsInSameCfgNode()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMultiDefinitionsInSameCfgNode</h4>
+<pre>public&nbsp;void&nbsp;testMultiDefinitionsInSameCfgNode()</pre>
+</li>
+</ul>
+<a name="testNotReachingDefinitions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNotReachingDefinitions</h4>
+<pre>public&nbsp;void&nbsp;testNotReachingDefinitions()</pre>
+</li>
+</ul>
+<a name="testNoInlineLoopCarriedDefinition()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineLoopCarriedDefinition</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineLoopCarriedDefinition()</pre>
+</li>
+</ul>
+<a name="testDoNotExitLoop()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoNotExitLoop</h4>
+<pre>public&nbsp;void&nbsp;testDoNotExitLoop()</pre>
+</li>
+</ul>
+<a name="testDoNotInlineWithinLoop()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDoNotInlineWithinLoop</h4>
+<pre>public&nbsp;void&nbsp;testDoNotInlineWithinLoop()</pre>
+</li>
+</ul>
+<a name="testDefinitionAfterUse()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDefinitionAfterUse</h4>
+<pre>public&nbsp;void&nbsp;testDefinitionAfterUse()</pre>
+</li>
+</ul>
+<a name="testInlineSameVariableInStraightLine()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineSameVariableInStraightLine</h4>
+<pre>public&nbsp;void&nbsp;testInlineSameVariableInStraightLine()</pre>
+</li>
+</ul>
+<a name="testInlineInDifferentPaths()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineInDifferentPaths</h4>
+<pre>public&nbsp;void&nbsp;testInlineInDifferentPaths()</pre>
+</li>
+</ul>
+<a name="testNoInlineInMergedPath()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineInMergedPath</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineInMergedPath()</pre>
+</li>
+</ul>
+<a name="testInlineIntoExpressions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineIntoExpressions</h4>
+<pre>public&nbsp;void&nbsp;testInlineIntoExpressions()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions1</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions1()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions2</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions2()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions3</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions3()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions4</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions4()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions5</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions5()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions6</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions6()</pre>
+</li>
+</ul>
+<a name="testInlineExpression7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpression7</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpression7()</pre>
+</li>
+</ul>
+<a name="testInlineExpression8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpression8</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpression8()</pre>
+</li>
+</ul>
+<a name="testInlineExpression9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpression9</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpression9()</pre>
+</li>
+</ul>
+<a name="testInlineExpression10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpression10</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpression10()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions11</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions11()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions12</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions12()</pre>
+</li>
+</ul>
+<a name="testInlineExpressions13()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineExpressions13</h4>
+<pre>public&nbsp;void&nbsp;testInlineExpressions13()</pre>
+</li>
+</ul>
+<a name="testNoInlineIfDefinitionMayNotReach()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineIfDefinitionMayNotReach</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineIfDefinitionMayNotReach()</pre>
+</li>
+</ul>
+<a name="testNoInlineEscapedToInnerFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineEscapedToInnerFunction</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineEscapedToInnerFunction()</pre>
+</li>
+</ul>
+<a name="testNoInlineLValue()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineLValue</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineLValue()</pre>
+</li>
+</ul>
+<a name="testSwitchCase()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSwitchCase</h4>
+<pre>public&nbsp;void&nbsp;testSwitchCase()</pre>
+</li>
+</ul>
+<a name="testShadowedVariableInnerFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testShadowedVariableInnerFunction</h4>
+<pre>public&nbsp;void&nbsp;testShadowedVariableInnerFunction()</pre>
+</li>
+</ul>
+<a name="testCatch()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCatch</h4>
+<pre>public&nbsp;void&nbsp;testCatch()</pre>
+</li>
+</ul>
+<a name="testNoInlineGetProp()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineGetProp</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineGetProp()</pre>
+</li>
+</ul>
+<a name="testNoInlineGetProp2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineGetProp2</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineGetProp2()</pre>
+</li>
+</ul>
+<a name="testNoInlineGetProp3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineGetProp3</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineGetProp3()</pre>
+</li>
+</ul>
+<a name="testNoInlineGetEle()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineGetEle</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineGetEle()</pre>
+</li>
+</ul>
+<a name="testNoInlineConstructors()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineConstructors</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineConstructors()</pre>
+</li>
+</ul>
+<a name="testNoInlineArrayLits()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineArrayLits</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineArrayLits()</pre>
+</li>
+</ul>
+<a name="testNoInlineObjectLits()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineObjectLits</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineObjectLits()</pre>
+</li>
+</ul>
+<a name="testNoInlineRegExpLits()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNoInlineRegExpLits</h4>
+<pre>public&nbsp;void&nbsp;testNoInlineRegExpLits()</pre>
+</li>
+</ul>
+<a name="testInlineConstructorCallsIntoLoop()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineConstructorCallsIntoLoop</h4>
+<pre>public&nbsp;void&nbsp;testInlineConstructorCallsIntoLoop()</pre>
+</li>
+</ul>
+<a name="testRemoveWithLabels()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRemoveWithLabels</h4>
+<pre>public&nbsp;void&nbsp;testRemoveWithLabels()</pre>
+</li>
+</ul>
+<a name="testInlineAcrossSideEffect1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineAcrossSideEffect1</h4>
+<pre>public&nbsp;void&nbsp;testInlineAcrossSideEffect1()</pre>
+</li>
+</ul>
+<a name="testInlineAcrossSideEffect2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineAcrossSideEffect2</h4>
+<pre>public&nbsp;void&nbsp;testInlineAcrossSideEffect2()</pre>
+</li>
+</ul>
+<a name="testInlineAcrossSideEffect3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineAcrossSideEffect3</h4>
+<pre>public&nbsp;void&nbsp;testInlineAcrossSideEffect3()</pre>
+</li>
+</ul>
+<a name="testInlineAcrossSideEffect4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineAcrossSideEffect4</h4>
+<pre>public&nbsp;void&nbsp;testInlineAcrossSideEffect4()</pre>
+</li>
+</ul>
+<a name="testCanInlineAcrossNoSideEffect()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineAcrossNoSideEffect</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineAcrossNoSideEffect()</pre>
+</li>
+</ul>
+<a name="testDependOnOuterScopeVariables()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testDependOnOuterScopeVariables</h4>
+<pre>public&nbsp;void&nbsp;testDependOnOuterScopeVariables()</pre>
+</li>
+</ul>
+<a name="testInlineIfNameIsLeftSideOfAssign()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineIfNameIsLeftSideOfAssign</h4>
+<pre>public&nbsp;void&nbsp;testInlineIfNameIsLeftSideOfAssign()</pre>
+</li>
+</ul>
+<a name="testInlineArguments()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineArguments</h4>
+<pre>public&nbsp;void&nbsp;testInlineArguments()</pre>
+</li>
+</ul>
+<a name="testInvalidInlineArguments1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInvalidInlineArguments1</h4>
+<pre>public&nbsp;void&nbsp;testInvalidInlineArguments1()</pre>
+</li>
+</ul>
+<a name="testInvalidInlineArguments2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInvalidInlineArguments2</h4>
+<pre>public&nbsp;void&nbsp;testInvalidInlineArguments2()</pre>
+</li>
+</ul>
+<a name="testNotOkToSkipCheckPathBetweenNodes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNotOkToSkipCheckPathBetweenNodes</h4>
+<pre>public&nbsp;void&nbsp;testNotOkToSkipCheckPathBetweenNodes()</pre>
+</li>
+</ul>
+<a name="testIssue698()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>testIssue698</h4>
+<pre>public&nbsp;void&nbsp;testIssue698()</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/FixedPointGraphTraversalTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/FunctionArgumentInjectorTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.html" target="_top">Frames</a></li>
+<li><a href="FlowSensitiveInlineVariablesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

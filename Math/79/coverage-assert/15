@@ -1,2 +1,0 @@
-org.apache.commons.math.MathConfigurationExceptionTest.testConstructorCause(org.apache.commons.math.MathConfigurationExceptionTest) true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorCause:()V:54:assertEquals true

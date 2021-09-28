@@ -1,8 +1,0 @@
-org.apache.commons.math.fraction.BigFractionTest.testEqualsAndHashCode(org.apache.commons.math.fraction.BigFractionTest) true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:517:assertTrue true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:518:assertFalse true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:519:assertFalse true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:521:assertTrue true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:522:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:524:assertFalse true
-org.apache.commons.math.fraction.BigFractionTest:testEqualsAndHashCode:()V:525:assertTrue true

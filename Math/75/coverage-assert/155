@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.solvers.RiddersSolverTest.testExpm1Function(org.apache.commons.math.analysis.solvers.RiddersSolverTest) true
-org.apache.commons.math.analysis.solvers.RiddersSolverTest:testExpm1Function:()V:122:assertEquals true
-org.apache.commons.math.analysis.solvers.RiddersSolverTest:testExpm1Function:()V:128:assertEquals true
-org.apache.commons.math.analysis.solvers.RiddersSolverTest:testExpm1Function:()V:134:assertEquals true

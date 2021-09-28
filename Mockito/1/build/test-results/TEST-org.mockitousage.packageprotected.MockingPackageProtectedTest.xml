@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockitousage.packageprotected.MockingPackageProtectedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.012">
-  <properties/>
-  <testcase name="shouldMockPackageProtectedClasses" classname="org.mockitousage.packageprotected.MockingPackageProtectedTest" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

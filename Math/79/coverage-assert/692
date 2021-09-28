@@ -1,2 +1,0 @@
-org.apache.commons.math.geometry.Vector3DTest.testNormalize(org.apache.commons.math.geometry.Vector3DTest) true
-org.apache.commons.math.geometry.Vector3DTest:testNormalize:()V:177:assertEquals true

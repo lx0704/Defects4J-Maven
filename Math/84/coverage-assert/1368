@@ -1,2 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testMoreEstimatedParametersSimple(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testMoreEstimatedParametersSimple:()V:286:assertEquals true

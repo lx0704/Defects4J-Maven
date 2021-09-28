@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.FDistributionTest.testSmallDegreesOfFreedom(org.apache.commons.math.distribution.FDistributionTest) true
-org.apache.commons.math.distribution.FDistributionTest:testSmallDegreesOfFreedom:()V:119:assertEquals true
-org.apache.commons.math.distribution.FDistributionTest:testSmallDegreesOfFreedom:()V:124:assertEquals true

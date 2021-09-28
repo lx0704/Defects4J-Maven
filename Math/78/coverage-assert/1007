@@ -1,6 +1,0 @@
-org.apache.commons.math.linear.MatrixUtilsTest.testCreateBigMatrix(org.apache.commons.math.linear.MatrixUtilsTest) true
-org.apache.commons.math.linear.MatrixUtilsTest:testCreateBigMatrix:()V:120:assertEquals true
-org.apache.commons.math.linear.MatrixUtilsTest:testCreateBigMatrix:()V:122:assertEquals true
-org.apache.commons.math.linear.MatrixUtilsTest:testCreateBigMatrix:()V:124:assertEquals true
-org.apache.commons.math.linear.MatrixUtilsTest:testCreateBigMatrix:()V:126:assertEquals true
-org.apache.commons.math.linear.MatrixUtilsTest:testCreateBigMatrix:()V:128:assertEquals true

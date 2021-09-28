@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.descriptive.rank.MinTest.testNaNs(org.apache.commons.math.stat.descriptive.rank.MinTest) true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testNaNs:()V:75:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testNaNs:()V:76:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testNaNs:()V:77:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testNaNs:()V:78:assertTrue true

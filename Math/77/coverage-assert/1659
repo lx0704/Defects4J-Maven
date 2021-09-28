@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testToString(org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest) true
-org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testToString:()V:92:assertEquals true

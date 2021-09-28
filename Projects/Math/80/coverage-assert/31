@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.integration.RombergIntegratorTest.testSinFunction(org.apache.commons.math.analysis.integration.RombergIntegratorTest) true
+org.apache.commons.math.analysis.integration.RombergIntegratorTest:testSinFunction:()V:48:assertEquals true
+org.apache.commons.math.analysis.integration.RombergIntegratorTest:testSinFunction:()V:53:assertEquals true

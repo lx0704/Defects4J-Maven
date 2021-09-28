@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:45" hostname="set" time="1.019">
+  <properties/>
+  <testcase name="shouldSuccessfullyVerifyConcurrentInvocationsWithTimeout" classname="org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest" time="1.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[started 0
+]]></system-err>
+</testsuite>

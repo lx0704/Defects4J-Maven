@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.SingularValueDecompositionImplTest.testVOrthogonal(org.apache.commons.math.linear.SingularValueDecompositionImplTest) true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:checkOrthogonal:(Lorg/apache/commons/math/linear/RealMatrix;)V:164:assertEquals true

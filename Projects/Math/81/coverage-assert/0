@@ -1,0 +1,6 @@
+org.apache.commons.math.ArgumentOutsideDomainExceptionTest.testConstructor(org.apache.commons.math.ArgumentOutsideDomainExceptionTest) true
+org.apache.commons.math.ArgumentOutsideDomainExceptionTest:testConstructor:()V:31:assertNull true
+org.apache.commons.math.ArgumentOutsideDomainExceptionTest:testConstructor:()V:32:assertNotNull true
+org.apache.commons.math.ArgumentOutsideDomainExceptionTest:testConstructor:()V:33:assertTrue true
+org.apache.commons.math.ArgumentOutsideDomainExceptionTest:testConstructor:()V:34:assertEquals true
+org.apache.commons.math.ArgumentOutsideDomainExceptionTest:testConstructor:()V:35:assertFalse true

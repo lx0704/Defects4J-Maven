@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.internal.configuration.plugins.PluginFileReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.001">
-  <properties/>
-  <testcase name="reads_class_name" classname="org.mockito.internal.configuration.plugins.PluginFileReaderTest" time="0.001"/>
-  <testcase name="no_class_in_resource" classname="org.mockito.internal.configuration.plugins.PluginFileReaderTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

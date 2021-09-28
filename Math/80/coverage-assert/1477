@@ -1,3 +1,0 @@
-org.apache.commons.math.random.RandomAdaptorTest.testNextPoissonConsistency(org.apache.commons.math.random.RandomAdaptorTest) true
-org.apache.commons.math.random.RandomDataTest:checkNextPoissonConsistency:(D)V:342:assertFalse true
-org.apache.commons.math.random.RandomDataTest:checkNextPoissonConsistency:(D)V:342:assertFalse false

@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testToString(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest) true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testToString:()V:112:assertEquals true

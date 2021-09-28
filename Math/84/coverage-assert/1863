@@ -1,9 +1,0 @@
-org.apache.commons.math.stat.inference.TestUtilsTest.testOneSampleTTest(org.apache.commons.math.stat.inference.TestUtilsTest) true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:276:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:278:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:280:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:282:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:284:assertTrue true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:285:assertTrue true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:286:assertTrue true
-org.apache.commons.math.stat.inference.TestUtilsTest:testOneSampleTTest:()V:287:assertTrue true

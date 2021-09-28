@@ -1,3 +1,0 @@
-org.apache.commons.math.special.GammaTest.testRegularizedGammaPositiveNegative(org.apache.commons.math.special.GammaTest) true
-org.apache.commons.math.special.GammaTest:testRegularizedGamma:(DDD)V:37:assertEquals false
-org.apache.commons.math.special.GammaTest:testRegularizedGamma:(DDD)V:38:assertEquals false

@@ -1,0 +1,5 @@
+org.apache.commons.math.ConvergenceExceptionTest.testConstructor(org.apache.commons.math.ConvergenceExceptionTest) true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructor:()V:31:assertNull true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructor:()V:32:assertNotNull true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructor:()V:33:assertNotNull true
+org.apache.commons.math.ConvergenceExceptionTest:testConstructor:()V:34:assertFalse true

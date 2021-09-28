@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BiDiagonalTransformerTest.testBBiDiagonal(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:checkBiDiagonal:(Lorg/apache/commons/math/linear/RealMatrix;)V:115:assertEquals true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:checkBiDiagonal:(Lorg/apache/commons/math/linear/RealMatrix;)V:111:assertEquals true

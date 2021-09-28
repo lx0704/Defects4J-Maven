@@ -1,6 +1,0 @@
-relre:target/
-relre:classes/
-mockito.ipr
-mockito.iws
-mockito.iml
-glob:maven/repository

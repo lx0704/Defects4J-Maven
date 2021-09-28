@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseFieldVectorTest.testMapFunctions(org.apache.commons.math.linear.SparseFieldVectorTest) true
-org.apache.commons.math.linear.SparseFieldVectorTest:assertEquals:(Ljava/lang/String;[Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;)V:204:assertEquals true

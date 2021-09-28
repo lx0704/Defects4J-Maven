@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseFieldMatrixTest.testOperate(org.apache.commons.math.linear.SparseFieldMatrixTest) true
-org.apache.commons.math.linear.SparseFieldMatrixTest:assertClose:(Ljava/lang/String;[Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;D)V:671:assertEquals true

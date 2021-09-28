@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testSSENonNegative(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testSSENonNegative:()V:276:assertTrue true

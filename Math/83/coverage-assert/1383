@@ -1,7 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testRestrictVariablesToNonNegative(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testRestrictVariablesToNonNegative:()V:170:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testRestrictVariablesToNonNegative:()V:171:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testRestrictVariablesToNonNegative:()V:172:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testRestrictVariablesToNonNegative:()V:173:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testRestrictVariablesToNonNegative:()V:174:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testRestrictVariablesToNonNegative:()V:175:assertEquals true

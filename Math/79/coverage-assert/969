@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.FrenchRealVectorFormatTest.testParseNan(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testParseNan:()V:303:assertEquals true

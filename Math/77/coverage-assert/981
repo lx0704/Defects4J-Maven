@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.FrenchRealVectorFormatTest.testForgottenSeparator(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenSeparator:()V:377:assertNull true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenSeparator:()V:378:assertEquals true

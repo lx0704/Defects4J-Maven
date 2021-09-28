@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.handler.InvocationNotifierHandlerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:54" hostname="set" time="0.004">
+  <properties/>
+  <testcase name="should_notify_all_listeners_when_called_delegate_handler_throws_exception_and_rethrow_it" classname="org.mockito.internal.handler.InvocationNotifierHandlerTest" time="0.0"/>
+  <testcase name="should_report_listener_exception" classname="org.mockito.internal.handler.InvocationNotifierHandlerTest" time="0.0"/>
+  <testcase name="should_delegate_all_MockHandlerInterface_to_the_parameterized_MockHandler" classname="org.mockito.internal.handler.InvocationNotifierHandlerTest" time="0.0"/>
+  <testcase name="should_notify_all_listeners_when_calling_delegate_handler" classname="org.mockito.internal.handler.InvocationNotifierHandlerTest" time="0.0"/>
+  <testcase name="should_notify_all_listeners_when_called_delegate_handler_returns_ex" classname="org.mockito.internal.handler.InvocationNotifierHandlerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

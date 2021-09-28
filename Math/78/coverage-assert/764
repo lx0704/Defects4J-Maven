@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testGetRowMatrix(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testGetRowMatrix:()V:638:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testGetRowMatrix:()V:640:assertEquals true

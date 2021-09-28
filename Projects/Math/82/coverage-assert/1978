@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testMulAndCheck(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testMulAndCheck:()V:654:assertEquals true

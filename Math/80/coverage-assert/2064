@@ -1,3 +1,0 @@
-org.apache.commons.math.util.OpenIntToFieldTest.testCopy(org.apache.commons.math.util.OpenIntToFieldTest) true
-org.apache.commons.math.util.OpenIntToFieldTest:testCopy:()V:214:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testCopy:()V:217:assertEquals true

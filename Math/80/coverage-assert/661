@@ -1,5 +1,0 @@
-org.apache.commons.math.geometry.Vector3DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math.geometry.Vector3DFormatTest) true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseIgnoredWhitespace:()V:167:assertEquals true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseIgnoredWhitespace:()V:168:assertEquals true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseIgnoredWhitespace:()V:171:assertEquals true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseIgnoredWhitespace:()V:172:assertEquals true

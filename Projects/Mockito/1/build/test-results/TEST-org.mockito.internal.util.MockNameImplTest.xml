@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.MockNameImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.001">
+  <properties/>
+  <testcase name="shouldProvideTheNameForClass" classname="org.mockito.internal.util.MockNameImplTest" time="0.001"/>
+  <testcase name="shouldProvideTheNameForAnonymousClass" classname="org.mockito.internal.util.MockNameImplTest" time="0.0"/>
+  <testcase name="shouldProvideTheGivenName" classname="org.mockito.internal.util.MockNameImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

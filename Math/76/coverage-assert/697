@@ -1,4 +1,0 @@
-org.apache.commons.math.geometry.Vector3DTest.testAngle(org.apache.commons.math.geometry.Vector3DTest) true
-org.apache.commons.math.geometry.Vector3DTest:testAngle:()V:206:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:testAngle:()V:209:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:testAngle:()V:212:assertEquals true

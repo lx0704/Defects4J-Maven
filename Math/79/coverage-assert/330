@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.BetaDistributionTest.testCumulative(org.apache.commons.math.distribution.BetaDistributionTest) true
-org.apache.commons.math.distribution.BetaDistributionTest:checkCumulative:(DD[D[D)V:145:assertEquals true
-org.apache.commons.math.distribution.BetaDistributionTest:checkCumulative:(DD[D[D)V:149:assertEquals true

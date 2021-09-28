@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BlockRealMatrixTest.testGetVectors(org.apache.commons.math.linear.BlockRealMatrixTest) true
-org.apache.commons.math.linear.BlockRealMatrixTest:assertClose:([D[DD)V:1189:assertEquals true

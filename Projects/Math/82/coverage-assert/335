@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.ChiSquareDistributionTest.testDensity(org.apache.commons.math.distribution.ChiSquareDistributionTest) true
+org.apache.commons.math.distribution.ChiSquareDistributionTest:checkDensity:(D[D[D)V:125:assertEquals true

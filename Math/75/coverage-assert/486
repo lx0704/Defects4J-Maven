@@ -1,2 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testMoreEstimatedParametersSimple(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testMoreEstimatedParametersSimple:()V:371:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.FrenchRealVectorFormatTest.testStaticFormatRealVectorImpl(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testStaticFormatRealVectorImpl:()V:126:assertEquals true

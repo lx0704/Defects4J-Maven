@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BlockFieldMatrixTest.testCopyFunctions(org.apache.commons.math.linear.BlockFieldMatrixTest) true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testCopyFunctions:()V:176:assertEquals true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testCopyFunctions:()V:179:assertEquals true

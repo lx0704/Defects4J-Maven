@@ -1,2 +1,0 @@
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest.testUnstableDerivative(org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testUnstableDerivative:()V:279:assertEquals true

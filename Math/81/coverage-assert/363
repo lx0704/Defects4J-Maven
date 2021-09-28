@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.FDistributionTest.testConsistency(org.apache.commons.math.distribution.FDistributionTest) true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:testConsistency:()V:191:assertEquals true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:testConsistency:()V:201:assertEquals true

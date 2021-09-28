@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest.testSerial(org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest) true
-org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest:testSerial:()V:61:assertEquals true

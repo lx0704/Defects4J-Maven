@@ -1,0 +1,3 @@
+org.apache.commons.math.fraction.BigFractionFormatTest.testDenominatorFormat(org.apache.commons.math.fraction.BigFractionFormatTest) true
+org.apache.commons.math.fraction.BigFractionFormatTest:testDenominatorFormat:()V:292:assertEquals true
+org.apache.commons.math.fraction.BigFractionFormatTest:testDenominatorFormat:()V:299:assertEquals true

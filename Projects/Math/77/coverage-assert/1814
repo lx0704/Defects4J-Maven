@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest.testSimplistic(org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest) true
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest:testSimplistic:()V:53:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest:testSimplistic:()V:54:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest:testSimplistic:()V:55:assertEquals true

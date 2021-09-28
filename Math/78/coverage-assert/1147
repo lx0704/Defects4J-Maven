@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testGetColumnMatrix(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:testGetColumnMatrix:()V:473:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testGetColumnMatrix:()V:474:assertEquals true

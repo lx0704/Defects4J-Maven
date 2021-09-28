@@ -1,0 +1,2 @@
+org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest.testNoReset(org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest) true
+org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest:testNoReset:()V:48:assertTrue true

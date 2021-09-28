@@ -1,8 +1,0 @@
-org.apache.commons.math.stat.StatUtilsTest.testStats(org.apache.commons.math.stat.StatUtilsTest) true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:51:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:52:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:53:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:54:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:55:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:56:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testStats:()V:57:assertEquals true

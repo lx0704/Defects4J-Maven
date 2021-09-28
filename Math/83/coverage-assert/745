@@ -1,7 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testDimensions(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testDimensions:()V:140:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testDimensions:()V:141:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testDimensions:()V:142:assertTrue true
-org.apache.commons.math.linear.BigMatrixImplTest:testDimensions:()V:143:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testDimensions:()V:144:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testDimensions:()V:145:assertTrue true

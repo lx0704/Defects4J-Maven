@@ -1,0 +1,5 @@
+org.apache.commons.math.util.TransformerMapTest.testRemoveTransformer(org.apache.commons.math.util.TransformerMapTest) true
+org.apache.commons.math.util.TransformerMapTest:testRemoveTransformer:()V:67:assertTrue true
+org.apache.commons.math.util.TransformerMapTest:testRemoveTransformer:()V:68:assertTrue true
+org.apache.commons.math.util.TransformerMapTest:testRemoveTransformer:()V:70:assertFalse true
+org.apache.commons.math.util.TransformerMapTest:testRemoveTransformer:()V:71:assertFalse true

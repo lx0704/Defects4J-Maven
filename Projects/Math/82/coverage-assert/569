@@ -1,0 +1,9 @@
+org.apache.commons.math.fraction.FractionTest.testReciprocal(org.apache.commons.math.fraction.FractionTest) true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:246:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:247:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:251:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:252:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:256:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:257:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:268:assertEquals true
+org.apache.commons.math.fraction.FractionTest:testReciprocal:()V:269:assertEquals true

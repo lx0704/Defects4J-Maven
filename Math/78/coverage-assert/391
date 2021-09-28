@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.HypergeometricDistributionTest.testPopulationSize(org.apache.commons.math.distribution.HypergeometricDistributionTest) true
-org.apache.commons.math.distribution.HypergeometricDistributionTest:testPopulationSize:()V:139:assertEquals true

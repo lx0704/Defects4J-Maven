@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.SparseFieldMatrixTest.testMath209(org.apache.commons.math.linear.SparseFieldMatrixTest) true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testMath209:()V:276:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testMath209:()V:277:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testMath209:()V:278:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testMath209:()V:279:assertEquals true

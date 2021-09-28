@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testConjugateInfiinite(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testConjugateInfiinite:()V:135:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testConjugateInfiinite:()V:137:assertEquals false

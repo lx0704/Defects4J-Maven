@@ -1,3 +1,0 @@
-org.apache.commons.math.util.ResizableDoubleArrayTest.testMinMax(org.apache.commons.math.util.ResizableDoubleArrayTest) true
-org.apache.commons.math.util.DoubleArrayAbstractTest:testMinMax:()V:124:assertEquals true
-org.apache.commons.math.util.DoubleArrayAbstractTest:testMinMax:()V:125:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.random.AbstractRandomGeneratorTest.testNextFloat(org.apache.commons.math.random.AbstractRandomGeneratorTest) true
+org.apache.commons.math.random.AbstractRandomGeneratorTest:testNextFloat:()V:143:assertTrue true

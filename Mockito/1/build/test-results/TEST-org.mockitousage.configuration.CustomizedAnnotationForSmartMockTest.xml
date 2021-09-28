@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockitousage.configuration.CustomizedAnnotationForSmartMockTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.0">
-  <properties/>
-  <testcase name="shouldUseCustomAnnotation" classname="org.mockitousage.configuration.CustomizedAnnotationForSmartMockTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

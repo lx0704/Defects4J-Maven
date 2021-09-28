@@ -1,2 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testSerial(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testSerial:()V:231:assertEquals true

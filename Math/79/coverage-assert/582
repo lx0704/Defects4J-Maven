@@ -1,7 +1,0 @@
-org.apache.commons.math.fraction.FractionTest.testMultiply(org.apache.commons.math.fraction.FractionTest) true
-org.apache.commons.math.fraction.FractionTest:assertFraction:(IILorg/apache/commons/math/fraction/Fraction;)V:30:assertEquals true
-org.apache.commons.math.fraction.FractionTest:assertFraction:(IILorg/apache/commons/math/fraction/Fraction;)V:31:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testMultiply:()V:453:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testMultiply:()V:454:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testMultiply:()V:463:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testMultiply:()V:464:assertEquals true

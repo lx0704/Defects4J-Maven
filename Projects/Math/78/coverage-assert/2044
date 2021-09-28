@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testSinh(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testSinh:()V:1089:assertEquals true

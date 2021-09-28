@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockitousage.testng.failuretests.TestNGShouldFailWhenMockitoListenerFailsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:37" hostname="set" time="0.154">
-  <properties/>
-  <testcase name="report_failure_on_incorrect_annotation_usage" classname="org.mockitousage.testng.failuretests.TestNGShouldFailWhenMockitoListenerFailsTest" time="0.009"/>
-  <testcase name="report_failure_on_incorrect_stubbing_syntax_with_matchers_in_configuration_methods" classname="org.mockitousage.testng.failuretests.TestNGShouldFailWhenMockitoListenerFailsTest" time="0.007"/>
-  <testcase name="report_failure_on_incorrect_stubbing_syntax_with_matchers_in_test_methods" classname="org.mockitousage.testng.failuretests.TestNGShouldFailWhenMockitoListenerFailsTest" time="0.136"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

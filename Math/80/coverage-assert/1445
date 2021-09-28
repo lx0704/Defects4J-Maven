@@ -1,2 +1,0 @@
-org.apache.commons.math.random.EmpiricalDistributionTest.testGetBinUpperBounds(org.apache.commons.math.random.EmpiricalDistributionTest) true
-org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true

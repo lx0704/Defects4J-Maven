@@ -1,7 +1,0 @@
-org.apache.commons.math.linear.SparseFieldVectorTest.testBasicFunctions(org.apache.commons.math.linear.SparseFieldVectorTest) true
-org.apache.commons.math.linear.SparseFieldVectorTest:assertEquals:(Ljava/lang/String;[Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;)V:204:assertEquals true
-org.apache.commons.math.linear.SparseFieldVectorTest:assertClose:(Ljava/lang/String;[Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;D)V:214:assertEquals true
-org.apache.commons.math.linear.SparseFieldVectorTest:testBasicFunctions:()V:156:assertEquals true
-org.apache.commons.math.linear.SparseFieldVectorTest:testBasicFunctions:()V:160:assertEquals true
-org.apache.commons.math.linear.SparseFieldVectorTest:testBasicFunctions:()V:163:assertEquals true
-org.apache.commons.math.linear.SparseFieldVectorTest:testBasicFunctions:()V:166:assertEquals true

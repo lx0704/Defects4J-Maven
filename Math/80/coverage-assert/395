@@ -1,5 +1,0 @@
-org.apache.commons.math.distribution.NormalDistributionTest.testExtremeValues(org.apache.commons.math.distribution.NormalDistributionTest) true
-org.apache.commons.math.distribution.NormalDistributionTest:testExtremeValues:()V:157:assertTrue true
-org.apache.commons.math.distribution.NormalDistributionTest:testExtremeValues:()V:158:assertTrue true
-org.apache.commons.math.distribution.NormalDistributionTest:testExtremeValues:()V:161:assertTrue true
-org.apache.commons.math.distribution.NormalDistributionTest:testExtremeValues:()V:162:assertTrue true

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.reflection.LenientCopyToolTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.006">
+  <properties/>
+  <testcase name="shouldEnableAndThenDisableAccessibility" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.001"/>
+  <testcase name="shouldContinueEvenIfThereAreProblemsCopyingSingleFieldValue" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.004"/>
+  <testcase name="shouldBeAbleToCopyFromRealObjectToRealObject" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.0"/>
+  <testcase name="shouldShallowCopyBasicFinalField" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.0"/>
+  <testcase name="shouldShallowCopyTransientPrivateFields" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.0"/>
+  <testcase name="shouldShallowCopyLinkedListIntoMock" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.0"/>
+  <testcase name="shouldShallowCopyFieldValuesIntoMock" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.0"/>
+  <testcase name="shouldCopyValuesOfInheritedFields" classname="org.mockito.internal.util.reflection.LenientCopyToolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

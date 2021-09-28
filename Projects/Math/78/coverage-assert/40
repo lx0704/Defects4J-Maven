@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.interpolation.DividedDifferenceInterpolatorTest.testSinFunction(org.apache.commons.math.analysis.interpolation.DividedDifferenceInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.DividedDifferenceInterpolatorTest:testSinFunction:()V:66:assertEquals true
+org.apache.commons.math.analysis.interpolation.DividedDifferenceInterpolatorTest:testSinFunction:()V:70:assertEquals true

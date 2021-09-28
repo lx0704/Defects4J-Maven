@@ -1,4 +1,0 @@
-org.apache.commons.math.transform.FastHadamardTransformerTest.test8Points(org.apache.commons.math.transform.FastHadamardTransformerTest) true
-org.apache.commons.math.transform.FastHadamardTransformerTest:checkDoubleTransform:([I[I)V:85:assertEquals true
-org.apache.commons.math.transform.FastHadamardTransformerTest:checkInverseDoubleTransform:([I[I)V:114:assertEquals true
-org.apache.commons.math.transform.FastHadamardTransformerTest:checkIntTransform:([I[I)V:97:assertEquals true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.spies.SpyingOnRealObjectsTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.053">
+  <properties/>
+  <testcase name="shouldVerify" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldStubWithDoReturnAndVerify" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.0"/>
+  <testcase name="shouldVerifyInOrder" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.0"/>
+  <testcase name="shouldVerifyInOrderAndFail" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldVerifyNumberOfTimes" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldVerifyNumberOfTimesAndFail" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldAllowOverridingStubs" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.0"/>
+  <testcase name="shouldStubVoid" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldVerifyNoMoreInteractionsAndFail" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldToString" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldAllowSpyingAnonymousClasses" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.006"/>
+  <testcase name="shouldSayNiceMessageWhenSpyingOnPrivateClass" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.037"/>
+  <testcase name="shouldBeAbleToMockObjectBecauseWhyNot" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.001"/>
+  <testcase name="shouldStub" classname="org.mockitousage.spies.SpyingOnRealObjectsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

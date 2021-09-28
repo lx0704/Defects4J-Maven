@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testNorm(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:testNorm:()V:150:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testNorm:()V:151:assertEquals true

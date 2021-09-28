@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testNegate(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testNegate:()V:250:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNegate:()V:251:assertEquals true

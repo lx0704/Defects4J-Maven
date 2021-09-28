@@ -1,0 +1,3 @@
+org.apache.commons.math.complex.ComplexTest.testDivide(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testDivide:()V:144:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testDivide:()V:145:assertEquals true

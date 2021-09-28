@@ -1,0 +1,11 @@
+org.apache.commons.math.complex.ComplexTest.testSerial(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:953:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:955:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:956:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:958:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:959:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:961:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:963:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:964:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:966:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testSerial:()V:967:assertTrue true

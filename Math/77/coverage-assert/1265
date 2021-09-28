@@ -1,3 +1,0 @@
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest.interpolationAtBounds(org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest) true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationAtBounds:()V:84:assertTrue true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationAtBounds:()V:90:assertTrue true

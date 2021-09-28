@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testParseDifferentImaginaryChar(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testParseDifferentImaginaryChar:()V:234:assertEquals true

@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.descriptive.rank.MaxTest.testSpecialValues(org.apache.commons.math.stat.descriptive.rank.MaxTest) true
-org.apache.commons.math.stat.descriptive.rank.MaxTest:testSpecialValues:()V:60:assertTrue true
-org.apache.commons.math.stat.descriptive.rank.MaxTest:testSpecialValues:()V:62:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MaxTest:testSpecialValues:()V:64:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MaxTest:testSpecialValues:()V:66:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MaxTest:testSpecialValues:()V:68:assertEquals false
-org.apache.commons.math.stat.descriptive.rank.MaxTest:testSpecialValues:()V:69:assertEquals false

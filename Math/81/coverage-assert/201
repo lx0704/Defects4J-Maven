@@ -1,4 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testAddNaN(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testAddNaN:()V:103:assertTrue true
-org.apache.commons.math.complex.ComplexTest:testAddNaN:()V:106:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testAddNaN:()V:107:assertTrue true

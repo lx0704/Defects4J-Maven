@@ -1,0 +1,3 @@
+org.apache.commons.math.random.UniformRandomGeneratorTest.testMeanAndStandardDeviation(org.apache.commons.math.random.UniformRandomGeneratorTest) true
+org.apache.commons.math.random.UniformRandomGeneratorTest:testMeanAndStandardDeviation:()V:39:assertEquals true
+org.apache.commons.math.random.UniformRandomGeneratorTest:testMeanAndStandardDeviation:()V:40:assertEquals true

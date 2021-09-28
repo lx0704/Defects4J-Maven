@@ -1,3 +1,0 @@
-org.apache.commons.math.special.ErfTest.testErf3291(org.apache.commons.math.special.ErfTest) true
-org.apache.commons.math.special.ErfTest:testErf3291:()V:72:assertEquals true
-org.apache.commons.math.special.ErfTest:testErf3291:()V:76:assertEquals true

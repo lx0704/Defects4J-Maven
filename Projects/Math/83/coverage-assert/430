@@ -1,0 +1,4 @@
+org.apache.commons.math.estimation.EstimatedParameterTest.testBound(org.apache.commons.math.estimation.EstimatedParameterTest) true
+org.apache.commons.math.estimation.EstimatedParameterTest:testBound:()V:49:assertTrue true
+org.apache.commons.math.estimation.EstimatedParameterTest:testBound:()V:51:assertTrue true
+org.apache.commons.math.estimation.EstimatedParameterTest:testBound:()V:53:assertTrue true

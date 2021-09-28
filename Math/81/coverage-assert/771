@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testNorm(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testNorm:()V:240:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testNorm:()V:241:assertEquals true

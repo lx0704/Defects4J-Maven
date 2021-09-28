@@ -1,0 +1,5 @@
+org.apache.commons.math.analysis.ComposableFunctionTest.testComposition(org.apache.commons.math.analysis.ComposableFunctionTest) true
+org.apache.commons.math.analysis.ComposableFunctionTest:testComposition:()V:81:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testComposition:()V:87:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testComposition:()V:93:assertEquals true
+org.apache.commons.math.analysis.ComposableFunctionTest:testComposition:()V:99:assertEquals true

@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.rank.MaxTest.testNaNs(org.apache.commons.math.stat.descriptive.rank.MaxTest) true
+org.apache.commons.math.stat.descriptive.rank.MaxTest:testNaNs:()V:75:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.MaxTest:testNaNs:()V:76:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.MaxTest:testNaNs:()V:77:assertEquals true
+org.apache.commons.math.stat.descriptive.rank.MaxTest:testNaNs:()V:78:assertTrue true

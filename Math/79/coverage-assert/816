@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BlockFieldMatrixTest.testSerial(org.apache.commons.math.linear.BlockFieldMatrixTest) true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testSerial:()V:1243:assertEquals true

@@ -1,7 +1,0 @@
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testColumnsPermutation(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testColumnsPermutation:()V:132:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testColumnsPermutation:()V:133:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testColumnsPermutation:()V:134:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testColumnsPermutation:()V:135:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testColumnsPermutation:()V:136:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testColumnsPermutation:()V:137:assertEquals true

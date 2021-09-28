@@ -1,0 +1,50 @@
+              Apache Commons Compress 1.7 RELEASE NOTES
+
+The Commons Compress team is pleased to announce the
+commons-compress-1.7 release!
+
+Apache Commons Compress software defines an API for working with
+compression and archive formats.  These include: bzip2, gzip, pack200,
+lzma, xz, Snappy, traditional Unix Compress and ar, cpio, jar, tar,
+zip, dump, 7z, arj.
+
+Changes in this version include:
+
+New features:
+o Read-Only support for Snappy compression.
+  Issue: COMPRESS-147. Thanks to BELUGA BEHR.
+o Read-Only support for .Z compressed files.
+  Issue: COMPRESS-243. Thanks to Damjan Jovanovic.
+o ZipFile and ZipArchiveInputStream now support reading entries
+  compressed using the SHRINKING method. Thanks to Damjan Jovanovic.
+o GzipCompressorOutputStream now supports setting the compression
+  level and the header metadata (filename, comment, modification time,
+  operating system and extra flags)
+  Issue: COMPRESS-250. Thanks to Emmanuel Bourg.
+o ZipFile and ZipArchiveInputStream now support reading entries
+  compressed using the IMPLODE method.
+  Issue: COMPRESS-115. Thanks to Emmanuel Bourg.
+o ZipFile and the 7z file classes now implement Closeable and can be
+  used in try-with-resources constructs.
+
+Fixed Bugs:
+o SevenZOutputFile#closeArchiveEntry throws an exception when using
+  LZMA2 compression on Java8.  Issue: COMPRESS-241.
+o 7z reading of big 64bit values could be wrong.
+  Issue: COMPRESS-244. Thanks to Nico Kruber.
+o TarArchiveInputStream could fail to read an archive completely.
+  Issue: COMPRESS-245.
+o The time-setters in X5455_ExtendedTimestamp now set the
+  corresponding flags explicitly - i.e. they set the bit if the valus
+  is not-null and reset it otherwise.  This may cause
+  incompatibilities if you use setFlags to unset a bit and later set
+  the time to a non-null value - the flag will now be set.
+  Issue: COMPRESS-242.
+o SevenZOutputFile would create invalid archives if more than six
+  empty files or directories were included.  Issue: COMPRESS-252.
+
+For complete information on Commons Compress, including instructions
+on how to submit bug reports, patches, or suggestions for improvement,
+see the Apache Commons Compress website:
+
+http://commons.apache.org/compress/

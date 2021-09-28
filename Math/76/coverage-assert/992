@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.FrenchRealVectorFormatTest.testParseNegativeAll(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testParseNegativeAll:()V:263:assertEquals true

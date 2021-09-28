@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveMultiple(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
-org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveMultiple:()V:324:assertEquals true
-org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveMultiple:()V:326:assertEquals true
-org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveMultiple:()V:328:assertEquals true
-org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveMultiple:()V:330:assertEquals true

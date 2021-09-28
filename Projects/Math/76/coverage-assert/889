@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.BlockRealMatrixTest.testSetColumnVector(org.apache.commons.math.linear.BlockRealMatrixTest) true
+org.apache.commons.math.linear.BlockRealMatrixTest:testSetColumnVector:()V:799:assertNotSame true
+org.apache.commons.math.linear.BlockRealMatrixTest:testSetColumnVector:()V:801:assertEquals true

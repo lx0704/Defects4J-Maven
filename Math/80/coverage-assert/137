@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.solvers.RiddersSolverTest.testDeprecated(org.apache.commons.math.analysis.solvers.RiddersSolverTest) true
-org.apache.commons.math.analysis.solvers.RiddersSolverTest:testDeprecated:()V:53:assertEquals true
-org.apache.commons.math.analysis.solvers.RiddersSolverTest:testDeprecated:()V:59:assertEquals true

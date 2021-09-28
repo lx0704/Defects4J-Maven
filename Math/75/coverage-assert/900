@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.CholeskyDecompositionImplTest.testDimensions(org.apache.commons.math.linear.CholeskyDecompositionImplTest) true
-org.apache.commons.math.linear.CholeskyDecompositionImplTest:testDimensions:()V:48:assertEquals true
-org.apache.commons.math.linear.CholeskyDecompositionImplTest:testDimensions:()V:49:assertEquals true
-org.apache.commons.math.linear.CholeskyDecompositionImplTest:testDimensions:()V:50:assertEquals true
-org.apache.commons.math.linear.CholeskyDecompositionImplTest:testDimensions:()V:51:assertEquals true

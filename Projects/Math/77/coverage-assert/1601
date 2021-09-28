@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.testPerformClusterAnalysisDegenerate(org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest) true
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest:testPerformClusterAnalysisDegenerate:()V:110:assertEquals true
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest:testPerformClusterAnalysisDegenerate:()V:111:assertEquals true
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest:testPerformClusterAnalysisDegenerate:()V:114:assertTrue true
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest:testPerformClusterAnalysisDegenerate:()V:115:assertTrue true

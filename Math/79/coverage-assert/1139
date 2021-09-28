@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.SparseFieldVectorTest.testPredicates(org.apache.commons.math.linear.SparseFieldVectorTest) true
-org.apache.commons.math.linear.SparseFieldVectorTest:testPredicates:()V:193:assertEquals true
-org.apache.commons.math.linear.SparseFieldVectorTest:testPredicates:()V:194:assertNotSame true

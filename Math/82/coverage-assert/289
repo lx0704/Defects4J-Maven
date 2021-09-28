@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testNegativeBoth(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testNegativeBoth:()V:84:assertEquals true

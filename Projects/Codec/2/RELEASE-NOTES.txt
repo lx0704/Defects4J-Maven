@@ -1,0 +1,27 @@
+The commons-codec team is pleased to announce the Codec 1.4 release! 
+
+http://commons.apache.org/codec/
+
+The codec package contains simple encoder and decoders for various formats 
+such as Base64 and Hexadecimal. In addition to these widely used encoders and 
+decoders, the codec package also maintains a collection of phonetic encoding 
+utilities. 
+
+Changes in this version include:
+
+  New Features:
+
+o 
+  Fixed bugs:
+
+o Using US_ENGLISH in Soundex causes an NPE.  Issue addressed and
+  test case added to SoundexTest.
+  Issue: 37894. Thanks to Reggie Riser. 
+
+  Changes:
+
+o 
+
+Have fun!
+-The commons-codec team
+      

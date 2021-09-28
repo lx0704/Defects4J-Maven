@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest.testSolveAccuracySin(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest) true
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest:testSolveAccuracySin:()V:74:assertEquals true

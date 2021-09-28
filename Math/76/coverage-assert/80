@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest.testParaboloid2D(org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest) true
-org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest:testParaboloid2D:()V:124:assertEquals true
-org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest:testParaboloid2D:()V:130:assertEquals true

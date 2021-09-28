@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.plugins.switcher.PluginSwitchTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:42" hostname="set" time="0.064">
+  <properties/>
+  <testcase name="uses_custom_mock_maker" classname="org.mockitousage.plugins.switcher.PluginSwitchTest" time="0.0"/>
+  <testcase name="plugin_switcher_is_used" classname="org.mockitousage.plugins.switcher.PluginSwitchTest" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

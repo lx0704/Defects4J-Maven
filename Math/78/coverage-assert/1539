@@ -1,2 +1,0 @@
-org.apache.commons.math.special.GammaTest.testLogGammaNegative(org.apache.commons.math.special.GammaTest) true
-org.apache.commons.math.special.GammaTest:testLogGamma:(DD)V:46:assertEquals false

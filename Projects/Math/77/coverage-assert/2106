@@ -1,0 +1,4 @@
+org.apache.commons.math.util.ResizableDoubleArrayTest.testAdd1000(org.apache.commons.math.util.ResizableDoubleArrayTest) true
+org.apache.commons.math.util.DoubleArrayAbstractTest:testAdd1000:()V:45:assertEquals true
+org.apache.commons.math.util.DoubleArrayAbstractTest:testAdd1000:()V:50:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testAdd1000:()V:183:assertEquals true

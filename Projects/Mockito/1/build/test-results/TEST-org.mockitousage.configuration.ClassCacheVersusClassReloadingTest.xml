@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.configuration.ClassCacheVersusClassReloadingTest" tests="2" skipped="1" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.0">
+  <properties/>
+  <testcase name="should_throw_ClassCastException_on_second_call" classname="org.mockitousage.configuration.ClassCacheVersusClassReloadingTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="should_not_throw_ClassCastException_when_objenesis_cache_disabled" classname="org.mockitousage.configuration.ClassCacheVersusClassReloadingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

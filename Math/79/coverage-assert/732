@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.Array2DRowRealMatrixTest.testTrace(org.apache.commons.math.linear.Array2DRowRealMatrixTest) true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testTrace:()V:216:assertEquals true

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.concurrentmockito.ThreadsShareAMockTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:42" hostname="set" time="0.636">
-  <properties/>
-  <testcase name="shouldAllowVerifyingInThreads" classname="org.concurrentmockito.ThreadsShareAMockTest" time="0.636"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

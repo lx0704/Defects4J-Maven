@@ -1,0 +1,3 @@
+org.apache.commons.math.complex.ComplexTest.testAtanNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testAtanNaN:()V:409:assertTrue true
+org.apache.commons.math.complex.ComplexTest:testAtanNaN:()V:410:assertTrue true

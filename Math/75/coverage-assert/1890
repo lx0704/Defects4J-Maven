@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.summary.SumSqTest.testSerial(org.apache.commons.math.stat.descriptive.summary.SumSqTest) true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testSerial:()V:208:assertEquals true

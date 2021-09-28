@@ -1,0 +1,5 @@
+org.apache.commons.math.linear.SingularValueSolverTest.testSolve(org.apache.commons.math.linear.SingularValueSolverTest) true
+org.apache.commons.math.linear.SingularValueSolverTest:testSolve:()V:106:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testSolve:()V:110:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testSolve:()V:117:assertEquals true
+org.apache.commons.math.linear.SingularValueSolverTest:testSolve:()V:126:assertEquals true

@@ -1,4 +1,0 @@
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerStepInterpolatorTest.serialization(org.apache.commons.math.ode.nonstiff.GraggBulirschStoerStepInterpolatorTest) true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerStepInterpolatorTest:serialization:()V:81:assertTrue true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerStepInterpolatorTest:serialization:()V:82:assertTrue true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerStepInterpolatorTest:serialization:()V:104:assertTrue true

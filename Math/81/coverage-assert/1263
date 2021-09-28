@@ -1,5 +1,0 @@
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest.testVariableSteps(org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest$VariableStepHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:356:assertTrue true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest$VariableStepHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:357:assertTrue true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testVariableSteps:()V:267:assertEquals true
-org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest:testVariableSteps:()V:268:assertEquals true

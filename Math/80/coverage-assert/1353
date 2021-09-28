@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testInconsistentSizes(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testInconsistentSizes:()V:335:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testInconsistentSizes:()V:336:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testInconsistentSizes:()V:337:assertEquals true

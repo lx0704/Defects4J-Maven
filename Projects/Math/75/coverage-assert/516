@@ -1,0 +1,2 @@
+org.apache.commons.math.fraction.BigFractionFieldTest.testOne(org.apache.commons.math.fraction.BigFractionFieldTest) true
+org.apache.commons.math.fraction.BigFractionFieldTest:testOne:()V:34:assertEquals true

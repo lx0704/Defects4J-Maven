@@ -1,3 +1,0 @@
-org.apache.commons.math.util.OpenIntToFieldTest.testPutOnExisting(org.apache.commons.math.util.OpenIntToFieldTest) true
-org.apache.commons.math.util.OpenIntToFieldTest:testPutOnExisting:()V:127:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testPutOnExisting:()V:128:assertEquals true

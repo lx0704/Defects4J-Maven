@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BlockFieldMatrixTest.testGetRowMatrix(org.apache.commons.math.linear.BlockFieldMatrixTest) true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testGetRowMatrix:()V:678:assertEquals true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testGetRowMatrix:()V:679:assertEquals true

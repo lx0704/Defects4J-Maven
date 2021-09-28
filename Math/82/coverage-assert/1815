@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.summary.SumSqTest.testEvaluation(org.apache.commons.math.stat.descriptive.summary.SumSqTest) true
-org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testEvaluation:()V:69:assertEquals true

@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.inference.TestUtilsTest.testTwoSampleTHomoscedastic(org.apache.commons.math.stat.inference.TestUtilsTest) true
-org.apache.commons.math.stat.inference.TestUtilsTest:testTwoSampleTHomoscedastic:()V:404:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testTwoSampleTHomoscedastic:()V:406:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testTwoSampleTHomoscedastic:()V:408:assertTrue true
-org.apache.commons.math.stat.inference.TestUtilsTest:testTwoSampleTHomoscedastic:()V:410:assertTrue true

@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testFrobeniusNorm(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:testFrobeniusNorm:()V:158:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testFrobeniusNorm:()V:159:assertEquals true

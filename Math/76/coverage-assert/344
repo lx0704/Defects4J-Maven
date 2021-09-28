@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testStaticFormatComplex(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testStaticFormatComplex:()V:115:assertEquals true

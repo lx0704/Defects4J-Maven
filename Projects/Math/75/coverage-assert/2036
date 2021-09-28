@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testFactorialFail(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testFactorialFail:()V:434:assertTrue true

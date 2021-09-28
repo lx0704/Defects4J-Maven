@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testModelWithNoArtificialVars(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testModelWithNoArtificialVars:()V:93:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testModelWithNoArtificialVars:()V:94:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testModelWithNoArtificialVars:()V:95:assertEquals true

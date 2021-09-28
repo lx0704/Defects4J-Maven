@@ -1,7 +1,0 @@
-org.apache.commons.math.MathConfigurationExceptionTest.testConstructorPatternArguments(org.apache.commons.math.MathConfigurationExceptionTest) true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorPatternArguments:()V:40:assertNull true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorPatternArguments:()V:41:assertEquals true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorPatternArguments:()V:42:assertEquals true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorPatternArguments:()V:44:assertEquals true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorPatternArguments:()V:46:assertFalse true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructorPatternArguments:()V:47:assertFalse true

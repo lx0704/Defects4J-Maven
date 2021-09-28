@@ -1,0 +1,3 @@
+org.apache.commons.math.geometry.Vector3DFormatTest.testForgottenPrefix(org.apache.commons.math.geometry.Vector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testForgottenPrefix:()V:345:assertNull true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testForgottenPrefix:()V:346:assertEquals true

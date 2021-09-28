@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testEqualsAndHashCode(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:748:assertTrue true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:749:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:750:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:751:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:752:assertFalse true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:753:assertFalse true
-org.apache.commons.math.linear.RealMatrixImplTest:testEqualsAndHashCode:()V:754:assertFalse true

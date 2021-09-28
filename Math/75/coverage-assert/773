@@ -1,7 +1,0 @@
-org.apache.commons.math.linear.BiDiagonalTransformerTest.testSingularMatrix(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:testSingularMatrix:()V:150:assertEquals true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:testSingularMatrix:()V:152:assertEquals true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:testSingularMatrix:()V:154:assertEquals true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:testSingularMatrix:()V:157:assertTrue true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:testSingularMatrix:()V:158:assertTrue true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:testSingularMatrix:()V:159:assertTrue true

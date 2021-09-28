@@ -1,2 +1,0 @@
-org.apache.commons.math.random.RandomAdaptorTest.testNextGaussian(org.apache.commons.math.random.RandomAdaptorTest) true
-org.apache.commons.math.random.RandomDataTest:testNextGaussian:()V:549:assertTrue true

@@ -1,0 +1,9 @@
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest.testQuinticMin(org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest) true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:85:assertEquals true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:86:assertEquals true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:87:assertEquals true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:92:assertEquals true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:95:assertTrue true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:96:assertTrue true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:97:assertTrue true
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:testQuinticMin:()V:98:assertTrue true

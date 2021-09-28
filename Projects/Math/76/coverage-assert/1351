@@ -1,0 +1,5 @@
+org.apache.commons.math.optimization.direct.NelderMeadTest.testRosenbrock(org.apache.commons.math.optimization.direct.NelderMeadTest) true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testRosenbrock:()V:156:assertEquals true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testRosenbrock:()V:157:assertTrue true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testRosenbrock:()V:158:assertTrue true
+org.apache.commons.math.optimization.direct.NelderMeadTest:testRosenbrock:()V:159:assertTrue true

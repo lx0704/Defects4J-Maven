@@ -1,6 +1,0 @@
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest.testDecreasingSteps(org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:testDecreasingSteps:()V:97:assertEquals true
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:testDecreasingSteps:()V:101:assertEquals true
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:testDecreasingSteps:()V:109:assertEquals true
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:testDecreasingSteps:()V:111:assertEquals true
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:testDecreasingSteps:()V:106:assertTrue true

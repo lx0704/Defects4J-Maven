@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.FieldMatrixImplTest.testGetSubMatrix(org.apache.commons.math.linear.FieldMatrixImplTest) true
+org.apache.commons.math.linear.FieldMatrixImplTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/FieldMatrix;[[Lorg/apache/commons/math/fraction/Fraction;IIII)V:382:assertEquals true
+org.apache.commons.math.linear.FieldMatrixImplTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/FieldMatrix;[[Lorg/apache/commons/math/fraction/Fraction;[I[I)V:398:assertEquals true

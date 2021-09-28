@@ -1,0 +1,5 @@
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testRosenbrock(org.apache.commons.math.optimization.direct.MultiDirectionalTest) true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testRosenbrock:()V:155:assertEquals true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testRosenbrock:()V:156:assertTrue true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testRosenbrock:()V:157:assertTrue true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testRosenbrock:()V:158:assertTrue true

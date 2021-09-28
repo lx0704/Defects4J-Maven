@@ -1,0 +1,5 @@
+org.apache.commons.math.analysis.solvers.NewtonSolverTest.testDeprecated(org.apache.commons.math.analysis.solvers.NewtonSolverTest) true
+org.apache.commons.math.analysis.solvers.NewtonSolverTest:testDeprecated:()V:39:assertEquals true
+org.apache.commons.math.analysis.solvers.NewtonSolverTest:testDeprecated:()V:42:assertEquals true
+org.apache.commons.math.analysis.solvers.NewtonSolverTest:testDeprecated:()V:44:assertEquals true
+org.apache.commons.math.analysis.solvers.NewtonSolverTest:testDeprecated:()V:45:assertTrue true

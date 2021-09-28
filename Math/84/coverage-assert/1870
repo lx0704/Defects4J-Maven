@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.ranking.NaturalRankingTest.testNaNsAndInfs(org.apache.commons.math.stat.ranking.NaturalRankingTest) true
-org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true

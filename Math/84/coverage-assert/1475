@@ -1,2 +1,0 @@
-org.apache.commons.math.random.RandomDataTest.testNextUniformExclusiveEndpoints(org.apache.commons.math.random.RandomDataTest) true
-org.apache.commons.math.random.RandomDataTest:testNextUniformExclusiveEndpoints:()V:376:assertTrue true

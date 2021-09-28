@@ -1,8 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest.testLinearFunction(org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:46:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:49:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:52:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:54:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:57:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:58:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeFormTest:testLinearFunction:()V:59:assertEquals true

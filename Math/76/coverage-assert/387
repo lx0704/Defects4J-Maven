@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.FDistributionTest.testLargeDegreesOfFreedom(org.apache.commons.math.distribution.FDistributionTest) true
-org.apache.commons.math.distribution.FDistributionTest:testLargeDegreesOfFreedom:()V:110:assertEquals true

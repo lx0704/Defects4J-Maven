@@ -1,2 +1,0 @@
-org.apache.commons.math.analysis.solvers.LaguerreSolverTest.testDeprecated(org.apache.commons.math.analysis.solvers.LaguerreSolverTest) true
-org.apache.commons.math.analysis.solvers.LaguerreSolverTest:testDeprecated:()V:54:assertEquals true

@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.inference.OneWayAnovaTest.testAnovaFValue(org.apache.commons.math.stat.inference.OneWayAnovaTest) true
+org.apache.commons.math.stat.inference.OneWayAnovaTest:testAnovaFValue:()V:56:assertEquals true
+org.apache.commons.math.stat.inference.OneWayAnovaTest:testAnovaFValue:()V:63:assertEquals true

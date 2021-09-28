@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testOperate(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:assertClose:(Ljava/lang/String;[D[DD)V:657:assertEquals true

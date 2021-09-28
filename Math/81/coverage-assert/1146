@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testGetEntry(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:testGetEntry:()V:343:assertEquals true

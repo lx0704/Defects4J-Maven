@@ -1,4 +1,0 @@
-org.apache.commons.math.fraction.FractionTest.testToString(org.apache.commons.math.fraction.FractionTest) true
-org.apache.commons.math.fraction.FractionTest:testToString:()V:570:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testToString:()V:571:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testToString:()V:572:assertEquals true

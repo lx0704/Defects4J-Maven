@@ -1,0 +1,8 @@
+org.apache.commons.math.distribution.PoissonDistributionTest.testFloatingPointArguments(org.apache.commons.math.distribution.PoissonDistributionTest) true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:200:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:207:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:215:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:229:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:231:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:234:assertEquals true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:testFloatingPointArguments:()V:236:assertEquals true

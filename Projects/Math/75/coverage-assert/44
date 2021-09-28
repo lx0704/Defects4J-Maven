@@ -1,0 +1,4 @@
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest) true
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest:testQuinticFunction:()V:67:assertEquals true
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest:testQuinticFunction:()V:71:assertEquals true
+org.apache.commons.math.analysis.integration.LegendreGaussIntegratorTest:testQuinticFunction:()V:75:assertEquals true

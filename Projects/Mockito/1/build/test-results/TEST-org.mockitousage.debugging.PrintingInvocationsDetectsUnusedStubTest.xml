@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.003">
+  <properties/>
+  <testcase name="shouldDetectUnusedStubbingWhenPrinting" classname="org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest" time="0.003"/>
+  <system-out><![CDATA[********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest.shouldDetectUnusedStubbingWhenPrinting(PrintingInvocationsDetectsUnusedStubTest.java:22)
+********************************
+***       Unused stubs       ***
+********************************
+mock.giveMeSomeString("different arg");
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest.shouldDetectUnusedStubbingWhenPrinting(PrintingInvocationsDetectsUnusedStubTest.java:21)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

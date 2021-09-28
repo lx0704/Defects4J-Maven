@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.GeometricMeanTest.testSerial(org.apache.commons.math.stat.descriptive.moment.GeometricMeanTest) true
+org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testSerial:()V:208:assertEquals true

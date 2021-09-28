@@ -1,0 +1,2 @@
+org.apache.commons.math.genetics.FitnessCachingTest.testFitnessCaching(org.apache.commons.math.genetics.FitnessCachingTest) true
+org.apache.commons.math.genetics.FitnessCachingTest:testFitnessCaching:()V:65:assertTrue true

@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.RealVectorFormatTest.testNonDefaultSetting(org.apache.commons.math.linear.RealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testNonDefaultSetting:()V:112:assertEquals true

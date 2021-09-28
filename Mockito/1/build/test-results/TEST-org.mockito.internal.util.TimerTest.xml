@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.internal.util.TimerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.001">
-  <properties/>
-  <testcase name="should_throw_friendly_reminder_exception_when_duration_is_negative" classname="org.mockito.internal.util.TimerTest" time="0.0"/>
-  <testcase name="should_return_true_if_task_is_in_acceptable_time_bounds" classname="org.mockito.internal.util.TimerTest" time="0.0"/>
-  <testcase name="should_return_false_when_time_run_out" classname="org.mockito.internal.util.TimerTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

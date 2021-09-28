@@ -1,0 +1,4 @@
+org.apache.commons.math.geometry.Vector3DTest.testCoordinates(org.apache.commons.math.geometry.Vector3DTest) true
+org.apache.commons.math.geometry.Vector3DTest:testCoordinates:()V:51:assertTrue true
+org.apache.commons.math.geometry.Vector3DTest:testCoordinates:()V:52:assertTrue true
+org.apache.commons.math.geometry.Vector3DTest:testCoordinates:()V:53:assertTrue true

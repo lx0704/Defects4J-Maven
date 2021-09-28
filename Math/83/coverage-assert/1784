@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.rank.PercentileTest.testNISTExample(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
-org.apache.commons.math.stat.descriptive.rank.PercentileTest:testNISTExample:()V:93:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.PercentileTest:testNISTExample:()V:94:assertEquals true

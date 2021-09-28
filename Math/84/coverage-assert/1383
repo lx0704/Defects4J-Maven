@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testSimplexSolver(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSimplexSolver:()V:62:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSimplexSolver:()V:63:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSimplexSolver:()V:64:assertEquals true

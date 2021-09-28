@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SingularValueDecompositionImplTest.testAEqualUSVt(org.apache.commons.math.linear.SingularValueDecompositionImplTest) true
-org.apache.commons.math.linear.SingularValueDecompositionImplTest:checkAEqualUSVt:(Lorg/apache/commons/math/linear/RealMatrix;)V:143:assertEquals true

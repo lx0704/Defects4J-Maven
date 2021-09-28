@@ -1,4 +1,0 @@
-org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest.testNoDenseOutput(org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest) true
-org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest:testNoDenseOutput:()V:247:assertEquals true
-org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest:testNoDenseOutput:()V:254:assertEquals true
-org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest:testNoDenseOutput:()V:256:assertTrue true

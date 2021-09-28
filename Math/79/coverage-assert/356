@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.ExponentialDistributionTest.testCumulativeProbability2(org.apache.commons.math.distribution.ExponentialDistributionTest) true
-org.apache.commons.math.distribution.ExponentialDistributionTest:testCumulativeProbability2:()V:75:assertEquals true

@@ -1,5 +1,0 @@
-org.apache.commons.math.util.ResizableDoubleArrayTest.testWithInitialCapacityAndExpansionFactor(org.apache.commons.math.util.ResizableDoubleArrayTest) true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacityAndExpansionFactor:()V:293:assertEquals true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacityAndExpansionFactor:()V:302:assertEquals true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacityAndExpansionFactor:()V:306:assertEquals true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testWithInitialCapacityAndExpansionFactor:()V:309:assertEquals true

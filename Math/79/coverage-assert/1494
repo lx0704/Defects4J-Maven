@@ -1,2 +1,0 @@
-org.apache.commons.math.random.RandomDataTest.testNextPoisson(org.apache.commons.math.random.RandomDataTest) true
-org.apache.commons.math.random.RandomDataTest:testNextPoisson:()V:208:assertEquals true

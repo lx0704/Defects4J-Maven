@@ -1,0 +1,38 @@
+              Apache Commons Compress 1.3 RELEASE NOTES
+
+Apache Commons Compress software defines an API for working with
+  compression and archive formats.  These include: bzip2, gzip,
+  pack200 and ar, cpio, jar, tar, zip, dump.
+
+Commons Compress 1.3 is the first version to require Java5 at runtime.
+
+Changes in this version include:
+
+New features:
+o Support for the Pack200 format has been added.  Issue: COMPRESS-142. 
+o Read-only support for the format used by the Unix dump(8) tool
+        has been added.  Issue: COMPRESS-132. 
+
+Fixed Bugs:
+o BZip2CompressorInputStream's getBytesRead method always
+        returned 0. 
+o ZipArchiveInputStream and ZipArchiveOutputStream could leak
+        resources on some JDKs.  Issue: COMPRESS-152. 
+o TarArchiveOutputStream's getBytesWritten method didn't count
+        correctly.  Issue: COMPRESS-160. 
+
+Changes:
+o The ZIP package now supports Zip64 extensions.  Issue: COMPRESS-36. 
+o The AR package now supports the BSD dialect of storing file
+        names longer than 16 chars (both reading and writing).
+        Issue: COMPRESS-144. 
+
+For complete information on Commons Compress, including instructions
+on how to submit bug reports, patches, or suggestions for improvement,
+see the Apache Commons Compress website:
+ 
+http://commons.apache.org/compress/
+
+Have fun!
+-Commons Compress team
+

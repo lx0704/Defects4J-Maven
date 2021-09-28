@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BlockRealMatrixTest.testOperatePremultiplyLarge(org.apache.commons.math.linear.BlockRealMatrixTest) true
-org.apache.commons.math.linear.BlockRealMatrixTest:checkArrays:([D[D)V:969:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:checkArrays:([D[D)V:971:assertEquals true

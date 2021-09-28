@@ -1,0 +1,10 @@
+org.apache.commons.math.analysis.solvers.BrentSolverTest.testSinZero(org.apache.commons.math.analysis.solvers.BrentSolverTest) true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:95:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:97:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:102:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:104:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:109:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:111:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:115:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:117:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testSinZero:()V:118:assertEquals true

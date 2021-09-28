@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.integration.SimpsonIntegratorTest.testSinFunction(org.apache.commons.math.analysis.integration.SimpsonIntegratorTest) true
-org.apache.commons.math.analysis.integration.SimpsonIntegratorTest:testSinFunction:()V:47:assertEquals true
-org.apache.commons.math.analysis.integration.SimpsonIntegratorTest:testSinFunction:()V:52:assertEquals true

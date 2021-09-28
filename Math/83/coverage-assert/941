@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.FrenchRealVectorFormatTest.testForgottenSuffix(org.apache.commons.math.linear.FrenchRealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenSuffix:()V:381:assertNull true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenSuffix:()V:382:assertEquals true

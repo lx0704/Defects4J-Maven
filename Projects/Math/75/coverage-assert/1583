@@ -1,0 +1,14 @@
+org.apache.commons.math.stat.FrequencyTest.testPcts(org.apache.commons.math.stat.FrequencyTest) true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:144:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:145:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:146:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:148:assertEquals false
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:149:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:150:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:151:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:152:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:153:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:154:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:155:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:156:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testPcts:()V:157:assertEquals true

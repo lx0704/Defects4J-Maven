@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.SingularValueDecompositionImplTest.testMoreColumns(org.apache.commons.math.linear.SingularValueDecompositionImplTest) true
-org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMoreColumns:()V:73:assertEquals true
-org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMoreColumns:()V:75:assertEquals true

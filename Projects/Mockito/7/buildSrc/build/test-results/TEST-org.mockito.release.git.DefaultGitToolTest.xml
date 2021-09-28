@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.git.DefaultGitToolTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:40:04" hostname="set" time="0.009">
+  <properties/>
+  <testcase name="sets author" classname="org.mockito.release.git.DefaultGitToolTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

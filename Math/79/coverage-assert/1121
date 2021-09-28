@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.SparseFieldMatrixTest.testGetRowMatrix(org.apache.commons.math.linear.SparseFieldMatrixTest) true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testGetRowMatrix:()V:465:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testGetRowMatrix:()V:466:assertEquals true

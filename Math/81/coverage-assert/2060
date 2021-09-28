@@ -1,2 +1,0 @@
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testRemoveFromEmpty(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testRemoveFromEmpty:()V:172:assertTrue true

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.matchers.MatchersToStringTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.004">
+  <properties/>
+  <testcase name="notToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="endsWithToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="containsToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="findToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="matchesToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.001"/>
+  <testcase name="anyToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="orToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="sameToStringWithChar" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="sameToStringWithObject" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.001"/>
+  <testcase name="equalsToStringWithString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="equalsToStringWithChar" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="equalsToStringWithObject" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="andToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.001"/>
+  <testcase name="startsWithToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="notNullToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="nullToString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.0"/>
+  <testcase name="sameToStringWithString" classname="org.mockito.internal.matchers.MatchersToStringTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

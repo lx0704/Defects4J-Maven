@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BiDiagonalTransformerTest.testVOrthogonal(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:checkOrthogonal:(Lorg/apache/commons/math/linear/RealMatrix;)V:95:assertEquals true

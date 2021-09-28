@@ -1,5 +1,0 @@
-message = rootProject.producerMessage
-
-task consume << {
-    println("Consuming message: " + message)
-}

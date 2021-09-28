@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest.testNewBrentSolverValid(org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest) true
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest:testNewBrentSolverValid:()V:65:assertNotNull true
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverFactoryImplTest:testNewBrentSolverValid:()V:66:assertTrue true

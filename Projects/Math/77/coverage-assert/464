@@ -1,0 +1,2 @@
+org.apache.commons.math.estimation.EstimatedParameterTest.testEstimate(org.apache.commons.math.estimation.EstimatedParameterTest) true
+org.apache.commons.math.estimation.EstimatedParameterTest:checkValue:(DD)V:70:assertTrue true

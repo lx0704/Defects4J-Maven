@@ -1,7 +1,0 @@
-org.apache.commons.math.linear.SparseFieldMatrixTest.testDimensions(org.apache.commons.math.linear.SparseFieldMatrixTest) true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testDimensions:()V:134:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testDimensions:()V:135:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testDimensions:()V:136:assertTrue true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testDimensions:()V:137:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testDimensions:()V:138:assertEquals true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testDimensions:()V:139:assertTrue true

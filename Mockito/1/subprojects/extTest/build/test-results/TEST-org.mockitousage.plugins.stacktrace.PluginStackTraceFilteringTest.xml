@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockitousage.plugins.stacktrace.PluginStackTraceFilteringTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:42" hostname="set" time="0.512">
-  <properties/>
-  <testcase name="pluginFiltersOutStackTraceElement" classname="org.mockitousage.plugins.stacktrace.PluginStackTraceFilteringTest" time="0.509"/>
-  <testcase name="pluginDoesNotFilterOutStackTraceElement" classname="org.mockitousage.plugins.stacktrace.PluginStackTraceFilteringTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

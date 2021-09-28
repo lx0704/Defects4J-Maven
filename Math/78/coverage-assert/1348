@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testRedundantEquations(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testRedundantEquations:()V:322:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testRedundantEquations:()V:323:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testRedundantEquations:()V:324:assertEquals true

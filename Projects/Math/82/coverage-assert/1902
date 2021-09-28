@@ -1,0 +1,10 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testInference(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:199:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:201:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:203:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:205:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:210:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:212:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:214:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:216:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testInference:()V:221:assertTrue true

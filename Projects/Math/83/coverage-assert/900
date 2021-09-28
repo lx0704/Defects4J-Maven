@@ -1,0 +1,4 @@
+org.apache.commons.math.linear.FieldLUDecompositionImplTest.testSingular(org.apache.commons.math.linear.FieldLUDecompositionImplTest) true
+org.apache.commons.math.linear.FieldLUDecompositionImplTest:testSingular:()V:218:assertTrue true
+org.apache.commons.math.linear.FieldLUDecompositionImplTest:testSingular:()V:220:assertFalse true
+org.apache.commons.math.linear.FieldLUDecompositionImplTest:testSingular:()V:222:assertFalse true

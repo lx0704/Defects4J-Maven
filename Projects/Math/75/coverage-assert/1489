@@ -1,0 +1,2 @@
+org.apache.commons.math.random.MersenneTwisterTest.testNexBoolean(org.apache.commons.math.random.MersenneTwisterTest) true
+org.apache.commons.math.random.MersenneTwisterTest:testNexBoolean:()V:126:assertTrue true

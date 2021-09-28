@@ -1,4 +1,0 @@
-org.apache.commons.math.util.MathUtilsTest.test0Choose0(org.apache.commons.math.util.MathUtilsTest) true
-org.apache.commons.math.util.MathUtilsTest:test0Choose0:()V:94:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:test0Choose0:()V:95:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:test0Choose0:()V:96:assertEquals true

@@ -1,5 +1,0 @@
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testCircleFitting(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFitting:()V:416:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFitting:()V:418:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFitting:()V:419:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testCircleFitting:()V:420:assertEquals true

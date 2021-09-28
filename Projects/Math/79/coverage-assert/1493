@@ -1,0 +1,2 @@
+org.apache.commons.math.random.RandomDataTest.testNextPermutation(org.apache.commons.math.random.RandomDataTest) true
+org.apache.commons.math.random.RandomDataTest:testNextPermutation:()V:724:assertTrue true

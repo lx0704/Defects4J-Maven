@@ -1,7 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testCircleFittingBadInit(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testCircleFittingBadInit:()V:577:assertTrue true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testCircleFittingBadInit:()V:578:assertTrue true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testCircleFittingBadInit:()V:579:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testCircleFittingBadInit:()V:580:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testCircleFittingBadInit:()V:581:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testCircleFittingBadInit:()V:582:assertEquals true

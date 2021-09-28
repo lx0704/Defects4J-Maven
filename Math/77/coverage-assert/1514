@@ -1,3 +1,0 @@
-org.apache.commons.math.random.RandomDataTest.testNextInt(org.apache.commons.math.random.RandomDataTest) true
-org.apache.commons.math.random.RandomDataTest:testNextInt:()V:82:assertTrue true
-org.apache.commons.math.random.RandomDataTest:testNextInt:()V:94:assertTrue true

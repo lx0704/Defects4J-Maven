@@ -1,4 +1,0 @@
-org.apache.commons.math.geometry.Vector3DTest.testDistanceSq(org.apache.commons.math.geometry.Vector3DTest) true
-org.apache.commons.math.geometry.Vector3DTest:testDistanceSq:()V:90:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:testDistanceSq:()V:91:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:testDistanceSq:()V:92:assertEquals true

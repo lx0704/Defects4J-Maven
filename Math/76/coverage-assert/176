@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexFormatTest.testDifferentImaginaryChar(org.apache.commons.math.complex.ComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testDifferentImaginaryChar:()V:105:assertEquals true

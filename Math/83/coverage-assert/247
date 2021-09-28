@@ -1,5 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testScalarMultiplyInf(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testScalarMultiplyInf:()V:239:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testScalarMultiplyInf:()V:240:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testScalarMultiplyInf:()V:243:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testScalarMultiplyInf:()V:244:assertEquals false

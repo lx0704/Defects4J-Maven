@@ -1,6 +1,0 @@
-org.apache.commons.math.random.EmpiricalDistributionTest.testSerialization(org.apache.commons.math.random.EmpiricalDistributionTest) true
-org.apache.commons.math.random.EmpiricalDistributionTest:verifySame:(Lorg/apache/commons/math/random/EmpiricalDistribution;Lorg/apache/commons/math/random/EmpiricalDistribution;)V:225:assertEquals true
-org.apache.commons.math.random.EmpiricalDistributionTest:verifySame:(Lorg/apache/commons/math/random/EmpiricalDistribution;Lorg/apache/commons/math/random/EmpiricalDistribution;)V:226:assertEquals true
-org.apache.commons.math.random.EmpiricalDistributionTest:verifySame:(Lorg/apache/commons/math/random/EmpiricalDistribution;Lorg/apache/commons/math/random/EmpiricalDistribution;)V:227:assertEquals true
-org.apache.commons.math.random.EmpiricalDistributionTest:verifySame:(Lorg/apache/commons/math/random/EmpiricalDistribution;Lorg/apache/commons/math/random/EmpiricalDistribution;)V:230:assertEquals true
-org.apache.commons.math.random.EmpiricalDistributionTest:verifySame:(Lorg/apache/commons/math/random/EmpiricalDistribution;Lorg/apache/commons/math/random/EmpiricalDistribution;)V:232:assertEquals true

@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testMath290GEQ(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath290GEQ:()V:105:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath290GEQ:()V:106:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testMath290GEQ:()V:107:assertEquals true

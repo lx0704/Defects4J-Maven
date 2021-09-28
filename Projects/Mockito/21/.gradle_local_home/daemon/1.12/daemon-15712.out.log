@@ -1,0 +1,877 @@
+13:29:09.078 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+13:29:09.083 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904149083
+13:29:09.091 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface docker0
+13:29:09.091 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+13:29:09.091 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding non-loopback address /fe80:0:0:0:42:bcff:fe97:b7e1%3
+13:29:09.092 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding non-loopback address /172.17.0.1
+13:29:09.092 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface eth0
+13:29:09.093 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+13:29:09.094 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding non-loopback address /fe80:0:0:0:3617:ebff:fec6:639c%2
+13:29:09.094 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding non-loopback address /129.110.93.16
+13:29:09.094 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo
+13:29:09.095 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+13:29:09.095 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1%1
+13:29:09.095 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+13:29:09.096 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]].
+13:29:09.098 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Mon Jun 19 13:29:09 PDT 2017, with address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:29:09.099 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:29:09.099 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+13:29:09.100 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]], context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+13:29:09.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:29:09.111 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:29:09.133 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:29:09.133 [LIFECYCLE] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Daemon server started. Pid: 15712.
+13:29:09.134 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+13:29:09.135 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(10800000 MILLISECONDS) called on daemon
+13:29:09.136 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] waiting for daemon to stop or be idle for 10800000ms
+13:29:09.137 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:29:09 PDT 2017
+13:29:09.152 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38132 to /0:0:0:0:0:0:0:1:60362.
+13:29:09.201 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Build
+13:29:09.202 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:29:09.203 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:29:09.204 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38132.
+13:29:09.213 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2c4055ba]) called after 0.0 minutes of idle
+13:29:09.214 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:29:09.215 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:29:09.216 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:29:09.217 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:29:09.221 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:29:09.221 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904149221
+13:29:09.222 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:29:09.222 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:29:09.223 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:29:09.229 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:29:09.237 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:29:09.237 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.2]
+13:29:09.246 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:29:09.247 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:29:09.249 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:29:09.249 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+13:29:09.254 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+Parallel execution is an incubating feature.
+Download http://jcenter.bintray.com/com/jcabi/jcabi-immutable/1.2/jcabi-immutable-1.2.jar
+Download http://jcenter.bintray.com/com/jcabi/jcabi-xml/0.11/jcabi-xml-0.11.jar
+Download http://jcenter.bintray.com/com/jcabi/jcabi-http/1.8/jcabi-http-1.8.jar
+Download http://jcenter.bintray.com/com/jcabi/incubator/xembly/0.17/xembly-0.17.jar
+Download http://jcenter.bintray.com/com/jcabi/jcabi-manifests/1.0.3/jcabi-manifests-1.0.3.jar
+Download http://jcenter.bintray.com/com/jcabi/jcabi-log/0.14.1/jcabi-log-0.14.1.jar
+Download http://jcenter.bintray.com/org/aspectj/aspectjrt/1.8.1/aspectjrt-1.8.1.jar
+Download http://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar
+Download http://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3.jar
+Download http://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar
+:buildSrc:clean UP-TO-DATE
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovyNote: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes
+:buildSrc:jar
+:buildSrc:assemble
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy
+Download http://jcenter.bintray.com/org/spockframework/spock-core/0.7-groovy-1.8/spock-core-0.7-groovy-1.8.pom
+Download http://jcenter.bintray.com/org/spockframework/spock-core/0.7-groovy-1.8/spock-core-0.7-groovy-1.8.jar
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses
+:buildSrc:test
+:buildSrc:check
+:buildSrc:build
+Download http://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.5/gradle-bintray-plugin-0.5.pom
+Download http://jcenter.bintray.com/com/android/tools/build/gradle/0.11.2/gradle-0.11.2.pom
+Download http://jcenter.bintray.com/com/android/tools/lint/lint/22.9.2/lint-22.9.2.pom
+Download http://jcenter.bintray.com/net/sf/proguard/proguard-gradle/4.11/proguard-gradle-4.11.pom
+Download http://jcenter.bintray.com/net/sf/proguard/proguard-parent/4.11/proguard-parent-4.11.pom
+Download http://jcenter.bintray.com/com/android/tools/build/builder/0.11.2/builder-0.11.2.pom
+Download http://jcenter.bintray.com/com/android/tools/lint/lint-checks/22.9.2/lint-checks-22.9.2.pom
+Download http://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.pom
+Download http://jcenter.bintray.com/net/sf/proguard/proguard-base/4.11/proguard-base-4.11.pom
+Download http://jcenter.bintray.com/com/android/tools/ddms/ddmlib/22.9.2/ddmlib-22.9.2.pom
+Download http://jcenter.bintray.com/com/android/tools/build/builder-model/0.11.2/builder-model-0.11.2.pom
+Download http://jcenter.bintray.com/com/android/tools/sdk-common/22.9.2/sdk-common-22.9.2.pom
+Download http://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+Download http://jcenter.bintray.com/com/android/tools/build/builder-test-api/0.11.2/builder-test-api-0.11.2.pom
+Download http://jcenter.bintray.com/com/android/tools/sdklib/22.9.2/sdklib-22.9.2.pom
+Download http://jcenter.bintray.com/com/android/tools/build/manifest-merger/22.9.2/manifest-merger-22.9.2.pom
+Download http://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.pom
+Download http://jcenter.bintray.com/com/android/tools/common/22.9.2/common-22.9.2.pom
+Download http://jcenter.bintray.com/com/android/tools/lint/lint-api/22.9.2/lint-api-22.9.2.pom
+Download http://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+Download http://jcenter.bintray.com/com/android/tools/dvlib/22.9.2/dvlib-22.9.2.pom
+Download http://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/22.9.2/layoutlib-api-22.9.2.pom
+Download http://jcenter.bintray.com/kxml2/kxml2/2.3.0/kxml2-2.3.0.pom
+Download http://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.pom
+Download http://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.pom
+Download http://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.pom
+Download http://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+POM relocation to an other version number is not fully supported in Gradle : xml-apis#xml-apis;2.0.2 relocated to xml-apis#xml-apis;1.0.b2.
+Please update your dependency to directly use the correct version 'xml-apis#xml-apis;1.0.b2'.
+Resolution will only pick dependencies of the relocated element.  Artifacts and other metadata will be ignored.
+Download http://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/0.5/gradle-bintray-plugin-0.5.jar
+Download http://jcenter.bintray.com/com/android/tools/build/gradle/0.11.2/gradle-0.11.2.jar
+Download http://jcenter.bintray.com/com/android/tools/lint/lint/22.9.2/lint-22.9.2.jar
+Download http://jcenter.bintray.com/net/sf/proguard/proguard-gradle/4.11/proguard-gradle-4.11.jar
+Download http://jcenter.bintray.com/com/android/tools/build/builder/0.11.2/builder-0.11.2.jar
+Download http://jcenter.bintray.com/com/android/tools/lint/lint-checks/22.9.2/lint-checks-22.9.2.jar
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'mockito'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not download artifact 'org.eclipse.jdt.core.compiler:ecj:4.2.2:ecj.jar'
+      > Could not GET 'http://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar'. Received status code 500 from server: Internal Server Error
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2 mins 20.574 secs
+13:31:28.694 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:31:28.695 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=CommandFailure, value=org.gradle.launcher.exec.ReportedException: org.gradle.internal.exceptions.LocationAwareException: A problem occurred configuring root project 'mockito'.]
+13:31:28.696 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.CommandFailure
+13:31:28.716 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2c4055ba]
+13:31:28.717 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904288717
+13:31:28.717 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:31:28.717 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:31:28.718 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:31:28.718 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:31:28.720 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:31:28.721 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:31:28 PDT 2017
+13:31:28.883 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=fb7dc218-426a-4d3d-aa03-fc39d2ab1a9c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:31:28.884 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Finished
+13:31:28.884 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:31:28.884 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@2fdfb6d
+13:31:28.885 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:32785<->23.204.177.193:80 closed
+13:31:28.885 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received null
+13:31:28.885 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@2fdfb6d
+13:31:28.886 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:31:28.886 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:32785<->23.204.177.193:80 closed
+13:31:28.887 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+13:31:28.886 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:31:28.888 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:31:30.709 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38163 to /0:0:0:0:0:0:0:1:60362.
+13:31:30.731 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 40: received class org.gradle.launcher.daemon.protocol.Build
+13:31:30.732 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:31:30.732 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:31:30.732 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38163.
+13:31:30.732 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@322124ba]) called after 0.0 minutes of idle
+13:31:30.733 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:31:30.733 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:31:30.733 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:31:30.734 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:31:30.736 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:31:30.737 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904290737
+13:31:30.737 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:31:30.737 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:31:30.738 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:31:30.739 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:31:30.740 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:31:30.741 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:31:30.741 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+13:31:30.755 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 40: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:31:30.756 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=48222fef-3706-4c64-b996-788ea5186a25.2]
+13:31:30.756 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:31:30.756 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Download http://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar
+Download http://jcenter.bintray.com/net/sf/proguard/proguard-base/4.11/proguard-base-4.11.jar
+Download http://jcenter.bintray.com/com/android/tools/ddms/ddmlib/22.9.2/ddmlib-22.9.2.jar
+Download http://jcenter.bintray.com/com/android/tools/build/builder-model/0.11.2/builder-model-0.11.2.jar
+Download http://jcenter.bintray.com/com/android/tools/sdk-common/22.9.2/sdk-common-22.9.2.jar
+Download http://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+Download http://jcenter.bintray.com/com/android/tools/build/builder-test-api/0.11.2/builder-test-api-0.11.2.jar
+Download http://jcenter.bintray.com/com/android/tools/sdklib/22.9.2/sdklib-22.9.2.jar
+Download http://jcenter.bintray.com/com/android/tools/build/manifest-merger/22.9.2/manifest-merger-22.9.2.jar
+Download http://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar
+Download http://jcenter.bintray.com/com/android/tools/common/22.9.2/common-22.9.2.jar
+Download http://jcenter.bintray.com/com/android/tools/lint/lint-api/22.9.2/lint-api-22.9.2.jar
+Download http://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+Download http://jcenter.bintray.com/com/android/tools/dvlib/22.9.2/dvlib-22.9.2.jar
+Download http://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/22.9.2/layoutlib-api-22.9.2.jar
+Download http://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar
+Download http://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.jar
+Download http://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.jar
+Download http://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar
+Download http://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:testng:processTestResources
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:processResources UP-TO-DATE
+:classes
+:compileTestJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:processTestResources UP-TO-DATE
+:testClasses
+:jar
+Buildfile: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/build-ant.xml
+
+bndCore:
+      [bnd] # org.mockito.mockito-core (mockito-core-1.10.12.jar.bnd) 723 
+
+osgify.mockito-core:
+      [zip] Updating zip: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/build/libs/mockito-core-1.10.12.jar
+
+BUILD SUCCESSFUL
+Total time: 1 second
+:extTest:compileTestJava
+:testng:compileJava
+:extTest:testClasses
+Download http://jcenter.bintray.com/org/testng/testng/6.3.1/testng-6.3.1.pom
+Download http://jcenter.bintray.com/org/testng/testng/6.3.1/testng-6.3.1.jar
+Note: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/subprojects/testng/src/main/java/org/mockito/testng/MockitoBeforeTestNGMethod.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:testng:classes
+:testng:compileTestJava
+:testng:testClasses
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 17.054 secs
+13:32:47.306 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:32:47.307 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:32:47.307 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:32:47.310 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@322124ba]
+13:32:47.310 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904367310
+13:32:47.310 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:32:47.311 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:32:47.311 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 40: received class org.gradle.launcher.daemon.protocol.Finished
+13:32:47.311 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:32:47.312 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@7a61f13a
+13:32:47.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:32:47.312 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 40: received null
+13:32:47.313 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:32:47.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:32:47.315 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=48222fef-3706-4c64-b996-788ea5186a25.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:32:47.315 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:32:47 PDT 2017
+13:32:47.316 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:32:47.316 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:32:47.317 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:32:48.927 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38176 to /0:0:0:0:0:0:0:1:60362.
+13:32:48.948 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 50: received class org.gradle.launcher.daemon.protocol.Build
+13:32:48.948 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:32:48.949 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:32:48.949 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38176.
+13:32:48.949 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@322d56ec]) called after 0.0 minutes of idle
+13:32:48.950 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:32:48.950 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:32:48.950 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:32:48.951 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:32:48.953 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:32:48.953 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904368953
+13:32:48.953 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:32:48.953 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:32:48.953 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:32:48.954 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:32:48.955 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:32:48.956 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:32:48.956 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:compileJava
+:extTest:compileJava
+:testng:processResources UP-TO-DATE
+:extTest:compileJava UP-TO-DATE
+:extTest:processResources
+:testng:processTestResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources UP-TO-DATE
+:extTest:processResources UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava UP-TO-DATE
+:extTest:compileTestJava UP-TO-DATE
+:extTest:testClasses
+:testng:testClasses UP-TO-DATE
+:extTest:testClasses UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.582 secs
+13:32:50.050 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:32:50.051 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:32:50.051 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:32:50.052 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@322d56ec]
+13:32:50.052 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904370052
+13:32:50.053 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:32:50.053 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:32:50.053 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:32:50.053 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:32:50.055 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 50: received class org.gradle.launcher.daemon.protocol.Finished
+13:32:50.055 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:32:50.055 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@669bede3
+13:32:50.056 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:32:50 PDT 2017
+13:32:50.056 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=1b6c19e3-dfa0-487e-9990-51f1c947ee83.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:32:50.056 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 50: received null
+13:32:50.056 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:32:50.056 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@669bede3
+13:32:50.057 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:32:50.057 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:06.529 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38181 to /0:0:0:0:0:0:0:1:60362.
+13:33:06.554 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 54: received class org.gradle.launcher.daemon.protocol.Build
+13:33:06.554 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:06.555 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:33:06.555 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38181.
+13:33:06.555 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@16f28bac]) called after 0.0 minutes of idle
+13:33:06.555 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:06.556 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:06.556 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:06.556 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:06.558 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:06.558 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904386558
+13:33:06.558 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:33:06.558 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:33:06.559 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:33:06.559 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:33:06.560 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:33:06.560 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:33:06.561 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 2.399 secs
+13:33:07.734 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:33:07.735 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:33:07.735 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:33:07.737 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@16f28bac]
+13:33:07.737 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904387737
+13:33:07.737 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:07.738 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:07.738 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:07.739 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:07.739 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 54: received class org.gradle.launcher.daemon.protocol.Finished
+13:33:07.740 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@3d79d57b
+13:33:07.740 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 54: received null
+13:33:07.741 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:33:07.742 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:07.742 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=93e53942-137a-4e55-aa36-10a2a6182560.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:07.742 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:33:07 PDT 2017
+13:33:07.742 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:33:07.743 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:07.743 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:08.852 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38182 to /0:0:0:0:0:0:0:1:60362.
+13:33:08.873 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 58: received class org.gradle.launcher.daemon.protocol.Build
+13:33:08.873 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:08.873 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:33:08.873 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38182.
+13:33:08.874 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@30184f78]) called after 0.0 minutes of idle
+13:33:08.874 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:08.874 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:08.874 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:08.875 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:08.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:08.877 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904388877
+13:33:08.877 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:33:08.877 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:33:08.877 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:33:08.878 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=4, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:33:08.879 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:33:08.879 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:33:08.880 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:dependencies
+
+------------------------------------------------------------
+Root project - Core API and implementation.
+------------------------------------------------------------
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+cobertura
++--- net.sourceforge.cobertura:cobertura:2.0.3
+|    +--- org.ow2.asm:asm:4.1
+|    +--- org.ow2.asm:asm-tree:4.1
+|    |    \--- org.ow2.asm:asm:4.1
+|    +--- org.ow2.asm:asm-commons:4.1
+|    |    \--- org.ow2.asm:asm-tree:4.1 (*)
+|    +--- org.ow2.asm:asm-util:4.1
+|    |    \--- org.ow2.asm:asm-tree:4.1 (*)
+|    +--- org.ow2.asm:asm-analysis:4.1
+|    |    \--- org.ow2.asm:asm-tree:4.1 (*)
+|    +--- oro:oro:2.0.8
+|    +--- jaxen:jaxen:1.1-beta-8
+|    |    +--- dom4j:dom4j:1.6.1
+|    |    |    \--- xml-apis:xml-apis:1.0.b2 -> 2.0.2
+|    |    +--- jdom:jdom:1.0
+|    |    +--- xerces:xmlParserAPIs:2.6.2
+|    |    +--- xerces:xercesImpl:2.6.2
+|    |    \--- xom:xom:1.0b3
+|    |         +--- xerces:xmlParserAPIs:2.6.1 -> 2.6.2
+|    |         +--- xerces:xercesImpl:2.2.1 -> 2.6.2
+|    |         +--- com.ibm.icu:icu4j:2.6.1
+|    |         +--- xalan:xalan:2.6.0
+|    |         |    \--- xml-apis:xml-apis:2.0.2
+|    |         \--- org.ccil.cowan.tagsoup:tagsoup:0.9.7
+|    +--- org.apache.ant:ant:1.8.3
+|    |    \--- org.apache.ant:ant-launcher:1.8.3
+|    +--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+|    +--- org.mortbay.jetty:jetty:6.1.14
+|    |    +--- org.mortbay.jetty:jetty-util:6.1.14
+|    |    \--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+|    +--- org.mortbay.jetty:jetty-util:6.1.14
+|    \--- log4j:log4j:1.2.9
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+compile - Compile classpath for source set 'main'.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+default - Configuration for default artifacts.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+previousPom
+Download http://jcenter.bintray.com/org/mockito/mockito-core/1.10.11/mockito-core-1.10.11.pom
+\--- org.mockito:mockito-core:1.10.11
+
+previousSrc
+\--- org.mockito:mockito-core:1.10.11
+
+provided
+\--- junit:junit:4.10
+     \--- org.hamcrest:hamcrest-core:1.1
+
+runtime - Runtime classpath for source set 'main'.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+testCompile - Compile classpath for source set 'test'.
++--- org.hamcrest:hamcrest-core:1.1
+\--- org.objenesis:objenesis:2.1
+
+testRuntime - Runtime classpath for source set 'test'.
++--- org.hamcrest:hamcrest-core:1.1
++--- org.objenesis:objenesis:2.1
++--- junit:junit:4.10
+|    \--- org.hamcrest:hamcrest-core:1.1
+\--- net.sourceforge.cobertura:cobertura:2.0.3
+     +--- org.ow2.asm:asm:4.1
+     +--- org.ow2.asm:asm-tree:4.1
+     |    \--- org.ow2.asm:asm:4.1
+     +--- org.ow2.asm:asm-commons:4.1
+     |    \--- org.ow2.asm:asm-tree:4.1 (*)
+     +--- org.ow2.asm:asm-util:4.1
+     |    \--- org.ow2.asm:asm-tree:4.1 (*)
+     +--- org.ow2.asm:asm-analysis:4.1
+     |    \--- org.ow2.asm:asm-tree:4.1 (*)
+     +--- oro:oro:2.0.8
+     +--- jaxen:jaxen:1.1-beta-8
+     |    +--- dom4j:dom4j:1.6.1
+     |    |    \--- xml-apis:xml-apis:1.0.b2 -> 2.0.2
+     |    +--- jdom:jdom:1.0
+     |    +--- xerces:xmlParserAPIs:2.6.2
+     |    +--- xerces:xercesImpl:2.6.2
+     |    \--- xom:xom:1.0b3
+     |         +--- xerces:xmlParserAPIs:2.6.1 -> 2.6.2
+     |         +--- xerces:xercesImpl:2.2.1 -> 2.6.2
+     |         +--- com.ibm.icu:icu4j:2.6.1
+     |         +--- xalan:xalan:2.6.0
+     |         |    \--- xml-apis:xml-apis:2.0.2
+     |         \--- org.ccil.cowan.tagsoup:tagsoup:0.9.7
+     +--- org.apache.ant:ant:1.8.3
+     |    \--- org.apache.ant:ant-launcher:1.8.3
+     +--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+     +--- org.mortbay.jetty:jetty:6.1.14
+     |    +--- org.mortbay.jetty:jetty-util:6.1.14
+     |    \--- org.mortbay.jetty:servlet-api-2.5:6.1.14
+     +--- org.mortbay.jetty:jetty-util:6.1.14
+     \--- log4j:log4j:1.2.9
+
+testUtil
+No dependencies
+
+BUILD SUCCESSFUL
+
+Total time: 1.561 secs
+13:33:09.955 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:33:09.956 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:33:09.956 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:33:09.958 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@30184f78]
+13:33:09.958 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904389958
+13:33:09.958 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:09.959 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:09.959 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:09.960 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:09.962 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:09.962 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=de5bfdf5-b047-4ab3-bf09-d46e1f62278c.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:09.962 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:33:09 PDT 2017
+13:33:09.990 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 58: received class org.gradle.launcher.daemon.protocol.Finished
+13:33:09.991 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@2548de3c
+13:33:09.991 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@2548de3c
+13:33:09.992 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:09.992 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 58: received null
+13:33:09.992 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:33:09.992 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:11.692 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38184 to /0:0:0:0:0:0:0:1:60362.
+13:33:11.714 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 60: received class org.gradle.launcher.daemon.protocol.Build
+13:33:11.714 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:11.714 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:33:11.715 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38184.
+13:33:11.715 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@3fad4d45]) called after 0.0 minutes of idle
+13:33:11.715 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:11.716 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:11.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:11.717 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:11.719 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:11.719 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904391719
+13:33:11.720 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:33:11.720 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:33:11.720 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:33:11.721 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:33:11.722 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:33:11.722 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:33:11.723 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+13:33:11.732 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 60: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:33:11.732 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.2]
+13:33:11.732 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:33:11.733 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:compileJava
+:testng:processResources UP-TO-DATE
+:testng:processTestResources
+:extTest:compileJava UP-TO-DATE
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava UP-TO-DATE
+:extTest:compileTestJava UP-TO-DATE
+:extTest:testClasses
+:testng:testClasses UP-TO-DATE
+:extTest:testClasses UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.814 secs
+13:33:13.033 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:33:13.033 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:33:13.034 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:33:13.035 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@3fad4d45]
+13:33:13.035 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904393035
+13:33:13.035 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:13.035 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:13.036 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:13.036 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:13.037 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:13.038 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=15e3280a-ef45-4e0a-9f81-3c3fa78e3175.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:13.038 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 60: received class org.gradle.launcher.daemon.protocol.Finished
+13:33:13.038 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:33:13 PDT 2017
+13:33:13.039 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@15b4233e
+13:33:13.039 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@15b4233e
+13:33:13.039 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 60: received null
+13:33:13.040 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:33:13.039 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:13.041 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:25.077 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38188 to /0:0:0:0:0:0:0:1:60362.
+13:33:25.097 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 64: received class org.gradle.launcher.daemon.protocol.Build
+13:33:25.098 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:25.098 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:33:25.098 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38188.
+13:33:25.098 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@1735dee6]) called after 0.0 minutes of idle
+13:33:25.099 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:25.099 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:25.099 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:25.099 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:25.101 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:25.102 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904405102
+13:33:25.102 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:33:25.102 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:33:25.102 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:33:25.103 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:33:25.104 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:33:25.105 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:33:25.105 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:testng:processTestResources
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources UP-TO-DATE
+:testng:processTestResources UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava UP-TO-DATE
+:extTest:testClasses UP-TO-DATE
+:extTest:compileTestJava UP-TO-DATE
+:testng:testClasses UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.391 secs
+13:33:26.013 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:33:26.013 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:33:26.014 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:33:26.015 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@1735dee6]
+13:33:26.015 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904406015
+13:33:26.015 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:26.015 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:26.016 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:26.016 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:26.017 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 64: received class org.gradle.launcher.daemon.protocol.Finished
+13:33:26.017 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@d7a959d
+13:33:26.018 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 64: received null
+13:33:26.018 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:33:26.018 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:26.018 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=fe0bf139-e99f-426c-9a65-488aa2cc3111.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:26.018 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:33:26 PDT 2017
+13:33:26.019 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:33:26.022 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:26.022 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:28.136 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:38189 to /0:0:0:0:0:0:0:1:60362.
+13:33:28.158 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 68: received class org.gradle.launcher.daemon.protocol.Build
+13:33:28.158 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:28.159 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}.
+13:33:28.159 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21} with connection: socket connection at /0:0:0:0:0:0:0:1:60362 with /0:0:0:0:0:0:0:1:38189.
+13:33:28.159 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onStartCommand(DaemonCommandExecution[command = Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@420d4309]) called after 0.0 minutes of idle
+13:33:28.159 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:28.160 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:28.160 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:28.160 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:28.162 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:28.162 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904408162
+13:33:28.162 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building: Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}. Dispatching build started information...
+13:33:28.162 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:33:28.163 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:33:28.164 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {MML=/home/Xia/XiaLi/Project1/Tools/defects4j/major/mml/all_mutants.mml.bin, TERM=xterm, JAVA_HOME=/usr/lib/jvm/java-7-oracle, SHLVL=3, ANDROID_SDK_HOME=/usr/local/android-sdk-linux, NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, LESSCLOSE=/usr/bin/lesspipe %s %s, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, J2SDKDIR=/usr/lib/jvm/java-8-oracle, SSH_CLIENT=10.21.44.248 49179 22, MAIL=/var/mail/Xia, XDG_SESSION_COOKIE=7b3f0c88ab7e3364d4d0916954011a4c-1497902418.261581-1643589545, QT_QPA_PLATFORMTHEME=appmenu-qt5, PWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SSH_TTY=/dev/pts/7, LOGNAME=Xia, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION=10.21.44.248 49179 129.110.93.16 22, OLDPWD=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21, SHELL=/bin/bash, DROIDSAFE_SRC_HOME=/home/Yafeng/DroidSafe/droidsafe-src, REPAIR=/home/SELab/genprog-source-v3.0/src/repair, CLASSPATH=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/gradle/wrapper/gradle-wrapper.jar, PATH=/home/Xia/XiaLi/Project1/Tools/defects4j/major/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/share/ant/lib:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/Xia/XiaLi/Project1/Tools/defects4j/framework/bin, GRADLE_USER_HOME=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home, DISPLAY=localhost:10.0, experiment_root=/home/SELab/mutation, USER=Xia, DROIDSAFE_MEMORY=32, HOME=/home/Xia, CIL=/home/SELab/genprog-source-v3.0/cil-1.3.7, LESSOPEN=| /usr/bin/lesspipe %s, XDG_SESSION_ID=862, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, TZ=America/Los_Angeles, XDG_RUNTIME_DIR=/run/user/1015, LANG=en_US.UTF-8}
+13:33:28.165 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:33:28.165 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 15712). The daemon log file: /home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon/1.12/daemon-15712.out.log
+13:33:28.166 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a8501e82-c4d5-4ce0-9b14-d63710874255,javaHome=/usr/lib/jvm/java-7-oracle,daemonRegistryDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21/.gradle_local_home/daemon,pid=15712,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8]
+Parallel execution is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 1.10.12
+Attempting to figure out the previous version from the release notes file
+Attempting to figure out the previous version from the release notes file
+:compileJava
+:testng:processResources
+:extTest:compileJava UP-TO-DATE
+:testng:processResources UP-TO-DATE
+:testng:processTestResources
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:processTestResources UP-TO-DATE
+:testng:processTestResources UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:jar UP-TO-DATE
+:extTest:compileTestJava
+:testng:compileJava UP-TO-DATE
+:testng:classes UP-TO-DATE
+:testng:compileTestJava UP-TO-DATE
+:extTest:compileTestJava UP-TO-DATE
+:extTest:testClasses
+:testng:testClasses UP-TO-DATE
+:extTest:testClasses UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.99 secs
+13:33:29.792 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:33:29.792 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+13:33:29.792 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:33:29.794 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] onFinishCommand() called while execution = DaemonCommandExecution[command = Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@420d4309]
+13:33:29.794 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1497904409794
+13:33:29.794 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:29.795 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+13:33:29.795 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:33:29.795 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:33:29.796 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 68: received class org.gradle.launcher.daemon.protocol.Finished
+13:33:29.796 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@39748722
+13:33:29.797 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 68: received null
+13:33:29.797 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:33:29.797 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:33:30.171 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Mon Jun 19 16:33:29 PDT 2017
+13:33:30.171 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=6b73d448-2ab7-43c8-afdf-11b8a53276d3.1, currentDir=/home/Xia/XiaLi/Project1/SubjectPrograms/MockitoBug/21}
+13:33:30.171 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:33:30.172 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:30.172 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+13:33:30.172 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager is shutting down
+13:33:30.173 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:32792<->23.204.177.193:80 closed
+13:33:30.173 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:55071<->75.126.118.188:80 closed
+13:33:30.173 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:55071<->75.126.118.188:80 closed
+13:33:30.173 [DEBUG] [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:32792<->23.204.177.193:80 closed
+13:33:30.174 [DEBUG] [org.apache.http.impl.conn.PoolingClientConnectionManager] Connection manager shut down
+16:33:29.795 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon has been idle for requested period.
+16:33:29.795 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop requested. The daemon is running a build: false
+16:33:29.796 [INFO] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Daemon hit idle timeout (10800000ms), stopping...
+16:33:29.797 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+16:33:29.797 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+16:33:29.798 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop requested. The daemon is running a build: false
+16:33:29.799 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+16:33:29.799 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+16:33:29.801 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:33:29.802 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:33:29.806 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:33:29.806 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+16:33:29.807 [INFO] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Daemon[pid = 15712] process has finished.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+16:33:29.808 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [5c467d61-cd21-4df3-a864-c332b6598c51 port:60362, addresses:[/0:0:0:0:0:0:0:1%1, /127.0.0.1]]
+16:33:29.808 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:33:29.809 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:33:29.809 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

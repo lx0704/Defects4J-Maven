@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.MatrixUtilsTest.testcreateFieldIdentityMatrix(org.apache.commons.math.linear.MatrixUtilsTest) true
-org.apache.commons.math.linear.MatrixUtilsTest:checkIdentityFieldMatrix:(Lorg/apache/commons/math/linear/FieldMatrix;)V:301:assertEquals true
-org.apache.commons.math.linear.MatrixUtilsTest:checkIdentityFieldMatrix:(Lorg/apache/commons/math/linear/FieldMatrix;)V:303:assertEquals true

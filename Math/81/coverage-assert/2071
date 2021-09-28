@@ -1,5 +1,0 @@
-org.apache.commons.math.util.OpenIntToFieldTest.testPutKeysWithCollision2(org.apache.commons.math.util.OpenIntToFieldTest) true
-org.apache.commons.math.util.OpenIntToFieldTest:testPutKeysWithCollision2:()V:304:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testPutKeysWithCollision2:()V:305:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testPutKeysWithCollision2:()V:310:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testPutKeysWithCollision2:()V:311:assertEquals true

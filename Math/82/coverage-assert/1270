@@ -1,5 +1,0 @@
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest.testBackward(org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBackward:()V:146:assertTrue true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBackward:()V:147:assertTrue true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBackward:()V:148:assertEquals true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest:testBackward:()V:149:assertEquals true

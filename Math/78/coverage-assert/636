@@ -1,2 +1,0 @@
-org.apache.commons.math.geometry.FrenchVector3DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testSimpleWithDecimalsTrunc:()V:72:assertEquals true

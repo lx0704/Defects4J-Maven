@@ -1,0 +1,5 @@
+org.apache.commons.math.optimization.MultiStartMultivariateRealOptimizerTest.testRosenbrock(org.apache.commons.math.optimization.MultiStartMultivariateRealOptimizerTest) true
+org.apache.commons.math.optimization.MultiStartMultivariateRealOptimizerTest:testRosenbrock:()V:55:assertEquals true
+org.apache.commons.math.optimization.MultiStartMultivariateRealOptimizerTest:testRosenbrock:()V:56:assertTrue true
+org.apache.commons.math.optimization.MultiStartMultivariateRealOptimizerTest:testRosenbrock:()V:57:assertTrue true
+org.apache.commons.math.optimization.MultiStartMultivariateRealOptimizerTest:testRosenbrock:()V:58:assertTrue true

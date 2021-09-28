@@ -1,7 +1,0 @@
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest.interpolationInside(org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest) true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationInside:()V:109:assertTrue true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationInside:()V:110:assertTrue true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationInside:()V:111:assertTrue true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationInside:()V:115:assertTrue true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationInside:()V:116:assertTrue true
-org.apache.commons.math.ode.nonstiff.EulerStepInterpolatorTest:interpolationInside:()V:117:assertTrue true

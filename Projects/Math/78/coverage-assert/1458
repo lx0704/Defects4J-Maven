@@ -1,0 +1,3 @@
+org.apache.commons.math.random.GaussianRandomGeneratorTest.testMeanAndStandardDeviation(org.apache.commons.math.random.GaussianRandomGeneratorTest) true
+org.apache.commons.math.random.GaussianRandomGeneratorTest:testMeanAndStandardDeviation:()V:39:assertEquals true
+org.apache.commons.math.random.GaussianRandomGeneratorTest:testMeanAndStandardDeviation:()V:40:assertEquals true

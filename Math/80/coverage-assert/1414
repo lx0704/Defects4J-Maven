@@ -1,2 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexTableauTest.testSerial(org.apache.commons.math.optimization.linear.SimplexTableauTest) true
-org.apache.commons.math.optimization.linear.SimplexTableauTest:testSerial:()V:86:assertEquals true

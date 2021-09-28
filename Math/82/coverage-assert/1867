@@ -1,6 +1,0 @@
-org.apache.commons.math.stat.inference.TestUtilsTest.testPaired(org.apache.commons.math.stat.inference.TestUtilsTest) true
-org.apache.commons.math.stat.inference.TestUtilsTest:testPaired:()V:431:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testPaired:()V:432:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testPaired:()V:433:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testPaired:()V:434:assertFalse true
-org.apache.commons.math.stat.inference.TestUtilsTest:testPaired:()V:435:assertTrue true

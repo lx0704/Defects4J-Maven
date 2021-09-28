@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testNoDependency(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testNoDependency:()V:158:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testNoDependency:()V:160:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testProductAndGeometricMean(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest) true
-org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testProductAndGeometricMean:()V:117:assertEquals true
-org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testProductAndGeometricMean:()V:126:assertEquals true

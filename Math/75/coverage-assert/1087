@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testTrace(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:testTrace:()V:216:assertEquals true

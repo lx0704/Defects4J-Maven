@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.MoreMatchersTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:51" hostname="set" time="0.003">
+  <properties/>
+  <testcase name="shouldHelpOutWithUnnecessaryCastingOfLists" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.0"/>
+  <testcase name="shouldHelpOutWithUnnecessaryCastingOfSets" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.001"/>
+  <testcase name="shouldHelpOutWithUnnecessaryCastingOfMaps" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.0"/>
+  <testcase name="shouldHelpOutWithUnnecessaryCastingOfCollections" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.001"/>
+  <testcase name="shouldHelpOutWithUnnecessaryCastingOfNullityChecks" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.0"/>
+  <testcase name="shouldAnyBeActualAliasToAnyObject" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.001"/>
+  <testcase name="shouldHelpOutWithUnnecessaryCasting" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

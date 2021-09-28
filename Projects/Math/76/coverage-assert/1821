@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest.testSimplistic(org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest) true
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testSimplistic:()V:52:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testSimplistic:()V:53:assertEquals true

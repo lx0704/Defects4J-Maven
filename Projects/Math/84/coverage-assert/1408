@@ -1,0 +1,2 @@
+org.apache.commons.math.random.AbstractRandomGeneratorTest.testNextPoissonLargeMean(org.apache.commons.math.random.AbstractRandomGeneratorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextPoissonLargeMean:()V:219:assertTrue true

@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.rank.MaxTest.testEvaluation(org.apache.commons.math.stat.descriptive.rank.MaxTest) true
+org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testEvaluation:()V:100:assertEquals true

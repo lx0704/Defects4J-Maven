@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testPowInf(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.TestUtils:assertSame:(DD)V:72:assertEquals false

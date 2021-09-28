@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testGetValues(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest) true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testGetValues:()V:93:assertEquals true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testGetValues:()V:96:assertEquals true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testGetValues:()V:100:assertEquals true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testGetValues:()V:102:assertEquals true

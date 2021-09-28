@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest.testSerial(org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest) true
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest:testSerial:()V:84:assertEquals true

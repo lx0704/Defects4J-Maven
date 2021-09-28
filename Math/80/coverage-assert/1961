@@ -1,5 +1,0 @@
-org.apache.commons.math.transform.FastCosineTransformerTest.testAdHocData(org.apache.commons.math.transform.FastCosineTransformerTest) true
-org.apache.commons.math.transform.FastCosineTransformerTest:testAdHocData:()V:47:assertEquals true
-org.apache.commons.math.transform.FastCosineTransformerTest:testAdHocData:()V:52:assertEquals true
-org.apache.commons.math.transform.FastCosineTransformerTest:testAdHocData:()V:59:assertEquals true
-org.apache.commons.math.transform.FastCosineTransformerTest:testAdHocData:()V:64:assertEquals true

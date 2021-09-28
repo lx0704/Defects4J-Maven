@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testExamples(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:352:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:353:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:356:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:357:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:364:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:365:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testExamples:()V:366:assertEquals true

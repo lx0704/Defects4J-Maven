@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.linear.SimplexTableauTest.testTableauWithNoArtificialVars(org.apache.commons.math.optimization.linear.SimplexTableauTest) true
+org.apache.commons.math.optimization.linear.SimplexTableauTest:assertMatrixEquals:([[D[[D)V:97:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexTableauTest:assertMatrixEquals:([[D[[D)V:99:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexTableauTest:assertMatrixEquals:([[D[[D)V:101:assertEquals true

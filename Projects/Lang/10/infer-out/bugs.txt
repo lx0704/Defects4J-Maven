@@ -1,0 +1,38 @@
+Found 4 issues
+
+src/main/java/org/apache/commons/lang3/AnnotationUtils.java:74: error: NULL_DEREFERENCE
+  object returned by `getAllInterfaces(cls)` could be null and is dereferenced at line 74.
+  72.           protected String getShortClassName(java.lang.Class<?> cls) {
+  73.               Class<? extends Annotation> annotationType = null;
+  74. >             for (Class<?> iface : ClassUtils.getAllInterfaces(cls)) {
+  75.                   if (Annotation.class.isAssignableFrom(iface)) {
+  76.                       @SuppressWarnings("unchecked")
+
+src/main/java/org/apache/commons/lang3/SerializationUtils.java:105: error: RESOURCE_LEAK
+  resource of type `org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream` acquired to `in` by call to `new()` at line 88 is not released after line 105.
+  103.               try {
+  104.                   if (in != null) {
+  105. >                     in.close();
+  106.                   }
+  107.               } catch (IOException ex) {
+
+src/main/java/org/apache/commons/lang3/CharSetUtils.java:193: error: NULL_DEREFERENCE
+  object `chars` last assigned on line 188 could be null and is dereferenced at line 193.
+  191.           int sz = chrs.length;
+  192.           for(int i=0; i<sz; i++) {
+  193. >             if(chars.contains(chrs[i]) == expect) {
+  194.                   buffer.append(chrs[i]);
+  195.               }
+
+src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java:226: error: NULL_DEREFERENCE
+  object `null` could be null and is dereferenced by call to `ToStringBuilder(...)` at line 226.
+  224.        */
+  225.       public ToStringBuilder(Object object) {
+  226. >         this(object, null, null);
+  227.       }
+  228.   
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 3
+     RESOURCE_LEAK: 1

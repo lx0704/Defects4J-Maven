@@ -1,0 +1,11 @@
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testSerialization(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest) true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:136:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:145:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:146:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:147:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:148:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:149:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:150:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:151:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:152:assertEquals true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testSerialization:()V:155:assertEquals true

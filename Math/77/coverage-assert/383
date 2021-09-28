@@ -1,5 +1,0 @@
-org.apache.commons.math.distribution.FDistributionTest.testDfAccessors(org.apache.commons.math.distribution.FDistributionTest) true
-org.apache.commons.math.distribution.FDistributionTest:testDfAccessors:()V:84:assertEquals true
-org.apache.commons.math.distribution.FDistributionTest:testDfAccessors:()V:86:assertEquals true
-org.apache.commons.math.distribution.FDistributionTest:testDfAccessors:()V:87:assertEquals true
-org.apache.commons.math.distribution.FDistributionTest:testDfAccessors:()V:89:assertEquals true

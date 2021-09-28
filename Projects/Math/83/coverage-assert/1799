@@ -1,0 +1,7 @@
+org.apache.commons.math.stat.descriptive.summary.ProductTest.testSpecialValues(org.apache.commons.math.stat.descriptive.summary.ProductTest) true
+org.apache.commons.math.stat.descriptive.summary.ProductTest:testSpecialValues:()V:66:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.ProductTest:testSpecialValues:()V:68:assertEquals true
+org.apache.commons.math.stat.descriptive.summary.ProductTest:testSpecialValues:()V:70:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.ProductTest:testSpecialValues:()V:72:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.ProductTest:testSpecialValues:()V:74:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.ProductTest:testSpecialValues:()V:76:assertTrue true

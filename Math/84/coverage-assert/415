@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.TDistributionTest.testSmallDf(org.apache.commons.math.distribution.TDistributionTest) true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyCumulativeProbabilities:()V:146:assertEquals true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:159:assertEquals true

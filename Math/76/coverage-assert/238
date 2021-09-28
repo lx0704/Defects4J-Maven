@@ -1,8 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testDivideInfinite(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:164:assertTrue true
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:167:assertTrue true
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:168:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:172:assertTrue true
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:173:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:177:assertTrue true
-org.apache.commons.math.complex.ComplexTest:testDivideInfinite:()V:178:assertTrue true

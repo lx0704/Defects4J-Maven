@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testGetColumnMatrix(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testGetColumnMatrix:()V:616:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testGetColumnMatrix:()V:618:assertEquals true

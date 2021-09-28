@@ -1,4 +1,0 @@
-org.apache.commons.math.util.MathUtilsTest.testSubAndCheck(org.apache.commons.math.util.MathUtilsTest) true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheck:()V:1051:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheck:()V:1052:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheck:()V:1053:assertEquals true

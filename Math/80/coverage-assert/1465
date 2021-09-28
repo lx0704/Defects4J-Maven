@@ -1,2 +1,0 @@
-org.apache.commons.math.random.MersenneTwisterTest.testNextLong(org.apache.commons.math.random.MersenneTwisterTest) true
-org.apache.commons.math.random.MersenneTwisterTest:testNextLong:()V:112:assertTrue true

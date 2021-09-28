@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexFormatTest.testSimpleNoDecimals(org.apache.commons.math.complex.ComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testSimpleNoDecimals:()V:49:assertEquals true

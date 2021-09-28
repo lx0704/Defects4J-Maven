@@ -1,0 +1,2 @@
+org.apache.commons.math.fraction.FractionFormatTest.testWholeFormat(org.apache.commons.math.fraction.FractionFormatTest) true
+org.apache.commons.math.fraction.FractionFormatTest:testWholeFormat:()V:290:assertEquals true

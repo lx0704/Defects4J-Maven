@@ -1,2 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testTrivialModel(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testTrivialModel:()V:298:assertEquals true

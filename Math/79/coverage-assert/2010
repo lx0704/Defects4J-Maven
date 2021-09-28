@@ -1,5 +1,0 @@
-org.apache.commons.math.util.MathUtilsTest.testHash(org.apache.commons.math.util.MathUtilsTest) true
-org.apache.commons.math.util.MathUtilsTest:testHash:()V:501:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testHash:()V:502:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testHash:()V:504:assertTrue true
-org.apache.commons.math.util.MathUtilsTest:testHash:()V:505:assertTrue true

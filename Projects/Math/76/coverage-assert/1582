@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.FrequencyTest.testIntegerValues(org.apache.commons.math.stat.FrequencyTest) true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:253:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:254:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:255:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:256:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:257:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:258:assertEquals true
+org.apache.commons.math.stat.FrequencyTest:testIntegerValues:()V:261:assertTrue true

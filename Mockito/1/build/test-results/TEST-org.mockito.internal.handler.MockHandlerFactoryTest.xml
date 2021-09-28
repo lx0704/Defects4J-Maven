@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.internal.handler.MockHandlerFactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:54" hostname="set" time="0.0">
-  <properties/>
-  <testcase name="handle_result_must_not_be_null_for_primitives" classname="org.mockito.internal.handler.MockHandlerFactoryTest" time="0.0"/>
-  <testcase name="valid_handle_result_is_permitted" classname="org.mockito.internal.handler.MockHandlerFactoryTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

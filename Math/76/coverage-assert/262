@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testMultiply(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testMultiply:()V:211:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testMultiply:()V:212:assertEquals true

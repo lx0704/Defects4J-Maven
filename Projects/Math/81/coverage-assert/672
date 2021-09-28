@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.Vector3DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math.geometry.Vector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseSimpleWithDecimalsTrunc:()V:199:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseRealVectorTest.testSerial(org.apache.commons.math.linear.SparseRealVectorTest) true
-org.apache.commons.math.linear.SparseRealVectorTest:testSerial:()V:1095:assertEquals true

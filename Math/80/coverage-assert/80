@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:checkNullPolynomial:(Lorg/apache/commons/math/analysis/polynomials/PolynomialFunction;)V:240:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:checkPolynomial:(Lorg/apache/commons/math/analysis/polynomials/PolynomialFunction;Ljava/lang/String;)V:235:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testAddition:()V:192:assertEquals true

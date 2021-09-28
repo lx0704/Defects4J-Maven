@@ -1,0 +1,9 @@
+org.apache.commons.math.fraction.BigFractionTest.testReciprocal(org.apache.commons.math.fraction.BigFractionTest) true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:258:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:259:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:263:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:264:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:268:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:269:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:281:assertEquals true
+org.apache.commons.math.fraction.BigFractionTest:testReciprocal:()V:282:assertEquals true

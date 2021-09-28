@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest.testFirstLegendrePolynomials(org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest) true
+org.apache.commons.math.analysis.polynomials.PolynomialsUtilsTest:checkPolynomial:(Lorg/apache/commons/math/analysis/polynomials/PolynomialFunction;JLjava/lang/String;)V:203:assertEquals true

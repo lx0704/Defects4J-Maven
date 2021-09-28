@@ -1,0 +1,2 @@
+org.apache.commons.math.random.AbstractRandomGeneratorTest.testNextHex(org.apache.commons.math.random.AbstractRandomGeneratorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextHex:()V:424:assertTrue true

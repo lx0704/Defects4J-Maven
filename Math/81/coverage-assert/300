@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testGetImaginaryFormat(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testGetImaginaryFormat:()V:284:assertNotSame true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testGetImaginaryFormat:()V:286:assertSame true

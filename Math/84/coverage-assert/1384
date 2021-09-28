@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.linear.SimplexSolverTest.testSingleVariableAndConstraint(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSingleVariableAndConstraint:()V:75:assertEquals true
-org.apache.commons.math.optimization.linear.SimplexSolverTest:testSingleVariableAndConstraint:()V:76:assertEquals true

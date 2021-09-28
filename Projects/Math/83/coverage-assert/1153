@@ -1,0 +1,9 @@
+org.apache.commons.math.linear.SparseRealVectorTest.testPredicates(org.apache.commons.math.linear.SparseRealVectorTest) true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1076:assertFalse true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1078:assertTrue true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1080:assertFalse true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1082:assertFalse true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1084:assertTrue true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1087:assertEquals true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1088:assertNotSame true
+org.apache.commons.math.linear.SparseRealVectorTest:testPredicates:()V:1089:assertNotSame true

@@ -1,5 +1,0 @@
-org.apache.commons.math.transform.FastHadamardTransformerTest.testNoIntInverse(org.apache.commons.math.transform.FastHadamardTransformerTest) true
-org.apache.commons.math.transform.FastHadamardTransformerTest:testNoIntInverse:()V:49:assertEquals true
-org.apache.commons.math.transform.FastHadamardTransformerTest:testNoIntInverse:()V:50:assertEquals true
-org.apache.commons.math.transform.FastHadamardTransformerTest:testNoIntInverse:()V:51:assertEquals true
-org.apache.commons.math.transform.FastHadamardTransformerTest:testNoIntInverse:()V:52:assertEquals true

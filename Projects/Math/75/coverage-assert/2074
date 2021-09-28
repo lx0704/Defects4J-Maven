@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testSinhNaN(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testSinhNaN:()V:1218:assertTrue true

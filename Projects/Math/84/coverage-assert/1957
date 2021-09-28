@@ -1,0 +1,16 @@
+org.apache.commons.math.util.MathUtilsTest.testEqualsWithAllowedUlps(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:352:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:354:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:355:assertFalse true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:356:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:357:assertFalse true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:359:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:360:assertFalse true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:361:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:362:assertFalse true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:364:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:365:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:367:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:368:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:371:assertTrue true
+org.apache.commons.math.util.MathUtilsTest:testEqualsWithAllowedUlps:()V:373:assertFalse true

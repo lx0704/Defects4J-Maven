@@ -1,6 +1,0 @@
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testRemove2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testRemove2:()V:160:assertEquals true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testRemove2:()V:161:assertTrue true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:assertPutAndGet:(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;ILjava/util/Set;)V:93:assertEquals true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:assertPutAndGet:(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;ILjava/util/Set;)V:98:assertEquals true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:assertPutAndGet:(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;ILjava/util/Set;)V:99:assertEquals true

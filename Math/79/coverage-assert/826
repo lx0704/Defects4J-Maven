@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BlockFieldMatrixTest.testTrace(org.apache.commons.math.linear.BlockFieldMatrixTest) true
-org.apache.commons.math.linear.BlockFieldMatrixTest:testTrace:()V:348:assertEquals true

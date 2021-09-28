@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.LUSolverTest.testDeterminant(org.apache.commons.math.linear.LUSolverTest) true
-org.apache.commons.math.linear.LUSolverTest:testDeterminant:()V:192:assertEquals true
-org.apache.commons.math.linear.LUSolverTest:testDeterminant:()V:193:assertEquals true
-org.apache.commons.math.linear.LUSolverTest:testDeterminant:()V:194:assertEquals true
-org.apache.commons.math.linear.LUSolverTest:testDeterminant:()V:195:assertEquals true

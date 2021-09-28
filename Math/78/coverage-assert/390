@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.HypergeometricDistributionTest.testMoreLargeValues(org.apache.commons.math.distribution.HypergeometricDistributionTest) true
-org.apache.commons.math.TestUtils:assertRelativelyEquals:(Ljava/lang/String;DDD)V:173:assertEquals true

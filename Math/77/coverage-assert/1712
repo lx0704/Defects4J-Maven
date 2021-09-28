@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.FourthMomentTest.testCopy(org.apache.commons.math.stat.descriptive.moment.FourthMomentTest) true
-org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:109:assertEquals true

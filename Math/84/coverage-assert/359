@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.GammaDistributionTest.testCumulativeProbabilities(org.apache.commons.math.distribution.GammaDistributionTest) true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyCumulativeProbabilities:()V:146:assertEquals true

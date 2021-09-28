@@ -1,3 +1,0 @@
-org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegratorTest.polynomial(org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegratorTest:polynomial:()V:148:assertTrue true
-org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegratorTest:polynomial:()V:150:assertTrue true

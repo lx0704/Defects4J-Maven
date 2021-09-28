@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testParseSimpleWithDecimalsTrunc:()V:168:assertEquals true

@@ -1,4 +1,0 @@
-org.apache.commons.math.geometry.RotationTest.testRevert(org.apache.commons.math.geometry.RotationTest) true
-org.apache.commons.math.geometry.RotationTest:checkRotation:(Lorg/apache/commons/math/geometry/Rotation;DDDD)V:499:assertEquals true
-org.apache.commons.math.geometry.RotationTest:testRevert:()V:93:assertEquals true
-org.apache.commons.math.geometry.RotationTest:testRevert:()V:94:assertEquals true

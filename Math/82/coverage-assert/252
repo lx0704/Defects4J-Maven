@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testSinNaN(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testSinNaN:()V:578:assertTrue true

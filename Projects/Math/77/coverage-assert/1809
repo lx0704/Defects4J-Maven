@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.VarianceTest.testWeightedConsistency(org.apache.commons.math.stat.descriptive.moment.VarianceTest) true
+org.apache.commons.math.TestUtils:assertRelativelyEquals:(Ljava/lang/String;DDD)V:173:assertEquals true

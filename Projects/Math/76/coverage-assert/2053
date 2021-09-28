@@ -1,0 +1,12 @@
+org.apache.commons.math.util.MathUtilsTest.testLcm(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:675:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:676:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:677:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:678:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:679:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:680:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:681:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:682:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:683:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:687:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testLcm:()V:690:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.geometry.FrenchVector3DFormatTest.testParseNegativeInfinity(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseNegativeInfinity:()V:319:assertEquals true

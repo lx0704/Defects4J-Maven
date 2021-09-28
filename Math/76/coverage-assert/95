@@ -1,9 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest.testQuadraticFunction(org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:73:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:76:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:79:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:81:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:84:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:85:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:86:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testQuadraticFunction:()V:87:assertEquals true

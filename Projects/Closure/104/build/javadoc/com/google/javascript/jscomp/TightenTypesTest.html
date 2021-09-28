@@ -1,0 +1,952 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>TightenTypesTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../104" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="TightenTypesTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/SyntacticScopeCreatorTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/TypeCheck.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/TightenTypesTest.html" target="_top">Frames</a></li>
+<li><a href="TightenTypesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class TightenTypesTest" class="title">Class TightenTypesTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">com.google.javascript.jscomp.CompilerTestCase</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.TightenTypesTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">TightenTypesTest</span>
+extends <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></pre>
+<div class="block">Unit test for the TightenTypes pass.</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseTypeInfo">parseTypeInfo</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#TightenTypesTest()">TightenTypesTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected int</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#getNumRepetitions()">getNumRepetitions</a></strong>()</code>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected <a href="../../../../com/google/javascript/jscomp/CompilerOptions.html" title="class in com.google.javascript.jscomp">CompilerOptions</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#getOptions()">getOptions</a></strong>()</code>
+<div class="block">Gets the compiler options to use for this test.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></strong>(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</code>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testAliasedFunction()">testAliasedFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testAllPropertyReference()">testAllPropertyReference</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testAnd()">testAnd</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testArrayAssignments()">testArrayAssignments</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testAssign()">testAssign</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testCallFunction()">testCallFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testCallFunctionWithArgs()">testCallFunctionWithArgs</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testCallPrototypeFunction()">testCallPrototypeFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testCallPrototypeFunctionWithArgs()">testCallPrototypeFunctionWithArgs</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testCallSlot()">testCallSlot</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testCatchStatement()">testCatchStatement</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testComma()">testComma</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testConstructorParameterSlots()">testConstructorParameterSlots</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testExternSubTypes()">testExternSubTypes</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testExternSubTypesForObject()">testExternSubTypesForObject</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testExternType()">testExternType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testFunctionLiteral()">testFunctionLiteral</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testFunctionToString()">testFunctionToString</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testGetElem()">testGetElem</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testGetElem3()">testGetElem3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testGetProp()">testGetProp</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testGetPrototypeProperty()">testGetPrototypeProperty</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testHook()">testHook</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testImplicitCallFromProperty()">testImplicitCallFromProperty</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testImplicitCallFromPropertyOfAllType()">testImplicitCallFromPropertyOfAllType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testImplicitCallFromPropertyOfUnion()">testImplicitCallFromPropertyOfUnion</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testImplicitPropCall()">testImplicitPropCall</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testImplicitPropCallWithArgs()">testImplicitPropCallWithArgs</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testNameLookup()">testNameLookup</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testNamespacedVariables()">testNamespacedVariables</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testObjectLiteralTraversal()">testObjectLiteralTraversal</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testOr()">testOr</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testParameterSlots()">testParameterSlots</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testRestrictToCast()">testRestrictToCast</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testRestrictToCastWithNonInstantiatedTypes()">testRestrictToCastWithNonInstantiatedTypes</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testRestrictToInterfaceCast()">testRestrictToInterfaceCast</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testReturnSlot()">testReturnSlot</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testScopeDiscovery()">testScopeDiscovery</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testSetTimeout()">testSetTimeout</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testSheqDiscovery()">testSheqDiscovery</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testSubclass()">testSubclass</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testThis()">testThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testTopLevelVariables()">testTopLevelVariables</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/TightenTypesTest.html#testUntypedImplicitCallFromProperty()">testUntypedImplicitCallFromProperty</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableLineNumberCheck(boolean)">enableLineNumberCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize()">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableTypeCheck(com.google.javascript.jscomp.CheckLevel)">enableTypeCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getCodingConvention()">getCodingConvention</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#setExpectedSymbolTableError(com.google.javascript.jscomp.DiagnosticType)">setExpectedSymbolTableError</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.Compiler,%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSSourceFile[],%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">testSame</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, setUp, tearDown, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="TightenTypesTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>TightenTypesTest</h4>
+<pre>public&nbsp;TightenTypesTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getProcessor(com.google.javascript.jscomp.Compiler)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getProcessor</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>&nbsp;getProcessor(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">CompilerTestCase</a></code></strong></div>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>compiler</code> - The compiler</dd>
+<dt><span class="strong">Returns:</span></dt><dd>The pass to test</dd></dl>
+</li>
+</ul>
+<a name="getNumRepetitions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getNumRepetitions</h4>
+<pre>protected&nbsp;int&nbsp;getNumRepetitions()</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">CompilerTestCase</a></code></strong></div>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">getNumRepetitions</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getOptions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getOptions</h4>
+<pre>protected&nbsp;<a href="../../../../com/google/javascript/jscomp/CompilerOptions.html" title="class in com.google.javascript.jscomp">CompilerOptions</a>&nbsp;getOptions()</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions()">CompilerTestCase</a></code></strong></div>
+<div class="block">Gets the compiler options to use for this test. Defaults to do nothing
+ options.
+
+ This is really only for configuring warnings guards. Use getProcessor
+ to determine what passes should be run.</div>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions()">getOptions</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="testTopLevelVariables()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testTopLevelVariables</h4>
+<pre>public&nbsp;void&nbsp;testTopLevelVariables()</pre>
+</li>
+</ul>
+<a name="testNamespacedVariables()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNamespacedVariables</h4>
+<pre>public&nbsp;void&nbsp;testNamespacedVariables()</pre>
+</li>
+</ul>
+<a name="testReturnSlot()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testReturnSlot</h4>
+<pre>public&nbsp;void&nbsp;testReturnSlot()</pre>
+</li>
+</ul>
+<a name="testParameterSlots()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testParameterSlots</h4>
+<pre>public&nbsp;void&nbsp;testParameterSlots()</pre>
+</li>
+</ul>
+<a name="testAliasedFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAliasedFunction</h4>
+<pre>public&nbsp;void&nbsp;testAliasedFunction()</pre>
+</li>
+</ul>
+<a name="testCatchStatement()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCatchStatement</h4>
+<pre>public&nbsp;void&nbsp;testCatchStatement()</pre>
+</li>
+</ul>
+<a name="testConstructorParameterSlots()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testConstructorParameterSlots</h4>
+<pre>public&nbsp;void&nbsp;testConstructorParameterSlots()</pre>
+</li>
+</ul>
+<a name="testCallSlot()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCallSlot</h4>
+<pre>public&nbsp;void&nbsp;testCallSlot()</pre>
+</li>
+</ul>
+<a name="testObjectLiteralTraversal()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testObjectLiteralTraversal</h4>
+<pre>public&nbsp;void&nbsp;testObjectLiteralTraversal()</pre>
+</li>
+</ul>
+<a name="testThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testThis</h4>
+<pre>public&nbsp;void&nbsp;testThis()</pre>
+</li>
+</ul>
+<a name="testAssign()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAssign</h4>
+<pre>public&nbsp;void&nbsp;testAssign()</pre>
+</li>
+</ul>
+<a name="testComma()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testComma</h4>
+<pre>public&nbsp;void&nbsp;testComma()</pre>
+</li>
+</ul>
+<a name="testAnd()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAnd</h4>
+<pre>public&nbsp;void&nbsp;testAnd()</pre>
+</li>
+</ul>
+<a name="testOr()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testOr</h4>
+<pre>public&nbsp;void&nbsp;testOr()</pre>
+</li>
+</ul>
+<a name="testHook()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testHook</h4>
+<pre>public&nbsp;void&nbsp;testHook()</pre>
+</li>
+</ul>
+<a name="testFunctionLiteral()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testFunctionLiteral</h4>
+<pre>public&nbsp;void&nbsp;testFunctionLiteral()</pre>
+</li>
+</ul>
+<a name="testNameLookup()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testNameLookup</h4>
+<pre>public&nbsp;void&nbsp;testNameLookup()</pre>
+</li>
+</ul>
+<a name="testGetProp()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testGetProp</h4>
+<pre>public&nbsp;void&nbsp;testGetProp()</pre>
+</li>
+</ul>
+<a name="testGetPrototypeProperty()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testGetPrototypeProperty</h4>
+<pre>public&nbsp;void&nbsp;testGetPrototypeProperty()</pre>
+</li>
+</ul>
+<a name="testGetElem()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testGetElem</h4>
+<pre>public&nbsp;void&nbsp;testGetElem()</pre>
+</li>
+</ul>
+<a name="testGetElem3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testGetElem3</h4>
+<pre>public&nbsp;void&nbsp;testGetElem3()</pre>
+</li>
+</ul>
+<a name="testScopeDiscovery()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testScopeDiscovery</h4>
+<pre>public&nbsp;void&nbsp;testScopeDiscovery()</pre>
+</li>
+</ul>
+<a name="testSheqDiscovery()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSheqDiscovery</h4>
+<pre>public&nbsp;void&nbsp;testSheqDiscovery()</pre>
+</li>
+</ul>
+<a name="testSubclass()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSubclass</h4>
+<pre>public&nbsp;void&nbsp;testSubclass()</pre>
+</li>
+</ul>
+<a name="testArrayAssignments()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testArrayAssignments</h4>
+<pre>public&nbsp;void&nbsp;testArrayAssignments()</pre>
+</li>
+</ul>
+<a name="testAllPropertyReference()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAllPropertyReference</h4>
+<pre>public&nbsp;void&nbsp;testAllPropertyReference()</pre>
+</li>
+</ul>
+<a name="testCallFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCallFunction</h4>
+<pre>public&nbsp;void&nbsp;testCallFunction()</pre>
+</li>
+</ul>
+<a name="testCallFunctionWithArgs()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCallFunctionWithArgs</h4>
+<pre>public&nbsp;void&nbsp;testCallFunctionWithArgs()</pre>
+</li>
+</ul>
+<a name="testCallPrototypeFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCallPrototypeFunction</h4>
+<pre>public&nbsp;void&nbsp;testCallPrototypeFunction()</pre>
+</li>
+</ul>
+<a name="testCallPrototypeFunctionWithArgs()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCallPrototypeFunctionWithArgs</h4>
+<pre>public&nbsp;void&nbsp;testCallPrototypeFunctionWithArgs()</pre>
+</li>
+</ul>
+<a name="testSetTimeout()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSetTimeout</h4>
+<pre>public&nbsp;void&nbsp;testSetTimeout()</pre>
+</li>
+</ul>
+<a name="testExternType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExternType</h4>
+<pre>public&nbsp;void&nbsp;testExternType()</pre>
+</li>
+</ul>
+<a name="testExternSubTypes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExternSubTypes</h4>
+<pre>public&nbsp;void&nbsp;testExternSubTypes()</pre>
+</li>
+</ul>
+<a name="testExternSubTypesForObject()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExternSubTypesForObject</h4>
+<pre>public&nbsp;void&nbsp;testExternSubTypesForObject()</pre>
+</li>
+</ul>
+<a name="testImplicitPropCall()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testImplicitPropCall</h4>
+<pre>public&nbsp;void&nbsp;testImplicitPropCall()</pre>
+</li>
+</ul>
+<a name="testImplicitPropCallWithArgs()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testImplicitPropCallWithArgs</h4>
+<pre>public&nbsp;void&nbsp;testImplicitPropCallWithArgs()</pre>
+</li>
+</ul>
+<a name="testUntypedImplicitCallFromProperty()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testUntypedImplicitCallFromProperty</h4>
+<pre>public&nbsp;void&nbsp;testUntypedImplicitCallFromProperty()</pre>
+</li>
+</ul>
+<a name="testImplicitCallFromProperty()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testImplicitCallFromProperty</h4>
+<pre>public&nbsp;void&nbsp;testImplicitCallFromProperty()</pre>
+</li>
+</ul>
+<a name="testImplicitCallFromPropertyOfUnion()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testImplicitCallFromPropertyOfUnion</h4>
+<pre>public&nbsp;void&nbsp;testImplicitCallFromPropertyOfUnion()</pre>
+</li>
+</ul>
+<a name="testImplicitCallFromPropertyOfAllType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testImplicitCallFromPropertyOfAllType</h4>
+<pre>public&nbsp;void&nbsp;testImplicitCallFromPropertyOfAllType()</pre>
+</li>
+</ul>
+<a name="testRestrictToCast()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRestrictToCast</h4>
+<pre>public&nbsp;void&nbsp;testRestrictToCast()</pre>
+</li>
+</ul>
+<a name="testRestrictToInterfaceCast()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRestrictToInterfaceCast</h4>
+<pre>public&nbsp;void&nbsp;testRestrictToInterfaceCast()</pre>
+</li>
+</ul>
+<a name="testRestrictToCastWithNonInstantiatedTypes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRestrictToCastWithNonInstantiatedTypes</h4>
+<pre>public&nbsp;void&nbsp;testRestrictToCastWithNonInstantiatedTypes()</pre>
+</li>
+</ul>
+<a name="testFunctionToString()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>testFunctionToString</h4>
+<pre>public&nbsp;void&nbsp;testFunctionToString()</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/SyntacticScopeCreatorTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/TypeCheck.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/TightenTypesTest.html" target="_top">Frames</a></li>
+<li><a href="TightenTypesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

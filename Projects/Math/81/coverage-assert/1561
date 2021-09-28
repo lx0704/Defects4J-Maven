@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.StatUtilsTest.testMin(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:318:assertEquals false
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:322:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:326:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:330:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:334:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:338:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testMin:()V:342:assertEquals false

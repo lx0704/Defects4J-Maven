@@ -1,3 +1,0 @@
-org.apache.commons.math.fraction.BigFractionTest.testDoubleValue(org.apache.commons.math.fraction.BigFractionTest) true
-org.apache.commons.math.fraction.BigFractionTest:testDoubleValue:()V:193:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testDoubleValue:()V:194:assertEquals true

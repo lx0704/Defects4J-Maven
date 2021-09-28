@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.ThirdMomentTest.testMomentSmallSamples(org.apache.commons.math.stat.descriptive.moment.ThirdMomentTest) true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testMomentSmallSamples:()V:150:assertTrue true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testMomentSmallSamples:()V:152:assertEquals true

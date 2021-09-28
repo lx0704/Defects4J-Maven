@@ -1,0 +1,4 @@
+org.apache.commons.math.fraction.FractionFormatTest.testParseProperNegative(org.apache.commons.math.fraction.FractionFormatTest) true
+org.apache.commons.math.fraction.FractionFormatTest:testParseProperNegative:()V:219:assertNotNull true
+org.apache.commons.math.fraction.FractionFormatTest:testParseProperNegative:()V:220:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseProperNegative:()V:221:assertEquals true

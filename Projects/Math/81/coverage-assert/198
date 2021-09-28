@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexTest.testAcosNaN(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testAcosNaN:()V:366:assertTrue true

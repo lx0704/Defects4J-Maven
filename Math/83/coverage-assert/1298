@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.direct.NelderMeadTest.testFunctionEvaluationExceptions(org.apache.commons.math.optimization.direct.NelderMeadTest) true
-org.apache.commons.math.optimization.direct.NelderMeadTest:testFunctionEvaluationExceptions:()V:66:assertNull true
-org.apache.commons.math.optimization.direct.NelderMeadTest:testFunctionEvaluationExceptions:()V:76:assertNotNull true

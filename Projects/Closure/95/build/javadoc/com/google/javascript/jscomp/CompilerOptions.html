@@ -1,0 +1,2768 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>CompilerOptions (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../95" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="CompilerOptions (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerInput.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/CompilerOptions.TracerMode.html" title="enum in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/CompilerOptions.html" target="_top">Frames</a></li>
+<li><a href="CompilerOptions.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li><a href="#nested_class_summary">Nested</a>&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class CompilerOptions" class="title">Class CompilerOptions</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.CompilerOptions</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd><a href="http://java.sun.com/javase/6/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Cloneable.html?is-external=true" title="class or interface in java.lang">Cloneable</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">CompilerOptions</span>
+extends <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
+implements <a href="http://java.sun.com/javase/6/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Cloneable.html?is-external=true" title="class or interface in java.lang">Cloneable</a></pre>
+<div class="block">Compiler options</div>
+<dl><dt><span class="strong">See Also:</span></dt><dd><a href="../../../../serialized-form.html#com.google.javascript.jscomp.CompilerOptions">Serialized Form</a></dd></dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== NESTED CLASS SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="nested_class_summary">
+<!--   -->
+</a>
+<h3>Nested Class Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Nested Class Summary table, listing nested classes, and an explanation">
+<caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static class&nbsp;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.TracerMode.html" title="enum in com.google.javascript.jscomp">CompilerOptions.TracerMode</a></strong></code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aggressiveVarCheck">aggressiveVarCheck</a></strong></code>
+<div class="block">Checks for suspicious variable definitions and undefined variables</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aliasableGlobals">aliasableGlobals</a></strong></code>
+<div class="block">If set to a non-empty string, then during an alias externals pass only
+ externals with these names will be considered for aliasing.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aliasableStrings">aliasableStrings</a></strong></code>
+<div class="block">If set to a non-empty set, those strings literals will be aliased to a
+ single global instance per string, to avoid creating more objects than
+ necessary.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aliasAllStrings">aliasAllStrings</a></strong></code>
+<div class="block">Aliases all string literals to global instances, to avoid creating more
+ objects than necessary (if true, overrides any set of strings passed in
+ to aliasableStrings)</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aliasExternals">aliasExternals</a></strong></code>
+<div class="block">Adds variable aliases for externals to reduce code size</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aliasKeywords">aliasKeywords</a></strong></code>
+<div class="block">Aliases true, false, and null to variables with shorter names.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#aliasStringsBlacklist">aliasStringsBlacklist</a></strong></code>
+<div class="block">A blacklist in the form of a regular expression to block strings that
+ contains certain words from being aliased.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#allowLegacyJsMessages">allowLegacyJsMessages</a></strong></code>
+<div class="block">Allows old deprecated js message style</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#ambiguateProperties">ambiguateProperties</a></strong></code>
+<div class="block">Rename unrelated properties to the same name to reduce code size.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.html" title="enum in com.google.javascript.jscomp">AnonymousFunctionNamingPolicy</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#anonymousFunctionNaming">anonymousFunctionNaming</a></strong></code>
+<div class="block">Give anonymous functions names for easier debugging</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#appNameStr">appNameStr</a></strong></code>
+<div class="block">App identifier string for use by the instrumentation template's
+ app_name_setter</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#brokenClosureRequiresLevel">brokenClosureRequiresLevel</a></strong></code>
+<div class="block">Sets the check level for bad Closure require calls.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkCaja">checkCaja</a></strong></code>
+<div class="block">Checks that the synctactic restrictions of Caja are met.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkControlStructures">checkControlStructures</a></strong></code>
+<div class="block">Checks for invalid control structures</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkDuplicateMessages">checkDuplicateMessages</a></strong></code>
+<div class="block">Makes sure no duplicate messages</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkEs5Strict">checkEs5Strict</a></strong></code>
+<div class="block">Checks that the synctactic restrictions of ES5 strict mode are met.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkFunctions">checkFunctions</a></strong></code>
+<div class="block">Checks function arity</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkGlobalNamesLevel">checkGlobalNamesLevel</a></strong></code>
+<div class="block">Checks the integrity of references to qualified global names.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkGlobalThisLevel">checkGlobalThisLevel</a></strong></code>
+<div class="block">Checks for certain uses of the <code>this</code> keyword that are considered
+ unsafe because they are likely to reference the global <code>this</code>
+ object unintentionally.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkMethods">checkMethods</a></strong></code>
+<div class="block">Checks method arity</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkMissingGetCssNameBlacklist">checkMissingGetCssNameBlacklist</a></strong></code>
+<div class="block">Regex of string literals that may only appear in goog.getCssName arguments.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkMissingGetCssNameLevel">checkMissingGetCssNameLevel</a></strong></code>
+<div class="block">Checks that certain string literals only appear in strings used as
+ goog.getCssName arguments.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkMissingReturn">checkMissingReturn</a></strong></code>
+<div class="block">Checks for missing return statements</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkProvides">checkProvides</a></strong></code>
+<div class="block">Checks for missing goog.provides() calls</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkRequires">checkRequires</a></strong></code>
+<div class="block">Checks for missing goog.require() calls</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkShadowVars">checkShadowVars</a></strong></code>
+<div class="block">Checks that all variables with the @noshadow attribute are
+ never shadowed.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkSuspiciousCode">checkSuspiciousCode</a></strong></code>
+<div class="block">Checks for suspicious statements that have no effect</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkSymbols">checkSymbols</a></strong></code>
+<div class="block">Checks that all symbols are defined</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkTypedPropertyCalls">checkTypedPropertyCalls</a></strong></code>
+<div class="block">Checks for inexistant property calls</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkTypes">checkTypes</a></strong></code>
+<div class="block">Checks types on expressions</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkUndefinedProperties">checkUndefinedProperties</a></strong></code>
+<div class="block">Checks for non-extern properties that are read but never set.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkUnreachableCode">checkUnreachableCode</a></strong></code>
+<div class="block">Checks for unreachable code</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#checkUnusedPropertiesEarly">checkUnusedPropertiesEarly</a></strong></code>
+<div class="block">Checks for non-extern properties that are written but never read.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#closurePass">closurePass</a></strong></code>
+<div class="block">Processes goog.provide() and goog.require() calls</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#coalesceVariableNames">coalesceVariableNames</a></strong></code>
+<div class="block">Merge two variables together as one.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#collapseAnonymousFunctions">collapseAnonymousFunctions</a></strong></code>
+<div class="block">Collapses anonymous function declarations into named function
+ declarations</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#collapseProperties">collapseProperties</a></strong></code>
+<div class="block">Flattens multi-level property names (e.g.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#collapseVariableDeclarations">collapseVariableDeclarations</a></strong></code>
+<div class="block">Collapses multiple variable declarations into one</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#computeFunctionSideEffects">computeFunctionSideEffects</a></strong></code>
+<div class="block">Use @nosideeffects annotations, function bodies and name graph
+ to determine if calls have side effects.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#convertToDottedProperties">convertToDottedProperties</a></strong></code>
+<div class="block">Converts quoted property accesses to dot syntax (a['b'] -> a.b)</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#crossModuleCodeMotion">crossModuleCodeMotion</a></strong></code>
+<div class="block">Move code to a deeper module</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#crossModuleMethodMotion">crossModuleMethodMotion</a></strong></code>
+<div class="block">Move methds to a deeper module</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CssRenamingMap.html" title="interface in com.google.javascript.jscomp">CssRenamingMap</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#cssRenamingMap">cssRenamingMap</a></strong></code>
+<div class="block">Map used in the renaming of CSS class names.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>com.google.common.collect.Multimap&lt;<a href="../../../../com/google/javascript/jscomp/CustomPassExecutionTime.html" title="enum in com.google.javascript.jscomp">CustomPassExecutionTime</a>,<a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#customPasses">customPasses</a></strong></code>
+<div class="block">Custom passes</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#deadAssignmentElimination">deadAssignmentElimination</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#debugFunctionSideEffectsPath">debugFunctionSideEffectsPath</a></strong></code>
+<div class="block">Where to save debug report for compute function side effects.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#decomposeExpressions">decomposeExpressions</a></strong></code>
+<div class="block">Enhanced function inlining</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#devirtualizePrototypeMethods">devirtualizePrototypeMethods</a></strong></code>
+<div class="block">Devirtualize prototype method by rewriting them to be static calls that
+ take the this pointer as their first argument</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#disambiguateProperties">disambiguateProperties</a></strong></code>
+<div class="block">Rename properties to disambiguate between unrelated fields based on
+ type information.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/ErrorFormat.html" title="enum in com.google.javascript.jscomp">ErrorFormat</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#errorFormat">errorFormat</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#exportTestFunctions">exportTestFunctions</a></strong></code>
+<div class="block">Whether to export test functions.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#extractPrototypeMemberDeclarations">extractPrototypeMemberDeclarations</a></strong></code>
+<div class="block">Extracts common prototype member declarations</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#flowSensitiveInlineVariables">flowSensitiveInlineVariables</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#foldConstants">foldConstants</a></strong></code>
+<div class="block">Folds constants (e.g.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#gatherCssNames">gatherCssNames</a></strong></code>
+<div class="block">Gather CSS names (requires closurePass)</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#generateExports">generateExports</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#generatePseudoNames">generatePseudoNames</a></strong></code>
+<div class="block">Generate pseudo names for variables and properties for debugging purposes.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#groupVariableDeclarations">groupVariableDeclarations</a></strong></code>
+<div class="block">Group multiple variable declarations into one</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#ideMode">ideMode</a></strong></code>
+<div class="block">Configures the compiler for use as an IDE backend.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#ignoreCajaProperties">ignoreCajaProperties</a></strong></code>
+<div class="block">Add code to skip properties that Caja adds to Object.prototype</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inferTypesInGlobalScope">inferTypesInGlobalScope</a></strong></code>
+<div class="block">Runs a flow sensitive type inference in the global scope</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineAnonymousFunctionExpressions">inlineAnonymousFunctionExpressions</a></strong></code>
+<div class="block">Enhanced function inlining</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineConstantVars">inlineConstantVars</a></strong></code>
+<div class="block">Inlines constants (symbols that are all CAPS)</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineFunctions">inlineFunctions</a></strong></code>
+<div class="block">Inlines short functions</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineGetters">inlineGetters</a></strong></code>
+<div class="block">Inlines trivial getters</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineLocalFunctions">inlineLocalFunctions</a></strong></code>
+<div class="block">Enhanced function inlining</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineLocalVariables">inlineLocalVariables</a></strong></code>
+<div class="block">Inlines variables</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inlineVariables">inlineVariables</a></strong></code>
+<div class="block">Inlines variables</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inputDelimiter">inputDelimiter</a></strong></code>
+<div class="block">The string to use as the separator for printInputDelimiter</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>byte[]</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inputPropertyMapSerialized">inputPropertyMapSerialized</a></strong></code>
+<div class="block">Serialized input property renaming map.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>byte[]</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#inputVariableMapSerialized">inputVariableMapSerialized</a></strong></code>
+<div class="block">Serialized input variable renaming map.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#instrumentationTemplate">instrumentationTemplate</a></strong></code>
+<div class="block">Instrumentation template to use</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#instrumentForCoverage">instrumentForCoverage</a></strong></code>
+<div class="block">Instrument code for the purpose of collecting coverage data.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#instrumentForCoverageOnly">instrumentForCoverageOnly</a></strong></code>
+<div class="block">Instrument code for the purpose of collecting coverage data - restrict to
+ coverage pass only, and skip all other passes.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#jsOutputFile">jsOutputFile</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#labelRenaming">labelRenaming</a></strong></code>
+<div class="block">Controls label renaming.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#lineBreak">lineBreak</a></strong></code>
+<div class="block">Line break the output a bit more aggressively</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#locale">locale</a></strong></code>
+<div class="block">Compiling locale</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#markAsCompiled">markAsCompiled</a></strong></code>
+<div class="block">Sets the special "COMPILED" value to true</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#markNoSideEffectCalls">markNoSideEffectCalls</a></strong></code>
+<div class="block">Mark no side effect calls</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/MessageBundle.html" title="interface in com.google.javascript.jscomp">MessageBundle</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#messageBundle">messageBundle</a></strong></code>
+<div class="block">Returns localized replacement for MSG_* variables</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#moveFunctionDeclarations">moveFunctionDeclarations</a></strong></code>
+<div class="block">Move top level function declarations to the top</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#nameReferenceGraphPath">nameReferenceGraphPath</a></strong></code>
+<div class="block">Where to save the name reference graph</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#nameReferenceReportPath">nameReferenceReportPath</a></strong></code>
+<div class="block">Where to save a cross-reference report from the name reference graph</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#optimizeArgumentsArray">optimizeArgumentsArray</a></strong></code>
+<div class="block">Provide formal names for elements of arguments array.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#optimizeParameters">optimizeParameters</a></strong></code>
+<div class="block">Remove unused and constant parameters.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#prettyPrint">prettyPrint</a></strong></code>
+<div class="block">Output in pretty indented format</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#printInputDelimiter">printInputDelimiter</a></strong></code>
+<div class="block">Prints a separator comment before each js script</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/PropertyRenamingPolicy.html" title="enum in com.google.javascript.jscomp">PropertyRenamingPolicy</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#propertyRenaming">propertyRenaming</a></strong></code>
+<div class="block">Controls which properties get renamed.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#recordFunctionInformation">recordFunctionInformation</a></strong></code>
+<div class="block">Record function information</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeConstantExpressions">removeConstantExpressions</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeDeadCode">removeDeadCode</a></strong></code>
+<div class="block">Removes code that will never execute</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeEmptyFunctions">removeEmptyFunctions</a></strong></code>
+<div class="block">Removes functions that have no body</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeTryCatchFinally">removeTryCatchFinally</a></strong></code>
+<div class="block">Removes try...catch...finally blocks for easier debugging</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeUnusedPrototypeProperties">removeUnusedPrototypeProperties</a></strong></code>
+<div class="block">Removes unused member prototypes</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeUnusedPrototypePropertiesInExterns">removeUnusedPrototypePropertiesInExterns</a></strong></code>
+<div class="block">Tells AnalyzePrototypeProperties it can remove externed props.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeUnusedVars">removeUnusedVars</a></strong></code>
+<div class="block">Removes unused variables</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#removeUnusedVarsInGlobalScope">removeUnusedVarsInGlobalScope</a></strong></code>
+<div class="block">Removes unused variables in global scope.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#renamePrefix">renamePrefix</a></strong></code>
+<div class="block">Specifies a prefix for all globals</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#reportMissingOverride">reportMissingOverride</a></strong></code>
+<div class="block">Flags a warning if a property is missing the @override annotation, but it
+ overrides a base class property.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#reportPath">reportPath</a></strong></code>
+<div class="block">Where to save a report of global name usage</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#reportUnknownTypes">reportUnknownTypes</a></strong></code>
+<div class="block">Flags a warning for every node whose type could not be determined.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#reserveRawExports">reserveRawExports</a></strong></code>
+<div class="block">Reserve property names on the global this object.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#rewriteFunctionExpressions">rewriteFunctionExpressions</a></strong></code>
+<div class="block">Reduces the size of common function expressions.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#smartNameRemoval">smartNameRemoval</a></strong></code>
+<div class="block">Removes code associated with unused global names</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/SourceMap.DetailLevel.html" title="enum in com.google.javascript.jscomp">SourceMap.DetailLevel</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#sourceMapDetailLevel">sourceMapDetailLevel</a></strong></code>
+<div class="block">The detail level for the generated source map.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/SourceMap.Format.html" title="enum in com.google.javascript.jscomp">SourceMap.Format</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#sourceMapFormat">sourceMapFormat</a></strong></code>
+<div class="block">The source map file format</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#sourceMapOutputPath">sourceMapOutputPath</a></strong></code>
+<div class="block">The output path for the source map.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#specializeInitialModule">specializeInitialModule</a></strong></code>
+<div class="block">Specialize the initial module at the cost of later modules</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#strictMessageReplacement">strictMessageReplacement</a></strong></code>
+<div class="block">Whether we should throw an exception in case if the message absent from a
+ bundle.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#stripNamePrefixes">stripNamePrefixes</a></strong></code>
+<div class="block">Name prefixes that determine which variables and properties to strip</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#stripNameSuffixes">stripNameSuffixes</a></strong></code>
+<div class="block">Name suffixes that determine which variables and properties to strip</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#stripTypePrefixes">stripTypePrefixes</a></strong></code>
+<div class="block">Qualified type name prefixes that determine which types to strip</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#stripTypes">stripTypes</a></strong></code>
+<div class="block">Names of types to strip</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#syntheticBlockEndMarker">syntheticBlockEndMarker</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#syntheticBlockStartMarker">syntheticBlockStartMarker</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#tightenTypes">tightenTypes</a></strong></code>
+<div class="block">Tightens types based on a global analysis.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CompilerOptions.TracerMode.html" title="enum in com.google.javascript.jscomp">CompilerOptions.TracerMode</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#tracer">tracer</a></strong></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#unaliasableGlobals">unaliasableGlobals</a></strong></code>
+<div class="block">Additional globals that can not be aliased since they may be undefined or
+ can cause errors.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/VariableRenamingPolicy.html" title="enum in com.google.javascript.jscomp">VariableRenamingPolicy</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#variableRenaming">variableRenaming</a></strong></code>
+<div class="block">Controls which variables get renamed.</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#CompilerOptions()">CompilerOptions</a></strong>()</code>
+<div class="block">Initializes compiler options.</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#addWarningsGuard(com.google.javascript.jscomp.WarningsGuard)">addWarningsGuard</a></strong>(<a href="../../../../com/google/javascript/jscomp/WarningsGuard.html" title="class in com.google.javascript.jscomp">WarningsGuard</a>&nbsp;guard)</code>
+<div class="block">Add a guard to the set of warnings guards.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#clone()">clone</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#disableRuntimeTypeCheck()">disableRuntimeTypeCheck</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#enableExternExports(boolean)">enableExternExports</a></strong>(boolean&nbsp;enable)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#enableRuntimeTypeCheck(java.lang.String)">enableRuntimeTypeCheck</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;logFunction)</code>
+<div class="block">Enable runtime type checking, which adds JS type assertions for debugging.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CodingConvention.html" title="interface in com.google.javascript.jscomp">CodingConvention</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#getCodingConvention()">getCodingConvention</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="http://java.sun.com/javase/6/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util">Map</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>,com.google.javascript.rhino.Node&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#getDefineReplacements()">getDefineReplacements</a></strong>()</code>
+<div class="block">Returns the map of define replacements.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#isExternExportsEnabled()">isExternExportsEnabled</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setChainCalls(boolean)">setChainCalls</a></strong>(boolean&nbsp;value)</code>
+<div class="block">If true, chain calls to functions that return this.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setCodingConvention(com.google.javascript.jscomp.CodingConvention)">setCodingConvention</a></strong>(<a href="../../../../com/google/javascript/jscomp/CodingConvention.html" title="interface in com.google.javascript.jscomp">CodingConvention</a>&nbsp;codingConvention)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setCollapsePropertiesOnExternTypes(boolean)">setCollapsePropertiesOnExternTypes</a></strong>(boolean&nbsp;collapse)</code>
+<div class="block">If true, flattens multi-level property names on extern types
+ (e.g.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setColorizeErrorOutput(boolean)">setColorizeErrorOutput</a></strong>(boolean&nbsp;colorizeErrorOutput)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setDefineToBooleanLiteral(java.lang.String,%20boolean)">setDefineToBooleanLiteral</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                         boolean&nbsp;value)</code>
+<div class="block">Sets the value of the <code>@define</code> variable in JS
+ to a boolean literal.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setDefineToDoubleLiteral(java.lang.String,%20double)">setDefineToDoubleLiteral</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                        double&nbsp;value)</code>
+<div class="block">Sets the value of the <code>@define</code> variable in JS to a
+ number literal.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setDefineToNumberLiteral(java.lang.String,%20int)">setDefineToNumberLiteral</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                        int&nbsp;value)</code>
+<div class="block">Sets the value of the <code>@define</code> variable in JS to a
+ number literal.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setDefineToStringLiteral(java.lang.String,%20java.lang.String)">setDefineToStringLiteral</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                        <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</code>
+<div class="block">Sets the value of the <code>@define</code> variable in JS to a
+ String literal.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setIdGenerators(java.util.Set)">setIdGenerators</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;idGenerators)</code>
+<div class="block">Sets the id generators to replace.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setLooseTypes(boolean)">setLooseTypes</a></strong>(boolean&nbsp;looseTypes)</code>
+<div class="block">Whether to include "undefined" in the default types.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setManageClosureDependencies(boolean)">setManageClosureDependencies</a></strong>(boolean&nbsp;newVal)</code>
+<div class="block">Sort inputs by their goog.provide/goog.require calls, and prune inputs
+ whose symbols are not required.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setNameAnonymousFunctionsOnly(boolean)">setNameAnonymousFunctionsOnly</a></strong>(boolean&nbsp;value)</code>
+<div class="block">If true, name anonymous functions only.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setOutputCharset(java.lang.String)">setOutputCharset</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;charsetName)</code>
+<div class="block">Sets the output charset by name.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setProcessObjectPropertyString(boolean)">setProcessObjectPropertyString</a></strong>(boolean&nbsp;process)</code>
+<div class="block">If true, process goog.testing.ObjectPropertyString instances.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setRemoveAbstractMethods(boolean)">setRemoveAbstractMethods</a></strong>(boolean&nbsp;remove)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setRemoveClosureAsserts(boolean)">setRemoveClosureAsserts</a></strong>(boolean&nbsp;remove)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setRenamingPolicy(com.google.javascript.jscomp.VariableRenamingPolicy,%20com.google.javascript.jscomp.PropertyRenamingPolicy)">setRenamingPolicy</a></strong>(<a href="../../../../com/google/javascript/jscomp/VariableRenamingPolicy.html" title="enum in com.google.javascript.jscomp">VariableRenamingPolicy</a>&nbsp;newVariablePolicy,
+                 <a href="../../../../com/google/javascript/jscomp/PropertyRenamingPolicy.html" title="enum in com.google.javascript.jscomp">PropertyRenamingPolicy</a>&nbsp;newPropertyPolicy)</code>
+<div class="block">Sets the variable and property renaming policies for the compiler,
+ in a way that clears warnings about the renaming policy being
+ uninitialized from flags.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setReplaceStringsConfiguration(java.lang.String,%20java.util.List)">setReplaceStringsConfiguration</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;placeholderToken,
+                              <a href="http://java.sun.com/javase/6/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;functionDescriptors)</code>
+<div class="block">Sets the functions whose debug strings to replace.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setRewriteNewDateGoogNow(boolean)">setRewriteNewDateGoogNow</a></strong>(boolean&nbsp;rewrite)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setSummaryDetailLevel(int)">setSummaryDetailLevel</a></strong>(int&nbsp;summaryDetailLevel)</code>
+<div class="block">Controls how detailed the compilation summary is.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#setWarningLevel(com.google.javascript.jscomp.DiagnosticGroup,%20com.google.javascript.jscomp.CheckLevel)">setWarningLevel</a></strong>(<a href="../../../../com/google/javascript/jscomp/DiagnosticGroup.html" title="class in com.google.javascript.jscomp">DiagnosticGroup</a>&nbsp;type,
+               <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;level)</code>
+<div class="block">Configure the given type of warning to the given level.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#shouldColorizeErrorOutput()">shouldColorizeErrorOutput</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/CompilerOptions.html#skipAllCompilerPasses()">skipAllCompilerPasses</a></strong>()</code>
+<div class="block">Skip all possible passes, to make the compiler as fast as possible.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang">toString</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="ideMode">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ideMode</h4>
+<pre>public&nbsp;boolean ideMode</pre>
+<div class="block">Configures the compiler for use as an IDE backend.  In this mode:
+ <ul>
+  <li>No optimization passes will run.</li>
+  <li>The last time custom passes are invoked is
+      <a href="../../../../com/google/javascript/jscomp/CustomPassExecutionTime.html#BEFORE_OPTIMIZATIONS"><code>CustomPassExecutionTime.BEFORE_OPTIMIZATIONS</code></a></li>
+  <li>The compiler will always try to process all inputs fully, even
+      if it encounters errors.</li>
+  <li>The compiler may record more information than is strictly
+      needed for codegen.</li>
+ </ul></div>
+</li>
+</ul>
+<a name="messageBundle">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>messageBundle</h4>
+<pre>public transient&nbsp;<a href="../../../../com/google/javascript/jscomp/MessageBundle.html" title="interface in com.google.javascript.jscomp">MessageBundle</a> messageBundle</pre>
+<div class="block">Returns localized replacement for MSG_* variables</div>
+</li>
+</ul>
+<a name="checkSymbols">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkSymbols</h4>
+<pre>public&nbsp;boolean checkSymbols</pre>
+<div class="block">Checks that all symbols are defined</div>
+</li>
+</ul>
+<a name="checkShadowVars">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkShadowVars</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkShadowVars</pre>
+<div class="block">Checks that all variables with the @noshadow attribute are
+ never shadowed.</div>
+</li>
+</ul>
+<a name="aggressiveVarCheck">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aggressiveVarCheck</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> aggressiveVarCheck</pre>
+<div class="block">Checks for suspicious variable definitions and undefined variables</div>
+</li>
+</ul>
+<a name="checkFunctions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkFunctions</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkFunctions</pre>
+<div class="block">Checks function arity</div>
+</li>
+</ul>
+<a name="checkMethods">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkMethods</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkMethods</pre>
+<div class="block">Checks method arity</div>
+</li>
+</ul>
+<a name="checkDuplicateMessages">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkDuplicateMessages</h4>
+<pre>public&nbsp;boolean checkDuplicateMessages</pre>
+<div class="block">Makes sure no duplicate messages</div>
+</li>
+</ul>
+<a name="allowLegacyJsMessages">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>allowLegacyJsMessages</h4>
+<pre>public&nbsp;boolean allowLegacyJsMessages</pre>
+<div class="block">Allows old deprecated js message style</div>
+</li>
+</ul>
+<a name="strictMessageReplacement">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>strictMessageReplacement</h4>
+<pre>public&nbsp;boolean strictMessageReplacement</pre>
+<div class="block">Whether we should throw an exception in case if the message absent from a
+ bundle.</div>
+</li>
+</ul>
+<a name="checkSuspiciousCode">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkSuspiciousCode</h4>
+<pre>public&nbsp;boolean checkSuspiciousCode</pre>
+<div class="block">Checks for suspicious statements that have no effect</div>
+</li>
+</ul>
+<a name="checkControlStructures">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkControlStructures</h4>
+<pre>public&nbsp;boolean checkControlStructures</pre>
+<div class="block">Checks for invalid control structures</div>
+</li>
+</ul>
+<a name="checkUndefinedProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkUndefinedProperties</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkUndefinedProperties</pre>
+<div class="block">Checks for non-extern properties that are read but never set.</div>
+</li>
+</ul>
+<a name="checkUnusedPropertiesEarly">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkUnusedPropertiesEarly</h4>
+<pre>public&nbsp;boolean checkUnusedPropertiesEarly</pre>
+<div class="block">Checks for non-extern properties that are written but never read.
+ This check occurs after the first constant-based dead code removal pass,
+ but before the main optimization loop.  This is noisy if you are
+ including libraries with methods that you don't use, so it is off by
+ default.</div>
+</li>
+</ul>
+<a name="checkTypes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkTypes</h4>
+<pre>public&nbsp;boolean checkTypes</pre>
+<div class="block">Checks types on expressions</div>
+</li>
+</ul>
+<a name="tightenTypes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>tightenTypes</h4>
+<pre>public&nbsp;boolean tightenTypes</pre>
+<div class="block">Tightens types based on a global analysis.</div>
+</li>
+</ul>
+<a name="inferTypesInGlobalScope">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inferTypesInGlobalScope</h4>
+<pre>public&nbsp;boolean inferTypesInGlobalScope</pre>
+<div class="block">Runs a flow sensitive type inference in the global scope</div>
+</li>
+</ul>
+<a name="checkTypedPropertyCalls">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkTypedPropertyCalls</h4>
+<pre>public&nbsp;boolean checkTypedPropertyCalls</pre>
+<div class="block">Checks for inexistant property calls</div>
+</li>
+</ul>
+<a name="reportMissingOverride">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reportMissingOverride</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> reportMissingOverride</pre>
+<div class="block">Flags a warning if a property is missing the @override annotation, but it
+ overrides a base class property.</div>
+</li>
+</ul>
+<a name="reportUnknownTypes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reportUnknownTypes</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> reportUnknownTypes</pre>
+<div class="block">Flags a warning for every node whose type could not be determined.</div>
+</li>
+</ul>
+<a name="checkRequires">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkRequires</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkRequires</pre>
+<div class="block">Checks for missing goog.require() calls</div>
+</li>
+</ul>
+<a name="checkProvides">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkProvides</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkProvides</pre>
+<div class="block">Checks for missing goog.provides() calls</div>
+</li>
+</ul>
+<a name="checkGlobalNamesLevel">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkGlobalNamesLevel</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkGlobalNamesLevel</pre>
+<div class="block">Checks the integrity of references to qualified global names.
+ (e.g. "a.b")</div>
+</li>
+</ul>
+<a name="brokenClosureRequiresLevel">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>brokenClosureRequiresLevel</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> brokenClosureRequiresLevel</pre>
+<div class="block">Sets the check level for bad Closure require calls.</div>
+</li>
+</ul>
+<a name="checkGlobalThisLevel">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkGlobalThisLevel</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkGlobalThisLevel</pre>
+<div class="block">Checks for certain uses of the <code>this</code> keyword that are considered
+ unsafe because they are likely to reference the global <code>this</code>
+ object unintentionally.
+
+ If this is off, but collapseProperties is on, then the compiler will
+ usually ignore you and run this check anyways.</div>
+</li>
+</ul>
+<a name="checkMissingGetCssNameLevel">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkMissingGetCssNameLevel</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkMissingGetCssNameLevel</pre>
+<div class="block">Checks that certain string literals only appear in strings used as
+ goog.getCssName arguments.</div>
+</li>
+</ul>
+<a name="checkMissingGetCssNameBlacklist">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkMissingGetCssNameBlacklist</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> checkMissingGetCssNameBlacklist</pre>
+<div class="block">Regex of string literals that may only appear in goog.getCssName arguments.</div>
+</li>
+</ul>
+<a name="checkEs5Strict">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkEs5Strict</h4>
+<pre>public&nbsp;boolean checkEs5Strict</pre>
+<div class="block">Checks that the synctactic restrictions of ES5 strict mode are met.</div>
+</li>
+</ul>
+<a name="checkCaja">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkCaja</h4>
+<pre>public&nbsp;boolean checkCaja</pre>
+<div class="block">Checks that the synctactic restrictions of Caja are met.</div>
+</li>
+</ul>
+<a name="foldConstants">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>foldConstants</h4>
+<pre>public&nbsp;boolean foldConstants</pre>
+<div class="block">Folds constants (e.g. (2 + 3) to 5)</div>
+</li>
+</ul>
+<a name="removeConstantExpressions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeConstantExpressions</h4>
+<pre>public&nbsp;boolean removeConstantExpressions</pre>
+</li>
+</ul>
+<a name="deadAssignmentElimination">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>deadAssignmentElimination</h4>
+<pre>public&nbsp;boolean deadAssignmentElimination</pre>
+</li>
+</ul>
+<a name="inlineConstantVars">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineConstantVars</h4>
+<pre>public&nbsp;boolean inlineConstantVars</pre>
+<div class="block">Inlines constants (symbols that are all CAPS)</div>
+</li>
+</ul>
+<a name="inlineFunctions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineFunctions</h4>
+<pre>public&nbsp;boolean inlineFunctions</pre>
+<div class="block">Inlines short functions</div>
+</li>
+</ul>
+<a name="decomposeExpressions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>decomposeExpressions</h4>
+<pre>public&nbsp;boolean decomposeExpressions</pre>
+<div class="block">Enhanced function inlining</div>
+</li>
+</ul>
+<a name="inlineAnonymousFunctionExpressions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineAnonymousFunctionExpressions</h4>
+<pre>public&nbsp;boolean inlineAnonymousFunctionExpressions</pre>
+<div class="block">Enhanced function inlining</div>
+</li>
+</ul>
+<a name="inlineLocalFunctions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineLocalFunctions</h4>
+<pre>public&nbsp;boolean inlineLocalFunctions</pre>
+<div class="block">Enhanced function inlining</div>
+</li>
+</ul>
+<a name="crossModuleCodeMotion">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>crossModuleCodeMotion</h4>
+<pre>public&nbsp;boolean crossModuleCodeMotion</pre>
+<div class="block">Move code to a deeper module</div>
+</li>
+</ul>
+<a name="coalesceVariableNames">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>coalesceVariableNames</h4>
+<pre>public&nbsp;boolean coalesceVariableNames</pre>
+<div class="block">Merge two variables together as one.</div>
+</li>
+</ul>
+<a name="crossModuleMethodMotion">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>crossModuleMethodMotion</h4>
+<pre>public&nbsp;boolean crossModuleMethodMotion</pre>
+<div class="block">Move methds to a deeper module</div>
+</li>
+</ul>
+<a name="inlineGetters">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineGetters</h4>
+<pre>public&nbsp;boolean inlineGetters</pre>
+<div class="block">Inlines trivial getters</div>
+</li>
+</ul>
+<a name="inlineVariables">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineVariables</h4>
+<pre>public&nbsp;boolean inlineVariables</pre>
+<div class="block">Inlines variables</div>
+</li>
+</ul>
+<a name="inlineLocalVariables">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inlineLocalVariables</h4>
+<pre>public&nbsp;boolean inlineLocalVariables</pre>
+<div class="block">Inlines variables</div>
+</li>
+</ul>
+<a name="flowSensitiveInlineVariables">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>flowSensitiveInlineVariables</h4>
+<pre>public&nbsp;boolean flowSensitiveInlineVariables</pre>
+</li>
+</ul>
+<a name="smartNameRemoval">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>smartNameRemoval</h4>
+<pre>public&nbsp;boolean smartNameRemoval</pre>
+<div class="block">Removes code associated with unused global names</div>
+</li>
+</ul>
+<a name="removeDeadCode">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeDeadCode</h4>
+<pre>public&nbsp;boolean removeDeadCode</pre>
+<div class="block">Removes code that will never execute</div>
+</li>
+</ul>
+<a name="checkUnreachableCode">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkUnreachableCode</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkUnreachableCode</pre>
+<div class="block">Checks for unreachable code</div>
+</li>
+</ul>
+<a name="checkMissingReturn">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>checkMissingReturn</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a> checkMissingReturn</pre>
+<div class="block">Checks for missing return statements</div>
+</li>
+</ul>
+<a name="extractPrototypeMemberDeclarations">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>extractPrototypeMemberDeclarations</h4>
+<pre>public&nbsp;boolean extractPrototypeMemberDeclarations</pre>
+<div class="block">Extracts common prototype member declarations</div>
+</li>
+</ul>
+<a name="removeEmptyFunctions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeEmptyFunctions</h4>
+<pre>public&nbsp;boolean removeEmptyFunctions</pre>
+<div class="block">Removes functions that have no body</div>
+</li>
+</ul>
+<a name="removeUnusedPrototypeProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeUnusedPrototypeProperties</h4>
+<pre>public&nbsp;boolean removeUnusedPrototypeProperties</pre>
+<div class="block">Removes unused member prototypes</div>
+</li>
+</ul>
+<a name="removeUnusedPrototypePropertiesInExterns">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeUnusedPrototypePropertiesInExterns</h4>
+<pre>public&nbsp;boolean removeUnusedPrototypePropertiesInExterns</pre>
+<div class="block">Tells AnalyzePrototypeProperties it can remove externed props.</div>
+</li>
+</ul>
+<a name="removeUnusedVars">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeUnusedVars</h4>
+<pre>public&nbsp;boolean removeUnusedVars</pre>
+<div class="block">Removes unused variables</div>
+</li>
+</ul>
+<a name="removeUnusedVarsInGlobalScope">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeUnusedVarsInGlobalScope</h4>
+<pre>public&nbsp;boolean removeUnusedVarsInGlobalScope</pre>
+<div class="block">Removes unused variables in global scope.</div>
+</li>
+</ul>
+<a name="aliasExternals">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aliasExternals</h4>
+<pre>public&nbsp;boolean aliasExternals</pre>
+<div class="block">Adds variable aliases for externals to reduce code size</div>
+</li>
+</ul>
+<a name="aliasableGlobals">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aliasableGlobals</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> aliasableGlobals</pre>
+<div class="block">If set to a non-empty string, then during an alias externals pass only
+ externals with these names will be considered for aliasing.</div>
+</li>
+</ul>
+<a name="unaliasableGlobals">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>unaliasableGlobals</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> unaliasableGlobals</pre>
+<div class="block">Additional globals that can not be aliased since they may be undefined or
+ can cause errors.  Comma separated list of symbols.  e.g. "foo,bar"</div>
+</li>
+</ul>
+<a name="collapseVariableDeclarations">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>collapseVariableDeclarations</h4>
+<pre>public&nbsp;boolean collapseVariableDeclarations</pre>
+<div class="block">Collapses multiple variable declarations into one</div>
+</li>
+</ul>
+<a name="groupVariableDeclarations">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>groupVariableDeclarations</h4>
+<pre>public&nbsp;boolean groupVariableDeclarations</pre>
+<div class="block">Group multiple variable declarations into one</div>
+</li>
+</ul>
+<a name="collapseAnonymousFunctions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>collapseAnonymousFunctions</h4>
+<pre>public&nbsp;boolean collapseAnonymousFunctions</pre>
+<div class="block">Collapses anonymous function declarations into named function
+ declarations</div>
+</li>
+</ul>
+<a name="aliasableStrings">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aliasableStrings</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt; aliasableStrings</pre>
+<div class="block">If set to a non-empty set, those strings literals will be aliased to a
+ single global instance per string, to avoid creating more objects than
+ necessary.</div>
+</li>
+</ul>
+<a name="aliasStringsBlacklist">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aliasStringsBlacklist</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> aliasStringsBlacklist</pre>
+<div class="block">A blacklist in the form of a regular expression to block strings that
+ contains certain words from being aliased.
+ If the value is the empty string, no words are blacklisted.</div>
+</li>
+</ul>
+<a name="aliasAllStrings">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aliasAllStrings</h4>
+<pre>public&nbsp;boolean aliasAllStrings</pre>
+<div class="block">Aliases all string literals to global instances, to avoid creating more
+ objects than necessary (if true, overrides any set of strings passed in
+ to aliasableStrings)</div>
+</li>
+</ul>
+<a name="convertToDottedProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>convertToDottedProperties</h4>
+<pre>public&nbsp;boolean convertToDottedProperties</pre>
+<div class="block">Converts quoted property accesses to dot syntax (a['b'] -> a.b)</div>
+</li>
+</ul>
+<a name="rewriteFunctionExpressions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>rewriteFunctionExpressions</h4>
+<pre>public&nbsp;boolean rewriteFunctionExpressions</pre>
+<div class="block">Reduces the size of common function expressions.</div>
+</li>
+</ul>
+<a name="optimizeParameters">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>optimizeParameters</h4>
+<pre>public&nbsp;boolean optimizeParameters</pre>
+<div class="block">Remove unused and constant parameters.</div>
+</li>
+</ul>
+<a name="optimizeArgumentsArray">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>optimizeArgumentsArray</h4>
+<pre>public&nbsp;boolean optimizeArgumentsArray</pre>
+<div class="block">Provide formal names for elements of arguments array.</div>
+</li>
+</ul>
+<a name="variableRenaming">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>variableRenaming</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/VariableRenamingPolicy.html" title="enum in com.google.javascript.jscomp">VariableRenamingPolicy</a> variableRenaming</pre>
+<div class="block">Controls which variables get renamed.</div>
+</li>
+</ul>
+<a name="propertyRenaming">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>propertyRenaming</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/PropertyRenamingPolicy.html" title="enum in com.google.javascript.jscomp">PropertyRenamingPolicy</a> propertyRenaming</pre>
+<div class="block">Controls which properties get renamed.</div>
+</li>
+</ul>
+<a name="labelRenaming">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>labelRenaming</h4>
+<pre>public&nbsp;boolean labelRenaming</pre>
+<div class="block">Controls label renaming.</div>
+</li>
+</ul>
+<a name="reserveRawExports">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reserveRawExports</h4>
+<pre>public&nbsp;boolean reserveRawExports</pre>
+<div class="block">Reserve property names on the global this object.</div>
+</li>
+</ul>
+<a name="generatePseudoNames">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>generatePseudoNames</h4>
+<pre>public&nbsp;boolean generatePseudoNames</pre>
+<div class="block">Generate pseudo names for variables and properties for debugging purposes.</div>
+</li>
+</ul>
+<a name="renamePrefix">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>renamePrefix</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> renamePrefix</pre>
+<div class="block">Specifies a prefix for all globals</div>
+</li>
+</ul>
+<a name="aliasKeywords">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>aliasKeywords</h4>
+<pre>public&nbsp;boolean aliasKeywords</pre>
+<div class="block">Aliases true, false, and null to variables with shorter names.</div>
+</li>
+</ul>
+<a name="collapseProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>collapseProperties</h4>
+<pre>public&nbsp;boolean collapseProperties</pre>
+<div class="block">Flattens multi-level property names (e.g. a$b = x)</div>
+</li>
+</ul>
+<a name="devirtualizePrototypeMethods">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>devirtualizePrototypeMethods</h4>
+<pre>public&nbsp;boolean devirtualizePrototypeMethods</pre>
+<div class="block">Devirtualize prototype method by rewriting them to be static calls that
+ take the this pointer as their first argument</div>
+</li>
+</ul>
+<a name="computeFunctionSideEffects">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>computeFunctionSideEffects</h4>
+<pre>public&nbsp;boolean computeFunctionSideEffects</pre>
+<div class="block">Use @nosideeffects annotations, function bodies and name graph
+ to determine if calls have side effects.  Requires --check_types.</div>
+</li>
+</ul>
+<a name="debugFunctionSideEffectsPath">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>debugFunctionSideEffectsPath</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> debugFunctionSideEffectsPath</pre>
+<div class="block">Where to save debug report for compute function side effects.</div>
+</li>
+</ul>
+<a name="disambiguateProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>disambiguateProperties</h4>
+<pre>public&nbsp;boolean disambiguateProperties</pre>
+<div class="block">Rename properties to disambiguate between unrelated fields based on
+ type information.</div>
+</li>
+</ul>
+<a name="ambiguateProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ambiguateProperties</h4>
+<pre>public&nbsp;boolean ambiguateProperties</pre>
+<div class="block">Rename unrelated properties to the same name to reduce code size.</div>
+</li>
+</ul>
+<a name="anonymousFunctionNaming">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>anonymousFunctionNaming</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.html" title="enum in com.google.javascript.jscomp">AnonymousFunctionNamingPolicy</a> anonymousFunctionNaming</pre>
+<div class="block">Give anonymous functions names for easier debugging</div>
+</li>
+</ul>
+<a name="inputVariableMapSerialized">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inputVariableMapSerialized</h4>
+<pre>public&nbsp;byte[] inputVariableMapSerialized</pre>
+<div class="block">Serialized input variable renaming map.</div>
+</li>
+</ul>
+<a name="inputPropertyMapSerialized">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inputPropertyMapSerialized</h4>
+<pre>public&nbsp;byte[] inputPropertyMapSerialized</pre>
+<div class="block">Serialized input property renaming map.</div>
+</li>
+</ul>
+<a name="exportTestFunctions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>exportTestFunctions</h4>
+<pre>public&nbsp;boolean exportTestFunctions</pre>
+<div class="block">Whether to export test functions.</div>
+</li>
+</ul>
+<a name="specializeInitialModule">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>specializeInitialModule</h4>
+<pre>public&nbsp;boolean specializeInitialModule</pre>
+<div class="block">Specialize the initial module at the cost of later modules</div>
+</li>
+</ul>
+<a name="instrumentForCoverage">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>instrumentForCoverage</h4>
+<pre>public&nbsp;boolean instrumentForCoverage</pre>
+<div class="block">Instrument code for the purpose of collecting coverage data.</div>
+</li>
+</ul>
+<a name="instrumentForCoverageOnly">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>instrumentForCoverageOnly</h4>
+<pre>public&nbsp;boolean instrumentForCoverageOnly</pre>
+<div class="block">Instrument code for the purpose of collecting coverage data - restrict to
+ coverage pass only, and skip all other passes.</div>
+</li>
+</ul>
+<a name="ignoreCajaProperties">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ignoreCajaProperties</h4>
+<pre>public&nbsp;boolean ignoreCajaProperties</pre>
+<div class="block">Add code to skip properties that Caja adds to Object.prototype</div>
+</li>
+</ul>
+<a name="syntheticBlockStartMarker">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>syntheticBlockStartMarker</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> syntheticBlockStartMarker</pre>
+</li>
+</ul>
+<a name="syntheticBlockEndMarker">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>syntheticBlockEndMarker</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> syntheticBlockEndMarker</pre>
+</li>
+</ul>
+<a name="locale">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>locale</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> locale</pre>
+<div class="block">Compiling locale</div>
+</li>
+</ul>
+<a name="markAsCompiled">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>markAsCompiled</h4>
+<pre>public&nbsp;boolean markAsCompiled</pre>
+<div class="block">Sets the special "COMPILED" value to true</div>
+</li>
+</ul>
+<a name="removeTryCatchFinally">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeTryCatchFinally</h4>
+<pre>public&nbsp;boolean removeTryCatchFinally</pre>
+<div class="block">Removes try...catch...finally blocks for easier debugging</div>
+</li>
+</ul>
+<a name="closurePass">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>closurePass</h4>
+<pre>public&nbsp;boolean closurePass</pre>
+<div class="block">Processes goog.provide() and goog.require() calls</div>
+</li>
+</ul>
+<a name="gatherCssNames">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>gatherCssNames</h4>
+<pre>public&nbsp;boolean gatherCssNames</pre>
+<div class="block">Gather CSS names (requires closurePass)</div>
+</li>
+</ul>
+<a name="stripTypes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>stripTypes</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt; stripTypes</pre>
+<div class="block">Names of types to strip</div>
+</li>
+</ul>
+<a name="stripNameSuffixes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>stripNameSuffixes</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt; stripNameSuffixes</pre>
+<div class="block">Name suffixes that determine which variables and properties to strip</div>
+</li>
+</ul>
+<a name="stripNamePrefixes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>stripNamePrefixes</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt; stripNamePrefixes</pre>
+<div class="block">Name prefixes that determine which variables and properties to strip</div>
+</li>
+</ul>
+<a name="stripTypePrefixes">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>stripTypePrefixes</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt; stripTypePrefixes</pre>
+<div class="block">Qualified type name prefixes that determine which types to strip</div>
+</li>
+</ul>
+<a name="customPasses">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>customPasses</h4>
+<pre>public transient&nbsp;com.google.common.collect.Multimap&lt;<a href="../../../../com/google/javascript/jscomp/CustomPassExecutionTime.html" title="enum in com.google.javascript.jscomp">CustomPassExecutionTime</a>,<a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>&gt; customPasses</pre>
+<div class="block">Custom passes</div>
+</li>
+</ul>
+<a name="markNoSideEffectCalls">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>markNoSideEffectCalls</h4>
+<pre>public&nbsp;boolean markNoSideEffectCalls</pre>
+<div class="block">Mark no side effect calls</div>
+</li>
+</ul>
+<a name="moveFunctionDeclarations">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>moveFunctionDeclarations</h4>
+<pre>public&nbsp;boolean moveFunctionDeclarations</pre>
+<div class="block">Move top level function declarations to the top</div>
+</li>
+</ul>
+<a name="instrumentationTemplate">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>instrumentationTemplate</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> instrumentationTemplate</pre>
+<div class="block">Instrumentation template to use</div>
+</li>
+</ul>
+<a name="appNameStr">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>appNameStr</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> appNameStr</pre>
+<div class="block">App identifier string for use by the instrumentation template's
+ app_name_setter</div>
+</li>
+</ul>
+<a name="recordFunctionInformation">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>recordFunctionInformation</h4>
+<pre>public&nbsp;boolean recordFunctionInformation</pre>
+<div class="block">Record function information</div>
+</li>
+</ul>
+<a name="generateExports">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>generateExports</h4>
+<pre>public&nbsp;boolean generateExports</pre>
+</li>
+</ul>
+<a name="cssRenamingMap">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>cssRenamingMap</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CssRenamingMap.html" title="interface in com.google.javascript.jscomp">CssRenamingMap</a> cssRenamingMap</pre>
+<div class="block">Map used in the renaming of CSS class names.</div>
+</li>
+</ul>
+<a name="prettyPrint">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>prettyPrint</h4>
+<pre>public&nbsp;boolean prettyPrint</pre>
+<div class="block">Output in pretty indented format</div>
+</li>
+</ul>
+<a name="lineBreak">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>lineBreak</h4>
+<pre>public&nbsp;boolean lineBreak</pre>
+<div class="block">Line break the output a bit more aggressively</div>
+</li>
+</ul>
+<a name="printInputDelimiter">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>printInputDelimiter</h4>
+<pre>public&nbsp;boolean printInputDelimiter</pre>
+<div class="block">Prints a separator comment before each js script</div>
+</li>
+</ul>
+<a name="inputDelimiter">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inputDelimiter</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> inputDelimiter</pre>
+<div class="block">The string to use as the separator for printInputDelimiter</div>
+</li>
+</ul>
+<a name="reportPath">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reportPath</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> reportPath</pre>
+<div class="block">Where to save a report of global name usage</div>
+</li>
+</ul>
+<a name="tracer">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>tracer</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CompilerOptions.TracerMode.html" title="enum in com.google.javascript.jscomp">CompilerOptions.TracerMode</a> tracer</pre>
+</li>
+</ul>
+<a name="errorFormat">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>errorFormat</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/ErrorFormat.html" title="enum in com.google.javascript.jscomp">ErrorFormat</a> errorFormat</pre>
+</li>
+</ul>
+<a name="jsOutputFile">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>jsOutputFile</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> jsOutputFile</pre>
+</li>
+</ul>
+<a name="nameReferenceReportPath">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>nameReferenceReportPath</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> nameReferenceReportPath</pre>
+<div class="block">Where to save a cross-reference report from the name reference graph</div>
+</li>
+</ul>
+<a name="nameReferenceGraphPath">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>nameReferenceGraphPath</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> nameReferenceGraphPath</pre>
+<div class="block">Where to save the name reference graph</div>
+</li>
+</ul>
+<a name="sourceMapOutputPath">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>sourceMapOutputPath</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a> sourceMapOutputPath</pre>
+<div class="block">The output path for the source map.</div>
+</li>
+</ul>
+<a name="sourceMapDetailLevel">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>sourceMapDetailLevel</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/SourceMap.DetailLevel.html" title="enum in com.google.javascript.jscomp">SourceMap.DetailLevel</a> sourceMapDetailLevel</pre>
+<div class="block">The detail level for the generated source map.</div>
+</li>
+</ul>
+<a name="sourceMapFormat">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>sourceMapFormat</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/SourceMap.Format.html" title="enum in com.google.javascript.jscomp">SourceMap.Format</a> sourceMapFormat</pre>
+<div class="block">The source map file format</div>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="CompilerOptions()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>CompilerOptions</h4>
+<pre>public&nbsp;CompilerOptions()</pre>
+<div class="block">Initializes compiler options. All options are disabled by default.
+
+ Command-line frontends to the compiler should set these properties
+ like a builder.</div>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getDefineReplacements()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getDefineReplacements</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/util/Map.html?is-external=true" title="class or interface in java.util">Map</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>,com.google.javascript.rhino.Node&gt;&nbsp;getDefineReplacements()</pre>
+<div class="block">Returns the map of define replacements.</div>
+</li>
+</ul>
+<a name="setDefineToBooleanLiteral(java.lang.String, boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setDefineToBooleanLiteral</h4>
+<pre>public&nbsp;void&nbsp;setDefineToBooleanLiteral(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                             boolean&nbsp;value)</pre>
+<div class="block">Sets the value of the <code>@define</code> variable in JS
+ to a boolean literal.</div>
+</li>
+</ul>
+<a name="setDefineToStringLiteral(java.lang.String, java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setDefineToStringLiteral</h4>
+<pre>public&nbsp;void&nbsp;setDefineToStringLiteral(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                            <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value)</pre>
+<div class="block">Sets the value of the <code>@define</code> variable in JS to a
+ String literal.</div>
+</li>
+</ul>
+<a name="setDefineToNumberLiteral(java.lang.String, int)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setDefineToNumberLiteral</h4>
+<pre>public&nbsp;void&nbsp;setDefineToNumberLiteral(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                            int&nbsp;value)</pre>
+<div class="block">Sets the value of the <code>@define</code> variable in JS to a
+ number literal.</div>
+</li>
+</ul>
+<a name="setDefineToDoubleLiteral(java.lang.String, double)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setDefineToDoubleLiteral</h4>
+<pre>public&nbsp;void&nbsp;setDefineToDoubleLiteral(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;defineName,
+                            double&nbsp;value)</pre>
+<div class="block">Sets the value of the <code>@define</code> variable in JS to a
+ number literal.</div>
+</li>
+</ul>
+<a name="skipAllCompilerPasses()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>skipAllCompilerPasses</h4>
+<pre>public&nbsp;void&nbsp;skipAllCompilerPasses()</pre>
+<div class="block">Skip all possible passes, to make the compiler as fast as possible.</div>
+</li>
+</ul>
+<a name="setWarningLevel(com.google.javascript.jscomp.DiagnosticGroup, com.google.javascript.jscomp.CheckLevel)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setWarningLevel</h4>
+<pre>public&nbsp;void&nbsp;setWarningLevel(<a href="../../../../com/google/javascript/jscomp/DiagnosticGroup.html" title="class in com.google.javascript.jscomp">DiagnosticGroup</a>&nbsp;type,
+                   <a href="../../../../com/google/javascript/jscomp/CheckLevel.html" title="enum in com.google.javascript.jscomp">CheckLevel</a>&nbsp;level)</pre>
+<div class="block">Configure the given type of warning to the given level.</div>
+</li>
+</ul>
+<a name="addWarningsGuard(com.google.javascript.jscomp.WarningsGuard)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>addWarningsGuard</h4>
+<pre>public&nbsp;void&nbsp;addWarningsGuard(<a href="../../../../com/google/javascript/jscomp/WarningsGuard.html" title="class in com.google.javascript.jscomp">WarningsGuard</a>&nbsp;guard)</pre>
+<div class="block">Add a guard to the set of warnings guards.</div>
+</li>
+</ul>
+<a name="setRenamingPolicy(com.google.javascript.jscomp.VariableRenamingPolicy, com.google.javascript.jscomp.PropertyRenamingPolicy)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRenamingPolicy</h4>
+<pre>public&nbsp;void&nbsp;setRenamingPolicy(<a href="../../../../com/google/javascript/jscomp/VariableRenamingPolicy.html" title="enum in com.google.javascript.jscomp">VariableRenamingPolicy</a>&nbsp;newVariablePolicy,
+                     <a href="../../../../com/google/javascript/jscomp/PropertyRenamingPolicy.html" title="enum in com.google.javascript.jscomp">PropertyRenamingPolicy</a>&nbsp;newPropertyPolicy)</pre>
+<div class="block">Sets the variable and property renaming policies for the compiler,
+ in a way that clears warnings about the renaming policy being
+ uninitialized from flags.</div>
+</li>
+</ul>
+<a name="setCollapsePropertiesOnExternTypes(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setCollapsePropertiesOnExternTypes</h4>
+<pre>public&nbsp;void&nbsp;setCollapsePropertiesOnExternTypes(boolean&nbsp;collapse)</pre>
+<div class="block">If true, flattens multi-level property names on extern types
+ (e.g. String$f = x). This should only be used with the typed version of
+ the externs files.</div>
+</li>
+</ul>
+<a name="setProcessObjectPropertyString(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setProcessObjectPropertyString</h4>
+<pre>public&nbsp;void&nbsp;setProcessObjectPropertyString(boolean&nbsp;process)</pre>
+<div class="block">If true, process goog.testing.ObjectPropertyString instances.</div>
+</li>
+</ul>
+<a name="setIdGenerators(java.util.Set)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setIdGenerators</h4>
+<pre>public&nbsp;void&nbsp;setIdGenerators(<a href="http://java.sun.com/javase/6/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;idGenerators)</pre>
+<div class="block">Sets the id generators to replace.</div>
+</li>
+</ul>
+<a name="setReplaceStringsConfiguration(java.lang.String, java.util.List)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReplaceStringsConfiguration</h4>
+<pre>public&nbsp;void&nbsp;setReplaceStringsConfiguration(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;placeholderToken,
+                                  <a href="http://java.sun.com/javase/6/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;functionDescriptors)</pre>
+<div class="block">Sets the functions whose debug strings to replace.</div>
+</li>
+</ul>
+<a name="setRewriteNewDateGoogNow(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRewriteNewDateGoogNow</h4>
+<pre>public&nbsp;void&nbsp;setRewriteNewDateGoogNow(boolean&nbsp;rewrite)</pre>
+</li>
+</ul>
+<a name="setRemoveAbstractMethods(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRemoveAbstractMethods</h4>
+<pre>public&nbsp;void&nbsp;setRemoveAbstractMethods(boolean&nbsp;remove)</pre>
+</li>
+</ul>
+<a name="setRemoveClosureAsserts(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRemoveClosureAsserts</h4>
+<pre>public&nbsp;void&nbsp;setRemoveClosureAsserts(boolean&nbsp;remove)</pre>
+</li>
+</ul>
+<a name="setNameAnonymousFunctionsOnly(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setNameAnonymousFunctionsOnly</h4>
+<pre>public&nbsp;void&nbsp;setNameAnonymousFunctionsOnly(boolean&nbsp;value)</pre>
+<div class="block">If true, name anonymous functions only. All other passes will be skipped.</div>
+</li>
+</ul>
+<a name="setColorizeErrorOutput(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setColorizeErrorOutput</h4>
+<pre>public&nbsp;void&nbsp;setColorizeErrorOutput(boolean&nbsp;colorizeErrorOutput)</pre>
+</li>
+</ul>
+<a name="shouldColorizeErrorOutput()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>shouldColorizeErrorOutput</h4>
+<pre>public&nbsp;boolean&nbsp;shouldColorizeErrorOutput()</pre>
+</li>
+</ul>
+<a name="setChainCalls(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setChainCalls</h4>
+<pre>public&nbsp;void&nbsp;setChainCalls(boolean&nbsp;value)</pre>
+<div class="block">If true, chain calls to functions that return this.</div>
+</li>
+</ul>
+<a name="enableRuntimeTypeCheck(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>enableRuntimeTypeCheck</h4>
+<pre>public&nbsp;void&nbsp;enableRuntimeTypeCheck(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;logFunction)</pre>
+<div class="block">Enable runtime type checking, which adds JS type assertions for debugging.</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>logFunction</code> - A JS function to be used for logging runtime type
+     assertion failures.</dd></dl>
+</li>
+</ul>
+<a name="disableRuntimeTypeCheck()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>disableRuntimeTypeCheck</h4>
+<pre>public&nbsp;void&nbsp;disableRuntimeTypeCheck()</pre>
+</li>
+</ul>
+<a name="setCodingConvention(com.google.javascript.jscomp.CodingConvention)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setCodingConvention</h4>
+<pre>public&nbsp;void&nbsp;setCodingConvention(<a href="../../../../com/google/javascript/jscomp/CodingConvention.html" title="interface in com.google.javascript.jscomp">CodingConvention</a>&nbsp;codingConvention)</pre>
+</li>
+</ul>
+<a name="getCodingConvention()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getCodingConvention</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CodingConvention.html" title="interface in com.google.javascript.jscomp">CodingConvention</a>&nbsp;getCodingConvention()</pre>
+</li>
+</ul>
+<a name="setManageClosureDependencies(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setManageClosureDependencies</h4>
+<pre>public&nbsp;void&nbsp;setManageClosureDependencies(boolean&nbsp;newVal)</pre>
+<div class="block">Sort inputs by their goog.provide/goog.require calls, and prune inputs
+ whose symbols are not required.</div>
+</li>
+</ul>
+<a name="setSummaryDetailLevel(int)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setSummaryDetailLevel</h4>
+<pre>public&nbsp;void&nbsp;setSummaryDetailLevel(int&nbsp;summaryDetailLevel)</pre>
+<div class="block">Controls how detailed the compilation summary is. Values:
+  0 (never print summary), 1 (print summary only if there are
+ errors or warnings), 2 (print summary if type checking is on,
+ see --check_types), 3 (always print summary). The default level
+ is 1</div>
+</li>
+</ul>
+<a name="enableExternExports(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>enableExternExports</h4>
+<pre>public&nbsp;void&nbsp;enableExternExports(boolean&nbsp;enable)</pre>
+</li>
+</ul>
+<a name="isExternExportsEnabled()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isExternExportsEnabled</h4>
+<pre>public&nbsp;boolean&nbsp;isExternExportsEnabled()</pre>
+</li>
+</ul>
+<a name="setOutputCharset(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setOutputCharset</h4>
+<pre>public&nbsp;void&nbsp;setOutputCharset(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;charsetName)</pre>
+<div class="block">Sets the output charset by name.</div>
+</li>
+</ul>
+<a name="setLooseTypes(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setLooseTypes</h4>
+<pre>public&nbsp;void&nbsp;setLooseTypes(boolean&nbsp;looseTypes)</pre>
+<div class="block">Whether to include "undefined" in the default types.
+   For example:
+     "{Object}" is normally "Object|null" becomes "Object|null|undefined"
+     "{?string}" is normally "string|null" becomes "string|null|undefined"
+ In either case "!" annotated types excluded both null and undefined.</div>
+</li>
+</ul>
+<a name="clone()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>clone</h4>
+<pre>public&nbsp;<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;clone()
+             throws <a href="http://java.sun.com/javase/6/docs/api/java/lang/CloneNotSupportedException.html?is-external=true" title="class or interface in java.lang">CloneNotSupportedException</a></pre>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a></code>&nbsp;in class&nbsp;<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/CloneNotSupportedException.html?is-external=true" title="class or interface in java.lang">CloneNotSupportedException</a></code></dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerInput.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/CompilerOptions.TracerMode.html" title="enum in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/CompilerOptions.html" target="_top">Frames</a></li>
+<li><a href="CompilerOptions.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li><a href="#nested_class_summary">Nested</a>&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

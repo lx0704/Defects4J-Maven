@@ -1,2 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:checkPolynomial:(Lorg/apache/commons/math/analysis/polynomials/PolynomialFunction;Ljava/lang/String;)V:235:assertEquals true

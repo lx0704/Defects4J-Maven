@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.ComposableFunctionTest.testIdentity(org.apache.commons.math.analysis.ComposableFunctionTest) true
-org.apache.commons.math.analysis.ComposableFunctionTest:testIdentity:()V:39:assertEquals true
-org.apache.commons.math.analysis.ComposableFunctionTest:testIdentity:()V:40:assertEquals true

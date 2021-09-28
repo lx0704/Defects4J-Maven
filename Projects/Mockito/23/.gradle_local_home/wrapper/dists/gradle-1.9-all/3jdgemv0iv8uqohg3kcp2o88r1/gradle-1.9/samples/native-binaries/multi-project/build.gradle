@@ -1,0 +1,16 @@
+project(":lib") {
+    apply plugin: "cpp-lib"
+}
+
+project(":exe") {
+    apply plugin: "cpp-exe"
+    evaluationDependsOn(":lib")
+
+    sources {
+        main {
+            cpp {
+                lib project(":lib").libraries.main
+            }
+        }
+    }
+}

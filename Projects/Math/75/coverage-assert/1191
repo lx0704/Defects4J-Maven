@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.SparseRealMatrixTest.testTranspose(org.apache.commons.math.linear.SparseRealMatrixTest) true
+org.apache.commons.math.linear.SparseRealMatrixTest:assertClose:(Ljava/lang/String;Lorg/apache/commons/math/linear/RealMatrix;Lorg/apache/commons/math/linear/RealMatrix;D)V:647:assertTrue true

@@ -1,0 +1,3 @@
+org.apache.commons.math.complex.ComplexTest.testLogZero(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.TestUtils:assertSame:(DD)V:72:assertEquals false
+org.apache.commons.math.TestUtils:assertSame:(DD)V:72:assertEquals true

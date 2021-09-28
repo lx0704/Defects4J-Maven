@@ -1,8 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest.testLinearFunction(org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:44:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:47:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:50:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:52:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:55:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:56:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonFormTest:testLinearFunction:()V:57:assertEquals true

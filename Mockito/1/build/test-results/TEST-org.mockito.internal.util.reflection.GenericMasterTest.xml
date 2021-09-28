@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.internal.util.reflection.GenericMasterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.0">
-  <properties/>
-  <testcase name="should_find_generic_class" classname="org.mockito.internal.util.reflection.GenericMasterTest" time="0.0"/>
-  <testcase name="should_get_object_for_non_generic" classname="org.mockito.internal.util.reflection.GenericMasterTest" time="0.0"/>
-  <testcase name="should_deal_with_nested_generics" classname="org.mockito.internal.util.reflection.GenericMasterTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

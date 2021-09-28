@@ -1,0 +1,8 @@
+org.apache.commons.math.linear.SparseRealMatrixTest.testExamples(org.apache.commons.math.linear.SparseRealMatrixTest) true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:362:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:363:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:366:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:367:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:375:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:377:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testExamples:()V:379:assertEquals true

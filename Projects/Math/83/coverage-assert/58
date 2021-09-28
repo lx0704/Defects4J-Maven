@@ -1,0 +1,6 @@
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest.testInterpolateLinearDegenerateThreeSegment(org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:verifyInterpolation:(Lorg/apache/commons/math/analysis/UnivariateRealFunction;[D[D)V:187:assertEquals true
+org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:testInterpolateLinearDegenerateThreeSegment:()V:89:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:testInterpolateLinearDegenerateThreeSegment:()V:90:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:testInterpolateLinearDegenerateThreeSegment:()V:91:assertEquals true

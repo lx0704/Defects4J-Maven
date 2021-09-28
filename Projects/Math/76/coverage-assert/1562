@@ -1,0 +1,12 @@
+org.apache.commons.math.special.GammaTest.testDigammaLargeArgs(org.apache.commons.math.special.GammaTest) true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:95:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:96:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:97:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:98:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:99:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:100:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:101:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:102:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:103:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:104:assertEquals true
+org.apache.commons.math.special.GammaTest:testDigammaLargeArgs:()V:105:assertEquals true

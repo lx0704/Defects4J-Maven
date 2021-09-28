@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.StatUtilsTest.testN0andN1Conditions(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testN0andN1Conditions:()V:63:assertTrue true
+org.apache.commons.math.stat.StatUtilsTest:testN0andN1Conditions:()V:66:assertTrue true
+org.apache.commons.math.stat.StatUtilsTest:testN0andN1Conditions:()V:72:assertTrue true
+org.apache.commons.math.stat.StatUtilsTest:testN0andN1Conditions:()V:75:assertTrue true

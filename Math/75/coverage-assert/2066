@@ -1,8 +1,0 @@
-org.apache.commons.math.util.MathUtilsTest.testScalb(org.apache.commons.math.util.MathUtilsTest) true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:898:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:899:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:900:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:901:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:902:assertTrue true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:903:assertTrue true
-org.apache.commons.math.util.MathUtilsTest:testScalb:()V:904:assertTrue true

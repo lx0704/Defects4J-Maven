@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.ComposableFunctionTest.testOne(org.apache.commons.math.analysis.ComposableFunctionTest) true
-org.apache.commons.math.analysis.ComposableFunctionTest:testOne:()V:33:assertEquals true
-org.apache.commons.math.analysis.ComposableFunctionTest:testOne:()V:34:assertEquals true

@@ -1,0 +1,4 @@
+org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest.testSerialization(org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest) true
+org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest:testSerialization:()V:91:assertTrue true
+org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest:testSerialization:()V:92:assertTrue true
+org.apache.commons.math.ode.sampling.DummyStepInterpolatorTest:testSerialization:()V:101:assertTrue true

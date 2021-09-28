@@ -1,4 +1,0 @@
-org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest.testDecreasingSteps(org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testDecreasingSteps:()V:80:assertEquals true
-org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testDecreasingSteps:()V:88:assertEquals true
-org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testDecreasingSteps:()V:85:assertTrue true

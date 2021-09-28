@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.internal.configuration.injection.SimpleArgumentResolverTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.0">
-  <properties/>
-  <testcase name="should_return_null_when_match_is_not_possible_on_given_types" classname="org.mockito.internal.configuration.injection.SimpleArgumentResolverTest" time="0.0"/>
-  <testcase name="should_return_null_when_types_are_primitives" classname="org.mockito.internal.configuration.injection.SimpleArgumentResolverTest" time="0.0"/>
-  <testcase name="should_return_object_matching_given_types" classname="org.mockito.internal.configuration.injection.SimpleArgumentResolverTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

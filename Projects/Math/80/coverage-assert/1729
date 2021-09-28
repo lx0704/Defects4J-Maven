@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.SecondMomentTest.testCopy(org.apache.commons.math.stat.descriptive.moment.SecondMomentTest) true
+org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:109:assertEquals true

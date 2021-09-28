@@ -1,9 +1,0 @@
-org.apache.commons.math.fraction.BigFractionTest.testMultiply(org.apache.commons.math.fraction.BigFractionTest) true
-org.apache.commons.math.fraction.BigFractionTest:assertFraction:(IILorg/apache/commons/math/fraction/BigFraction;)V:30:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:assertFraction:(IILorg/apache/commons/math/fraction/BigFraction;)V:31:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testMultiply:()V:450:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testMultiply:()V:451:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testMultiply:()V:454:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testMultiply:()V:455:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testMultiply:()V:458:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testMultiply:()V:459:assertEquals true

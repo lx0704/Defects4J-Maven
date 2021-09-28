@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.FDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math.distribution.FDistributionTest) true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:159:assertEquals true

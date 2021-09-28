@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testCoshNaN(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testCoshNaN:()V:422:assertTrue true

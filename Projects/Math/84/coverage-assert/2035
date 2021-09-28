@@ -1,0 +1,10 @@
+org.apache.commons.math.util.ResizableDoubleArrayTest.testEqualsAndHashCode(org.apache.commons.math.util.ResizableDoubleArrayTest) true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testEqualsAndHashCode:()V:423:assertFalse true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testEqualsAndHashCode:()V:427:assertFalse true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testEqualsAndHashCode:()V:430:assertTrue true
+org.apache.commons.math.util.ResizableDoubleArrayTest:verifyEquality:(Lorg/apache/commons/math/util/ResizableDoubleArray;Lorg/apache/commons/math/util/ResizableDoubleArray;)V:495:assertTrue true
+org.apache.commons.math.util.ResizableDoubleArrayTest:verifyEquality:(Lorg/apache/commons/math/util/ResizableDoubleArray;Lorg/apache/commons/math/util/ResizableDoubleArray;)V:496:assertTrue true
+org.apache.commons.math.util.ResizableDoubleArrayTest:verifyEquality:(Lorg/apache/commons/math/util/ResizableDoubleArray;Lorg/apache/commons/math/util/ResizableDoubleArray;)V:497:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:verifyInequality:(Lorg/apache/commons/math/util/ResizableDoubleArray;Lorg/apache/commons/math/util/ResizableDoubleArray;)V:501:assertFalse true
+org.apache.commons.math.util.ResizableDoubleArrayTest:verifyInequality:(Lorg/apache/commons/math/util/ResizableDoubleArray;Lorg/apache/commons/math/util/ResizableDoubleArray;)V:502:assertFalse true
+org.apache.commons.math.util.ResizableDoubleArrayTest:verifyInequality:(Lorg/apache/commons/math/util/ResizableDoubleArray;Lorg/apache/commons/math/util/ResizableDoubleArray;)V:503:assertFalse true

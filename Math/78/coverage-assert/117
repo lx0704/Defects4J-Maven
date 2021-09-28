@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.solvers.BrentSolverTest.testRootEndpoints(org.apache.commons.math.analysis.solvers.BrentSolverTest) true
-org.apache.commons.math.analysis.solvers.BrentSolverTest:testRootEndpoints:()V:313:assertEquals true
-org.apache.commons.math.analysis.solvers.BrentSolverTest:testRootEndpoints:()V:316:assertEquals true

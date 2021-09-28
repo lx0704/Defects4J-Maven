@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.FieldMatrixImplTest.testCopySubMatrix(org.apache.commons.math.linear.FieldMatrixImplTest) true
-org.apache.commons.math.linear.FieldMatrixImplTest:checkCopy:(Lorg/apache/commons/math/linear/FieldMatrix;[[Lorg/apache/commons/math/fraction/Fraction;IIII)V:437:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:checkCopy:(Lorg/apache/commons/math/linear/FieldMatrix;[[Lorg/apache/commons/math/fraction/Fraction;[I[I)V:456:assertEquals true

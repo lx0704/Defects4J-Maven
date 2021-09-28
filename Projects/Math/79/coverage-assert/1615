@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.descriptive.InteractionTest.testInteraction(org.apache.commons.math.stat.descriptive.InteractionTest) true
+org.apache.commons.math.stat.descriptive.InteractionTest:testInteraction:()V:81:assertEquals true
+org.apache.commons.math.stat.descriptive.InteractionTest:testInteraction:()V:82:assertEquals true
+org.apache.commons.math.stat.descriptive.InteractionTest:testInteraction:()V:83:assertEquals true
+org.apache.commons.math.stat.descriptive.InteractionTest:testInteraction:()V:84:assertEquals true

@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.inference.ChiSquareFactoryTest.testChiSquare(org.apache.commons.math.stat.inference.ChiSquareFactoryTest) true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquare:()V:46:assertEquals true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquare:()V:47:assertEquals true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquare:()V:51:assertEquals true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquare:()V:52:assertEquals true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquare:()V:53:assertTrue true
-org.apache.commons.math.stat.inference.ChiSquareTestTest:testChiSquare:()V:54:assertTrue true

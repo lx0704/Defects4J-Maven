@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexFormatTest.testPositiveInfinity(org.apache.commons.math.complex.ComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testPositiveInfinity:()V:131:assertEquals true

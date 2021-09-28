@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.FieldMatrixImplTest.testGetColumnMatrix(org.apache.commons.math.linear.FieldMatrixImplTest) true
+org.apache.commons.math.linear.FieldMatrixImplTest:testGetColumnMatrix:()V:513:assertEquals true
+org.apache.commons.math.linear.FieldMatrixImplTest:testGetColumnMatrix:()V:515:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.FrenchComplexFormatTest.testConstructorSingleFormat(org.apache.commons.math.complex.FrenchComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testConstructorSingleFormat:()V:276:assertNotNull true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testConstructorSingleFormat:()V:277:assertEquals true

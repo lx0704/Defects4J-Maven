@@ -1,7 +1,0 @@
-org.apache.commons.math.fraction.FractionTest.testEqualsAndHashCode(org.apache.commons.math.fraction.FractionTest) true
-org.apache.commons.math.fraction.FractionTest:testEqualsAndHashCode:()V:543:assertTrue true
-org.apache.commons.math.fraction.FractionTest:testEqualsAndHashCode:()V:544:assertFalse true
-org.apache.commons.math.fraction.FractionTest:testEqualsAndHashCode:()V:545:assertFalse true
-org.apache.commons.math.fraction.FractionTest:testEqualsAndHashCode:()V:547:assertTrue true
-org.apache.commons.math.fraction.FractionTest:testEqualsAndHashCode:()V:548:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testEqualsAndHashCode:()V:550:assertFalse true

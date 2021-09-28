@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.ThirdMomentTest.testCopy(org.apache.commons.math.stat.descriptive.moment.ThirdMomentTest) true
-org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:78:assertEquals true

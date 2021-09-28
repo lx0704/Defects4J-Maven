@@ -1,0 +1,3 @@
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest.testBasicStats(org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest) true
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest:testBasicStats:()V:65:assertEquals true
+org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest:testBasicStats:()V:76:assertEquals true

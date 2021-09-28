@@ -1,7 +1,0 @@
-org.apache.commons.math.fraction.FractionFormatTest.testParseInteger(org.apache.commons.math.fraction.FractionFormatTest) true
-org.apache.commons.math.fraction.FractionFormatTest:testParseInteger:()V:116:assertNotNull true
-org.apache.commons.math.fraction.FractionFormatTest:testParseInteger:()V:117:assertEquals true
-org.apache.commons.math.fraction.FractionFormatTest:testParseInteger:()V:118:assertEquals true
-org.apache.commons.math.fraction.FractionFormatTest:testParseInteger:()V:124:assertNotNull true
-org.apache.commons.math.fraction.FractionFormatTest:testParseInteger:()V:125:assertEquals true
-org.apache.commons.math.fraction.FractionFormatTest:testParseInteger:()V:126:assertEquals true

@@ -1,0 +1,5 @@
+org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest.testKepler(org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest) true
+org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest$KeplerHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:310:assertTrue true
+org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest$KeplerHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:311:assertTrue true
+org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest:testKepler:()V:253:assertEquals true
+org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest:testKepler:()V:254:assertTrue true

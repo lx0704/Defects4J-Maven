@@ -1,2 +1,0 @@
-org.apache.commons.math.fraction.FractionFormatTest.testLongFormat(org.apache.commons.math.fraction.FractionFormatTest) true
-org.apache.commons.math.fraction.FractionFormatTest:testLongFormat:()V:295:assertEquals true

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockitousage.serialization.AcrossClassLoaderSerializationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.017">
-  <properties/>
-  <testcase name="check_that_mock_can_be_serialized_in_a_classloader_and_deserialized_in_another" classname="org.mockitousage.serialization.AcrossClassLoaderSerializationTest" time="0.017"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

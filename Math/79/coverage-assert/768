@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testMath209(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testMath209:()V:438:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testMath209:()V:439:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testMath209:()V:440:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testMath209:()V:441:assertEquals true

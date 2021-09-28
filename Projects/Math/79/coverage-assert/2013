@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testIndicatorFloat(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorFloat:()V:572:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorFloat:()V:573:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorFloat:()V:574:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest.testSerial(org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest) true
+org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testSerial:()V:79:assertEquals true

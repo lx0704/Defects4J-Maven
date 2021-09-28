@@ -1,2 +1,0 @@
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest.testKepler(org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest$KeplerHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:211:assertTrue true

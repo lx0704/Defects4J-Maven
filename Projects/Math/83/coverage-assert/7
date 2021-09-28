@@ -1,0 +1,3 @@
+org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArgumentCause(org.apache.commons.math.FunctionEvaluationExceptionTest) true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArgumentCause:()V:120:assertEquals true
+org.apache.commons.math.FunctionEvaluationExceptionTest:testConstructorArgumentCause:()V:121:assertTrue true

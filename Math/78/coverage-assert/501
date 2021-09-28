@@ -1,2 +1,0 @@
-org.apache.commons.math.fraction.BigFractionFieldTest.testZero(org.apache.commons.math.fraction.BigFractionFieldTest) true
-org.apache.commons.math.fraction.BigFractionFieldTest:testZero:()V:29:assertEquals true

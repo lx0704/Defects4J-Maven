@@ -1,4 +1,0 @@
-org.apache.commons.math.geometry.Vector3DTest.testConstructors(org.apache.commons.math.geometry.Vector3DTest) true
-org.apache.commons.math.geometry.Vector3DTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;DDD)V:226:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;DDD)V:227:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;DDD)V:228:assertEquals true

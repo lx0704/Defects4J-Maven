@@ -1,0 +1,6 @@
+org.apache.commons.math.stat.StatUtilsTest.testArrayIndexConditions(org.apache.commons.math.stat.StatUtilsTest) true
+org.apache.commons.math.stat.StatUtilsTest:testArrayIndexConditions:()V:83:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testArrayIndexConditions:()V:88:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testArrayIndexConditions:()V:93:assertEquals true
+org.apache.commons.math.stat.StatUtilsTest:testArrayIndexConditions:()V:103:assertTrue true
+org.apache.commons.math.stat.StatUtilsTest:testArrayIndexConditions:()V:110:assertTrue true

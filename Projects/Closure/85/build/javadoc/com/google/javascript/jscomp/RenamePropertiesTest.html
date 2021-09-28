@@ -1,0 +1,855 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>RenamePropertiesTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../dev_javadoc.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="RenamePropertiesTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/RenameLocalVarsTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/RenamePrototypesTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/RenamePropertiesTest.html" target="_top">Frames</a></li>
+<li><a href="RenamePropertiesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class RenamePropertiesTest" class="title">Class RenamePropertiesTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">com.google.javascript.jscomp.CompilerTestCase</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.RenamePropertiesTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">RenamePropertiesTest</span>
+extends <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></pre>
+<div class="block"><code>RenameProperties</code> tests.</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseTypeInfo">parseTypeInfo</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#RenamePropertiesTest()">RenamePropertiesTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected int</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#getNumRepetitions()">getNumRepetitions</a></strong>()</code>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></strong>(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</code>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#tearDown()">tearDown</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testAvoidingConflictsBetQuotedAndUnquotedPropertyNamesStable()">testAvoidingConflictsBetQuotedAndUnquotedPropertyNamesStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testAvoidingConflictsBetweenQuotedAndUnquotedPropertyNames()">testAvoidingConflictsBetweenQuotedAndUnquotedPropertyNames</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testExternedPropertyName()">testExternedPropertyName</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testExternedPropertyNameDefinedByObjectLiteral()">testExternedPropertyNameDefinedByObjectLiteral</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testGeneratePseudoNames()">testGeneratePseudoNames</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testIncorrectAttemptToAccessQuotedProperty()">testIncorrectAttemptToAccessQuotedProperty</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testMixedQuotedAndUnquotedObjLitKeys1()">testMixedQuotedAndUnquotedObjLitKeys1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testMixedQuotedAndUnquotedObjLitKeys2()">testMixedQuotedAndUnquotedObjLitKeys2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testMixedQuotedAndUnquotedObjLitKeysStable()">testMixedQuotedAndUnquotedObjLitKeysStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testModules()">testModules</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testObjectLiteralInLocalScope()">testObjectLiteralInLocalScope</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testOverlappingOriginalAndGeneratedNames()">testOverlappingOriginalAndGeneratedNames</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testOverlappingOriginalAndGeneratedNamesStable()">testOverlappingOriginalAndGeneratedNamesStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPropertyAddedToFunction()">testPropertyAddedToFunction</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPropertyAddedToObject()">testPropertyAddedToObject</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPropertyAddedToObjectStable()">testPropertyAddedToObjectStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPropertyOfObjectOfUnknownType()">testPropertyOfObjectOfUnknownType</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPrototypeProperties()">testPrototypeProperties</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPrototypePropertiesAsObjLitKeys1()">testPrototypePropertiesAsObjLitKeys1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPrototypePropertiesAsObjLitKeys2()">testPrototypePropertiesAsObjLitKeys2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPrototypePropertiesAsObjLitKeys3()">testPrototypePropertiesAsObjLitKeys3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPrototypePropertiesAsObjLitKeysStable()">testPrototypePropertiesAsObjLitKeysStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testPrototypePropertiesStable()">testPrototypePropertiesStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testQuotedPrototypeProperty()">testQuotedPrototypeProperty</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testReadPropertyOfThis()">testReadPropertyOfThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRemoveRenameFunctionStubs1()">testRemoveRenameFunctionStubs1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRemoveRenameFunctionStubs2()">testRemoveRenameFunctionStubs2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRenamePropertiesFunctionCall1()">testRenamePropertiesFunctionCall1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRenamePropertiesFunctionCall2()">testRenamePropertiesFunctionCall2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRenamePropertiesFunctionCallStable()">testRenamePropertiesFunctionCallStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRenamePropertiesWithLeadingUnderscores()">testRenamePropertiesWithLeadingUnderscores</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testRenamePropertiesWithLeadingUnderscoresStable()">testRenamePropertiesWithLeadingUnderscoresStable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testSamePropertyNameQuotedAndUnquoted()">testSamePropertyNameQuotedAndUnquoted</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testSetPropertyOfThis()">testSetPropertyOfThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testSetQuotedPropertyOfThis()">testSetQuotedPropertyOfThis</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testStableWithTrickyExternsChanges()">testStableWithTrickyExternsChanges</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/RenamePropertiesTest.html#testStaticAndInstanceMethodWithSameName()">testStaticAndInstanceMethodWithSameName</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;com.google.javascript.jscomp.<a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></h3>
+<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#disableNormalize()">disableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableEcmaScript5(boolean)">enableEcmaScript5</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableLineNumberCheck(boolean)">enableLineNumberCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize()">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableNormalize(boolean)">enableNormalize</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#enableTypeCheck(com.google.javascript.jscomp.CheckLevel)">enableTypeCheck</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getCodingConvention()">getCodingConvention</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getOptions()">getOptions</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseExpectedJs(java.lang.String)">parseExpectedJs</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#parseExpectedJs(java.lang.String[])">parseExpectedJs</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#setExpectedSymbolTableError(com.google.javascript.jscomp.DiagnosticType)">setExpectedSymbolTableError</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.Compiler,%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSModule[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(com.google.javascript.jscomp.JSSourceFile[],%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[])">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String[],%20java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#test(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">test</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(com.google.javascript.jscomp.JSModule[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[])">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String[],%20com.google.javascript.jscomp.DiagnosticType,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20boolean)">testSame</a>, <a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#testSame(java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.DiagnosticType,%20java.lang.String)">testSame</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, setUp, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="RenamePropertiesTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>RenamePropertiesTest</h4>
+<pre>public&nbsp;RenamePropertiesTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="tearDown()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>tearDown</h4>
+<pre>protected&nbsp;void&nbsp;tearDown()
+                 throws <a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></pre>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code>tearDown</code>&nbsp;in class&nbsp;<code>junit.framework.TestCase</code></dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></code></dd></dl>
+</li>
+</ul>
+<a name="getNumRepetitions()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getNumRepetitions</h4>
+<pre>protected&nbsp;int&nbsp;getNumRepetitions()</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">CompilerTestCase</a></code></strong></div>
+<div class="block">Returns the number of times the pass should be run before results are
+ verified.</div>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getNumRepetitions()">getNumRepetitions</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="testPrototypeProperties()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPrototypeProperties</h4>
+<pre>public&nbsp;void&nbsp;testPrototypeProperties()</pre>
+</li>
+</ul>
+<a name="testPrototypePropertiesAsObjLitKeys1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPrototypePropertiesAsObjLitKeys1</h4>
+<pre>public&nbsp;void&nbsp;testPrototypePropertiesAsObjLitKeys1()</pre>
+</li>
+</ul>
+<a name="testPrototypePropertiesAsObjLitKeys2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPrototypePropertiesAsObjLitKeys2</h4>
+<pre>public&nbsp;void&nbsp;testPrototypePropertiesAsObjLitKeys2()</pre>
+</li>
+</ul>
+<a name="testPrototypePropertiesAsObjLitKeys3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPrototypePropertiesAsObjLitKeys3</h4>
+<pre>public&nbsp;void&nbsp;testPrototypePropertiesAsObjLitKeys3()</pre>
+</li>
+</ul>
+<a name="testMixedQuotedAndUnquotedObjLitKeys1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedQuotedAndUnquotedObjLitKeys1</h4>
+<pre>public&nbsp;void&nbsp;testMixedQuotedAndUnquotedObjLitKeys1()</pre>
+</li>
+</ul>
+<a name="testMixedQuotedAndUnquotedObjLitKeys2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedQuotedAndUnquotedObjLitKeys2</h4>
+<pre>public&nbsp;void&nbsp;testMixedQuotedAndUnquotedObjLitKeys2()</pre>
+</li>
+</ul>
+<a name="testQuotedPrototypeProperty()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testQuotedPrototypeProperty</h4>
+<pre>public&nbsp;void&nbsp;testQuotedPrototypeProperty()</pre>
+</li>
+</ul>
+<a name="testOverlappingOriginalAndGeneratedNames()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testOverlappingOriginalAndGeneratedNames</h4>
+<pre>public&nbsp;void&nbsp;testOverlappingOriginalAndGeneratedNames()</pre>
+</li>
+</ul>
+<a name="testRenamePropertiesWithLeadingUnderscores()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRenamePropertiesWithLeadingUnderscores</h4>
+<pre>public&nbsp;void&nbsp;testRenamePropertiesWithLeadingUnderscores()</pre>
+</li>
+</ul>
+<a name="testPropertyAddedToObject()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPropertyAddedToObject</h4>
+<pre>public&nbsp;void&nbsp;testPropertyAddedToObject()</pre>
+</li>
+</ul>
+<a name="testPropertyAddedToFunction()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPropertyAddedToFunction</h4>
+<pre>public&nbsp;void&nbsp;testPropertyAddedToFunction()</pre>
+</li>
+</ul>
+<a name="testPropertyOfObjectOfUnknownType()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPropertyOfObjectOfUnknownType</h4>
+<pre>public&nbsp;void&nbsp;testPropertyOfObjectOfUnknownType()</pre>
+</li>
+</ul>
+<a name="testSetPropertyOfThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSetPropertyOfThis</h4>
+<pre>public&nbsp;void&nbsp;testSetPropertyOfThis()</pre>
+</li>
+</ul>
+<a name="testReadPropertyOfThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testReadPropertyOfThis</h4>
+<pre>public&nbsp;void&nbsp;testReadPropertyOfThis()</pre>
+</li>
+</ul>
+<a name="testObjectLiteralInLocalScope()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testObjectLiteralInLocalScope</h4>
+<pre>public&nbsp;void&nbsp;testObjectLiteralInLocalScope()</pre>
+</li>
+</ul>
+<a name="testIncorrectAttemptToAccessQuotedProperty()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIncorrectAttemptToAccessQuotedProperty</h4>
+<pre>public&nbsp;void&nbsp;testIncorrectAttemptToAccessQuotedProperty()</pre>
+</li>
+</ul>
+<a name="testSetQuotedPropertyOfThis()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSetQuotedPropertyOfThis</h4>
+<pre>public&nbsp;void&nbsp;testSetQuotedPropertyOfThis()</pre>
+</li>
+</ul>
+<a name="testExternedPropertyName()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExternedPropertyName</h4>
+<pre>public&nbsp;void&nbsp;testExternedPropertyName()</pre>
+</li>
+</ul>
+<a name="testExternedPropertyNameDefinedByObjectLiteral()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExternedPropertyNameDefinedByObjectLiteral</h4>
+<pre>public&nbsp;void&nbsp;testExternedPropertyNameDefinedByObjectLiteral()</pre>
+</li>
+</ul>
+<a name="testAvoidingConflictsBetweenQuotedAndUnquotedPropertyNames()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAvoidingConflictsBetweenQuotedAndUnquotedPropertyNames</h4>
+<pre>public&nbsp;void&nbsp;testAvoidingConflictsBetweenQuotedAndUnquotedPropertyNames()</pre>
+</li>
+</ul>
+<a name="testSamePropertyNameQuotedAndUnquoted()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testSamePropertyNameQuotedAndUnquoted</h4>
+<pre>public&nbsp;void&nbsp;testSamePropertyNameQuotedAndUnquoted()</pre>
+</li>
+</ul>
+<a name="testStaticAndInstanceMethodWithSameName()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testStaticAndInstanceMethodWithSameName</h4>
+<pre>public&nbsp;void&nbsp;testStaticAndInstanceMethodWithSameName()</pre>
+</li>
+</ul>
+<a name="testRenamePropertiesFunctionCall1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRenamePropertiesFunctionCall1</h4>
+<pre>public&nbsp;void&nbsp;testRenamePropertiesFunctionCall1()</pre>
+</li>
+</ul>
+<a name="testRenamePropertiesFunctionCall2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRenamePropertiesFunctionCall2</h4>
+<pre>public&nbsp;void&nbsp;testRenamePropertiesFunctionCall2()</pre>
+</li>
+</ul>
+<a name="testRemoveRenameFunctionStubs1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRemoveRenameFunctionStubs1</h4>
+<pre>public&nbsp;void&nbsp;testRemoveRenameFunctionStubs1()</pre>
+</li>
+</ul>
+<a name="testRemoveRenameFunctionStubs2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRemoveRenameFunctionStubs2</h4>
+<pre>public&nbsp;void&nbsp;testRemoveRenameFunctionStubs2()</pre>
+</li>
+</ul>
+<a name="testGeneratePseudoNames()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testGeneratePseudoNames</h4>
+<pre>public&nbsp;void&nbsp;testGeneratePseudoNames()</pre>
+</li>
+</ul>
+<a name="testModules()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testModules</h4>
+<pre>public&nbsp;void&nbsp;testModules()</pre>
+</li>
+</ul>
+<a name="testPrototypePropertiesStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPrototypePropertiesStable</h4>
+<pre>public&nbsp;void&nbsp;testPrototypePropertiesStable()</pre>
+</li>
+</ul>
+<a name="testPrototypePropertiesAsObjLitKeysStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPrototypePropertiesAsObjLitKeysStable</h4>
+<pre>public&nbsp;void&nbsp;testPrototypePropertiesAsObjLitKeysStable()</pre>
+</li>
+</ul>
+<a name="testMixedQuotedAndUnquotedObjLitKeysStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMixedQuotedAndUnquotedObjLitKeysStable</h4>
+<pre>public&nbsp;void&nbsp;testMixedQuotedAndUnquotedObjLitKeysStable()</pre>
+</li>
+</ul>
+<a name="testOverlappingOriginalAndGeneratedNamesStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testOverlappingOriginalAndGeneratedNamesStable</h4>
+<pre>public&nbsp;void&nbsp;testOverlappingOriginalAndGeneratedNamesStable()</pre>
+</li>
+</ul>
+<a name="testStableWithTrickyExternsChanges()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testStableWithTrickyExternsChanges</h4>
+<pre>public&nbsp;void&nbsp;testStableWithTrickyExternsChanges()</pre>
+</li>
+</ul>
+<a name="testRenamePropertiesWithLeadingUnderscoresStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRenamePropertiesWithLeadingUnderscoresStable</h4>
+<pre>public&nbsp;void&nbsp;testRenamePropertiesWithLeadingUnderscoresStable()</pre>
+</li>
+</ul>
+<a name="testPropertyAddedToObjectStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testPropertyAddedToObjectStable</h4>
+<pre>public&nbsp;void&nbsp;testPropertyAddedToObjectStable()</pre>
+</li>
+</ul>
+<a name="testAvoidingConflictsBetQuotedAndUnquotedPropertyNamesStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testAvoidingConflictsBetQuotedAndUnquotedPropertyNamesStable</h4>
+<pre>public&nbsp;void&nbsp;testAvoidingConflictsBetQuotedAndUnquotedPropertyNamesStable()</pre>
+</li>
+</ul>
+<a name="testRenamePropertiesFunctionCallStable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testRenamePropertiesFunctionCallStable</h4>
+<pre>public&nbsp;void&nbsp;testRenamePropertiesFunctionCallStable()</pre>
+</li>
+</ul>
+<a name="getProcessor(com.google.javascript.jscomp.Compiler)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getProcessor</h4>
+<pre>public&nbsp;<a href="../../../../com/google/javascript/jscomp/CompilerPass.html" title="interface in com.google.javascript.jscomp">CompilerPass</a>&nbsp;getProcessor(<a href="../../../../com/google/javascript/jscomp/Compiler.html" title="class in com.google.javascript.jscomp">Compiler</a>&nbsp;compiler)</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">CompilerTestCase</a></code></strong></div>
+<div class="block">Gets the compiler pass instance to use for a test.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html#getProcessor(com.google.javascript.jscomp.Compiler)">getProcessor</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/google/javascript/jscomp/CompilerTestCase.html" title="class in com.google.javascript.jscomp">CompilerTestCase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>compiler</code> - The compiler</dd>
+<dt><span class="strong">Returns:</span></dt><dd>The pass to test</dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/RenameLocalVarsTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/RenamePrototypesTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/RenamePropertiesTest.html" target="_top">Frames</a></li>
+<li><a href="RenamePropertiesTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_com.google.javascript.jscomp.CompilerTestCase">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

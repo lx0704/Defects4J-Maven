@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.PoissonDistributionTest.testCumulativeProbabilities(org.apache.commons.math.distribution.PoissonDistributionTest) true
-org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyCumulativeProbabilities:()V:155:assertEquals true

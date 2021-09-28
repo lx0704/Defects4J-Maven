@@ -1,0 +1,7 @@
+org.apache.commons.math.stat.descriptive.summary.SumSqTest.testSpecialValues(org.apache.commons.math.stat.descriptive.summary.SumSqTest) true
+org.apache.commons.math.stat.descriptive.summary.SumSqTest:testSpecialValues:()V:59:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumSqTest:testSpecialValues:()V:61:assertEquals true
+org.apache.commons.math.stat.descriptive.summary.SumSqTest:testSpecialValues:()V:63:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.SumSqTest:testSpecialValues:()V:65:assertEquals false
+org.apache.commons.math.stat.descriptive.summary.SumSqTest:testSpecialValues:()V:67:assertTrue true
+org.apache.commons.math.stat.descriptive.summary.SumSqTest:testSpecialValues:()V:69:assertTrue true

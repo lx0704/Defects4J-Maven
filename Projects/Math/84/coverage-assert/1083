@@ -1,0 +1,7 @@
+org.apache.commons.math.linear.SingularValueDecompositionImplTest.testMatricesValues1(org.apache.commons.math.linear.SingularValueDecompositionImplTest) true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMatricesValues1:()V:186:assertEquals true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMatricesValues1:()V:188:assertEquals true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMatricesValues1:()V:190:assertEquals true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMatricesValues1:()V:193:assertTrue true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMatricesValues1:()V:194:assertTrue true
+org.apache.commons.math.linear.SingularValueDecompositionImplTest:testMatricesValues1:()V:195:assertTrue true

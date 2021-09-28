@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockitousage.basicapi.MockingDetailsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:47" hostname="set" time="0.01">
-  <properties/>
-  <testcase name="should_know_spy" classname="org.mockitousage.basicapi.MockingDetailsTest" time="0.008"/>
-  <testcase name="should_know_mock" classname="org.mockitousage.basicapi.MockingDetailsTest" time="0.001"/>
-  <testcase name="should_handle_non_mocks" classname="org.mockitousage.basicapi.MockingDetailsTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

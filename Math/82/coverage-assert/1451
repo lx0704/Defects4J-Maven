@@ -1,2 +1,0 @@
-org.apache.commons.math.random.RandomAdaptorTest.testNextLongExtremeValues(org.apache.commons.math.random.RandomAdaptorTest) true
-org.apache.commons.math.random.RandomDataTest:testNextLongExtremeValues:()V:59:assertFalse true

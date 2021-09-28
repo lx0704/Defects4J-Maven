@@ -1,7 +1,0 @@
-org.apache.commons.math.linear.BlockRealMatrixTest.testDimensions(org.apache.commons.math.linear.BlockRealMatrixTest) true
-org.apache.commons.math.linear.BlockRealMatrixTest:testDimensions:()V:104:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testDimensions:()V:105:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testDimensions:()V:106:assertTrue true
-org.apache.commons.math.linear.BlockRealMatrixTest:testDimensions:()V:107:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testDimensions:()V:108:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testDimensions:()V:109:assertTrue true

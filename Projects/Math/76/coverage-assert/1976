@@ -1,0 +1,4 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testCorr(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testCorr:()V:119:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testCorr:()V:120:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testCorr:()V:121:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testSetterInjection(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest) true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testSetterInjection:()V:45:assertEquals true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testSetterInjection:()V:48:assertEquals true

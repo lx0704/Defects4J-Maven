@@ -1,0 +1,2 @@
+org.apache.commons.math.util.MathUtilsTest.testPermutedArrayHash(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testPermutedArrayHash:()V:628:assertFalse true

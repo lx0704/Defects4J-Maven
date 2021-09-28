@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.WeibullDistributionTest.testConsistency(org.apache.commons.math.distribution.WeibullDistributionTest) true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:testConsistency:()V:191:assertEquals true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:testConsistency:()V:201:assertEquals true

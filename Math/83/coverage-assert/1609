@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest.testEqualsAndHashCode(org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest) true
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest:testEqualsAndHashCode:()V:48:assertTrue true
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest:testEqualsAndHashCode:()V:49:assertFalse true
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest:testEqualsAndHashCode:()V:50:assertFalse true
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest:testEqualsAndHashCode:()V:52:assertTrue true
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest:testEqualsAndHashCode:()V:53:assertEquals true
-org.apache.commons.math.stat.descriptive.StatisticalSummaryValuesTest:testEqualsAndHashCode:()V:57:assertFalse true

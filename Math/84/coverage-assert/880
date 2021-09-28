@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.EigenDecompositionImplTest.testDimension4WithSplit(org.apache.commons.math.linear.EigenDecompositionImplTest) true
-org.apache.commons.math.linear.EigenDecompositionImplTest:testDimension4WithSplit:()V:84:assertEquals true
-org.apache.commons.math.linear.EigenDecompositionImplTest:testDimension4WithSplit:()V:85:assertEquals true
-org.apache.commons.math.linear.EigenDecompositionImplTest:testDimension4WithSplit:()V:86:assertEquals true
-org.apache.commons.math.linear.EigenDecompositionImplTest:testDimension4WithSplit:()V:87:assertEquals true

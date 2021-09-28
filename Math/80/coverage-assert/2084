@@ -1,2 +1,0 @@
-org.apache.commons.math.util.ResizableDoubleArrayTest.testGetValues(org.apache.commons.math.util.ResizableDoubleArrayTest) true
-org.apache.commons.math.util.DoubleArrayAbstractTest:testGetValues:()V:67:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testCopy(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testCopy:()V:204:assertEquals true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testCopy:()V:207:assertEquals true

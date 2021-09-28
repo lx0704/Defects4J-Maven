@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.solvers.LaguerreSolverTest.testQuinticFunction(org.apache.commons.math.analysis.solvers.LaguerreSolverTest) true
-org.apache.commons.math.analysis.solvers.LaguerreSolverTest:testQuinticFunction:()V:114:assertEquals true
-org.apache.commons.math.analysis.solvers.LaguerreSolverTest:testQuinticFunction:()V:120:assertEquals true
-org.apache.commons.math.analysis.solvers.LaguerreSolverTest:testQuinticFunction:()V:126:assertEquals true

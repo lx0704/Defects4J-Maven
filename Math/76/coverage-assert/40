@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.ComposableFunctionTest.testSignum(org.apache.commons.math.analysis.ComposableFunctionTest) true
-org.apache.commons.math.analysis.ComposableFunctionTest:testSignum:()V:51:assertEquals true
-org.apache.commons.math.analysis.ComposableFunctionTest:testSignum:()V:52:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.FrequencyTest.testSerial(org.apache.commons.math.stat.FrequencyTest) true
-org.apache.commons.math.stat.FrequencyTest:testSerial:()V:270:assertEquals true

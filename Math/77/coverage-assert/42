@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.ComposableFunctionTest.testZero(org.apache.commons.math.analysis.ComposableFunctionTest) true
-org.apache.commons.math.analysis.ComposableFunctionTest:testZero:()V:27:assertEquals true
-org.apache.commons.math.analysis.ComposableFunctionTest:testZero:()V:28:assertEquals true

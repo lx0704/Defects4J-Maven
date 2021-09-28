@@ -1,0 +1,2 @@
+org.apache.commons.math.random.CorrelatedRandomVectorGeneratorTest.testRank(org.apache.commons.math.random.CorrelatedRandomVectorGeneratorTest) true
+org.apache.commons.math.random.CorrelatedRandomVectorGeneratorTest:testRank:()V:42:assertEquals true

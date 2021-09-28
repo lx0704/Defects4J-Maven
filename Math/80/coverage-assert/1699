@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.GeometricMeanTest.testIncrementation(org.apache.commons.math.stat.descriptive.moment.GeometricMeanTest) true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testIncrementation:()V:57:assertEquals true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testIncrementation:()V:58:assertEquals true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testIncrementation:()V:64:assertEquals true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testIncrementation:()V:65:assertEquals true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testIncrementation:()V:70:assertTrue true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testIncrementation:()V:71:assertEquals true

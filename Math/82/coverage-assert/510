@@ -1,8 +1,0 @@
-org.apache.commons.math.fraction.BigFractionTest.testConstructor(org.apache.commons.math.fraction.BigFractionTest) true
-org.apache.commons.math.fraction.BigFractionTest:assertFraction:(IILorg/apache/commons/math/fraction/BigFraction;)V:30:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:assertFraction:(IILorg/apache/commons/math/fraction/BigFraction;)V:31:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testConstructor:()V:60:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testConstructor:()V:61:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testConstructor:()V:62:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:assertFraction:(JJLorg/apache/commons/math/fraction/BigFraction;)V:35:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:assertFraction:(JJLorg/apache/commons/math/fraction/BigFraction;)V:36:assertEquals true

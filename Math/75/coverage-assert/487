@@ -1,6 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testMoreEstimatedParametersUnsorted:()V:404:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testMoreEstimatedParametersUnsorted:()V:405:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testMoreEstimatedParametersUnsorted:()V:406:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testMoreEstimatedParametersUnsorted:()V:407:assertEquals true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testMoreEstimatedParametersUnsorted:()V:408:assertEquals true

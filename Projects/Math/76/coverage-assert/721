@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.Array2DRowRealMatrixTest.testCopySubMatrix(org.apache.commons.math.linear.Array2DRowRealMatrixTest) true
+org.apache.commons.math.linear.Array2DRowRealMatrixTest:checkCopy:(Lorg/apache/commons/math/linear/RealMatrix;[[DIIIIZ)V:450:assertEquals true
+org.apache.commons.math.linear.Array2DRowRealMatrixTest:checkCopy:(Lorg/apache/commons/math/linear/RealMatrix;[[D[I[IZ)V:469:assertEquals true

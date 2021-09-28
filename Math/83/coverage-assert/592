@@ -1,5 +1,0 @@
-org.apache.commons.math.genetics.RandomKeyTest.testIsSame(org.apache.commons.math.genetics.RandomKeyTest) true
-org.apache.commons.math.genetics.RandomKeyTest:testIsSame:()V:47:assertTrue true
-org.apache.commons.math.genetics.RandomKeyTest:testIsSame:()V:48:assertTrue true
-org.apache.commons.math.genetics.RandomKeyTest:testIsSame:()V:49:assertFalse true
-org.apache.commons.math.genetics.RandomKeyTest:testIsSame:()V:50:assertFalse true

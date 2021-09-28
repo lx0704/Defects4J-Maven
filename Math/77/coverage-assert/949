@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.FieldMatrixImplTest.testExamples(org.apache.commons.math.linear.FieldMatrixImplTest) true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:329:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:330:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:333:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:334:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:345:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:348:assertEquals true
-org.apache.commons.math.linear.FieldMatrixImplTest:testExamples:()V:351:assertEquals true

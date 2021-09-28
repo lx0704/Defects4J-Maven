@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest.testMath296withoutWeights(org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest) true
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testMath296withoutWeights:()V:239:assertEquals true
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testMath296withoutWeights:()V:241:assertEquals true

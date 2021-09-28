@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.correlation.CovarianceTest.testConstant(org.apache.commons.math.stat.correlation.CovarianceTest) true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConstant:()V:156:assertEquals true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConstant:()V:157:assertEquals true

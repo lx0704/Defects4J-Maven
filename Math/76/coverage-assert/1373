@@ -1,5 +1,0 @@
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testOneSet(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testOneSet:()V:174:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testOneSet:()V:175:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testOneSet:()V:176:assertEquals true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testOneSet:()V:177:assertEquals true

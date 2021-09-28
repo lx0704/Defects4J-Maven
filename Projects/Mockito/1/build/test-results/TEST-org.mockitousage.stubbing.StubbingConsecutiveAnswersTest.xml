@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:53" hostname="set" time="0.003">
+  <properties/>
+  <testcase name="shouldReturnConsecutiveValuesForTwoNulls" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldReturnConsecutiveValues" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldReturnConsecutiveValuesSetByShortenThenReturnMethod" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="shouldReturnConsecutiveValueAndThrowExceptionssSetByShortenReturnMethods" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldThrowConsecutively" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldThrowConsecutivelySetByShortenThenThrowMethod" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="shouldMixConsecutiveReturnsWithExcepions" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldValidateConsecutiveException" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldStubVoidMethodAndContinueThrowing" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldStubVoidMethod" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="shouldValidateConsecutiveExceptionForVoidMethod" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

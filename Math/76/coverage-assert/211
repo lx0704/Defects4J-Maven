@@ -1,4 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testAbsInfinite(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testAbsInfinite:()V:85:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testAbsInfinite:()V:87:assertEquals false
-org.apache.commons.math.complex.ComplexTest:testAbsInfinite:()V:89:assertEquals false

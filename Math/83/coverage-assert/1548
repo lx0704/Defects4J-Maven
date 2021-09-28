@@ -1,4 +1,0 @@
-org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest.testDistance(org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest) true
-org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest:testDistance:()V:41:assertEquals true
-org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest:testDistance:()V:42:assertEquals true
-org.apache.commons.math.stat.clustering.EuclideanIntegerPointTest:testDistance:()V:43:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.MeanTest.testWeightedMean(org.apache.commons.math.stat.descriptive.moment.MeanTest) true
-org.apache.commons.math.stat.descriptive.moment.MeanTest:testWeightedMean:()V:70:assertEquals true
-org.apache.commons.math.stat.descriptive.moment.MeanTest:testWeightedMean:()V:71:assertEquals true

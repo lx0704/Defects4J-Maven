@@ -1,3 +1,0 @@
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testNoDependency(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testNoDependency:()V:157:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testNoDependency:()V:159:assertEquals true

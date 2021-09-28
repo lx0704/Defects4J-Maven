@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest.canEstimateRegressionParametersVariance(org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest) true
-org.apache.commons.math.stat.regression.MultipleLinearRegressionAbstractTest:canEstimateRegressionParametersVariance:()V:56:assertEquals true

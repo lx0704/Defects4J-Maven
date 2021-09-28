@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.StatUtilsTest.testVariance(org.apache.commons.math.stat.StatUtilsTest) true
-org.apache.commons.math.stat.StatUtilsTest:testVariance:()V:252:assertEquals false
-org.apache.commons.math.stat.StatUtilsTest:testVariance:()V:256:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testVariance:()V:260:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testVariance:()V:264:assertEquals true

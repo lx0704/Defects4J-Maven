@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexFieldTest.testOne(org.apache.commons.math.complex.ComplexFieldTest) true
-org.apache.commons.math.complex.ComplexFieldTest:testOne:()V:34:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.ArrayFieldVectorTest.testMapFunctions(org.apache.commons.math.linear.ArrayFieldVectorTest) true
-org.apache.commons.math.linear.ArrayFieldVectorTest:checkArray:(Ljava/lang/String;[Lorg/apache/commons/math/fraction/Fraction;[Lorg/apache/commons/math/fraction/Fraction;)V:621:assertEquals true

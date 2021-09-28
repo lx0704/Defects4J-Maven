@@ -1,3 +1,0 @@
-org.apache.commons.math.random.MersenneTwisterTest.testFloat(org.apache.commons.math.random.MersenneTwisterTest) true
-org.apache.commons.math.random.MersenneTwisterTest:testFloat:()V:58:assertEquals true
-org.apache.commons.math.random.MersenneTwisterTest:testFloat:()V:59:assertEquals true

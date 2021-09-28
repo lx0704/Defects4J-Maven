@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest.testConstructor(org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testConstructor:()V:62:assertTrue true
-org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testConstructor:()V:63:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialSplineFunctionTest:testConstructor:()V:64:assertEquals true

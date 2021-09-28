@@ -1,6 +1,0 @@
-org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest.checklone(org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest) true
-org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:124:assertEquals true
-org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:125:assertEquals true
-org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:129:assertTrue true
-org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:131:assertEquals true
-org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest$1:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:135:assertEquals true

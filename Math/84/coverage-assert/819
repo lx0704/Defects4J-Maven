@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.BlockRealMatrixTest.testEqualsAndHashCode(org.apache.commons.math.linear.BlockRealMatrixTest) true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:979:assertTrue true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:980:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:981:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:982:assertEquals true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:983:assertFalse true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:984:assertFalse true
-org.apache.commons.math.linear.BlockRealMatrixTest:testEqualsAndHashCode:()V:985:assertFalse true

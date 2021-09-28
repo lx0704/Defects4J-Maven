@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.KurtosisTest.testCopy(org.apache.commons.math.stat.descriptive.moment.KurtosisTest) true
-org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:78:assertEquals true

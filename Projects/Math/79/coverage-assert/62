@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest.testLinearFunction2D(org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest:testLinearFunction2D:()V:72:assertEquals true
+org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest:testLinearFunction2D:()V:78:assertEquals true

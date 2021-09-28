@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.RealVectorFormatTest.testForgottenPrefix(org.apache.commons.math.linear.RealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenPrefix:()V:370:assertNull true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testForgottenPrefix:()V:371:assertEquals true

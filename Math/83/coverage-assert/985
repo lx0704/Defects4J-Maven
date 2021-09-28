@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.MatrixUtilsTest.testBigFractionConverter(org.apache.commons.math.linear.MatrixUtilsTest) true
-org.apache.commons.math.linear.MatrixUtilsTest:testBigFractionConverter:()V:329:assertEquals true

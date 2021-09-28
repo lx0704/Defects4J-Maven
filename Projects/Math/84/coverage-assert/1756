@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.rank.MaxTest.testCopy(org.apache.commons.math.stat.descriptive.rank.MaxTest) true
+org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:78:assertEquals true

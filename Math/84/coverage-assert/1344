@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testTrivial(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testTrivial:()V:114:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testTrivial:()V:123:assertEquals true
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testTrivial:()V:124:assertEquals true

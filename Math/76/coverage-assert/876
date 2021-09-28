@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BlockRealMatrixTest.testMultiply(org.apache.commons.math.linear.BlockRealMatrixTest) true
-org.apache.commons.math.linear.BlockRealMatrixTest:assertClose:(Lorg/apache/commons/math/linear/RealMatrix;Lorg/apache/commons/math/linear/RealMatrix;D)V:1180:assertTrue true

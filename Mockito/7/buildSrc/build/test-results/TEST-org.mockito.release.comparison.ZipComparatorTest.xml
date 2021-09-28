@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.release.comparison.ZipComparatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:40:04" hostname="set" time="0.137">
-  <properties/>
-  <testcase name="compares files" classname="org.mockito.release.comparison.ZipComparatorTest" time="0.132"/>
-  <testcase name="detects not equal zips" classname="org.mockito.release.comparison.ZipComparatorTest" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

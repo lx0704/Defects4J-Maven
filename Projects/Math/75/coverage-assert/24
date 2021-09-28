@@ -1,0 +1,7 @@
+org.apache.commons.math.MaxIterationsExceededExceptionTest.testComplexConstructor(org.apache.commons.math.MaxIterationsExceededExceptionTest) true
+org.apache.commons.math.MaxIterationsExceededExceptionTest:testComplexConstructor:()V:43:assertNull true
+org.apache.commons.math.MaxIterationsExceededExceptionTest:testComplexConstructor:()V:44:assertNotNull true
+org.apache.commons.math.MaxIterationsExceededExceptionTest:testComplexConstructor:()V:45:assertTrue true
+org.apache.commons.math.MaxIterationsExceededExceptionTest:testComplexConstructor:()V:46:assertTrue true
+org.apache.commons.math.MaxIterationsExceededExceptionTest:testComplexConstructor:()V:47:assertEquals true
+org.apache.commons.math.MaxIterationsExceededExceptionTest:testComplexConstructor:()V:48:assertFalse true

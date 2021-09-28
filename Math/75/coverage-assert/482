@@ -1,3 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testControlParameters(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:checkEstimate:(Lorg/apache/commons/math/estimation/EstimationProblem;DIDDDZ)V:486:assertTrue true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:checkEstimate:(Lorg/apache/commons/math/estimation/EstimationProblem;DIDDDZ)V:488:assertTrue true

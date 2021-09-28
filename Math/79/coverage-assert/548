@@ -1,2 +1,0 @@
-org.apache.commons.math.fraction.FractionFormatTest.testDoubleFormat(org.apache.commons.math.fraction.FractionFormatTest) true
-org.apache.commons.math.fraction.FractionFormatTest:testDoubleFormat:()V:299:assertEquals true

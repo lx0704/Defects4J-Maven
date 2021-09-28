@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testCopy(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest) true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testCopy:()V:56:assertEquals true
-org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testCopy:()V:60:assertEquals true

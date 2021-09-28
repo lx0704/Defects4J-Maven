@@ -1,0 +1,4 @@
+org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest.testKepler(org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest) true
+org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest$KeplerHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:393:assertTrue true
+org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest$KeplerHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:394:assertTrue true
+org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest:testKepler:()V:364:assertEquals true

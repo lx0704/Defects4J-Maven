@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.NormalDistributionTest.testGetStandardDeviation(org.apache.commons.math.distribution.NormalDistributionTest) true
+org.apache.commons.math.distribution.NormalDistributionTest:testGetStandardDeviation:()V:113:assertEquals true

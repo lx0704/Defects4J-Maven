@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.BasicVerificationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.007">
+  <properties/>
+  <testcase name="shouldVerify" classname="org.mockitousage.verification.BasicVerificationTest" time="0.001"/>
+  <testcase name="shouldFailOnWrongMethod" classname="org.mockitousage.verification.BasicVerificationTest" time="0.001"/>
+  <testcase name="shouldFailVerificationOnMethodArgument" classname="org.mockitousage.verification.BasicVerificationTest" time="0.0"/>
+  <testcase name="shouldDetectRedundantInvocation" classname="org.mockitousage.verification.BasicVerificationTest" time="0.0"/>
+  <testcase name="shouldDetectWhenInvokedMoreThanOnce" classname="org.mockitousage.verification.BasicVerificationTest" time="0.0"/>
+  <testcase name="shouldVerifyStubbedMethods" classname="org.mockitousage.verification.BasicVerificationTest" time="0.0"/>
+  <testcase name="shouldDetectWhenOverloadedMethodCalled" classname="org.mockitousage.verification.BasicVerificationTest" time="0.001"/>
+  <testcase name="shouldFailVerification" classname="org.mockitousage.verification.BasicVerificationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

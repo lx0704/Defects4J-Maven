@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.MatrixUtilsTest.testCreateBigIdentityMatrix(org.apache.commons.math.linear.MatrixUtilsTest) true
+org.apache.commons.math.linear.MatrixUtilsTest:checkIdentityBigMatrix:(Lorg/apache/commons/math/linear/BigMatrix;)V:381:assertEquals true
+org.apache.commons.math.linear.MatrixUtilsTest:checkIdentityBigMatrix:(Lorg/apache/commons/math/linear/BigMatrix;)V:383:assertEquals true

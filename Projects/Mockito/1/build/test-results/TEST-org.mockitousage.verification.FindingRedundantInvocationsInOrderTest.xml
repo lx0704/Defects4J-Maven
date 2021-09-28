@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.005">
+  <properties/>
+  <testcase name="shouldSayNoInteractionsWanted" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyNoMoreInteractionsInOrder" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyNoMoreInteractionsInOrderWithMultipleMocks" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.0"/>
+  <testcase name="shouldFailToVerifyNoMoreInteractionsInOrder" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.001"/>
+  <testcase name="shouldFailToVerifyNoMoreInteractionsInOrderWithMultipleMocks" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.001"/>
+  <testcase name="shouldValidateState" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.0"/>
+  <testcase name="shouldWorkFineIfNoInvocatins" classname="org.mockitousage.verification.FindingRedundantInvocationsInOrderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

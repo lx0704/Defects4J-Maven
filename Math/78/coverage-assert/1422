@@ -1,8 +1,0 @@
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest.testSinMin(org.apache.commons.math.optimization.univariate.BrentMinimizerTest) true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:43:assertEquals true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:52:assertEquals true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:53:assertTrue true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:54:assertEquals true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:55:assertTrue true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:56:assertTrue true
-org.apache.commons.math.optimization.univariate.BrentMinimizerTest:testSinMin:()V:57:assertTrue true

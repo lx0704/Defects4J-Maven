@@ -1,0 +1,4 @@
+org.apache.commons.math.analysis.integration.SimpsonIntegratorTest.testQuinticFunction(org.apache.commons.math.analysis.integration.SimpsonIntegratorTest) true
+org.apache.commons.math.analysis.integration.SimpsonIntegratorTest:testQuinticFunction:()V:66:assertEquals true
+org.apache.commons.math.analysis.integration.SimpsonIntegratorTest:testQuinticFunction:()V:71:assertEquals true
+org.apache.commons.math.analysis.integration.SimpsonIntegratorTest:testQuinticFunction:()V:76:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testEqualsTrue(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testEqualsTrue:()V:291:assertTrue true

@@ -1,0 +1,8 @@
+org.apache.commons.math.linear.BlockFieldMatrixTest.testEqualsAndHashCode(org.apache.commons.math.linear.BlockFieldMatrixTest) true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1058:assertTrue true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1059:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1060:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1061:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1062:assertFalse true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1063:assertFalse true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testEqualsAndHashCode:()V:1064:assertFalse true

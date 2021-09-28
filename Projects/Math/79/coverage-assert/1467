@@ -1,0 +1,10 @@
+org.apache.commons.math.random.RandomAdaptorTest.testAdaptor(org.apache.commons.math.random.RandomAdaptorTest) true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:45:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:46:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:47:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:48:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:49:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:50:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:51:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:52:assertEquals true
+org.apache.commons.math.random.RandomAdaptorTest:checkConstant:(Ljava/util/Random;)V:54:assertEquals true

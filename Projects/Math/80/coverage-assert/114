@@ -1,0 +1,10 @@
+org.apache.commons.math.analysis.solvers.BrentSolverTest.testDeprecated(org.apache.commons.math.analysis.solvers.BrentSolverTest) true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:58:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:60:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:65:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:67:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:72:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:74:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:78:assertEquals true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:80:assertTrue true
+org.apache.commons.math.analysis.solvers.BrentSolverTest:testDeprecated:()V:81:assertEquals true

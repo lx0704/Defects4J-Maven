@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testAdd(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testAdd:()V:96:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testAdd:()V:97:assertEquals true

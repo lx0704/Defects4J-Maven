@@ -1,4 +1,0 @@
-org.apache.commons.math.util.OpenIntToFieldTest.testGetFromEmpty(org.apache.commons.math.util.OpenIntToFieldTest) true
-org.apache.commons.math.util.OpenIntToFieldTest:testGetFromEmpty:()V:142:assertTrue true
-org.apache.commons.math.util.OpenIntToFieldTest:testGetFromEmpty:()V:143:assertTrue true
-org.apache.commons.math.util.OpenIntToFieldTest:testGetFromEmpty:()V:144:assertTrue true

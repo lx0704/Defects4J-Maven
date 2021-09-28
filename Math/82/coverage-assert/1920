@@ -1,9 +1,0 @@
-org.apache.commons.math.transform.FastFourierTransformerTest.testAdHocData(org.apache.commons.math.transform.FastFourierTransformerTest) true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:54:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:55:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:60:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:61:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:70:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:71:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:76:assertEquals true
-org.apache.commons.math.transform.FastFourierTransformerTest:testAdHocData:()V:77:assertEquals true

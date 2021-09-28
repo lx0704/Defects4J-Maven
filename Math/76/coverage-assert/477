@@ -1,3 +1,0 @@
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testRedundantEquations(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testRedundantEquations:()V:415:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testRedundantEquations:()V:418:assertEquals true

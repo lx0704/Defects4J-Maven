@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.NormalDistributionTest.testDensity(org.apache.commons.math.distribution.NormalDistributionTest) true
-org.apache.commons.math.distribution.NormalDistributionTest:checkDensity:(DD[D[D)V:141:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testCosNaN(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testCosNaN:()V:420:assertTrue true

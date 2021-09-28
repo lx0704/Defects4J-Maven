@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.inference.TestUtilsTest.testChiSquareLargeTestStatistic(org.apache.commons.math.stat.inference.TestUtilsTest) true
-org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareLargeTestStatistic:()V:174:assertEquals true
-org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareLargeTestStatistic:()V:175:assertEquals true

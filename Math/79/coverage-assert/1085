@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.RealVectorFormatTest.testParseNegativeZ(org.apache.commons.math.linear.RealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testParseNegativeZ:()V:248:assertEquals true

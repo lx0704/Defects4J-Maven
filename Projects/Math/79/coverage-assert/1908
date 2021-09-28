@@ -1,0 +1,8 @@
+org.apache.commons.math.stat.inference.TestUtilsTest.testChiSquareIndependence(org.apache.commons.math.stat.inference.TestUtilsTest) true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:109:assertEquals true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:110:assertEquals true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:111:assertTrue true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:112:assertTrue true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:115:assertEquals true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:116:assertEquals true
+org.apache.commons.math.stat.inference.TestUtilsTest:testChiSquareIndependence:()V:117:assertTrue true

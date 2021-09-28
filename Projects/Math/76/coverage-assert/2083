@@ -1,0 +1,7 @@
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testIterator(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testIterator:()V:230:assertTrue true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testIterator:()V:233:assertTrue true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testIterator:()V:234:assertEquals true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testIterator:()V:235:assertEquals true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testIterator:()V:236:assertTrue true
+org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testIterator:()V:238:assertFalse true

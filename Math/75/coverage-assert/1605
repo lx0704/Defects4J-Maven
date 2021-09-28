@@ -1,6 +1,0 @@
-org.apache.commons.math.stat.correlation.CovarianceTest.testConsistency(org.apache.commons.math.stat.correlation.CovarianceTest) true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConsistency:()V:193:assertEquals true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConsistency:()V:197:assertEquals true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConsistency:()V:199:assertEquals true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConsistency:()V:210:assertEquals true
-org.apache.commons.math.stat.correlation.CovarianceTest:testConsistency:()V:223:assertEquals true

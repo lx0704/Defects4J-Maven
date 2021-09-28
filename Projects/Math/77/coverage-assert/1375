@@ -1,0 +1,7 @@
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest.testCircleFittingBadInit(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest) true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testCircleFittingBadInit:()V:494:assertTrue true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testCircleFittingBadInit:()V:495:assertTrue true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testCircleFittingBadInit:()V:496:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testCircleFittingBadInit:()V:497:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testCircleFittingBadInit:()V:498:assertEquals true
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest:testCircleFittingBadInit:()V:499:assertEquals true

@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.BlockRealMatrixTest.testPremultiplyVector(org.apache.commons.math.linear.BlockRealMatrixTest) true
+org.apache.commons.math.linear.BlockRealMatrixTest:assertClose:([D[DD)V:1189:assertEquals true

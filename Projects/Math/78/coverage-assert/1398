@@ -1,0 +1,5 @@
+org.apache.commons.math.optimization.linear.SimplexSolverTest.testEpsilon(org.apache.commons.math.optimization.linear.SimplexSolverTest) true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testEpsilon:()V:284:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testEpsilon:()V:285:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testEpsilon:()V:286:assertEquals true
+org.apache.commons.math.optimization.linear.SimplexSolverTest:testEpsilon:()V:287:assertEquals true

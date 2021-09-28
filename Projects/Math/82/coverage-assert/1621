@@ -1,0 +1,11 @@
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest.testStats(org.apache.commons.math.stat.descriptive.SummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:60:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:65:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:66:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:67:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:68:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:69:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:70:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:71:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:72:assertEquals true
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:testStats:()V:74:assertEquals true

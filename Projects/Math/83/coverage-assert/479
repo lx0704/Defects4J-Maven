@@ -1,0 +1,5 @@
+org.apache.commons.math.estimation.MinpackTest.testMinpackRosenbrok(org.apache.commons.math.estimation.MinpackTest) true
+org.apache.commons.math.estimation.MinpackTest:minpackTest:(Lorg/apache/commons/math/estimation/MinpackTest$MinpackFunction;Z)V:496:assertTrue true
+org.apache.commons.math.estimation.MinpackTest:minpackTest:(Lorg/apache/commons/math/estimation/MinpackTest$MinpackFunction;Z)V:499:assertFalse true
+org.apache.commons.math.estimation.MinpackTest:minpackTest:(Lorg/apache/commons/math/estimation/MinpackTest$MinpackFunction;Z)V:503:assertTrue true
+org.apache.commons.math.estimation.MinpackTest:minpackTest:(Lorg/apache/commons/math/estimation/MinpackTest$MinpackFunction;Z)V:504:assertTrue true

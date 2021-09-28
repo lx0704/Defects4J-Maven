@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest.canEstimateResiduals(org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest) true
-org.apache.commons.math.stat.regression.MultipleLinearRegressionAbstractTest:canEstimateResiduals:()V:50:assertEquals true

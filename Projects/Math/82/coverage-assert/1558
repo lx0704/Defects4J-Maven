@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testConstant(org.apache.commons.math.stat.correlation.PearsonsCorrelationTest) true
+org.apache.commons.math.stat.correlation.PearsonsCorrelationTest:testConstant:()V:170:assertTrue true

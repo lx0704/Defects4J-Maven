@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.BinaryFunctionTest.testMultiply(org.apache.commons.math.analysis.BinaryFunctionTest) true
-org.apache.commons.math.analysis.BinaryFunctionTest:testMultiply:()V:39:assertEquals true
-org.apache.commons.math.analysis.BinaryFunctionTest:testMultiply:()V:40:assertEquals true

@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest.testClear(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testClear:()V:185:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testClear:()V:187:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testClear:()V:189:assertEquals true
+org.apache.commons.math.stat.regression.SimpleRegressionTest:testClear:()V:191:assertEquals true

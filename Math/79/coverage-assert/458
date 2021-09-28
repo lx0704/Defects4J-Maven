@@ -1,5 +1,0 @@
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testOneSet(org.apache.commons.math.estimation.GaussNewtonEstimatorTest) true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testOneSet:()V:184:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testOneSet:()V:185:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testOneSet:()V:186:assertEquals true
-org.apache.commons.math.estimation.GaussNewtonEstimatorTest:testOneSet:()V:187:assertEquals true

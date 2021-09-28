@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.FieldMatrixImplTest.testScalarAdd(org.apache.commons.math.linear.FieldMatrixImplTest) true
+org.apache.commons.math.TestUtils:assertEquals:(Lorg/apache/commons/math/linear/FieldMatrix;Lorg/apache/commons/math/linear/FieldMatrix;)V:306:assertEquals true

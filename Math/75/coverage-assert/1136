@@ -1,4 +1,0 @@
-org.apache.commons.math.linear.SingularValueSolverTest.testTruncated(org.apache.commons.math.linear.SingularValueSolverTest) true
-org.apache.commons.math.linear.SingularValueSolverTest:testTruncated:()V:156:assertEquals true
-org.apache.commons.math.linear.SingularValueSolverTest:testTruncated:()V:158:assertEquals true
-org.apache.commons.math.linear.SingularValueSolverTest:testTruncated:()V:163:assertTrue true

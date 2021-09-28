@@ -1,0 +1,7 @@
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testN0andN1Conditions(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest) true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testN0andN1Conditions:()V:82:assertTrue true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testN0andN1Conditions:()V:83:assertTrue true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testN0andN1Conditions:()V:84:assertTrue true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testN0andN1Conditions:()V:88:assertTrue true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testN0andN1Conditions:()V:89:assertTrue true
+org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:testN0andN1Conditions:()V:90:assertTrue true

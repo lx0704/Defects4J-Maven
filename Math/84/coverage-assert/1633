@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testSerialization(org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) true
-org.apache.commons.math.TestUtils:checkSerializedEquality:(Ljava/lang/Object;)V:133:assertEquals true
-org.apache.commons.math.TestUtils:checkSerializedEquality:(Ljava/lang/Object;)V:134:assertEquals true
-org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSerialization:()V:253:assertEquals true
-org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest:testSerialization:()V:265:assertEquals true

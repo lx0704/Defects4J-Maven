@@ -1,2 +1,0 @@
-org.apache.commons.math.fraction.BigFractionFormatTest.testWholeFormat(org.apache.commons.math.fraction.BigFractionFormatTest) true
-org.apache.commons.math.fraction.BigFractionFormatTest:testWholeFormat:()V:310:assertEquals true

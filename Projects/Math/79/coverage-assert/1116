@@ -1,0 +1,8 @@
+org.apache.commons.math.linear.SparseFieldMatrixTest.testEqualsAndHashCode(org.apache.commons.math.linear.SparseFieldMatrixTest) true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:553:assertTrue true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:554:assertEquals true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:555:assertEquals true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:556:assertEquals true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:557:assertFalse true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:558:assertFalse true
+org.apache.commons.math.linear.SparseFieldMatrixTest:testEqualsAndHashCode:()V:559:assertFalse true

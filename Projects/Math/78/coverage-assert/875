@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.BlockRealMatrixTest.testTrace(org.apache.commons.math.linear.BlockRealMatrixTest) true
+org.apache.commons.math.linear.BlockRealMatrixTest:testTrace:()V:298:assertEquals true

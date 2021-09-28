@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitoutil.ClassLoadersTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:45" hostname="set" time="0.033">
+  <properties/>
+  <testcase name="excluding_class_loader_can_load_classes_when_correct_source_url_set" classname="org.mockitoutil.ClassLoadersTest" time="0.002"/>
+  <testcase name="excluding_class_loader_cannot_load_class_when_excluded_prefix_match_class_to_load" classname="org.mockitoutil.ClassLoadersTest" time="0.006"/>
+  <testcase name="can_not_load_a_class_not_previously_registered_in_builder" classname="org.mockitoutil.ClassLoadersTest" time="0.008"/>
+  <testcase name="can_load_a_class_in_memory_from_bytes" classname="org.mockitoutil.ClassLoadersTest" time="0.002"/>
+  <testcase name="cannot_load_a_class_file_not_in_parent" classname="org.mockitoutil.ClassLoadersTest" time="0.0"/>
+  <testcase name="can_list_all_classes_reachable_in_a_classloader" classname="org.mockitoutil.ClassLoadersTest" time="0.004"/>
+  <testcase name="return_current_classloader" classname="org.mockitoutil.ClassLoadersTest" time="0.0"/>
+  <testcase name="isolated_class_loader_cannot_load_classes_when_no_given_prefix" classname="org.mockitoutil.ClassLoadersTest" time="0.001"/>
+  <testcase name="isolated_class_loader_cannot_load_classes_if_no_code_source_path" classname="org.mockitoutil.ClassLoadersTest" time="0.0"/>
+  <testcase name="return_bootstrap_classloader" classname="org.mockitoutil.ClassLoadersTest" time="0.0"/>
+  <testcase name="isolated_class_loader_cannot_load_classes_not_matching_the_prefix" classname="org.mockitoutil.ClassLoadersTest" time="0.001"/>
+  <testcase name="isolated_class_loader_can_load_all_classes_unless_all_classes_mathch_the_prefixes" classname="org.mockitoutil.ClassLoadersTest" time="0.001"/>
+  <testcase name="isolated_class_loader_has_no_parent" classname="org.mockitoutil.ClassLoadersTest" time="0.0"/>
+  <testcase name="excluding_class_loader_cannot_load_classes_when_no_correct_source_url_set" classname="org.mockitoutil.ClassLoadersTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

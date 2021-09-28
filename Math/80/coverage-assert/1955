@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveMultipleToEmpty(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
-org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveMultipleToEmpty:()V:354:assertEquals true

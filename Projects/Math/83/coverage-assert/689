@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.Array2DRowRealMatrixTest.testFrobeniusNorm(org.apache.commons.math.linear.Array2DRowRealMatrixTest) true
+org.apache.commons.math.linear.Array2DRowRealMatrixTest:testFrobeniusNorm:()V:158:assertEquals true
+org.apache.commons.math.linear.Array2DRowRealMatrixTest:testFrobeniusNorm:()V:159:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.MeanTest.testCopy(org.apache.commons.math.stat.descriptive.moment.MeanTest) true
-org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:109:assertEquals true

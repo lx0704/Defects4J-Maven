@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.handler.MockHandlerImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:54" hostname="set" time="0.026">
+  <properties/>
+  <testcase name="should_report_bogus_default_answer" classname="org.mockito.internal.handler.MockHandlerImplTest" time="0.025"/>
+  <testcase name="should_remove_verification_mode_even_when_invalid_matchers" classname="org.mockito.internal.handler.MockHandlerImplTest" time="0.001"/>
+  <testcase name="should_throw_mockito_exception_when_invocation_handler_throws_anything" classname="org.mockito.internal.handler.MockHandlerImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

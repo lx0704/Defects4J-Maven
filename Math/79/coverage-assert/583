@@ -1,7 +1,0 @@
-org.apache.commons.math.fraction.FractionTest.testNegate(org.apache.commons.math.fraction.FractionTest) true
-org.apache.commons.math.fraction.FractionTest:testNegate:()V:277:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testNegate:()V:278:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testNegate:()V:282:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testNegate:()V:283:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testNegate:()V:288:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testNegate:()V:289:assertEquals true

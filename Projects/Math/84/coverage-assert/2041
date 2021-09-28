@@ -1,0 +1,4 @@
+org.apache.commons.math.util.ResizableDoubleArrayTest.testSubstitute(org.apache.commons.math.util.ResizableDoubleArrayTest) true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSubstitute:()V:377:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSubstitute:()V:381:assertEquals true
+org.apache.commons.math.util.ResizableDoubleArrayTest:testSubstitute:()V:391:assertEquals true

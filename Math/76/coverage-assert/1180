@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testNorm(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:testNorm:()V:166:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testNorm:()V:167:assertEquals true

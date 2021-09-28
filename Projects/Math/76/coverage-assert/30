@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.BinaryFunctionTest.testFix2nd(org.apache.commons.math.analysis.BinaryFunctionTest) true
+org.apache.commons.math.analysis.BinaryFunctionTest:testFix2nd:()V:73:assertEquals true

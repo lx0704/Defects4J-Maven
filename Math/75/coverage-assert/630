@@ -1,3 +1,0 @@
-org.apache.commons.math.geometry.FrenchVector3DFormatTest.testForgottenSuffix(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testForgottenSuffix:()V:357:assertNull true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testForgottenSuffix:()V:358:assertEquals true

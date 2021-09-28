@@ -1,5 +1,0 @@
-org.apache.commons.math.random.RandomDataTest.testConfig(org.apache.commons.math.random.RandomDataTest) true
-org.apache.commons.math.random.RandomDataTest:testConfig:()V:433:assertTrue true
-org.apache.commons.math.random.RandomDataTest:testConfig:()V:436:assertEquals true
-org.apache.commons.math.random.RandomDataTest:testConfig:()V:440:assertTrue true
-org.apache.commons.math.random.RandomDataTest:testConfig:()V:443:assertTrue true

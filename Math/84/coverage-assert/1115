@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.SparseFieldMatrixTest.testTrace(org.apache.commons.math.linear.SparseFieldMatrixTest) true
-org.apache.commons.math.linear.SparseFieldMatrixTest:testTrace:()V:238:assertEquals true

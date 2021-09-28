@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.PoissonDistributionTest.testDegenerateInverseCumulativeProbability(org.apache.commons.math.distribution.PoissonDistributionTest) true
-org.apache.commons.math.distribution.PoissonDistributionTest:testDegenerateInverseCumulativeProbability:()V:130:assertEquals true
-org.apache.commons.math.distribution.PoissonDistributionTest:testDegenerateInverseCumulativeProbability:()V:131:assertEquals true

@@ -1,5 +1,0 @@
-org.apache.commons.math.linear.TriDiagonalTransformerTest.testMatricesValues3(org.apache.commons.math.linear.TriDiagonalTransformerTest) true
-org.apache.commons.math.linear.TriDiagonalTransformerTest:checkMatricesValues:([[D[[D[D[D)V:161:assertEquals true
-org.apache.commons.math.linear.TriDiagonalTransformerTest:checkMatricesValues:([[D[[D[D[D)V:174:assertEquals true
-org.apache.commons.math.linear.TriDiagonalTransformerTest:checkMatricesValues:([[D[[D[D[D)V:177:assertTrue true
-org.apache.commons.math.linear.TriDiagonalTransformerTest:checkMatricesValues:([[D[[D[D[D)V:178:assertTrue true

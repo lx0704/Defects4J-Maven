@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.release.exec.DefaultProcessRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-19T21:12:12" hostname="set" time="0.004">
-  <properties/>
-  <testcase name="runs processes" classname="org.mockito.release.exec.DefaultProcessRunnerTest" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.StatUtilsTest.testSumLog(org.apache.commons.math.stat.StatUtilsTest) true
-org.apache.commons.math.stat.StatUtilsTest:testSumLog:()V:203:assertEquals false
-org.apache.commons.math.stat.StatUtilsTest:testSumLog:()V:204:assertEquals false
-org.apache.commons.math.stat.StatUtilsTest:testSumLog:()V:208:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testSumLog:()V:209:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testSumLog:()V:213:assertEquals true
-org.apache.commons.math.stat.StatUtilsTest:testSumLog:()V:214:assertEquals true

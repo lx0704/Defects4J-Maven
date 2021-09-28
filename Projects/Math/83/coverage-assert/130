@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.solvers.RiddersSolverTest.testSinFunction(org.apache.commons.math.analysis.solvers.RiddersSolverTest) true
+org.apache.commons.math.analysis.solvers.RiddersSolverTest:testSinFunction:()V:74:assertEquals true
+org.apache.commons.math.analysis.solvers.RiddersSolverTest:testSinFunction:()V:80:assertEquals true

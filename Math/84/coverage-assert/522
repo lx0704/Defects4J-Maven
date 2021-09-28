@@ -1,3 +1,0 @@
-org.apache.commons.math.fraction.BigFractionTest.testLongValue(org.apache.commons.math.fraction.BigFractionTest) true
-org.apache.commons.math.fraction.BigFractionTest:testLongValue:()V:217:assertEquals true
-org.apache.commons.math.fraction.BigFractionTest:testLongValue:()V:218:assertEquals true

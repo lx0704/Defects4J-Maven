@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest.testSkewAndKurtosis(org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest) true
-org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testSkewAndKurtosis:()V:141:assertEquals true
-org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testSkewAndKurtosis:()V:142:assertEquals true
-org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testSkewAndKurtosis:()V:143:assertEquals true
-org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:testSkewAndKurtosis:()V:144:assertEquals true

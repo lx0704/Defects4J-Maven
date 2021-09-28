@@ -1,0 +1,2 @@
+org.apache.commons.math.complex.ComplexFieldTest.testSerial(org.apache.commons.math.complex.ComplexFieldTest) true
+org.apache.commons.math.complex.ComplexFieldTest:testSerial:()V:41:assertTrue true

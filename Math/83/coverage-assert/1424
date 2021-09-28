@@ -1,4 +1,0 @@
-org.apache.commons.math.random.EmpiricalDistributionTest.testLoad(org.apache.commons.math.random.EmpiricalDistributionTest) true
-org.apache.commons.math.random.EmpiricalDistributionTest:testLoad:()V:86:assertEquals true
-org.apache.commons.math.random.EmpiricalDistributionTest:testLoad:()V:88:assertEquals true
-org.apache.commons.math.random.EmpiricalDistributionTest:testLoad:()V:91:assertEquals true

@@ -1,0 +1,3 @@
+org.apache.commons.math.random.AbstractRandomGeneratorTest.testNextSecureLong(org.apache.commons.math.random.AbstractRandomGeneratorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextSecureLong:()V:130:assertTrue true
+org.apache.commons.math.random.RandomDataTest:testNextSecureLong:()V:142:assertTrue true

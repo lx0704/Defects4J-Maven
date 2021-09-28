@@ -1,8 +1,0 @@
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest) true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:120:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:123:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:124:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:125:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:126:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:127:assertEquals true
-org.apache.commons.math.analysis.polynomials.PolynomialFunctionTest:testQuintic:()V:129:assertEquals true

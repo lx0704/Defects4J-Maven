@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.Vector3DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math.geometry.Vector3DFormatTest) true
+org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testParseSimpleNoDecimals:()V:157:assertEquals true

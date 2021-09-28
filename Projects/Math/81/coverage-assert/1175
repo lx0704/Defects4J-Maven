@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.TriDiagonalTransformerTest.testNoAccessBelowDiagonal(org.apache.commons.math.linear.TriDiagonalTransformerTest) true
+org.apache.commons.math.linear.TriDiagonalTransformerTest:checkNoAccessBelowDiagonal:([[D)V:93:assertEquals true

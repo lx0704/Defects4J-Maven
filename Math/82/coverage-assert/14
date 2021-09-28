@@ -1,4 +1,0 @@
-org.apache.commons.math.MathConfigurationExceptionTest.testConstructor(org.apache.commons.math.MathConfigurationExceptionTest) true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructor:()V:31:assertNull true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructor:()V:32:assertNull true
-org.apache.commons.math.MathConfigurationExceptionTest:testConstructor:()V:33:assertEquals true

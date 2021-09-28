@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.ExponentialDistributionTest.testMeanAccessors(org.apache.commons.math.distribution.ExponentialDistributionTest) true
-org.apache.commons.math.distribution.ExponentialDistributionTest:testMeanAccessors:()V:97:assertEquals true
-org.apache.commons.math.distribution.ExponentialDistributionTest:testMeanAccessors:()V:99:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.EigenDecompositionImplTest.testTridiagonal(org.apache.commons.math.linear.EigenDecompositionImplTest) true
-org.apache.commons.math.linear.EigenDecompositionImplTest:testTridiagonal:()V:164:assertEquals true
-org.apache.commons.math.linear.EigenDecompositionImplTest:testTridiagonal:()V:166:assertEquals true

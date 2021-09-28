@@ -1,2 +1,0 @@
-org.apache.commons.math.random.AbstractRandomGeneratorTest.testNextSample(org.apache.commons.math.random.AbstractRandomGeneratorTest) true
-org.apache.commons.math.random.RandomDataTest:testNextSample:()V:662:assertTrue true

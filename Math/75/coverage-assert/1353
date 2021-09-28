@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.fitting.CurveFitterTest.testMath304(org.apache.commons.math.optimization.fitting.CurveFitterTest) true
-org.apache.commons.math.optimization.fitting.CurveFitterTest:testMath304:()V:67:assertEquals true
-org.apache.commons.math.optimization.fitting.CurveFitterTest:testMath304:()V:71:assertEquals true

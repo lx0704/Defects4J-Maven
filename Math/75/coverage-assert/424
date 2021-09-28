@@ -1,4 +1,0 @@
-org.apache.commons.math.distribution.PascalDistributionTest.testDegenerate1(org.apache.commons.math.distribution.PascalDistributionTest) true
-org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyDensities:()V:143:assertEquals true
-org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyCumulativeProbabilities:()V:155:assertEquals true
-org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:168:assertEquals true

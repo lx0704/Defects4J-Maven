@@ -1,0 +1,8 @@
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest.testInterpolateSin(org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest) true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:verifyInterpolation:(Lorg/apache/commons/math/analysis/UnivariateRealFunction;[D[D)V:187:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:verifyConsistency:(Lorg/apache/commons/math/analysis/polynomials/PolynomialSplineFunction;[D)V:200:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:verifyConsistency:(Lorg/apache/commons/math/analysis/polynomials/PolynomialSplineFunction;[D)V:201:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:verifyConsistency:(Lorg/apache/commons/math/analysis/polynomials/PolynomialSplineFunction;[D)V:203:assertEquals true
+org.apache.commons.math.TestUtils:assertEquals:(Ljava/lang/String;[D[DD)V:326:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:testInterpolateSin:()V:156:assertEquals true
+org.apache.commons.math.analysis.interpolation.SplineInterpolatorTest:testInterpolateSin:()V:157:assertEquals true

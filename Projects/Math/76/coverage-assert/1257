@@ -1,0 +1,5 @@
+org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest.testVariableSteps(org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest) true
+org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest$VariableHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:345:assertTrue true
+org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest$VariableHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:346:assertTrue true
+org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest:testVariableSteps:()V:226:assertEquals true
+org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest:testVariableSteps:()V:227:assertEquals true

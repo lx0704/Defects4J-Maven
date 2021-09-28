@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest.testAggregationConsistency(org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest) true
+org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest:testAggregationConsistency:()V:118:assertEquals true

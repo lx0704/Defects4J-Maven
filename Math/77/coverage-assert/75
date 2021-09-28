@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest.testOnOnePoint(org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest) true
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnOnePoint:()V:34:assertEquals true
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testOnOnePoint:()V:35:assertEquals true

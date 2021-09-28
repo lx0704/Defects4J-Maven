@@ -1,4 +1,0 @@
-org.apache.commons.math.random.RandomDataTest.testNextExponential(org.apache.commons.math.random.RandomDataTest) true
-org.apache.commons.math.random.RandomDataTest:testNextExponential:()V:410:assertEquals true
-org.apache.commons.math.random.RandomDataTest:testNextExponential:()V:415:assertTrue true
-org.apache.commons.math.random.RandomDataTest:testNextExponential:()V:424:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexFormatTest.testNegativeImaginary(org.apache.commons.math.complex.ComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testNegativeImaginary:()V:77:assertEquals true

@@ -1,0 +1,6 @@
+org.apache.commons.math.genetics.RandomKeyTest.testInducedPermutation(org.apache.commons.math.genetics.RandomKeyTest) true
+org.apache.commons.math.genetics.RandomKeyTest:testInducedPermutation:()V:129:assertEquals true
+org.apache.commons.math.genetics.RandomKeyTest:testInducedPermutation:()V:130:assertEquals true
+org.apache.commons.math.genetics.RandomKeyTest:testInducedPermutation:()V:131:assertEquals true
+org.apache.commons.math.genetics.RandomKeyTest:testInducedPermutation:()V:132:assertEquals true
+org.apache.commons.math.genetics.RandomKeyTest:testInducedPermutation:()V:133:assertEquals true

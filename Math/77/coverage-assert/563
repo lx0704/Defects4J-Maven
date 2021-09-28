@@ -1,2 +1,0 @@
-org.apache.commons.math.fraction.FractionFieldTest.testZero(org.apache.commons.math.fraction.FractionFieldTest) true
-org.apache.commons.math.fraction.FractionFieldTest:testZero:()V:29:assertEquals true

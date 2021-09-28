@@ -1,0 +1,3 @@
+org.apache.commons.math.special.ErfTest.testErf1960(org.apache.commons.math.special.ErfTest) true
+org.apache.commons.math.special.ErfTest:testErf1960:()V:39:assertEquals true
+org.apache.commons.math.special.ErfTest:testErf1960:()V:43:assertEquals true

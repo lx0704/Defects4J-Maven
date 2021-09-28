@@ -1,2 +1,0 @@
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest.testSolveSin(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest) true
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest:testSolveSin:()V:57:assertEquals true

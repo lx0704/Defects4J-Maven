@@ -1,0 +1,13 @@
+org.apache.commons.math.fraction.FractionFormatTest.testParseNegative(org.apache.commons.math.fraction.FractionFormatTest) true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:171:assertNotNull true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:172:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:173:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:176:assertNotNull true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:177:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:178:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:182:assertNotNull true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:183:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:184:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:187:assertNotNull true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:188:assertEquals true
+org.apache.commons.math.fraction.FractionFormatTest:testParseNegative:()V:189:assertEquals true

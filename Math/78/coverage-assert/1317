@@ -1,5 +1,0 @@
-org.apache.commons.math.optimization.direct.MultiDirectionalTest.testPowell(org.apache.commons.math.optimization.direct.MultiDirectionalTest) true
-org.apache.commons.math.optimization.direct.MultiDirectionalTest:testPowell:()V:185:assertEquals true
-org.apache.commons.math.optimization.direct.MultiDirectionalTest:testPowell:()V:186:assertTrue true
-org.apache.commons.math.optimization.direct.MultiDirectionalTest:testPowell:()V:187:assertTrue true
-org.apache.commons.math.optimization.direct.MultiDirectionalTest:testPowell:()V:188:assertTrue true

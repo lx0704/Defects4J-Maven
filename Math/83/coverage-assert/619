@@ -1,2 +1,0 @@
-org.apache.commons.math.geometry.FrenchVector3DFormatTest.testSimpleNoDecimals(org.apache.commons.math.geometry.FrenchVector3DFormatTest) true
-org.apache.commons.math.geometry.Vector3DFormatAbstractTest:testSimpleNoDecimals:()V:50:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest.testKepler(org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest) true
-org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest$KeplerHandler:handleStep:(Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V:195:assertTrue true

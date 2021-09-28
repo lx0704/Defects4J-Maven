@@ -1,3 +1,0 @@
-org.apache.commons.math.distribution.ChiSquareDistributionTest.testSmallDf(org.apache.commons.math.distribution.ChiSquareDistributionTest) true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyCumulativeProbabilities:()V:146:assertEquals true
-org.apache.commons.math.distribution.ContinuousDistributionAbstractTest:verifyInverseCumulativeProbabilities:()V:159:assertEquals true

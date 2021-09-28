@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.BlockRealMatrixTest.testGetSubMatrix(org.apache.commons.math.linear.BlockRealMatrixTest) true
+org.apache.commons.math.linear.BlockRealMatrixTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/RealMatrix;[[DIIII)V:495:assertEquals true
+org.apache.commons.math.linear.BlockRealMatrixTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/RealMatrix;[[D[I[I)V:511:assertEquals true

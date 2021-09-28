@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.rank.PercentileTest.testNullEmpty(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
-org.apache.commons.math.stat.descriptive.rank.PercentileTest:testNullEmpty:()V:112:assertTrue true

@@ -1,3 +1,0 @@
-org.apache.commons.math.fraction.FractionFormatTest.testFormatZero(org.apache.commons.math.fraction.FractionFormatTest) true
-org.apache.commons.math.fraction.FractionFormatTest:testFormatZero:()V:68:assertEquals true
-org.apache.commons.math.fraction.FractionFormatTest:testFormatZero:()V:71:assertEquals true

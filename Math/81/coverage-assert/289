@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testTanhNaN(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testTanhNaN:()V:723:assertTrue true

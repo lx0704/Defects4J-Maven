@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.comparison.PomComparatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:36:32" hostname="set" time="0.01">
+  <properties/>
+  <testcase name="compares poms" classname="org.mockito.release.comparison.PomComparatorTest" time="0.008"/>
+  <testcase name="does not allow null content" classname="org.mockito.release.comparison.PomComparatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

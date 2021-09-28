@@ -1,0 +1,4 @@
+org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest.serialization(org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest) true
+org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest:serialization:()V:67:assertTrue true
+org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest:serialization:()V:68:assertTrue true
+org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest:serialization:()V:90:assertTrue true

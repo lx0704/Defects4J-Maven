@@ -1,0 +1,5 @@
+org.apache.commons.math.random.EmpiricalDistributionTest.testGridTooFat(org.apache.commons.math.random.EmpiricalDistributionTest) true
+org.apache.commons.math.random.EmpiricalDistributionTest:tstGen:(D)V:242:assertEquals true
+org.apache.commons.math.random.EmpiricalDistributionTest:tstGen:(D)V:243:assertEquals true
+org.apache.commons.math.random.EmpiricalDistributionTest:tstDoubleGen:(D)V:253:assertEquals true
+org.apache.commons.math.random.EmpiricalDistributionTest:tstDoubleGen:(D)V:254:assertEquals true

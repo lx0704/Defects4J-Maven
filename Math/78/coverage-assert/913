@@ -1,7 +1,0 @@
-org.apache.commons.math.linear.FieldLUDecompositionImplTest.testDimensions(org.apache.commons.math.linear.FieldLUDecompositionImplTest) true
-org.apache.commons.math.linear.FieldLUDecompositionImplTest:testDimensions:()V:70:assertEquals true
-org.apache.commons.math.linear.FieldLUDecompositionImplTest:testDimensions:()V:71:assertEquals true
-org.apache.commons.math.linear.FieldLUDecompositionImplTest:testDimensions:()V:72:assertEquals true
-org.apache.commons.math.linear.FieldLUDecompositionImplTest:testDimensions:()V:73:assertEquals true
-org.apache.commons.math.linear.FieldLUDecompositionImplTest:testDimensions:()V:74:assertEquals true
-org.apache.commons.math.linear.FieldLUDecompositionImplTest:testDimensions:()V:75:assertEquals true

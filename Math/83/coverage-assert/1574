@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest.testTestPositive(org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest) true
-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest:testTestPositive:()V:44:assertTrue true
-org.apache.commons.math.stat.descriptive.AbstractUnivariateStatisticTest:testTestPositive:()V:47:assertTrue true

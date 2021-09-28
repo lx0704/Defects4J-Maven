@@ -1,7 +1,0 @@
-org.apache.commons.math.util.OpenIntToFieldTest.testIterator(org.apache.commons.math.util.OpenIntToFieldTest) true
-org.apache.commons.math.util.OpenIntToFieldTest:testIterator:()V:240:assertTrue true
-org.apache.commons.math.util.OpenIntToFieldTest:testIterator:()V:243:assertTrue true
-org.apache.commons.math.util.OpenIntToFieldTest:testIterator:()V:244:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testIterator:()V:245:assertEquals true
-org.apache.commons.math.util.OpenIntToFieldTest:testIterator:()V:246:assertTrue true
-org.apache.commons.math.util.OpenIntToFieldTest:testIterator:()V:248:assertFalse true

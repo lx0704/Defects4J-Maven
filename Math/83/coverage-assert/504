@@ -1,4 +1,0 @@
-org.apache.commons.math.fraction.BigFractionFormatTest.testParseProperNegative(org.apache.commons.math.fraction.BigFractionFormatTest) true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseProperNegative:()V:221:assertNotNull true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseProperNegative:()V:222:assertEquals true
-org.apache.commons.math.fraction.BigFractionFormatTest:testParseProperNegative:()V:223:assertEquals true

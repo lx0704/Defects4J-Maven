@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stacktrace.StackTraceFilteringTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:49" hostname="set" time="0.005">
+  <properties/>
+  <testcase name="shouldFilterStackTraceOnVerify" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.0"/>
+  <testcase name="shouldFilterStackTraceOnVerifyNoMoreInteractions" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.0"/>
+  <testcase name="shouldFilterStackTraceOnVerifyZeroInteractions" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.001"/>
+  <testcase name="shouldFilterStacktraceOnMockitoException" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.0"/>
+  <testcase name="shouldFilterStacktraceWhenVerifyingInOrder" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.001"/>
+  <testcase name="shouldFilterStacktraceWhenInOrderThrowsMockitoException" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.0"/>
+  <testcase name="shouldFilterStacktraceWhenInOrderVerifies" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.0"/>
+  <testcase name="shouldFilterStackTraceWhenThrowingExceptionFromMockHandler" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.0"/>
+  <testcase name="shouldShowProperExceptionStackTrace" classname="org.mockitousage.stacktrace.StackTraceFilteringTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

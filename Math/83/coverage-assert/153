@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.ComplexFormatTest.testGetRealFormat(org.apache.commons.math.complex.ComplexFormatTest) true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testGetRealFormat:()V:313:assertNotSame true
-org.apache.commons.math.complex.ComplexFormatAbstractTest:testGetRealFormat:()V:315:assertSame true

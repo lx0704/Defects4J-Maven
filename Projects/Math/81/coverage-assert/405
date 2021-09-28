@@ -1,0 +1,2 @@
+org.apache.commons.math.distribution.PascalDistributionTest.testCumulativeProbabilities(org.apache.commons.math.distribution.PascalDistributionTest) true
+org.apache.commons.math.distribution.IntegerDistributionAbstractTest:verifyCumulativeProbabilities:()V:155:assertEquals true

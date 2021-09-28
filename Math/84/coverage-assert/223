@@ -1,9 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testGetArgumentInf(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:913:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:914:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:915:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:916:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:917:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:918:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:919:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testGetArgumentInf:()V:920:assertEquals true

@@ -1,7 +1,0 @@
-org.apache.commons.math.util.MathUtilsTest.testSubAndCheckLong(org.apache.commons.math.util.MathUtilsTest) true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheckLong:()V:1079:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheckLong:()V:1080:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheckLong:()V:1081:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheckLong:()V:1082:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheckLong:()V:1084:assertEquals true
-org.apache.commons.math.util.MathUtilsTest:testSubAndCheckLong:()V:1085:assertEquals true

@@ -1,0 +1,5 @@
+org.apache.commons.math.linear.SparseRealMatrixTest.testCopyFunctions(org.apache.commons.math.linear.SparseRealMatrixTest) true
+org.apache.commons.math.linear.SparseRealMatrixTest:testCopyFunctions:()V:127:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testCopyFunctions:()V:128:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testCopyFunctions:()V:131:assertEquals true
+org.apache.commons.math.linear.SparseRealMatrixTest:testCopyFunctions:()V:132:assertEquals true

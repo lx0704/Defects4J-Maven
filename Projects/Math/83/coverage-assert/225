@@ -1,0 +1,5 @@
+org.apache.commons.math.complex.ComplexTest.testHashCode(org.apache.commons.math.complex.ComplexTest) true
+org.apache.commons.math.complex.ComplexTest:testHashCode:()V:318:assertFalse true
+org.apache.commons.math.complex.ComplexTest:testHashCode:()V:320:assertFalse true
+org.apache.commons.math.complex.ComplexTest:testHashCode:()V:323:assertEquals true
+org.apache.commons.math.complex.ComplexTest:testHashCode:()V:324:assertEquals true

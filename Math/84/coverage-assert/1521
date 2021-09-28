@@ -1,2 +1,0 @@
-org.apache.commons.math.special.GammaTest.testTrigamma(org.apache.commons.math.special.GammaTest) true
-org.apache.commons.math.special.GammaTest:testTrigamma:()V:143:assertEquals true

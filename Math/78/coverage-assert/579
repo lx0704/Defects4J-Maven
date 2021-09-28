@@ -1,3 +1,0 @@
-org.apache.commons.math.fraction.FractionTest.testIntValue(org.apache.commons.math.fraction.FractionTest) true
-org.apache.commons.math.fraction.FractionTest:testIntValue:()V:204:assertEquals true
-org.apache.commons.math.fraction.FractionTest:testIntValue:()V:205:assertEquals true

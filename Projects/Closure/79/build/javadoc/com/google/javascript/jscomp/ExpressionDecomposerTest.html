@@ -1,0 +1,725 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>ExpressionDecomposerTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../dev_javadoc.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="ExpressionDecomposerTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/ExportTestFunctionsTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/ExternExportsPassTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/ExpressionDecomposerTest.html" target="_top">Frames</a></li>
+<li><a href="ExpressionDecomposerTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class ExpressionDecomposerTest" class="title">Class ExpressionDecomposerTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.ExpressionDecomposerTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">ExpressionDecomposerTest</span>
+extends junit.framework.TestCase</pre>
+<div class="block">Unit tests for ExpressionDecomposer</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#ExpressionDecomposerTest()">ExpressionDecomposerTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression1()">testCanExposeExpression1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression2()">testCanExposeExpression2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression3()">testCanExposeExpression3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression4()">testCanExposeExpression4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression5()">testCanExposeExpression5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression6()">testCanExposeExpression6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testCanExposeExpression7()">testCanExposeExpression7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression1()">testExposeExpression1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression10()">testExposeExpression10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression11()">testExposeExpression11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression2()">testExposeExpression2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression3()">testExposeExpression3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression4()">testExposeExpression4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression5()">testExposeExpression5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression6()">testExposeExpression6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression7()">testExposeExpression7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression8()">testExposeExpression8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeExpression9()">testExposeExpression9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposeObjectLit1()">testExposeObjectLit1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposePlusEquals1()">testExposePlusEquals1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposePlusEquals2()">testExposePlusEquals2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposePlusEquals3()">testExposePlusEquals3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposePlusEquals4()">testExposePlusEquals4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testExposePlusEquals5()">testExposePlusEquals5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression1()">testMoveExpression1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression10()">testMoveExpression10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression2()">testMoveExpression2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression3()">testMoveExpression3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression4()">testMoveExpression4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression5()">testMoveExpression5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression6()">testMoveExpression6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression7()">testMoveExpression7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression8()">testMoveExpression8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/ExpressionDecomposerTest.html#testMoveExpression9()">testMoveExpression9</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, setUp, tearDown, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="ExpressionDecomposerTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>ExpressionDecomposerTest</h4>
+<pre>public&nbsp;ExpressionDecomposerTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="testCanExposeExpression1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression1</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression1()</pre>
+</li>
+</ul>
+<a name="testCanExposeExpression2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression2</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression2()</pre>
+</li>
+</ul>
+<a name="testCanExposeExpression3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression3</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression3()</pre>
+</li>
+</ul>
+<a name="testCanExposeExpression4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression4</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression4()</pre>
+</li>
+</ul>
+<a name="testCanExposeExpression5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression5</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression5()</pre>
+</li>
+</ul>
+<a name="testCanExposeExpression6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression6</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression6()</pre>
+</li>
+</ul>
+<a name="testCanExposeExpression7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanExposeExpression7</h4>
+<pre>public&nbsp;void&nbsp;testCanExposeExpression7()</pre>
+</li>
+</ul>
+<a name="testMoveExpression1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression1</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression1()</pre>
+</li>
+</ul>
+<a name="testMoveExpression2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression2</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression2()</pre>
+</li>
+</ul>
+<a name="testMoveExpression3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression3</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression3()</pre>
+</li>
+</ul>
+<a name="testMoveExpression4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression4</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression4()</pre>
+</li>
+</ul>
+<a name="testMoveExpression5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression5</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression5()</pre>
+</li>
+</ul>
+<a name="testMoveExpression6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression6</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression6()</pre>
+</li>
+</ul>
+<a name="testMoveExpression7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression7</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression7()</pre>
+</li>
+</ul>
+<a name="testMoveExpression8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression8</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression8()</pre>
+</li>
+</ul>
+<a name="testMoveExpression9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression9</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression9()</pre>
+</li>
+</ul>
+<a name="testMoveExpression10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testMoveExpression10</h4>
+<pre>public&nbsp;void&nbsp;testMoveExpression10()</pre>
+</li>
+</ul>
+<a name="testExposeExpression1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression1</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression1()</pre>
+</li>
+</ul>
+<a name="testExposeExpression2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression2</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression2()</pre>
+</li>
+</ul>
+<a name="testExposeExpression3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression3</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression3()</pre>
+</li>
+</ul>
+<a name="testExposeExpression4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression4</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression4()</pre>
+</li>
+</ul>
+<a name="testExposeExpression5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression5</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression5()</pre>
+</li>
+</ul>
+<a name="testExposeExpression6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression6</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression6()</pre>
+</li>
+</ul>
+<a name="testExposeExpression7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression7</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression7()</pre>
+</li>
+</ul>
+<a name="testExposeExpression8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression8</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression8()</pre>
+</li>
+</ul>
+<a name="testExposeExpression9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression9</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression9()</pre>
+</li>
+</ul>
+<a name="testExposeExpression10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression10</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression10()</pre>
+</li>
+</ul>
+<a name="testExposeExpression11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposeExpression11</h4>
+<pre>public&nbsp;void&nbsp;testExposeExpression11()</pre>
+</li>
+</ul>
+<a name="testExposePlusEquals1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposePlusEquals1</h4>
+<pre>public&nbsp;void&nbsp;testExposePlusEquals1()</pre>
+</li>
+</ul>
+<a name="testExposePlusEquals2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposePlusEquals2</h4>
+<pre>public&nbsp;void&nbsp;testExposePlusEquals2()</pre>
+</li>
+</ul>
+<a name="testExposePlusEquals3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposePlusEquals3</h4>
+<pre>public&nbsp;void&nbsp;testExposePlusEquals3()</pre>
+</li>
+</ul>
+<a name="testExposePlusEquals4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposePlusEquals4</h4>
+<pre>public&nbsp;void&nbsp;testExposePlusEquals4()</pre>
+</li>
+</ul>
+<a name="testExposePlusEquals5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testExposePlusEquals5</h4>
+<pre>public&nbsp;void&nbsp;testExposePlusEquals5()</pre>
+</li>
+</ul>
+<a name="testExposeObjectLit1()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>testExposeObjectLit1</h4>
+<pre>public&nbsp;void&nbsp;testExposeObjectLit1()</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/ExportTestFunctionsTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/ExternExportsPassTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/ExpressionDecomposerTest.html" target="_top">Frames</a></li>
+<li><a href="ExpressionDecomposerTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

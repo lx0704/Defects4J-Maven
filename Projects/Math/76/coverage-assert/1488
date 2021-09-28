@@ -1,0 +1,3 @@
+org.apache.commons.math.random.MersenneTwisterTest.testMakotoNishimura(org.apache.commons.math.random.MersenneTwisterTest) true
+org.apache.commons.math.random.MersenneTwisterTest:testMakotoNishimura:()V:411:assertEquals true
+org.apache.commons.math.random.MersenneTwisterTest:testMakotoNishimura:()V:416:assertEquals true

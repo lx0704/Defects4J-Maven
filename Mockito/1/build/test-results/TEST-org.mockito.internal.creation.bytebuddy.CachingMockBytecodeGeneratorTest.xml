@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.internal.creation.bytebuddy.CachingMockBytecodeGeneratorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:54" hostname="set" time="1.139">
-  <properties/>
-  <testcase name="validate_simple_code_idea_where_weakhashmap_with_classloader_as_key_get_GCed_when_no_more_references" classname="org.mockito.internal.creation.bytebuddy.CachingMockBytecodeGeneratorTest" time="0.584"/>
-  <testcase name="ensure_cache_is_cleared_if_no_reference_to_classloader_and_classes" classname="org.mockito.internal.creation.bytebuddy.CachingMockBytecodeGeneratorTest" time="0.554"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

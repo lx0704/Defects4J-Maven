@@ -1,6 +1,0 @@
-org.apache.commons.math.genetics.BinaryChromosomeTest.testIsSame(org.apache.commons.math.genetics.BinaryChromosomeTest) true
-org.apache.commons.math.genetics.BinaryChromosomeTest:testIsSame:()V:60:assertFalse true
-org.apache.commons.math.genetics.BinaryChromosomeTest:testIsSame:()V:61:assertFalse true
-org.apache.commons.math.genetics.BinaryChromosomeTest:testIsSame:()V:62:assertFalse true
-org.apache.commons.math.genetics.BinaryChromosomeTest:testIsSame:()V:63:assertFalse true
-org.apache.commons.math.genetics.BinaryChromosomeTest:testIsSame:()V:64:assertTrue true

@@ -1,4 +1,0 @@
-org.apache.commons.math.linear.AbstractRealVectorTest.testClone(org.apache.commons.math.linear.AbstractRealVectorTest) true
-org.apache.commons.math.linear.AbstractRealVectorTest:testClone:()V:189:assertTrue true
-org.apache.commons.math.linear.AbstractRealVectorTest:testClone:()V:192:assertNotSame true
-org.apache.commons.math.linear.AbstractRealVectorTest:testClone:()V:194:assertEquals true

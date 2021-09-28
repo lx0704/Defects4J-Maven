@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.AbstractRealVectorTest.testMap(org.apache.commons.math.linear.AbstractRealVectorTest) true
-org.apache.commons.math.linear.AbstractRealVectorTest:assertEquals:([D[D)V:155:assertEquals true
-org.apache.commons.math.linear.AbstractRealVectorTest:assertEquals:([D[D)V:156:assertEquals true

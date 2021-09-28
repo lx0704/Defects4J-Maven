@@ -1,8 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testNthRoot_normal_thirdRoot(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:744:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:746:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:747:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:749:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:750:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:752:assertEquals true
-org.apache.commons.math.complex.ComplexTest:testNthRoot_normal_thirdRoot:()V:753:assertEquals true

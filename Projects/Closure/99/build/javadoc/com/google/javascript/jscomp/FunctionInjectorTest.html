@@ -1,0 +1,2055 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>FunctionInjectorTest (Compiler)</title>
+<link rel="stylesheet" type="text/css" href="../../../../99" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="FunctionInjectorTest (Compiler)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/FunctionInformationMap.Module.Builder.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/FunctionNamesTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/FunctionInjectorTest.html" target="_top">Frames</a></li>
+<li><a href="FunctionInjectorTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.javascript.jscomp</div>
+<h2 title="Class FunctionInjectorTest" class="title">Class FunctionInjectorTest</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.Assert</li>
+<li>
+<ul class="inheritance">
+<li>junit.framework.TestCase</li>
+<li>
+<ul class="inheritance">
+<li>com.google.javascript.jscomp.FunctionInjectorTest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>junit.framework.Test</dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">FunctionInjectorTest</span>
+extends junit.framework.TestCase</pre>
+<div class="block">Inline function tests.</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#FunctionInjectorTest()">FunctionInjectorTest</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#helperCanInlineReferenceToFunction(com.google.javascript.jscomp.FunctionInjector.CanInlineResult,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.FunctionInjector.InliningMode)">helperCanInlineReferenceToFunction</a></strong>(com.google.javascript.jscomp.FunctionInjector.CanInlineResult&nbsp;expectedResult,
+                                  <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                                  <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                                  com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode)</code>
+<div class="block">Test case
+
+ var a = {}, b = {}
+ a.test = "a", b.test = "b"
+ c = a;
+ foo() { c=b; return "a" }
+ c.teste</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#helperCanInlineReferenceToFunction(com.google.javascript.jscomp.FunctionInjector.CanInlineResult,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.FunctionInjector.InliningMode,%20boolean)">helperCanInlineReferenceToFunction</a></strong>(com.google.javascript.jscomp.FunctionInjector.CanInlineResult&nbsp;expectedResult,
+                                  <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                                  <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                                  com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode,
+                                  boolean&nbsp;allowDecomposition)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#helperInlineReferenceToFunction(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.FunctionInjector.InliningMode)">helperInlineReferenceToFunction</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                               <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;expectedResult,
+                               <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                               com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#helperInlineReferenceToFunction(java.lang.String,%20java.lang.String,%20java.lang.String,%20com.google.javascript.jscomp.FunctionInjector.InliningMode,%20boolean)">helperInlineReferenceToFunction</a></strong>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                               <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;expectedResult,
+                               <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                               com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode,
+                               boolean&nbsp;decompose)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testBug1897706()">testBug1897706</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction1()">testCanInlineReferenceToFunction1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction10()">testCanInlineReferenceToFunction10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction11()">testCanInlineReferenceToFunction11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction12()">testCanInlineReferenceToFunction12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction12b()">testCanInlineReferenceToFunction12b</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction14()">testCanInlineReferenceToFunction14</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction15()">testCanInlineReferenceToFunction15</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction16()">testCanInlineReferenceToFunction16</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction17()">testCanInlineReferenceToFunction17</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction18()">testCanInlineReferenceToFunction18</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction19()">testCanInlineReferenceToFunction19</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction2()">testCanInlineReferenceToFunction2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction20()">testCanInlineReferenceToFunction20</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction21()">testCanInlineReferenceToFunction21</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction22()">testCanInlineReferenceToFunction22</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction23()">testCanInlineReferenceToFunction23</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction24()">testCanInlineReferenceToFunction24</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction25()">testCanInlineReferenceToFunction25</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction26()">testCanInlineReferenceToFunction26</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction27()">testCanInlineReferenceToFunction27</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction28()">testCanInlineReferenceToFunction28</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction29()">testCanInlineReferenceToFunction29</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction3()">testCanInlineReferenceToFunction3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction30()">testCanInlineReferenceToFunction30</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction31()">testCanInlineReferenceToFunction31</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction32()">testCanInlineReferenceToFunction32</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction33()">testCanInlineReferenceToFunction33</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction34()">testCanInlineReferenceToFunction34</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction35()">testCanInlineReferenceToFunction35</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction36()">testCanInlineReferenceToFunction36</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction37()">testCanInlineReferenceToFunction37</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction38()">testCanInlineReferenceToFunction38</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction39()">testCanInlineReferenceToFunction39</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction4()">testCanInlineReferenceToFunction4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction40()">testCanInlineReferenceToFunction40</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction41()">testCanInlineReferenceToFunction41</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction42()">testCanInlineReferenceToFunction42</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction43()">testCanInlineReferenceToFunction43</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction44()">testCanInlineReferenceToFunction44</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction45()">testCanInlineReferenceToFunction45</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction46()">testCanInlineReferenceToFunction46</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction47()">testCanInlineReferenceToFunction47</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction48()">testCanInlineReferenceToFunction48</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction49()">testCanInlineReferenceToFunction49</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction5()">testCanInlineReferenceToFunction5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction50()">testCanInlineReferenceToFunction50</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction51()">testCanInlineReferenceToFunction51</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction6()">testCanInlineReferenceToFunction6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction7()">testCanInlineReferenceToFunction7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction8()">testCanInlineReferenceToFunction8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunction9()">testCanInlineReferenceToFunction9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression1()">testCanInlineReferenceToFunctionInExpression1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression10()">testCanInlineReferenceToFunctionInExpression10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression10a()">testCanInlineReferenceToFunctionInExpression10a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression12()">testCanInlineReferenceToFunctionInExpression12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression13()">testCanInlineReferenceToFunctionInExpression13</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression14()">testCanInlineReferenceToFunctionInExpression14</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression14a()">testCanInlineReferenceToFunctionInExpression14a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression18()">testCanInlineReferenceToFunctionInExpression18</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression19()">testCanInlineReferenceToFunctionInExpression19</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression19a()">testCanInlineReferenceToFunctionInExpression19a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression2()">testCanInlineReferenceToFunctionInExpression2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression21()">testCanInlineReferenceToFunctionInExpression21</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression21a()">testCanInlineReferenceToFunctionInExpression21a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression22()">testCanInlineReferenceToFunctionInExpression22</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression22a()">testCanInlineReferenceToFunctionInExpression22a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression23()">testCanInlineReferenceToFunctionInExpression23</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression23a()">testCanInlineReferenceToFunctionInExpression23a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression3()">testCanInlineReferenceToFunctionInExpression3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression4()">testCanInlineReferenceToFunctionInExpression4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression5()">testCanInlineReferenceToFunctionInExpression5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression5a()">testCanInlineReferenceToFunctionInExpression5a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression6()">testCanInlineReferenceToFunctionInExpression6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression7()">testCanInlineReferenceToFunctionInExpression7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression7a()">testCanInlineReferenceToFunctionInExpression7a</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression8()">testCanInlineReferenceToFunctionInExpression8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testCanInlineReferenceToFunctionInExpression9()">testCanInlineReferenceToFunctionInExpression9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline1()">testInline1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline10()">testInline10</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline11()">testInline11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline12()">testInline12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline13()">testInline13</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline14()">testInline14</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline15()">testInline15</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline16()">testInline16</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline17()">testInline17</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline18()">testInline18</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline19()">testInline19</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline19b()">testInline19b</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline2()">testInline2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline3()">testInline3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline4()">testInline4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline5()">testInline5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline6()">testInline6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline7()">testInline7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline8()">testInline8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInline9()">testInline9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineAssignmentToConstant()">testInlineAssignmentToConstant</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineFunctionWithInnerFunction1()">testInlineFunctionWithInnerFunction1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineFunctionWithInnerFunction2()">testInlineFunctionWithInnerFunction2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineFunctionWithInnerFunction3()">testInlineFunctionWithInnerFunction3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineFunctionWithInnerFunction4()">testInlineFunctionWithInnerFunction4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineFunctionWithInnerFunction5()">testInlineFunctionWithInnerFunction5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineIntoLoop()">testInlineIntoLoop</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression1()">testInlineReferenceInExpression1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression11()">testInlineReferenceInExpression11</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression12()">testInlineReferenceInExpression12</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression13()">testInlineReferenceInExpression13</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression14()">testInlineReferenceInExpression14</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression15()">testInlineReferenceInExpression15</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression16()">testInlineReferenceInExpression16</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression17()">testInlineReferenceInExpression17</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression2()">testInlineReferenceInExpression2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression3()">testInlineReferenceInExpression3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression4()">testInlineReferenceInExpression4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression5()">testInlineReferenceInExpression5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression6()">testInlineReferenceInExpression6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression7()">testInlineReferenceInExpression7</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression8()">testInlineReferenceInExpression8</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineReferenceInExpression9()">testInlineReferenceInExpression9</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testInlineWithinCalls1()">testInlineWithinCalls1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction1()">testIsSimpleFunction1</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction2()">testIsSimpleFunction2</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction3()">testIsSimpleFunction3</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction4()">testIsSimpleFunction4</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction5()">testIsSimpleFunction5</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction6()">testIsSimpleFunction6</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../com/google/javascript/jscomp/FunctionInjectorTest.html#testIsSimpleFunction7()">testIsSimpleFunction7</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.TestCase">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.TestCase</h3>
+<code>countTestCases, createResult, getName, run, run, runBare, runTest, setName, setUp, tearDown, toString</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_junit.framework.Assert">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;junit.framework.Assert</h3>
+<code>assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertEquals, assertFalse, assertFalse, assertNotNull, assertNotNull, assertNotSame, assertNotSame, assertNull, assertNull, assertSame, assertSame, assertTrue, assertTrue, fail, fail, failNotEquals, failNotSame, failSame, format</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://java.sun.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="FunctionInjectorTest()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>FunctionInjectorTest</h4>
+<pre>public&nbsp;FunctionInjectorTest()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="testIsSimpleFunction1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction1</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction1()</pre>
+</li>
+</ul>
+<a name="testIsSimpleFunction2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction2</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction2()</pre>
+</li>
+</ul>
+<a name="testIsSimpleFunction3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction3</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction3()</pre>
+</li>
+</ul>
+<a name="testIsSimpleFunction4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction4</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction4()</pre>
+</li>
+</ul>
+<a name="testIsSimpleFunction5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction5</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction5()</pre>
+</li>
+</ul>
+<a name="testIsSimpleFunction6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction6</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction6()</pre>
+</li>
+</ul>
+<a name="testIsSimpleFunction7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testIsSimpleFunction7</h4>
+<pre>public&nbsp;void&nbsp;testIsSimpleFunction7()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction1</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction1()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction2</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction2()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction3</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction3()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction4</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction4()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction5</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction5()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction6</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction6()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction7</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction7()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction8</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction8()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction9</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction9()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction10</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction10()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction11</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction11()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction12</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction12()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction12b()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction12b</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction12b()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction14()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction14</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction14()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction15()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction15</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction15()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction16()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction16</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction16()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction17()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction17</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction17()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction18()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction18</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction18()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction19()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction19</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction19()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction20()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction20</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction20()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction21()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction21</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction21()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction22()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction22</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction22()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction23()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction23</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction23()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction24()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction24</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction24()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction25()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction25</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction25()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction26()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction26</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction26()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction27()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction27</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction27()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction28()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction28</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction28()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction29()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction29</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction29()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction30()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction30</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction30()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction31()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction31</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction31()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction32()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction32</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction32()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction33()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction33</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction33()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction34()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction34</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction34()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction35()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction35</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction35()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction36()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction36</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction36()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction37()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction37</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction37()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction38()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction38</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction38()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction39()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction39</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction39()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction40()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction40</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction40()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction41()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction41</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction41()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction42()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction42</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction42()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction43()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction43</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction43()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction44()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction44</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction44()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction45()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction45</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction45()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction46()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction46</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction46()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction47()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction47</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction47()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction48()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction48</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction48()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction49()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction49</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction49()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction50()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction50</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction50()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunction51()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunction51</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunction51()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression1</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression1()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression2</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression2()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression3</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression3()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression4</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression4()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression5</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression5()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression5a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression5a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression5a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression6</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression6()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression7</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression7()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression7a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression7a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression7a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression8</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression8()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression9</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression9()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression10</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression10()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression10a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression10a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression10a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression12</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression12()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression13()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression13</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression13()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression14()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression14</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression14()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression14a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression14a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression14a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression18()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression18</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression18()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression19()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression19</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression19()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression19a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression19a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression19a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression21()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression21</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression21()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression21a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression21a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression21a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression22()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression22</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression22()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression22a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression22a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression22a()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression23()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression23</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression23()</pre>
+</li>
+</ul>
+<a name="testCanInlineReferenceToFunctionInExpression23a()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testCanInlineReferenceToFunctionInExpression23a</h4>
+<pre>public&nbsp;void&nbsp;testCanInlineReferenceToFunctionInExpression23a()</pre>
+</li>
+</ul>
+<a name="testInline1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline1</h4>
+<pre>public&nbsp;void&nbsp;testInline1()</pre>
+</li>
+</ul>
+<a name="testInline2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline2</h4>
+<pre>public&nbsp;void&nbsp;testInline2()</pre>
+</li>
+</ul>
+<a name="testInline3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline3</h4>
+<pre>public&nbsp;void&nbsp;testInline3()</pre>
+</li>
+</ul>
+<a name="testInline4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline4</h4>
+<pre>public&nbsp;void&nbsp;testInline4()</pre>
+</li>
+</ul>
+<a name="testInline5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline5</h4>
+<pre>public&nbsp;void&nbsp;testInline5()</pre>
+</li>
+</ul>
+<a name="testInline6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline6</h4>
+<pre>public&nbsp;void&nbsp;testInline6()</pre>
+</li>
+</ul>
+<a name="testInline7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline7</h4>
+<pre>public&nbsp;void&nbsp;testInline7()</pre>
+</li>
+</ul>
+<a name="testInline8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline8</h4>
+<pre>public&nbsp;void&nbsp;testInline8()</pre>
+</li>
+</ul>
+<a name="testInline9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline9</h4>
+<pre>public&nbsp;void&nbsp;testInline9()</pre>
+</li>
+</ul>
+<a name="testInline10()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline10</h4>
+<pre>public&nbsp;void&nbsp;testInline10()</pre>
+</li>
+</ul>
+<a name="testInline11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline11</h4>
+<pre>public&nbsp;void&nbsp;testInline11()</pre>
+</li>
+</ul>
+<a name="testInline12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline12</h4>
+<pre>public&nbsp;void&nbsp;testInline12()</pre>
+</li>
+</ul>
+<a name="testInline13()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline13</h4>
+<pre>public&nbsp;void&nbsp;testInline13()</pre>
+</li>
+</ul>
+<a name="testInline14()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline14</h4>
+<pre>public&nbsp;void&nbsp;testInline14()</pre>
+</li>
+</ul>
+<a name="testInline15()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline15</h4>
+<pre>public&nbsp;void&nbsp;testInline15()</pre>
+</li>
+</ul>
+<a name="testInline16()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline16</h4>
+<pre>public&nbsp;void&nbsp;testInline16()</pre>
+</li>
+</ul>
+<a name="testInline17()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline17</h4>
+<pre>public&nbsp;void&nbsp;testInline17()</pre>
+</li>
+</ul>
+<a name="testInline18()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline18</h4>
+<pre>public&nbsp;void&nbsp;testInline18()</pre>
+</li>
+</ul>
+<a name="testInline19()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline19</h4>
+<pre>public&nbsp;void&nbsp;testInline19()</pre>
+</li>
+</ul>
+<a name="testInline19b()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInline19b</h4>
+<pre>public&nbsp;void&nbsp;testInline19b()</pre>
+</li>
+</ul>
+<a name="testInlineIntoLoop()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineIntoLoop</h4>
+<pre>public&nbsp;void&nbsp;testInlineIntoLoop()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithInnerFunction1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithInnerFunction1</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithInnerFunction1()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithInnerFunction2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithInnerFunction2</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithInnerFunction2()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithInnerFunction3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithInnerFunction3</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithInnerFunction3()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithInnerFunction4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithInnerFunction4</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithInnerFunction4()</pre>
+</li>
+</ul>
+<a name="testInlineFunctionWithInnerFunction5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineFunctionWithInnerFunction5</h4>
+<pre>public&nbsp;void&nbsp;testInlineFunctionWithInnerFunction5()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression1</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression1()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression2()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression2</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression2()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression3()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression3</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression3()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression4()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression4</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression4()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression5()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression5</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression5()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression6()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression6</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression6()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression7()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression7</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression7()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression8()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression8</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression8()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression9()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression9</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression9()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression11()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression11</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression11()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression12()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression12</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression12()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression13()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression13</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression13()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression14()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression14</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression14()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression15()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression15</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression15()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression16()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression16</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression16()</pre>
+</li>
+</ul>
+<a name="testInlineReferenceInExpression17()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineReferenceInExpression17</h4>
+<pre>public&nbsp;void&nbsp;testInlineReferenceInExpression17()</pre>
+</li>
+</ul>
+<a name="testInlineWithinCalls1()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineWithinCalls1</h4>
+<pre>public&nbsp;void&nbsp;testInlineWithinCalls1()</pre>
+</li>
+</ul>
+<a name="testInlineAssignmentToConstant()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testInlineAssignmentToConstant</h4>
+<pre>public&nbsp;void&nbsp;testInlineAssignmentToConstant()</pre>
+</li>
+</ul>
+<a name="testBug1897706()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>testBug1897706</h4>
+<pre>public&nbsp;void&nbsp;testBug1897706()</pre>
+</li>
+</ul>
+<a name="helperCanInlineReferenceToFunction(com.google.javascript.jscomp.FunctionInjector.CanInlineResult, java.lang.String, java.lang.String, com.google.javascript.jscomp.FunctionInjector.InliningMode)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>helperCanInlineReferenceToFunction</h4>
+<pre>public&nbsp;void&nbsp;helperCanInlineReferenceToFunction(com.google.javascript.jscomp.FunctionInjector.CanInlineResult&nbsp;expectedResult,
+                                      <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                                      <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                                      com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode)</pre>
+<div class="block">Test case
+
+ var a = {}, b = {}
+ a.test = "a", b.test = "b"
+ c = a;
+ foo() { c=b; return "a" }
+ c.teste</div>
+</li>
+</ul>
+<a name="helperCanInlineReferenceToFunction(com.google.javascript.jscomp.FunctionInjector.CanInlineResult, java.lang.String, java.lang.String, com.google.javascript.jscomp.FunctionInjector.InliningMode, boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>helperCanInlineReferenceToFunction</h4>
+<pre>public&nbsp;void&nbsp;helperCanInlineReferenceToFunction(com.google.javascript.jscomp.FunctionInjector.CanInlineResult&nbsp;expectedResult,
+                                      <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                                      <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                                      com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode,
+                                      boolean&nbsp;allowDecomposition)</pre>
+</li>
+</ul>
+<a name="helperInlineReferenceToFunction(java.lang.String, java.lang.String, java.lang.String, com.google.javascript.jscomp.FunctionInjector.InliningMode)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>helperInlineReferenceToFunction</h4>
+<pre>public&nbsp;void&nbsp;helperInlineReferenceToFunction(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                                   <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;expectedResult,
+                                   <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                                   com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode)</pre>
+</li>
+</ul>
+<a name="helperInlineReferenceToFunction(java.lang.String, java.lang.String, java.lang.String, com.google.javascript.jscomp.FunctionInjector.InliningMode, boolean)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>helperInlineReferenceToFunction</h4>
+<pre>public&nbsp;void&nbsp;helperInlineReferenceToFunction(<a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
+                                   <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;expectedResult,
+                                   <a href="http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;fnName,
+                                   com.google.javascript.jscomp.FunctionInjector.InliningMode&nbsp;mode,
+                                   boolean&nbsp;decompose)</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../com/google/javascript/jscomp/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/google/javascript/jscomp/FunctionInformationMap.Module.Builder.html" title="class in com.google.javascript.jscomp"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com/google/javascript/jscomp/FunctionNamesTest.html" title="class in com.google.javascript.jscomp"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/google/javascript/jscomp/FunctionInjectorTest.html" target="_top">Frames</a></li>
+<li><a href="FunctionInjectorTest.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+        <div id="footer">
+          <div id="footerlogo">
+            <img src="http://www.google.com/images/art.gif"
+                 alt="Google colored balls">
+          </div>
+
+          <div id="copyright">
+          <p>&copy; 2009 Google -
+            <a href="http://www.google.com/privacy.html">Privacy Policy</a> -
+            <a href="http://www.google.com/terms_of_service.html">Terms and Conditions</a> -
+            <a href="http://www.google.com/about.html">About Google</a>
+          </p>
+          </div>
+        </div>
+      
+      </small></p>
+</body>
+</html>

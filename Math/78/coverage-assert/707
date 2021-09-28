@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.Array2DRowRealMatrixTest.testGetColumnVector(org.apache.commons.math.linear.Array2DRowRealMatrixTest) true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testGetColumnVector:()V:608:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testGetColumnVector:()V:609:assertEquals true

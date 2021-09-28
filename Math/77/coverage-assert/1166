@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.SparseRealMatrixTest.testEqualsAndHashCode(org.apache.commons.math.linear.SparseRealMatrixTest) true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:541:assertTrue true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:542:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:543:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:544:assertEquals true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:545:assertFalse true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:546:assertFalse true
-org.apache.commons.math.linear.SparseRealMatrixTest:testEqualsAndHashCode:()V:547:assertFalse true

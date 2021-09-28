@@ -1,2 +1,0 @@
-org.apache.commons.math.random.RandomDataTest.testNextIntExtremeValues(org.apache.commons.math.random.RandomDataTest) true
-org.apache.commons.math.random.RandomDataTest:testNextIntExtremeValues:()V:61:assertFalse true

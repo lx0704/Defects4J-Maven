@@ -1,2 +1,0 @@
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testInconsistentEquations(org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest) true
-org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest:testInconsistentEquations:()V:456:assertTrue true

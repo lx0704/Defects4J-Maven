@@ -1,34 +1,0 @@
-÷13:42:56.363 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-2.zip
-W13:42:56.368 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
-÷13:42:56.368 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-2.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip
-W13:42:56.369 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
-÷13:42:56.369 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-7.zip
-W13:42:56.369 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
-÷13:42:56.369 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-7.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip
-W13:42:56.369 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
-÷13:42:56.371 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-3.zip
-^13:42:56.371 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt does not match
-W13:42:56.371 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
-]13:42:56.371 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
-÷13:42:56.372 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-4.zip
-ù13:42:56.372 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit8348068815766462237/junit2635772345615216810/zip-4.zip
-W13:42:56.372 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
-]13:42:56.372 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
-÷13:42:56.372 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-5.zip
-ô13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - x.txt not found in /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip
-W13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
-]13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
-÷13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit8348068815766462237/junit2635772345615216810/zip-1.zip with /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip
-ô13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1.txt not found in /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip
-õ13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/2.txt not found in /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip
-ù13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/3.txt not found in /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip
-ù13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit8348068815766462237/junit2635772345615216810/zip-6.zip
-W13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
-]13:42:56.373 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries did not match
-[13:42:56.576 [Test worker] INFO  o.m.r.exec.DefaultProcessRunner - Executing command: [ls]
-#"h13:42:56.791 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
-#"v13:42:56.792 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
-#$h13:42:56.833 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
-#$v13:42:56.834 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
-#%h13:42:56.842 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
-#%v13:42:56.843 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD

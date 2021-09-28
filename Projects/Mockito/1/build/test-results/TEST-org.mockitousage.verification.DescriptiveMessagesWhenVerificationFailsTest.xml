@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" tests="23" skipped="3" failures="0" errors="0" timestamp="2017-06-13T19:53:48" hostname="set" time="0.02">
+  <properties/>
+  <testcase name="test1" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test2" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="should_print_method_name" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_method_name_and_arguments" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_actual_and_wanted_in_line" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0"/>
+  <testcase name="should_print_actual_and_wanted_in_multiple_lines" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_actual_and_wanted_when_actual_method_name_and_wanted_method_name_are_the_same" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_actual_and_unverified_wanted_when_the_difference_is_about_arguments" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_first_unexpected_invocation" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_first_unexpected_invocation_when_verifying_zero_interactions" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_method_name_when_verifying_at_least_once" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0"/>
+  <testcase name="should_print_method_when_matcher_used" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0"/>
+  <testcase name="should_print_method_when_missing_invocation_with_array_matcher" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.003"/>
+  <testcase name="should_print_method_when_missing_invocation_with_vararg_matcher" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_method_when_missing_invocation_with_matcher" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_null_arguments" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0"/>
+  <testcase name="should_say_never_wanted_but_invoked" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_show_right_actual_method" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_field_name_when_annotations_used" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_interactions_on_mock_when_ordinary_verification_fail" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_never_break_method_string_when_no_args_in_method" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0"/>
+  <testcase name="should_print_method_name_and_arguments_of_other_interactions_with_different_methods" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.001"/>
+  <testcase name="should_print_method_name_and_arguments_of_other_interactions_of_same_method" classname="org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[Wanted but not invoked:
+iMethods.threeArgumentMethod(12, foo, "xx");
+-> at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:374)
+
+However, there were other interactions with this mock:
+iMethods.arrayMethod(["a", "b", "c"]);
+-> at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:371)
+
+iMethods.forByte(25);
+-> at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:372)
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

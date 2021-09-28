@@ -1,3 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testAbsNaN(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testAbsNaN:()V:78:assertTrue true
-org.apache.commons.math.complex.ComplexTest:testAbsNaN:()V:80:assertTrue true

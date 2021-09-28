@@ -1,4 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.SecondMomentTest.testConsistency(org.apache.commons.math.stat.descriptive.moment.SecondMomentTest) true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testConsistency:()V:163:assertEquals true
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testConsistency:()V:169:assertEquals false
-org.apache.commons.math.stat.descriptive.StorelessUnivariateStatisticAbstractTest:testConsistency:()V:169:assertEquals true

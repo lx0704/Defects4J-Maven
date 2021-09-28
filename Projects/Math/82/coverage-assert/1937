@@ -1,0 +1,8 @@
+org.apache.commons.math.util.BigRealTest.testEqualsAndHashCode(org.apache.commons.math.util.BigRealTest) true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:106:assertTrue true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:107:assertFalse true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:108:assertFalse true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:110:assertTrue true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:111:assertEquals true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:113:assertFalse true
+org.apache.commons.math.util.BigRealTest:testEqualsAndHashCode:()V:114:assertTrue true

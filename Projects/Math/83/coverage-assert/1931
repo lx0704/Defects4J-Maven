@@ -1,0 +1,2 @@
+org.apache.commons.math.util.BigRealFieldTest.testZero(org.apache.commons.math.util.BigRealFieldTest) true
+org.apache.commons.math.util.BigRealFieldTest:testZero:()V:29:assertEquals true

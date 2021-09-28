@@ -1,0 +1,2 @@
+org.apache.commons.math.geometry.RotationTest.testComposeInverse(org.apache.commons.math.geometry.RotationTest) true
+org.apache.commons.math.geometry.RotationTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;Lorg/apache/commons/math/geometry/Vector3D;)V:491:assertTrue true

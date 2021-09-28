@@ -1,0 +1,2 @@
+org.apache.commons.math.random.AbstractRandomGeneratorTest.testNextUniformExclusiveEndpoints(org.apache.commons.math.random.AbstractRandomGeneratorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextUniformExclusiveEndpoints:()V:376:assertTrue true

@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest.testBracketSin(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest) true
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest:testBracketSin:()V:89:assertTrue true
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest:testBracketSin:()V:90:assertTrue true

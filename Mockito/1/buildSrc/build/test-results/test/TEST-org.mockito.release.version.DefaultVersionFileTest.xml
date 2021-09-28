@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.release.version.DefaultVersionFileTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:58:52" hostname="set" time="0.025">
-  <properties/>
-  <testcase name="does not support files without 'version' property" classname="org.mockito.release.version.DefaultVersionFileTest" time="0.016"/>
-  <testcase name="knows version stored in the file" classname="org.mockito.release.version.DefaultVersionFileTest" time="0.001"/>
-  <testcase name="increments version in file" classname="org.mockito.release.version.DefaultVersionFileTest" time="0.007"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

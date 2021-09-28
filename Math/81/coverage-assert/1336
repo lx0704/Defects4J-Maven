@@ -1,2 +1,0 @@
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest.testInconsistentEquations(org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest) true
-org.apache.commons.math.optimization.general.GaussNewtonOptimizerTest:testInconsistentEquations:()V:339:assertTrue true

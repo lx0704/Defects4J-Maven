@@ -1,0 +1,4 @@
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest.testUnsorted(org.apache.commons.math.optimization.fitting.HarmonicFitterTest) true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testUnsorted:()V:126:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testUnsorted:()V:127:assertEquals true
+org.apache.commons.math.optimization.fitting.HarmonicFitterTest:testUnsorted:()V:128:assertEquals true

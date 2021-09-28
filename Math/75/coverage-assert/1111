@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.RealVectorFormatTest.testParseSimpleNoDecimals(org.apache.commons.math.linear.RealVectorFormatTest) true
-org.apache.commons.math.linear.RealVectorFormatAbstractTest:testParseSimpleNoDecimals:()V:161:assertEquals true

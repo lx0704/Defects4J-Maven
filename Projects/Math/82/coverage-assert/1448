@@ -1,0 +1,3 @@
+org.apache.commons.math.random.RandomAdaptorTest.testNextInt(org.apache.commons.math.random.RandomAdaptorTest) true
+org.apache.commons.math.random.RandomDataTest:testNextInt:()V:74:assertTrue true
+org.apache.commons.math.random.RandomDataTest:testNextInt:()V:86:assertTrue true

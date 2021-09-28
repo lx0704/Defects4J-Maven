@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest.testMismatch(org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest) true
-org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testMismatch:()V:40:assertEquals true
-org.apache.commons.math.stat.descriptive.moment.VectorialMeanTest:testMismatch:()V:41:assertEquals true

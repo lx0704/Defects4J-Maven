@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.RealMatrixImplTest.testGetColumnMatrix(org.apache.commons.math.linear.RealMatrixImplTest) true
-org.apache.commons.math.linear.RealMatrixImplTest:testGetColumnMatrix:()V:526:assertEquals true
-org.apache.commons.math.linear.RealMatrixImplTest:testGetColumnMatrix:()V:528:assertEquals true

@@ -1,4 +1,0 @@
-org.apache.commons.math.analysis.solvers.MullerSolverTest.testQuinticFunction(org.apache.commons.math.analysis.solvers.MullerSolverTest) true
-org.apache.commons.math.analysis.solvers.MullerSolverTest:testQuinticFunction:()V:146:assertEquals true
-org.apache.commons.math.analysis.solvers.MullerSolverTest:testQuinticFunction:()V:152:assertEquals true
-org.apache.commons.math.analysis.solvers.MullerSolverTest:testQuinticFunction:()V:158:assertEquals true

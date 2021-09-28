@@ -1,2 +1,0 @@
-org.apache.commons.math.distribution.NormalDistributionTest.testGetMean(org.apache.commons.math.distribution.NormalDistributionTest) true
-org.apache.commons.math.distribution.NormalDistributionTest:testGetMean:()V:101:assertEquals true

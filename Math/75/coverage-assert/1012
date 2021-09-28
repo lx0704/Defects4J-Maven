@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.LUDecompositionImplTest.testMatricesValues1(org.apache.commons.math.linear.LUDecompositionImplTest) true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:240:assertEquals true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:242:assertEquals true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:244:assertEquals true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:247:assertEquals true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:251:assertTrue true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:252:assertTrue true
-org.apache.commons.math.linear.LUDecompositionImplTest:testMatricesValues1:()V:253:assertTrue true

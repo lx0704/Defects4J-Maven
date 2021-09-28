@@ -1,5 +1,0 @@
-org.apache.commons.math.util.MathUtilsTest.testEquals(org.apache.commons.math.util.MathUtilsTest) true
-org.apache.commons.math.util.MathUtilsTest:testEquals:()V:329:assertTrue true
-org.apache.commons.math.util.MathUtilsTest:testEquals:()V:330:assertTrue true
-org.apache.commons.math.util.MathUtilsTest:testEquals:()V:332:assertTrue true
-org.apache.commons.math.util.MathUtilsTest:testEquals:()V:333:assertTrue true

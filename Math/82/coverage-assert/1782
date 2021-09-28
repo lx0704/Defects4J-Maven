@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.descriptive.rank.PercentileTest.testCopy(org.apache.commons.math.stat.descriptive.rank.PercentileTest) true
-org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:testCopy:()V:78:assertEquals true

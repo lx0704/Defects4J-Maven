@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexUtilsTest.testPolar2ComplexNaN(org.apache.commons.math.complex.ComplexUtilsTest) true
-org.apache.commons.math.TestUtils:assertSame:(DD)V:72:assertEquals false

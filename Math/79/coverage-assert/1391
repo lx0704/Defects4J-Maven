@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testOneSet(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testOneSet:()V:173:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testOneSet:()V:174:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testOneSet:()V:175:assertEquals true

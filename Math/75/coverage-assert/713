@@ -1,7 +1,0 @@
-org.apache.commons.math.geometry.Vector3DTest.testVectorialProducts(org.apache.commons.math.geometry.Vector3DTest) true
-org.apache.commons.math.geometry.Vector3DTest:testVectorialProducts:()V:140:assertTrue true
-org.apache.commons.math.geometry.Vector3DTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;DDD)V:226:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;DDD)V:227:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:checkVector:(Lorg/apache/commons/math/geometry/Vector3D;DDD)V:228:assertEquals true
-org.apache.commons.math.geometry.Vector3DTest:testVectorialProducts:()V:145:assertTrue true
-org.apache.commons.math.geometry.Vector3DTest:testVectorialProducts:()V:146:assertTrue true

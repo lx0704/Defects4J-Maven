@@ -1,2 +1,0 @@
-org.apache.commons.math.stat.regression.SimpleRegressionTest.testRemoveObsFromEmpty(org.apache.commons.math.stat.regression.SimpleRegressionTest) true
-org.apache.commons.math.stat.regression.SimpleRegressionTest:testRemoveObsFromEmpty:()V:338:assertEquals true

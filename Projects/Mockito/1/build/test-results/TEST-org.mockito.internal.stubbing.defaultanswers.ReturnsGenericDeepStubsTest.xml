@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-13T19:53:55" hostname="set" time="0.046">
+  <properties/>
+  <testcase name="can_still_work_with_raw_type_in_the_return_type" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.017"/>
+  <testcase name="as_expected_fail_with_a_CCE_on_callsite_when_erasure_takes_place_for_example___StringBuilder_is_subject_to_erasure" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.004"/>
+  <testcase name="generic_deep_mock_frenzy__look_at_these_chained_calls" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.011"/>
+  <testcase name="can_create_mock_from_multiple_type_variable_bounds_when_method_return_type_is_referencing_a_typevar_on_class" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.001"/>
+  <testcase name="can_create_mock_from_multiple_type_variable_bounds_when_return_type_of_parameterized_method_is_a_typevar_that_is_referencing_a_typevar_on_class" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.0"/>
+  <testcase name="will_return_default_value_on_non_mockable_nested_generic" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.012"/>
+  <testcase name="can_create_mock_from_multiple_type_variable_bounds_when_return_type_of_parameterized_method_is_a_parameterizedtype_that_is_referencing_a_typevar_on_class" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.0"/>
+  <testcase name="can_create_mock_from_return_types_declared_with_a_bounded_wildcard" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

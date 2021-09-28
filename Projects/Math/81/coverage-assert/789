@@ -1,0 +1,8 @@
+org.apache.commons.math.linear.BlockFieldMatrixTest.testExamples(org.apache.commons.math.linear.BlockFieldMatrixTest) true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:512:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:513:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:516:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:517:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:528:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:532:assertEquals true
+org.apache.commons.math.linear.BlockFieldMatrixTest:testExamples:()V:536:assertEquals true

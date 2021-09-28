@@ -1,5 +1,0 @@
-org.apache.commons.math.stat.inference.TTestTest.testOneSampleT(org.apache.commons.math.stat.inference.TTestTest) true
-org.apache.commons.math.stat.inference.TTestTest:testOneSampleT:()V:60:assertEquals true
-org.apache.commons.math.stat.inference.TTestTest:testOneSampleT:()V:62:assertEquals true
-org.apache.commons.math.stat.inference.TTestTest:testOneSampleT:()V:64:assertEquals true
-org.apache.commons.math.stat.inference.TTestTest:testOneSampleT:()V:66:assertEquals true

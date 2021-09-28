@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BiDiagonalTransformerTest.testAEqualUSVt(org.apache.commons.math.linear.BiDiagonalTransformerTest) true
-org.apache.commons.math.linear.BiDiagonalTransformerTest:checkAEqualUSVt:(Lorg/apache/commons/math/linear/RealMatrix;)V:73:assertEquals true

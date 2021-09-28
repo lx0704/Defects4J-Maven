@@ -1,5 +1,0 @@
-org.apache.commons.math.util.ResizableDoubleArrayTest.testDiscard(org.apache.commons.math.util.ResizableDoubleArrayTest) true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testDiscard:()V:324:assertEquals true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testDiscard:()V:327:assertEquals true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testDiscard:()V:333:assertEquals true
-org.apache.commons.math.util.ResizableDoubleArrayTest:testDiscard:()V:336:assertEquals true

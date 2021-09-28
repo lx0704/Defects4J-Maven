@@ -1,0 +1,3 @@
+org.apache.commons.math.optimization.direct.MultiDirectionalTest.testFunctionEvaluationExceptions(org.apache.commons.math.optimization.direct.MultiDirectionalTest) true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testFunctionEvaluationExceptions:()V:53:assertNull true
+org.apache.commons.math.optimization.direct.MultiDirectionalTest:testFunctionEvaluationExceptions:()V:63:assertNotNull true

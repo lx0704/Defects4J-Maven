@@ -1,2 +1,0 @@
-org.apache.commons.math.geometry.RotationTest.testAngles(org.apache.commons.math.geometry.RotationTest) true
-org.apache.commons.math.geometry.RotationTest:checkAngle:(DD)V:495:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testTrivial(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testTrivial:()V:118:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testTrivial:()V:119:assertEquals true

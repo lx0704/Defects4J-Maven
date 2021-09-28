@@ -1,0 +1,2 @@
+org.apache.commons.math.linear.TriDiagonalTransformerTest.testQOrthogonal(org.apache.commons.math.linear.TriDiagonalTransformerTest) true
+org.apache.commons.math.linear.TriDiagonalTransformerTest:checkOrthogonal:(Lorg/apache/commons/math/linear/RealMatrix;)V:109:assertEquals true

@@ -1,2 +1,0 @@
-org.apache.commons.math.complex.ComplexTest.testPowNaNBase(org.apache.commons.math.complex.ComplexTest) true
-org.apache.commons.math.complex.ComplexTest:testPowNaNBase:()V:522:assertTrue true

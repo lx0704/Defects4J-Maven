@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mockito.release.notes.vcs.TicketParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-19T20:45:54" hostname="set" time="0.015">
-  <properties/>
-  <testcase name="no referenced tickets" classname="org.mockito.release.notes.vcs.TicketParserTest" time="0.008"/>
-  <testcase name="knows referenced tickets" classname="org.mockito.release.notes.vcs.TicketParserTest" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

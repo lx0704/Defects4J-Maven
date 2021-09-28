@@ -1,0 +1,5 @@
+org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest.testSmallStep(org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest) true
+org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testSmallStep:()V:109:assertTrue true
+org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testSmallStep:()V:110:assertTrue true
+org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testSmallStep:()V:111:assertEquals true
+org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest:testSmallStep:()V:112:assertEquals true

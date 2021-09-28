@@ -1,2 +1,0 @@
-org.apache.commons.math.analysis.solvers.BisectionSolverTest.testResetFunctionValueAccuracy(org.apache.commons.math.analysis.solvers.BisectionSolverTest) true
-org.apache.commons.math.analysis.solvers.BisectionSolverTest:testResetFunctionValueAccuracy:()V:117:assertEquals true

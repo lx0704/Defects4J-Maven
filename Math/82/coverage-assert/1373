@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testRedundantEquations(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testRedundantEquations:()V:321:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testRedundantEquations:()V:322:assertEquals true

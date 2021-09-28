@@ -1,0 +1,3 @@
+org.apache.commons.math.linear.Array2DRowRealMatrixTest.testGetSubMatrix(org.apache.commons.math.linear.Array2DRowRealMatrixTest) true
+org.apache.commons.math.linear.Array2DRowRealMatrixTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/RealMatrix;[[DIIIIZ)V:395:assertEquals true
+org.apache.commons.math.linear.Array2DRowRealMatrixTest:checkGetSubMatrix:(Lorg/apache/commons/math/linear/RealMatrix;[[D[I[IZ)V:411:assertEquals true

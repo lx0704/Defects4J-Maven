@@ -1,2 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testTrace(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testTrace:()V:399:assertEquals true

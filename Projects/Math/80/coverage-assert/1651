@@ -1,0 +1,10 @@
+org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testShuffledStatistics(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest) true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:147:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:148:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:149:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:150:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:151:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:152:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:153:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:154:assertEquals true
+org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:testShuffledStatistics:()V:155:assertEquals true

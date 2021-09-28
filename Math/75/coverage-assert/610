@@ -1,4 +1,0 @@
-org.apache.commons.math.genetics.ChromosomeTest.testFindSameChromosome(org.apache.commons.math.genetics.ChromosomeTest) true
-org.apache.commons.math.genetics.ChromosomeTest:testFindSameChromosome:()V:103:assertNull true
-org.apache.commons.math.genetics.ChromosomeTest:testFindSameChromosome:()V:104:assertEquals true
-org.apache.commons.math.genetics.ChromosomeTest:testFindSameChromosome:()V:107:assertEquals true

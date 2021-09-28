@@ -1,0 +1,2 @@
+org.apache.commons.math.genetics.FixedGenerationCountTest.testIsSatisfied(org.apache.commons.math.genetics.FixedGenerationCountTest) true
+org.apache.commons.math.genetics.FixedGenerationCountTest:testIsSatisfied:()V:60:assertEquals true

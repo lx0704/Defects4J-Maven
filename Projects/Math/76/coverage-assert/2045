@@ -1,0 +1,4 @@
+org.apache.commons.math.util.MathUtilsTest.testIndicatorLong(org.apache.commons.math.util.MathUtilsTest) true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorLong:()V:659:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorLong:()V:660:assertEquals true
+org.apache.commons.math.util.MathUtilsTest:testIndicatorLong:()V:661:assertEquals true

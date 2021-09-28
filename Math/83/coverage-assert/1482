@@ -1,5 +1,0 @@
-org.apache.commons.math.random.ValueServerTest.testModes(org.apache.commons.math.random.ValueServerTest) true
-org.apache.commons.math.random.ValueServerTest:testModes:()V:160:assertEquals true
-org.apache.commons.math.random.ValueServerTest:testModes:()V:164:assertTrue true
-org.apache.commons.math.random.ValueServerTest:testModes:()V:168:assertTrue true
-org.apache.commons.math.random.ValueServerTest:testModes:()V:172:assertTrue true

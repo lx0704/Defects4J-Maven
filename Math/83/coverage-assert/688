@@ -1,8 +1,0 @@
-org.apache.commons.math.linear.Array2DRowRealMatrixTest.testExamples(org.apache.commons.math.linear.Array2DRowRealMatrixTest) true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:352:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:353:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:356:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:357:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:364:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:365:assertEquals true
-org.apache.commons.math.linear.Array2DRowRealMatrixTest:testExamples:()V:366:assertEquals true

@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.BigMatrixImplTest.testCopyFunctions(org.apache.commons.math.linear.BigMatrixImplTest) true
-org.apache.commons.math.linear.BigMatrixImplTest:testCopyFunctions:()V:152:assertEquals true
-org.apache.commons.math.linear.BigMatrixImplTest:testCopyFunctions:()V:155:assertEquals true

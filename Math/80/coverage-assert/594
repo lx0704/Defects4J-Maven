@@ -1,2 +1,0 @@
-org.apache.commons.math.genetics.ElitisticListPopulationTest.testNextGeneration(org.apache.commons.math.genetics.ElitisticListPopulationTest) true
-org.apache.commons.math.genetics.ElitisticListPopulationTest:testNextGeneration:()V:37:assertEquals true

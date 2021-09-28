@@ -1,3 +1,0 @@
-org.apache.commons.math.linear.LUSolverTest.testThreshold(org.apache.commons.math.linear.LUSolverTest) true
-org.apache.commons.math.linear.LUSolverTest:testThreshold:()V:66:assertFalse true
-org.apache.commons.math.linear.LUSolverTest:testThreshold:()V:67:assertTrue true

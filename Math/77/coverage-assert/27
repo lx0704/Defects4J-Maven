@@ -1,3 +1,0 @@
-org.apache.commons.math.analysis.BinaryFunctionTest.testAtan2(org.apache.commons.math.analysis.BinaryFunctionTest) true
-org.apache.commons.math.analysis.BinaryFunctionTest:testAtan2:()V:57:assertEquals true
-org.apache.commons.math.analysis.BinaryFunctionTest:testAtan2:()V:58:assertEquals true

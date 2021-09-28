@@ -1,2 +1,0 @@
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest.testIncreasingBandwidthIncreasesSmoothness(org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest) true
-org.apache.commons.math.analysis.interpolation.LoessInterpolatorTest:testIncreasingBandwidthIncreasesSmoothness:()V:119:assertTrue true

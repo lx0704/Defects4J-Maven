@@ -1,4 +1,0 @@
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest.testCircleFitting(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest) true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testCircleFitting:()V:361:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testCircleFitting:()V:362:assertEquals true
-org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest:testCircleFitting:()V:363:assertEquals true

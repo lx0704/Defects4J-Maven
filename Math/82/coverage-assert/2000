@@ -1,5 +1,0 @@
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest.testContainsKey(org.apache.commons.math.util.OpenIntToDoubleHashMapTest) true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testContainsKey:()V:213:assertTrue true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testContainsKey:()V:216:assertFalse true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testContainsKey:()V:220:assertTrue true
-org.apache.commons.math.util.OpenIntToDoubleHashMapTest:testContainsKey:()V:222:assertFalse true

@@ -1,7 +1,0 @@
-org.apache.commons.math.stat.descriptive.rank.MinTest.testSpecialValues(org.apache.commons.math.stat.descriptive.rank.MinTest) true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testSpecialValues:()V:60:assertTrue true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testSpecialValues:()V:62:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testSpecialValues:()V:64:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testSpecialValues:()V:66:assertEquals true
-org.apache.commons.math.stat.descriptive.rank.MinTest:testSpecialValues:()V:68:assertEquals false
-org.apache.commons.math.stat.descriptive.rank.MinTest:testSpecialValues:()V:69:assertEquals false

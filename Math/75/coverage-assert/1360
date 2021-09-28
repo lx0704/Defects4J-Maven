@@ -1,3 +1,0 @@
-org.apache.commons.math.optimization.fitting.PolynomialFitterTest.testRedundantUnsolvable(org.apache.commons.math.optimization.fitting.PolynomialFitterTest) true
-org.apache.commons.math.optimization.fitting.PolynomialFitterTest:checkUnsolvableProblem:(Lorg/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer;Z)V:117:assertTrue true
-org.apache.commons.math.optimization.fitting.PolynomialFitterTest:checkUnsolvableProblem:(Lorg/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer;Z)V:119:assertTrue true

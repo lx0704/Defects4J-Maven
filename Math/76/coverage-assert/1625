@@ -1,3 +1,0 @@
-org.apache.commons.math.stat.data.LewTest.testCertifiedValues(org.apache.commons.math.stat.data.LewTest) true
-org.apache.commons.math.stat.data.CertifiedDataAbstractTest:testCertifiedValues:()V:119:assertEquals true
-org.apache.commons.math.stat.data.CertifiedDataAbstractTest:testCertifiedValues:()V:126:assertEquals true

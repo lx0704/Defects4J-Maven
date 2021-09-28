@@ -1,0 +1,4 @@
+org.apache.commons.math.linear.EigenDecompositionImplTest.testMathpbx02(org.apache.commons.math.linear.EigenDecompositionImplTest) true
+org.apache.commons.math.linear.EigenDecompositionImplTest:testMathpbx02:()V:175:assertEquals true
+org.apache.commons.math.linear.EigenDecompositionImplTest:testMathpbx02:()V:177:assertEquals true
+org.apache.commons.math.linear.EigenDecompositionImplTest:testMathpbx02:()V:179:assertEquals true
